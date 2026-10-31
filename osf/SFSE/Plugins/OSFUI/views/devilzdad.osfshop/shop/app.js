@@ -29,6 +29,8 @@ const EP = {
   audio: MOD + '.audio',
   themes: MOD + '.themes',
   themepick: MOD + '.themepick',
+  customtheme: MOD + '.customtheme',
+  backdrop: MOD + '.backdrop',
   favourite: MOD + '.favourite',
 };
 
@@ -51,7 +53,7 @@ const SORT_LABELS = ['Name', 'Shelf', 'Type', 'Value', 'Weight', 'FormID'];
 const state = {
   plugins: [],
   categories: [],
-  filter: { type: 8, sub: 0, plugin: -1, hideTest: true, hideHair: true, hideCrew: true, hideTurrets: true, hideBug: true },
+  filter: { type: 8, sub: 0, plugin: -1, hideTest: true, hideHair: true, hideCrew: true, hideTurrets: true, hideBug: true, hideDuplicates: true },
   search: '',
   // Header clicked: -1 is catalogue order, which is what the overlay shows
   // until a column is picked. Ascending matches the overlay's first click.
@@ -109,6 +111,7 @@ const el = {
 const popups = {
   audio: document.getElementById('audioPop'),
   theme: document.getElementById('themePop'),
+  custom: document.getElementById('customPop'),
   hide: document.getElementById('hidePop'),
 };
 
@@ -139,9 +142,14 @@ const audio = {
   sfxMuted: false,
   track: '',
   tracks: [],
+  // True while the track names a soundtrack folder; the step buttons need it.
+  playlist: false,
 };
 
 const themes = { rows: [], active: 0 };
+
+// The custom theme's draft, filled from the plugin and written back on Save.
+const custom = { name: 'Custom', suffix: '', colours: {} };
 
 const HIDES = {
   hideTest: document.getElementById('hideTest'),
@@ -149,6 +157,11 @@ const HIDES = {
   hideHair: document.getElementById('hideHair'),
   hideCrew: document.getElementById('hideCrew'),
   hideTurrets: document.getElementById('hideTurrets'),
+  // Not a class of record like the others: the game really does define some
+  // items twice (a master's item beside a mod's clone of it), so this only
+  // collapses them to one row. The row keeps the count and the item pane lists
+  // the records it stands for.
+  hideDuplicates: document.getElementById('hideDuplicates'),
 };
 
 /* ---------------------------------------------------------------- bridge -- */
@@ -582,7 +595,9 @@ function renderRows() {
     html += '<div class="trow' + (state.selected === row.formId ? ' on' : '') + '" data-formid="' + esc(row.formId) + '">' +
       '<button class="fav' + (starred ? ' on' : '') + '" data-fav="' + esc(row.formId) + '" title="' +
       (starred ? 'Remove from favourites' : 'Add to favourites') + '">' + STAR_PATH + '</button>' +
-      '<span class="name" title="' + esc(nameOf(row)) + '">' + esc(nameOf(row)) + '</span>' +
+      '<span class="name" title="' + esc(nameOf(row)) + '">' + esc(nameOf(row)) +
+      (row.copies > 1 ? ' <span class="copies" title="' + row.copies +
+        ' separate records share this name and these stats">&times;' + row.copies + '</span>' : '') + '</span>' +
       '<span class="bucket" title="' + esc(row.sub) + '">' + esc(row.sub) + '</span>' +
       '<span class="type"><span class="tchip ' + (TYPE_CLASS[row.type] || '') + '">' + esc(row.type) + '</span></span>' +
       '<span class="val">' + (row.value || 0) + '</span>' +
@@ -642,6 +657,20 @@ function renderDetail() {
     '<dt>Weight</dt><dd>' + (item.weight || 0) + '</dd>' +
     (item.edid ? '<dt>Editor ID</dt><dd title="' + esc(item.edid) + '">' + esc(item.edid) + '</dd>' : '') +
     '</dl>';
+
+  // The other records behind this name. They are real, separately spawnable
+  // records - the list collapses them, it does not hide them - so each one is
+  // a button that selects it and shows its own stats and preview.
+  if ((detail.duplicates || []).length) {
+    html += '<div class="sect">Also defined</div><div class="dupes">';
+    detail.duplicates.forEach((row) => {
+      html += '<button class="dupe" data-dup="' + esc(row.formId) + '" title="Select this record">' +
+        '<span class="fid">' + esc(row.formId) + '</span>' +
+        '<span class="dplug">' + esc(row.plugin || '-') + '</span>' +
+        '<span class="dstat">' + (row.value || 0) + ' cr &middot; ' + (row.weight || 0) + ' wt</span></button>';
+    });
+    html += '</div>';
+  }
 
   const groups = new Map();
   (detail.mods || []).forEach((option) => {
@@ -861,6 +890,11 @@ el.detail.addEventListener('change', (event) => {
   configure(select.dataset.kind, select.dataset.slot || '', select.value);
 });
 el.detail.addEventListener('click', (event) => {
+  const dupe = event.target.closest('button[data-dup]');
+  if (dupe) {
+    selectItem(dupe.dataset.dup);
+    return;
+  }
   if (event.target.id !== 'addBtn') return;
   const qty = document.getElementById('qty');
   addSelected(Number(qty && qty.value) || 1);
@@ -1375,25 +1409,78 @@ function applyTheme(row) {
   applyBackdrop(row.suffix);
 }
 
-/* Theme art exists for three of the nine themes; the rest share the standard
- * backdrop, exactly as the overlay's per-theme chest/space lookup falls back.
- * Probe first so adding art later needs no page change. */
-function applyBackdrop(suffix) {
-  const node = document.getElementById('bgimg');
+/* Where the backdrop art comes from, in one place. The three shipped themes
+ * keep the view's own art: those files are already beside the page, so no
+ * bytes cross the bridge. A player's own image is not there - OSF serves a
+ * view from a snapshot taken at startup, so a file dropped beside the page is
+ * never served - and the plugin hands it over as a data URL instead, which is
+ * also how the item previews travel. The shared art is the last resort, so a
+ * backdrop whose file is gone degrades to the old look rather than to an
+ * empty background. */
+const backdropArt = new Map();
+const VIEW_BACKDROPS = ['starfield', 'hell', 'heaven'];
+
+/* One custom property feeds both backdrop layers: the sharp `contain` copy and
+ * the blurred `cover` fill behind it. Setting the property instead of one
+ * element's background keeps the two in step, including the default. */
+function setBackdrop(url) {
+  document.documentElement.style.setProperty('--bg-art', 'url("' + url + '")');
+}
+
+async function applyBackdrop(suffix) {
   if (!suffix) {
-    node.style.backgroundImage = 'url(assets/space.jpg)';
+    setBackdrop('assets/space.jpg');
     return;
   }
-  const probe = new Image();
-  probe.onload = () => { node.style.backgroundImage = 'url(' + probe.src + ')'; };
-  probe.onerror = () => {
-    if (probe.src.indexOf('.jpg') > 0) {
-      probe.src = 'assets/space_' + suffix + '.png';
-    } else {
-      node.style.backgroundImage = 'url(assets/space.jpg)';
+  if (backdropArt.has(suffix)) {
+    setBackdrop(backdropArt.get(suffix));
+    return;
+  }
+  // Order matters: a shipped name is a file of the view, a dropped one can only
+  // come from the plugin, so asking the wrong source first costs either a 404
+  // or a few hundred kilobytes of base64.
+  const sources = VIEW_BACKDROPS.indexOf(suffix) >= 0 ? [fromView, pluginBackdrop] : [pluginBackdrop, fromView];
+  for (const source of sources) {
+    const art = await source(suffix);
+    if (art) {
+      setBackdrop(art);
+      return;
     }
-  };
-  probe.src = 'assets/space_' + suffix + '.jpg';
+  }
+  setBackdrop('assets/space.jpg');
+}
+
+async function fromView(suffix) {
+  return (await probeImage('assets/space_' + suffix + '.jpg')) ||
+    (await probeImage('assets/space_' + suffix + '.png'));
+}
+
+function probeImage(src) {
+  return new Promise((resolve) => {
+    const probe = new Image();
+    probe.onload = () => resolve(probe.src);
+    probe.onerror = () => resolve('');
+    probe.src = src;
+  });
+}
+
+
+/* The plugin's own copy of the art, which is the only route a dropped-in image
+ * has. Cached per name: every colour tweak re-applies the theme, and a backdrop
+ * is hundreds of kilobytes of base64. A miss is not cached, so an image added
+ * during a session is picked up on the next theme switch. */
+async function pluginBackdrop(name) {
+  try {
+    const reply = await call(EP.backdrop, { op: 'art', name: name }, 20000);
+    if (reply && reply.ok && reply.data) {
+      backdropArt.set(name, reply.data);
+      return reply.data;
+    }
+    if (reply && reply.error) reportToNative('backdrop ' + name + ' unavailable: ' + reply.error);
+  } catch (err) {
+    reportToNative('backdrop ' + name + ' got no answer: ' + errText(err));
+  }
+  return '';
 }
 
 function renderThemeList() {
@@ -1413,6 +1500,9 @@ function renderThemeList() {
       '</button>';
   });
   host.innerHTML = html;
+  // Only the custom theme has anything to edit, and only while it is in use.
+  const activeRow = themes.rows.find((row) => row.index === themes.active);
+  document.getElementById('customThemeRow').hidden = !(activeRow && activeRow.custom);
 }
 
 async function loadThemes() {
@@ -1446,6 +1536,150 @@ document.getElementById('themeList').addEventListener('click', async (event) => 
   } catch (err) {
     say('Theme change failed: ' + errText(err), 'err');
   }
+});
+
+/* ------------------------------------------------- custom theme editor -- */
+
+/* The nine colours this page actually renders. The overlay's CUSTOMISE window
+ * owns the rest of the palette (table rows, separators, hover states) and the
+ * pane layout, but both write the same [custom] / [customcolours] keys, so a
+ * theme edited here opens in the overlay unchanged and vice versa. */
+const CT_KEYS = ['accent', 'accentBright', 'gold', 'ink', 'muted', 'border', 'panel', 'panelAlt', 'windowBg'];
+const CT_LABELS = {
+  accent: 'Accent', accentBright: 'Accent bright', gold: 'Gold',
+  ink: 'Text', muted: 'Muted text', border: 'Border',
+  panel: 'Panel', panelAlt: 'Panel alt', windowBg: 'Window',
+};
+
+/* The Art list is what this install actually has, not what the build was
+ * compiled with: the plugin answers with the space_<name> files beside it, and
+ * the three shipped names are added because their art ships in the view. */
+async function fillBackdropOptions() {
+  const select = document.getElementById('ctBackdrop');
+  let names = [];
+  try {
+    const reply = await call(EP.backdrop, { op: 'list' });
+    if (reply && reply.ok && Array.isArray(reply.backdrops)) {
+      names = reply.backdrops.map((row) => row.name).filter(Boolean);
+    }
+  } catch (err) {
+    reportToNative('backdrop list unavailable: ' + errText(err));
+  }
+  ['starfield', 'hell', 'heaven'].forEach((name) => {
+    if (names.indexOf(name) < 0) names.push(name);
+  });
+  names.sort();
+  let html = '<option value="">(shared backdrop)</option>';
+  names.forEach((name) => {
+    html += '<option value="' + esc(name) + '">' + esc(name) + '</option>';
+  });
+  const saved = custom.suffix || '';
+  if (saved && names.indexOf(saved) < 0) {
+    // Still offered: it is this theme's saved choice, and dropping the option
+    // would silently reset it on the next Save.
+    html += '<option value="' + esc(saved) + '">' + esc(saved) + ' (missing)</option>';
+  }
+  select.innerHTML = html;
+}
+function renderCustomEditor() {
+  document.getElementById('ctName').value = custom.name || 'Custom';
+  document.getElementById('ctBackdrop').value = custom.suffix || '';
+  let html = '';
+  CT_KEYS.forEach((key) => {
+    html += '<label class="ctrow"><span>' + CT_LABELS[key] + '</span>' +
+      '<input type="color" data-key="' + key + '" value="' + (custom.colours[key] || '#808080') + '"></label>';
+  });
+  document.getElementById('ctColours').innerHTML = html;
+}
+
+function readCustomEditor() {
+  custom.name = (document.getElementById('ctName').value || '').trim() || 'Custom';
+  custom.suffix = document.getElementById('ctBackdrop').value;
+  document.querySelectorAll('#ctColours input[data-key]').forEach((input) => {
+    custom.colours[input.dataset.key] = input.value;
+  });
+}
+
+async function loadCustomTheme() {
+  try {
+    const reply = await call(EP.customtheme, {});
+    if (!reply || reply.ok === false) return;
+    custom.name = reply.name || 'Custom';
+    custom.suffix = reply.suffix || '';
+    custom.colours = reply.colours || {};
+    // The list first: renderCustomEditor sets the select's value, and a
+    // value with no matching option is dropped.
+    await fillBackdropOptions();
+    renderCustomEditor();
+  } catch (err) {
+    say('Custom theme unavailable: ' + errText(err), 'err');
+  }
+}
+
+/* A colour change redraws the shop behind the dialog, so the palette is judged
+ * by looking at it. Nothing is written until Save. */
+function previewCustomTheme() {
+  const row = themes.rows.find((r) => r.index === themes.active);
+  if (!row || !row.custom) return;
+  applyTheme(Object.assign({}, row, {
+    accent: custom.colours.accent,
+    gold: custom.colours.gold,
+    panel: custom.colours.panel,
+    panelAlt: custom.colours.panelAlt,
+    ink: custom.colours.ink,
+    muted: custom.colours.muted,
+    border: custom.colours.border,
+    suffix: custom.suffix,
+  }));
+}
+
+async function saveCustomTheme() {
+  readCustomEditor();
+  const payload = { op: 'set', name: custom.name, suffix: custom.suffix };
+  CT_KEYS.forEach((key) => { if (custom.colours[key]) payload[key] = custom.colours[key]; });
+  try {
+    const reply = await call(EP.customtheme, payload);
+    if (!reply || reply.ok === false) { say('Theme not saved.', 'err'); return; }
+    custom.name = reply.name || custom.name;
+    custom.suffix = reply.suffix || '';
+    custom.colours = reply.colours || custom.colours;
+    await loadThemes();
+    closePopups();
+    say('Custom theme saved.', 'ok');
+  } catch (err) {
+    say('Save failed: ' + errText(err), 'err');
+  }
+}
+
+document.getElementById('customThemeBtn').addEventListener('click', () => {
+  openPopup('custom');
+  loadCustomTheme();
+});
+document.getElementById('ctBackdrop').addEventListener('change', () => {
+  readCustomEditor();
+  previewCustomTheme();
+});
+document.getElementById('ctColours').addEventListener('input', () => {
+  readCustomEditor();
+  previewCustomTheme();
+});
+document.getElementById('ctSave').addEventListener('click', saveCustomTheme);
+document.getElementById('ctClose').addEventListener('click', closePopups);
+
+/* Closing without Save puts the saved palette back: the preview applies straight
+ * to the page, so dropping the dialog must undo it, or a colour that was never
+ * saved would look as if it had been. */
+function revertCustomTheme() {
+  if (!popups.custom.hidden) loadThemes();
+}
+document.addEventListener('click', (event) => {
+  if (event.target.closest && event.target.closest('[data-close="customPop"]')) revertCustomTheme();
+});
+popups.custom.addEventListener('click', (event) => {
+  if (event.target === popups.custom) revertCustomTheme();
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') revertCustomTheme();
 });
 
 /* --------------------------------------------------------------- popups -- */

@@ -10,6 +10,8 @@ const audioEl = {
   sfxOut: document.getElementById('sfxVolOut'),
   sfxMute: document.getElementById('sfxMute'),
   track: document.getElementById('trackSel'),
+  prev: document.getElementById('trackPrev'),
+  next: document.getElementById('trackNext'),
 };
 
 let audioPersistTimer = 0;
@@ -28,6 +30,34 @@ function renderAudio() {
   });
   audioEl.track.innerHTML = html;
   audioEl.track.value = audio.track || '';
+  // A soundtrack folder is the only selection with a next track. A single
+  // file loops, so the buttons stay disabled rather than restarting it.
+  const canStep = !!audio.playlist;
+  audioEl.prev.disabled = !canStep;
+  audioEl.next.disabled = !canStep;
+  audioEl.prev.title = canStep
+    ? 'Previous track in the soundtrack'
+    : 'Pick a soundtrack folder to step through its tracks';
+  audioEl.next.title = canStep
+    ? 'Next track in the soundtrack'
+    : 'Pick a soundtrack folder to step through its tracks';
+}
+
+/**
+ * The plugin owns the queue, so the page only says which way to go. The reply
+ * is the whole audio state, which also carries the playlist flag: a folder that
+ * failed to yield a single decodable file reports false and the buttons lock
+ * again.
+ */
+function stepTrack(delta) {
+  call(EP.audio, { op: 'skip', delta: delta }).then((reply) => {
+    if (reply && reply.ok) {
+      audio.playlist = !!reply.playlist;
+      renderAudio();
+    } else if (reply && reply.ok === false) {
+      say('Track skip refused.', 'err');
+    }
+  }).catch((err) => say('Track skip failed: ' + errText(err), 'err'));
 }
 
 function pushAudio(persist) {
@@ -58,6 +88,7 @@ async function loadAudio() {
     audio.sfxMuted = !!reply.sfxMuted;
     audio.track = reply.track || '';
     audio.tracks = reply.tracks || [];
+    audio.playlist = !!reply.playlist;
     renderAudio();
   } catch (err) {
     say('Audio settings unavailable: ' + errText(err), 'err');
@@ -86,4 +117,6 @@ audioEl.track.addEventListener('change', () => {
   audio.track = audioEl.track.value;
   pushAudio(true);
 });
+audioEl.prev.addEventListener('click', () => stepTrack(-1));
+audioEl.next.addEventListener('click', () => stepTrack(1));
 

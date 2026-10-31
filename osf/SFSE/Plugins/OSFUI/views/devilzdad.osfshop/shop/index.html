@@ -123,9 +123,11 @@
       <label><input type="checkbox" id="hideHair" checked> Hide ships &amp; hair</label>
       <label><input type="checkbox" id="hideCrew" checked> Hide crew/enemy/creature</label>
       <label><input type="checkbox" id="hideTurrets" checked> Hide turrets &amp; dummy ammo</label>
+      <label title="Some items are defined twice: a master file's item beside a mod's clone of it, or a record the game replaced and left in the data"><input type="checkbox" id="hideDuplicates" checked> Collapse duplicate names</label>
     </div>
     <p class="pnote">Each toggle drops a whole class of record from the catalog. Nothing in
-      your game files is edited.</p>
+      your game files is edited. Collapsing duplicates keeps both records: the row shows how
+      many share the name and the item pane lists them.</p>
   </div>
 </div>
 
@@ -142,9 +144,16 @@
       <span id="sfxVolOut" class="pval">55%</span>
       <label class="pcheck"><input id="sfxMute" type="checkbox"> Mute</label>
     </label>
-    <label class="prow2">Track
+    <div class="prow2 prowtrack">
+      <span>Track</span>
       <select id="trackSel"></select>
-    </label>
+      <!-- Only a soundtrack folder has a next track; a lone file loops, so
+           these stay disabled until the selection is a folder. -->
+      <span class="trackstep">
+        <button id="trackPrev" type="button" title="Previous track in the soundtrack" disabled>&#8249;</button>
+        <button id="trackNext" type="button" title="Next track in the soundtrack" disabled>&#8250;</button>
+      </span>
+    </div>
     <p class="pnote">The track is independent of the theme. Drop a .wav, .mp3, .flac or .m4a into
       <code>Audio\</code> (or <code>Audio\Music\</code>) and it appears here; anything starting with
       <code>ui_</code> is a sound effect, not a track.</p>
@@ -155,8 +164,37 @@
   <div class="popup-in">
     <div class="popup-head"><b>Themes</b><button class="x" data-close="themePop">&#10005;</button></div>
     <div id="themeList" class="theme-list"></div>
+    <div id="customThemeRow" class="customrow" hidden>
+      <button id="customThemeBtn" class="primary" type="button">Customise</button>
+      <span>Name, background and the nine colours this page draws with.</span>
+    </div>
     <p class="pnote">Six themes are always available. Three are earned by shopping: opens, credits
-      spent and free hauls are counted, and progress is kept in the plugin's INI.</p>
+      spent and free hauls are counted, and progress is kept in the plugin's INI. The Custom theme
+      unlocks once all three are earned, and the overlay's CUSTOMISE window edits the same one,
+      including the pane layout.</p>
+  </div>
+</div>
+
+<div id="customPop" class="popup" hidden>
+  <div class="popup-in">
+    <div class="popup-head"><b id="customTitle">Customise theme</b><button class="x" data-close="customPop">&#10005;</button></div>
+    <label class="prow2"><span>Name</span>
+      <input id="ctName" type="text" maxlength="40" spellcheck="false" autocomplete="off">
+    </label>
+    <label class="prow2"><span>Art</span>
+      <select id="ctBackdrop">
+        <option value="">(shared backdrop)</option>
+      </select>
+    </label>
+    <div id="ctColours" class="colourgrid"></div>
+    <p class="pnote">These are the colours this page renders; everything else the theme owns stays as
+      the overlay saved it. Art is any <code>space_&lt;name&gt;.jpg</code> (or .png, .jpeg, .bmp) in
+      <code>SFSE\Plugins\DevilzShopOSFAssets\</code> - drop one in, reopen the shop, and it is in
+      the list.</p>
+    <div class="customfoot">
+      <button id="ctSave" class="primary" type="button">Save</button>
+      <button id="ctClose" type="button">Close</button>
+    </div>
   </div>
 </div>
 

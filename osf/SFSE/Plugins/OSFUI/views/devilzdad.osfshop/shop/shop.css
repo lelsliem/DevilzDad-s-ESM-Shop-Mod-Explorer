@@ -19,20 +19,35 @@ html, body { height: 100%; margin: 0; overflow: hidden; }
 html { background: #05060a; }
 body { background: transparent; color: var(--ink); }
 
+/* One art layer. The two-layer version - a `contain` sharp copy over a drifting
+   blurred `cover` copy of the same file - is what read as wrong: wherever the
+   window's aspect differs from the art's, the two copies put the same pixels at
+   different scales and offsets, so the sides showed a ghost of the picture that
+   the drift kept sliding, and the seam between them moved. The art is drawn
+   once now, whole and uncropped. At the OSF view's 16:9 `contain` and `cover`
+   are the same picture; in a wider or narrower window the leftover strip is a
+   plain matte instead of a second copy, which is what the overlay does too.
+   --bg-art is set per theme by app.js. */
 #bgimg {
-  position: fixed; inset: 0; z-index: 0;
-  background: url(assets/space.jpg) center/cover no-repeat #05060a;
-  background-size: 135% 135%;
-  animation: drift 140s ease-in-out infinite alternate;
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image: var(--bg-art, url(assets/space.jpg));
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #05060a;
 }
-@keyframes drift { from { background-position: 30% 28%; } to { background-position: 72% 70%; } }
-@media (prefers-reduced-motion: reduce) { #bgimg { animation: none; } }
 
 #bgfx {
   position: fixed; inset: 0; z-index: 0; pointer-events: none;
-  /* Only a vignette: the theme's art has to read across the whole shop, so the
-     scrim stops short of being a curtain. */
-  background: radial-gradient(circle at 80% 0, #74152233 0, #1b0a1045 38%, #090b1280 100%);
+  /* A theme-tinted veil, not a fixed red vignette: the old colours were baked
+     for Devilz Red, so every other theme came out muddy, and the brightest art
+     (the hell planet, the starfield wordmark) sat at nearly full strength
+     behind the panes. The glow follows --accent now and the body darkens, so
+     the art reads as atmosphere under any theme. */
+  background:
+    radial-gradient(circle at 80% 0,
+      color-mix(in srgb, var(--accent) 22%, transparent) 0%, transparent 46%),
+    linear-gradient(180deg, #05060a00 0%, #05060a3d 55%, #05060a94 100%);
 }
 
 /* The themed art is the shop's background, not a frame around it. Everything
@@ -217,6 +232,22 @@ input[type="checkbox"] { accent-color: #e11d48; }
 .dkv dt { color: var(--muted); }
 .dkv dd { margin: 0; overflow: hidden; text-overflow: ellipsis; }
 .sect { margin-top: 9px; font-size: 10px; letter-spacing: .08em; color: var(--gold); text-transform: uppercase; }
+/* Duplicate rows: the count beside a name, and the records it stands for. */
+.copies {
+  font-size: 9.5px; font-weight: 700; letter-spacing: .3px; color: #ffcb8a;
+  border: 1px solid #8a5a2c; border-radius: 8px; padding: 0 4px; white-space: nowrap;
+}
+.dupes { display: flex; flex-direction: column; gap: 2px; margin-top: 3px; }
+.dupe {
+  display: grid; grid-template-columns: 62px minmax(0, 1fr) auto; gap: 6px; align-items: center;
+  text-align: left; font-size: 10.5px; padding: 2px 6px; border-radius: 4px;
+  background: #ffffff08; border: 1px solid #ffffff14; color: var(--ink);
+}
+.dupe:hover { background: #ffffff14; border-color: var(--accent-dim); }
+.dupe .fid { font-family: Consolas, monospace; color: #b99aa0; }
+.dupe .dplug { color: var(--muted); overflow: hidden; text-overflow: ellipsis; }
+.dupe .dstat { color: var(--gold); white-space: nowrap; }
+
 .optrow { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 6px; align-items: center; margin-top: 3px; }
 .optrow label { color: var(--muted); font-size: 10.5px; text-transform: capitalize; }
 .optrow select { width: 100%; min-width: 0; }
@@ -354,3 +385,39 @@ input[type="checkbox"] { accent-color: #e11d48; }
 .side { display: flex; flex-direction: column; gap: 8px; min-height: 0; }
 .side .panel.detail { flex: 1 1 auto; min-height: 0; }
 .side .panel.basket { flex: 0 1 auto; max-height: 42%; min-height: 128px; }
+
+/* ---------- soundtrack skip ---------- */
+/* The track row keeps the popup's grid but gives the select its own column so
+   the two step buttons can sit beside it. They are disabled unless the
+   selection is a soundtrack folder: a lone file loops and has nowhere to go. */
+.prowtrack { grid-template-columns: 52px minmax(0, 1fr) auto; }
+.prowtrack select { grid-column: 2; }
+.prowtrack .trackstep { grid-column: 3; display: flex; gap: 4px; }
+.trackstep button { width: 26px; padding: 2px 0; font-size: 14px; line-height: 1; }
+.trackstep button:disabled { opacity: .35; cursor: not-allowed; }
+.trackstep button:disabled:hover { background: #100e15d9; border-color: #9f3b4a; }
+
+/* ---------- custom theme editor ---------- */
+.customrow {
+  display: flex; align-items: center; gap: 9px; margin-top: 9px;
+  color: var(--muted); font-size: 10.5px; line-height: 1.35;
+}
+.customrow[hidden] { display: none; }
+.customrow button { padding: 3px 12px; white-space: nowrap; }
+
+.prow2 input[type="text"] {
+  grid-column: 2 / 5; width: 100%; padding: 4px 6px; font: inherit;
+  background: #0f0d13d9; color: var(--ink);
+  border: 1px solid var(--line); border-radius: 4px;
+}
+.colourgrid {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px 10px; margin: 10px 0 2px;
+}
+.ctrow { display: flex; align-items: center; gap: 6px; font-size: 10.5px; color: var(--muted); }
+.ctrow span { flex: 1 1 auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ctrow input[type="color"] {
+  width: 30px; height: 20px; padding: 0; border: 1px solid var(--line);
+  border-radius: 3px; background: none; cursor: pointer;
+}
+.customfoot { display: flex; gap: 8px; margin-top: 12px; }

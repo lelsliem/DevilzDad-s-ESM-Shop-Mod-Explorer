@@ -1,0 +1,13 @@
+# Build output
+/build/
+/.xmake/
+/Depends/
+
+# Built plugins are not committed; build them from src/ instead.
+*.dll
+
+# Linker / compiler intermediates
+*.pdb
+*.lib
+*.exp
+*.obj

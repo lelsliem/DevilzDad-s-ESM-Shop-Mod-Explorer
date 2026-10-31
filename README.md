@@ -5,30 +5,53 @@ load order and lists every record that can actually go into a player's inventory
 armour, ammunition, aid, misc items, books and keys — with a 3D preview, a real basket and a
 working purchase path. No console commands, no FormID hunting, no xEdit.
 
-One source tree builds **two front ends**:
+One source tree builds **two front ends**, and this repository carries both install trees:
 
-| Front end | DLL | Interface | Opens with |
-|---|---|---|---|
-| **ImGui / DirectX 12 overlay** | `SFShopExplorer.dll` | Native Dear ImGui window drawn into the game's own back buffer | <kbd>Page&nbsp;Up</kbd> |
-| **OSF UI page** | `DevilzShopOSF.dll` | HTML/CSS/JS view rendered by OSF UI's WebView2 | <kbd>F10</kbd> → Mod Settings → **INTERFACES**, or Page Up |
+| | ImGui / DirectX 12 overlay | OSF UI page |
+|---|---|---|
+| Install folder | [`imgui/`](imgui/) | [`osf/`](osf/) |
+| DLL | `SFShopExplorer.dll` | `DevilzShopOSF.dll` |
+| Interface | Native Dear ImGui window drawn into the game's own back buffer | HTML/CSS/JS view rendered by OSF UI's WebView2 |
+| Opens with | <kbd>Page&nbsp;Up</kbd> | <kbd>F10</kbd> → Mod Settings → **INTERFACES**, or Page Up |
+| Requires | Starfield, SFSE, Address Library | Starfield, SFSE, Address Library, OSF UI, OSF Settings, WebView2 |
 
 Both front ends run the same catalog, filters, pricing, basket and purchase code
 (`ShopBrowser` in `src/ShopExplorer.cpp`). Only the presentation layer differs.
 
 Source snapshot: **0.9.1** (`SFShopExplorer` / ImGui) and **0.9.1-OSF** (`DevilzShopOSF` / OSF UI).
 
-## What is in this repository
+> The built DLLs are **not** committed. `imgui/` and `osf/` contain the INI, art and audio; build
+> the matching DLL from `src/` with the commands below and copy it into that folder before
+> installing.
 
-This repository publishes the **C++ sources only**. It intentionally does not contain:
+## Repository layout
 
-- prebuilt DLLs, INI files or packaged releases;
-- audio (`Audio\*.wav`), backdrop art or preview caches;
-- the OSF UI view page (`index.html`, `app.js`, `shop.css`, `manifest.json` and its assets);
-- the offline Python tooling and test harnesses used during development.
+```text
+.
+├── src/                                Shared C++ engine and both front ends
+├── xmake.lua                           Build definition for both targets
+├── imgui/
+│   ├── README.md                       Install and controls for this front end
+│   └── SFSE/Plugins/
+│       ├── SFShopExplorer.ini          Documented settings
+│       ├── SFShopExplorerAssets/       Theme art, logo, credit icon, materialswaps.tsv
+│       └── Audio/                      Theme music, shop beds and UI stings
+└── osf/
+    ├── README.md                       Install and controls for this front end
+    └── SFSE/Plugins/
+        ├── DevilzShopOSF.ini           Documented settings
+        ├── Audio/                      Same music and effects
+        └── OSFUI/views/devilzdad.osfshop/shop/
+            ├── index.html              The page itself
+            ├── app.js, basket.js, audio.js, favourites.js
+            ├── shop.css
+            ├── manifest.json
+            └── assets/                 Page art
+```
 
-The OSF DLL is only half of the OSF front end — the page itself ships in the OSF release
-archive. A build from this repository produces the native plugin; it does not recreate the
-web page. The ImGui front end is complete from these sources.
+The two version folders are deliberately separate: each has its own INI, asset folder and audio,
+so the builds can be installed side by side without sharing state. Git stores the identical
+`Audio/` files once even though both trees contain them.
 
 ## Source layout
 
@@ -39,18 +62,17 @@ src/
 │                         themes, favourites and the shared state both front ends read
 ├── ImguiOverlay.cpp/.h   ImGui front end: DXGI Present hook, Win32 input, D3D12 draw
 ├── OsfFrontend.cpp/.h    OSF front end: attaches to OSF UI and answers the page's requests
-├── PreviewHost.cpp/.h    OSF only: renders preview frames offscreen and returns PNG data URLs
+├── PreviewHost.cpp/.h    OSF only: renders preview frames offscreen as PNG data URLs
 ├── BackdropArt.cpp/.h    OSF only: player-supplied backdrop images as JPEG data URLs
-├── LiveModel.cpp/.h      Runtime NIF / .mesh / BA2 parsers; builds preview geometry from the
-│                         player's own install, including mod-added items
+├── LiveModel.cpp/.h      Runtime NIF / .mesh / BA2 parsers; builds geometry from the install
 ├── NativeModel.cpp/.h    Engine-native model loading through TESBoundObject::Clone3D
 ├── OfflineModel.cpp/.h   D3D12 preview renderer (shaders, PSOs, materials, textures, readback)
 ├── ItemCapture.cpp/.h    Optional: borrows the engine's own inventory item render target
-├── ShopAudio.cpp/.h      WASAPI shared-mode music and effects, decoded from the player's WAVs
+├── ShopAudio.cpp/.h      WASAPI shared-mode music and effects
 ├── ShopPause.cpp/.h      Holds the game's UI pause counter while the shop is open
 ├── BuildGate.cpp/.h      Refuses unlisted engine addresses on builds they were not verified on
 ├── OmodClassTable.h      GENERATED — quality/rarity OMOD table
-├── OmodMnamTable.h       GENERATED — OMOD form ID → M_AMMO / weapon keyword table
+├── OmodMnamTable.h       GENERATED — OMOD form ID → weapon keyword table
 ├── OSFUI_API.h           Vendored copy of the OSF UI native bridge API (ABI 1.7)
 ├── PngWrite.h            Minimal PNG encoder used by the OSF preview path
 └── PCH.h                 Shared precompiled header
@@ -65,7 +87,7 @@ The two `Omod*` headers are generated from game data and must not be hand-edited
 | Dependency | Link | Notes |
 |---|---|---|
 | **CommonLibSF** | <https://github.com/libxse/commonlibsf> | **The project has moved.** The old `Starfield-Reverse-Engineering/CommonLibSF` repository is archived; `libxse/commonlibsf` is the maintained home. Clone with `--recurse-submodules`. Verified with commit `9e8333a` (2026-08-23). |
-| **Dear ImGui** | <https://github.com/ocornut/imgui> | The tree was built against **1.92.6 WIP** (`IMGUI_VERSION_NUM 19256`), including `backends/imgui_impl_dx12.cpp` and `backends/imgui_impl_win32.cpp`. Use the 1.92.x line; do not jump to 1.93+ without checking the API and the two backends. |
+| **Dear ImGui** | <https://github.com/ocornut/imgui> | Built against **1.92.6 WIP** (`IMGUI_VERSION_NUM 19256`), including `backends/imgui_impl_dx12.cpp` and `backends/imgui_impl_win32.cpp`. Use the 1.92.x line; do not jump to 1.93+ without checking the API and the two backends. |
 | **xmake** | <https://xmake.io> | 3.0.0 or newer. The project is configured for MSVC. |
 | **Visual Studio 2022** | <https://visualstudio.microsoft.com/vs/> | MSVC v143, Windows 10/11 SDK, C++23. The D3D12, DXGI, Media Foundation and WASAPI headers/libs come from the Windows SDK. |
 | **zlib** | <https://github.com/madler/zlib> | Fetched by xmake (`add_requires("zlib")`). Used by the PNG encoder. |
@@ -88,21 +110,11 @@ source.
 
 ## Building
 
-### 1. Lay out the tree
+The repository is a single xmake project: `SFShopExplorer` is the default target and
+`DevilzShopOSF` is an optional second target compiled from the same sources plus the OSF
+translation units.
 
-Only `src/` is published, so the build script is reproduced at the end of this README. Create
-this layout:
-
-```text
-DevilzDad-s-ESM-Shop-Mod-Explorer/
-├── src/                     ← this repository
-├── xmake.lua                ← copy the block from "Build script" below
-└── Depends/
-    ├── commonlibsf/         ← libxse/commonlibsf, with submodules
-    └── imgui/               ← Dear ImGui 1.92.x, with backends/
-```
-
-Clone the dependencies:
+### 1. Get the dependencies
 
 ```bat
 git clone https://github.com/lelsliem/DevilzDad-s-ESM-Shop-Mod-Explorer
@@ -113,7 +125,9 @@ git clone --recurse-submodules https://github.com/libxse/commonlibsf Depends/com
 git clone https://github.com/ocornut/imgui Depends/imgui
 ```
 
-Save the [build script](#build-script) as `xmake.lua` in the repository root.
+`xmake.lua` expects CommonLibSF at `Depends/commonlibsf` and Dear ImGui at `Depends/imgui`.
+After cloning ImGui, check that `Depends/imgui/imgui.h` reports `IMGUI_VERSION_NUM 19256`; if
+master has moved past the 1.92.x line, check out a matching 1.92.x revision.
 
 ### 2. Configure once
 
@@ -141,6 +155,8 @@ build\windows\x64\releasedbg\SFShopExplorer.dll
 build\windows\x64\releasedbg\SFShopExplorer.pdb
 ```
 
+Copy the DLL into `imgui\SFSE\Plugins\`.
+
 ### 4. Build the OSF version
 
 ```bat
@@ -153,6 +169,8 @@ Output:
 build\windows\x64\releasedbg\DevilzShopOSF.dll
 build\windows\x64\releasedbg\DevilzShopOSF.pdb
 ```
+
+Copy the DLL into `osf\SFSE\Plugins\`.
 
 `DevilzShopOSF` is `set_default(false)`, so a bare `xmake build -y` builds **only** the ImGui
 target. Name the target explicitly, as above.
@@ -181,66 +199,68 @@ powershell -NoProfile -Command "Get-Item build\windows\x64\releasedbg\DevilzShop
 The instructions above were verified with xmake 3.0.9, MSVC 2022, CommonLibSF `9e8333a` and the
 vendored Dear ImGui 1.92.6 WIP; both targets link successfully from a clean tree.
 
-## Deploying
+## Installing
+
+Both version folders use the game's standard `SFSE\Plugins` structure. After placing the built
+DLL in the folder, either copy the folder's contents into `<Starfield>\Data\SFSE\Plugins\` or
+install the whole `imgui\` / `osf\` folder as a mod in MO2 or Vortex.
+
+Before the first install, run **Starfield Shader Cache Reset**
+(<https://www.nexusmods.com/starfield/mods/15632>) once to clear stale shader data; skipping it
+can cause a CTD when a new build first loads. It is a separate tool, not part of this download.
 
 ### ImGui build
 
-Copy beside the DLL:
-
 ```text
-SF Shop Explorer/
+imgui/
 └── SFSE/
     └── Plugins/
-        ├── SFShopExplorer.dll
+        ├── SFShopExplorer.dll          ← built from src/, not in this repo
         ├── SFShopExplorer.ini
         ├── SFShopExplorerAssets\
         └── Audio\
 ```
 
 The plugin reads `SFShopExplorer.ini` and `SFShopExplorerAssets\` from **its own directory**, so
-they must sit next to the DLL. The asset folder holds the themed backdrop/chest art and the
-model index; the `Audio\` folder holds the six `ui_*.wav` stings and any music tracks. Without
-the asset folder the shop still opens, but previews and themed art degrade.
+they must sit next to the DLL. The asset folder holds the themed backdrop/chest art, the logo
+and the material-swap table used by the preview; `Audio\` holds the theme tracks and the seven
+`ui_*.wav` stings. Any other supported audio file dropped into `Audio\` appears in the track
+picker.
 
-Remove or disable other shop DLLs that register the same feature — especially `SFStarfieldMCM.dll`
-or `DevilzESMShop.dll` — to avoid two overlays competing for the same key.
+Remove or disable other shop DLLs that register the same feature — especially
+`SFStarfieldMCM.dll` or `DevilzESMShop.dll` — to avoid two overlays competing for the same key.
+Do not install the OSF and ImGui plugins into the same load order unless you intend to run both;
+they are separate front ends for the same shop.
+
+Open and close with <kbd>Page&nbsp;Up</kbd>. Escape or the title-bar X also closes.
 
 ### OSF build
 
-Copy beside the DLL:
-
 ```text
-OSF DevilzDad's ESM Shop/
+osf/
 └── SFSE/
     └── Plugins/
-        ├── DevilzShopOSF.dll
+        ├── DevilzShopOSF.dll           ← built from src/, not in this repo
         ├── DevilzShopOSF.ini
-        ├── DevilzShopOSFAssets\
         ├── Audio\
         └── OSFUI\
             └── views\
                 └── devilzdad.osfshop\
-                    └── shop\
-                        ├── index.html
-                        ├── app.js
-                        ├── shop.css
-                        ├── manifest.json
-                        └── assets\
+                    └── shop\           ← index.html, app.js, shop.css, assets
 ```
 
-The `OSFUI\views\devilzdad.osfshop\shop\` page is **not** part of this repository; it ships in
-the OSF release archive. The DLL registers the view and answers its bridge requests, but there
-is nothing to render without those files. Keep the view in OSF UI's legacy `OSFUI\views` root
-(that is the root OSF UI registers as a launcher) and ship one copy only.
+The page must stay in OSF UI's legacy `OSFUI\views` root — that is the root OSF UI registers as
+a launcher. Do not add a second copy under `OSF\UI\views`: that root carries a 2.0 manifest
+which the legacy loader rejects.
+
+Open the page through OSF: <kbd>F10</kbd> → **Mod Settings** → **INTERFACES**, or press
+<kbd>Page&nbsp;Up</kbd>. Escape, the page's close button, or pad B closes it.
 
 `DevilzShopOSFAssets\models\` is created next to the DLL on first launch. The OSF build uses a
 different INI, asset folder and model cache from the ImGui build on purpose, so both mods can be
 installed and enabled side by side without sharing or overwriting each other's state.
 
-Open the page through OSF: <kbd>F10</kbd> → **Mod Settings** → **INTERFACES**, or press
-<kbd>Page&nbsp;Up</kbd>. Escape, the page's close button, or pad B closes it.
-
-### Controls (ImGui build)
+## Controls (ImGui build)
 
 | Action | Control |
 |---|---|
@@ -251,6 +271,10 @@ Open the page through OSF: <kbd>F10</kbd> → **Mod Settings** → **INTERFACES*
 | Rotate / zoom the preview | Drag / mouse wheel over the viewport |
 | Reset the preview camera | Double-click the viewport |
 | Pop the preview out | Click the viewport; click outside it to dock it again |
+
+The OSF page supports the same actions with mouse and keyboard, plus raw gamepad input: left
+stick / d-pad moves the cursor, A clicks, X adds, LB/RB page, B closes, Start accepts, Back
+clears.
 
 ## How it works, briefly
 
@@ -278,6 +302,8 @@ Open the page through OSF: <kbd>F10</kbd> → **Mod Settings** → **INTERFACES*
 
 ## Notes and limitations
 
+- The DLLs are built artefacts and are not committed. Build them from the checked-in sources so
+  the plugin matches the source you are reading.
 - This is a runtime-sensitive renderer and engine hook. Test with a save you can restore, and
   keep the previous plugin disabled while validating a new build.
 - Starfield 1.16.244 is the verified build. On other builds the shop still browses and previews,
@@ -299,108 +325,3 @@ Open the page through OSF: <kbd>F10</kbd> → **Mod Settings** → **INTERFACES*
 - **CommonLibSF** by the libxse contributors; based on **CommonLibSSE** by Ryan-rsm-McKenzie.
 - **SFSE** by **Ian Patterson**.
 - **Dear ImGui** by **Omar Cornut** and contributors.
-
-## Build script
-
-Save this as `xmake.lua` in the repository root. It is the build definition the sources in
-`src/` are written against, with the dependency paths pointed at `Depends/` inside the
-repository.
-
-```lua
-set_xmakever("3.0.0")
-
-set_project("SFShopExplorer")
-set_version("0.9.1")
-set_arch("x64")
-set_languages("c++23")
-set_warnings("allextra")
-set_encodings("utf-8")
-add_rules("mode.debug", "mode.releasedbg")
-add_rules("plugin.vsxmake.autoupdate")
-
--- CommonLibSF (https://github.com/libxse/commonlibsf) has to sit in
--- Depends/commonlibsf; Dear ImGui in Depends/imgui.
-includes("Depends/commonlibsf/xmake.lua")
-
--- force MSVC toolchain
-set_toolchains("msvc")
-
-add_requires("zlib", "lz4")
-
-target("SFShopExplorer", function()
-    set_kind("shared")
-    set_default(true)
-    set_symbols("debug")
-
-    add_rules("commonlibsf.plugin", {
-        options = {
-            address_library = true,
-            sig_scanning = true,
-            layout_dependent = true,
-            no_struct_use = false,
-        },
-    })
-
-    add_deps("commonlibsf", { public = true })
-    add_includedirs("src", "Depends/imgui", "Depends/commonlibsf/lib/commonlib-shared/include")
-
-    add_files("src/ShopExplorer.cpp", "src/ImguiOverlay.cpp", "src/ItemCapture.cpp", "src/ShopAudio.cpp", "src/ShopPause.cpp", "src/BuildGate.cpp", "src/OfflineModel.cpp", "src/LiveModel.cpp", "src/NativeModel.cpp", "src/main.cpp")
-    add_files("Depends/imgui/imgui.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_draw.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_tables.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_widgets.cpp", { pcxheader = false })
-    add_files("Depends/imgui/backends/imgui_impl_dx12.cpp", { pcxheader = false })
-    add_files("Depends/imgui/backends/imgui_impl_win32.cpp", { pcxheader = false })
-    add_headerfiles("src/**.h")
-    set_pcxxheader("src/PCH.h")
-
-    add_links("d3d12", "dxgi", "d3dcompiler", "user32", "ole32", "uuid", "mfplat", "mfreadwrite", "mfuuid", "shlwapi")
-    add_packages("zlib", "lz4")
-    add_defines("IMGUI_DISABLE_OBSOLETE_FUNCTIONS", "IMGUI_DISABLE_DEMO_WINDOWS")
-
-    set_configvar("COMMONLIB_PLUGIN_NAME", "SFShopExplorer")
-    set_configvar("COMMONLIB_PLUGIN_AUTHOR", "lelsliem")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_MAJOR", "0")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_MINOR", "9")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_PATCH", "1")
-end)
-
--- The OSF front end: the same engine and sources, one extra translation unit.
-target("DevilzShopOSF", function()
-    set_kind("shared")
-    set_default(false)
-    set_symbols("debug")
-
-    add_rules("commonlibsf.plugin", {
-        options = {
-            address_library = true,
-            sig_scanning = true,
-            layout_dependent = true,
-            no_struct_use = false,
-        },
-    })
-
-    add_deps("commonlibsf", { public = true })
-    add_includedirs("src", "Depends/imgui", "Depends/commonlibsf/lib/commonlib-shared/include")
-
-    add_files("src/ShopExplorer.cpp", "src/ImguiOverlay.cpp", "src/ItemCapture.cpp", "src/ShopAudio.cpp", "src/ShopPause.cpp", "src/BuildGate.cpp", "src/OfflineModel.cpp", "src/LiveModel.cpp", "src/NativeModel.cpp", "src/OsfFrontend.cpp", "src/PreviewHost.cpp", "src/BackdropArt.cpp", "src/main.cpp")
-    add_files("Depends/imgui/imgui.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_draw.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_tables.cpp", { pcxheader = false })
-    add_files("Depends/imgui/imgui_widgets.cpp", { pcxheader = false })
-    add_files("Depends/imgui/backends/imgui_impl_dx12.cpp", { pcxheader = false })
-    add_files("Depends/imgui/backends/imgui_impl_win32.cpp", { pcxheader = false })
-    add_headerfiles("src/**.h")
-    set_pcxxheader("src/PCH.h")
-
-    add_links("d3d12", "dxgi", "d3dcompiler", "user32", "ole32", "uuid", "mfplat", "mfreadwrite", "mfuuid", "shlwapi")
-    add_packages("zlib", "lz4")
-    add_defines("IMGUI_DISABLE_OBSOLETE_FUNCTIONS", "IMGUI_DISABLE_DEMO_WINDOWS", "SFE_OSF_FRONTEND")
-
-    set_configvar("COMMONLIB_PLUGIN_NAME", "SFShopExplorer")
-    set_configvar("COMMONLIB_PLUGIN_AUTHOR", "lelsliem")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_MAJOR", "0")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_MINOR", "9")
-    set_configvar("COMMONLIB_PLUGIN_VERSION_PATCH", "1")
-end)
-```

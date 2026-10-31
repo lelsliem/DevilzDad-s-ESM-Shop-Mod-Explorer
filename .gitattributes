@@ -1,0 +1,11 @@
+# Binary assets must not be line-ending converted.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.wav binary
+*.dll binary
+*.pdb binary
+
+# Packaged configuration and generated data keep their exact bytes.
+*.ini -text
+*.tsv -text

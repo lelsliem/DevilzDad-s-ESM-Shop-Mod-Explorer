@@ -1,0 +1,51 @@
+form	name	type	plugin	status	model	geoms	tris	textured	delta	changed
+00000D64	Skin_Naked	ARMO	Starfield.esm		Naked_F.nif + Hands_3rd_F.nif	2	2999	2	None	False
+00003A77	High School Backpack	ARMO	Starfield.esm		spacesuit_groundcrew_01_backpack_go.nif + SpaceSuit_GroundCrew_Backpack_M.nif	2	3000	2	None	False
+00003E8F	Breathing Mask	ARMO	Starfield.esm		leia\leia_Mask.nif	1	1500	1	None	False
+00009CC5	Flashy Leatherwear	ARMO	Starfield.esm		Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif + Outfit_Civilian_RubberPocketPants_Jacket_01_Upperbody_M.nif + Outfit_Civilian_RubberPocketPants_01_Jacket_Upperbody_F.nif + outfit_civilian_rubbertpants_01_lowerbody_m.nif + outfit_civilian_rubberpants_01_lowerbody_f.nif	5	7500	5	None	False
+0000B09E	Skin_HopperA_AAhopper	ARMO	Starfield.esm		Actors\HopperA\Mesh\HopperA_AAHopper\HopperA_AAHopper.nif	1	1500	1	None	False
+00015C9D	Proctor Uniform	ARMO	Starfield.esm		Outfit_NewAtlantis_FashionableSuit_01_F.nif + Outfit_NewAtlantis_FashionableSuit_01_LowerBody_F.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_M_3rd.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_F_3rd.nif	4	6000	4	None	False
+0001754F	Sith Stalker Helmet	ARMO	Starfield.esm		SpaceSuit_SuitZero_Helmet_M.nif + SpaceSuit_FlightCap_01_F.nif + Spacesuit_Mark1_FaceLights.nif	4	4501	3	None	False
+00019158	SkinModelS Brute_CrimsonHeavy	ARMO	Starfield.esm		models_crimsonfleet_body_01.nif + models_crimsonfleet_weaponmount_01.nif + models_crimsonfleet_turret_01.nif	6	6536	6	None	False
+0001D1DB	Levat's Outfit	ARMO	Starfield.esm		clothes\lando\lando_general_body.nif	1	1500	0	None	False
+0001D1E7	Miner Utility Outfit	ARMO	Starfield.esm		Outfit_Miner_UtilitySuit_Shirt_F.nif + Outfit_Miner_UtilitySuit_Sleeves_M_3rd.nif + Outfit_Miner_UtilitySuit_Sleeves_F_3rd.nif + Outfit_Miner_UtilitySuit_BITS_F.nif + Outfit_Miner_UtilitySuit_Pants_F.nif	5	6002	5	None	False
+0001FE31	SkinModelS Brute_CrimsonMedium	ARMO	Starfield.esm		Actors\ModelS\Mesh\models_crimsonfleet_01\models_crimsonfleet_body_01.nif	3	3140	3	None	False
+00025F67	CoralCrawler Octopede  Grylloba Melee	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\octopedea_coralcrawler\OctopedeA_CoralCrawler.nif	2	3000	2	None	False
+00026BF2	Sienar Technologies Tunnel	ARMO	Starfield.esm		SSMiner_Backpack_GO.nif + SSMiner_Backpack_M.nif	3	3018	3	None	False
+0002E554	Frank Renick's Eyepatch	ARMO	Starfield.esm		Clothes\outfit_eyepatch\Outfit_Eyepatch_M_L_01.nif	1	362	1	None	False
+0003084D	Republic Breathing Mask	ARMO	Starfield.esm		E700_Mask_go.nif + E700_Mask_M.nif + E700_Mask_F.nif	3	4500	3	None	False
+00034110	BioTech Lab Outfit	ARMO	Starfield.esm		Outfit_ScienceLabTec_01_F.nif + Outfit_ScienceLabTec_01_Mask_F.nif + Outfit_ScienceLabTec_01_LowerBody_F.nif + Outfit_ScienceLabTec_01_MaskCollar_F.nif + Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif + Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif	6	7834	5	None	False
+0003780D	Skin_OctopedeA_LonghornBeetle	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\OctopedeA_09_LonghornBeetle\OctopedeA_09_LonghornBeetle.nif	1	1500	1	None	False
+0003B423	Mandalorian Heavy	ARMO	Starfield.esm		spacesuit_bountyhunter_backpack_01_go.nif + spacesuit_bountyhunter_backpack_01_m.nif	1	1500	1	None	False
+0004008C	Clean Suit	ARMO	Starfield.esm		Outfit_Hazmat_Suit_01_Decals_F.nif + Outfit_Hazmat_Suit_01_Helmet_F.nif + Outfit_Hazmat_Suit_01_LowerBody_F.nif + Outfit_Hazmat_Suit_01_Sleeves_M_3rd.nif + Outfit_Hazmat_Suit_01_Sleeves_F_3rd.nif + Outfit_Hazmat_Suit_01_UpperBody_F.nif + Outfit_Hazmat_Suit_01_Visor_F.nif + BaseGloves3_M_Low.nif + BaseGloves3_F_Low.nif	9	11336	9	None	False
+00047182	Skin_OctopedeA_HornedCrab	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\OctopedeA_12_HornedCrab\OctopedeA_12_HornedCrab.nif	1	1500	1	None	False
+0004770F	Skin_SecurityCamera_WallMount_01	ARMO	Starfield.esm		Actors\SecurityCamera\Mesh\securitycamera_wallmount_01\SecurityCamera_WallMount_01.nif	15	10800	11	None	False
+0004A986	CoralCrawler Octopede Grylloba Queen	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\octopedea_coralcrawler\OctopedeA_CoralCrawler.nif	2	3000	2	None	False
+0004B5A0	Dantooine Child Jumpsuit	ARMO	Starfield.esm		Clothes\Outfit_Akila_Child_Jumpsuit_01\Outfit_Akila_Child_Jumpsuit_01.nif	1	1500	1	None	False
+00051BC7	Skin_Critter_Spaceroach	ARMO	Starfield.esm		Actors\Critter\Mesh\Critter_SpaceRoach\Critter_SpaceRoach.nif	1	1500	1	None	False
+0005569A	Hexo Hermit Cataxi Ranged	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\OctopedeA_HexoHermit\OctopedeA_HexoHermit.nif	1	1500	1	None	False
+00064A2E	Striker Streetwear	ARMO	Starfield.esm		BaseGloves3_M_Low.nif + BaseGloves3_F_Low.nif + Outfit_Gang_Strikers_UpperBody_Decals_01_M.nif + Outfit_Gang_Strikers_UpperBody_Decal_01_F.nif + Outfit_Gang_Strikers_Sleeves_01_F.nif + Outfit_Gang_Strikers_UpperBody_01_F.nif + Outfit_Gang_Strikers_LowerBody_HoodDown_01_F.nif	7	10500	7	None	False
+00066822	Guavian Grunt Helmet	ARMO	Starfield.esm		pirate_soldier_helmet_go.nif + pirate_helmet.nif	3	2243	3	None	False
+00066827	Guavian Charger Helmet	ARMO	Starfield.esm		Pirate_Helmet_Go.nif + pirate_helmet.nif	3	2724	3	None	False
+0006682B	Guavian Sniper Helmet	ARMO	Starfield.esm		Pirate_Helmet_Go.nif + pirate_heavy_helmet.nif	2	2720	2	None	False
+0006ABCA	Stormtrooper Armor	ARMO	Starfield.esm		Hands_f.nif + LowerBody_F.nif + UpperBody_F.nif	4	5168	1	None	False
+0006AC00	Scrapper's Poncho	ARMO	Starfield.esm		Shipyard_M_rig_poncho_001.nif + Shipyard_F_rig_poncho_001.nif + Shipyard_M_rig_A_Gloves.nif + Shipyard_F_rig_A_Gloves.nif + Shipyard_M_rig_A_001.nif + Shipyard_F_rig_A.nif	6	9000	6	None	False
+00077810	Blue Imperial Leather Jumpsuit	ARMO	Starfield.esm		Outfit_UtilityOveralls_Mechanic_01_Upperbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Sleeves_LOD1_F.nif + Outfit_UtilityOveralls_Mechanic_01_Upperbody_Decal_F.nif	4	4684	4	None	False
+0007781C	Ground Crew Jacketwear	ARMO	Starfield.esm		Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_SSO_Jacket_01_Upperbody_F.nif + Outfit_UtilityOveralls_SSO_Jacket_01_Sleeves_LOD1_F.nif	3	4500	3	None	False
+000781F9	Utility Headphone Cap	ARMO	Starfield.esm		Outfit_UtilityOveralls_SSO_Hat_GO.nif + Outfit_UtilityOveralls_SSO_Hat_01_F.nif	2	3000	2	None	False
+000788A7	Urban Efficiency Attire	ARMO	Starfield.esm		Outfit_Civilian_RubberPocketPants_01_Upperbody_F.nif + Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif + outfit_civilian_rubbertpants_01_lowerbody_m.nif + outfit_civilian_rubberpants_01_lowerbody_f.nif	4	6000	4	None	False
+00079206	Mandalorian Survival Pack	ARMO	Starfield.esm		PirateSet_Backpack_Cloth_GO.nif + PirateSet_Backpack_2.nif	2	3000	2	None	False
+0007F88D	TerraBrew Uniform	ARMO	Starfield.esm		Outfit_Service_Uniform_LowerBody_01_F.nif + Outfit_Service_Uniform_UpperBody_01_F.nif + Outfit_Service_Uniform_Sleeves_01_F.nif	3	4500	3	None	False
+0009B72F	Miner Orebreaker Outfit	ARMO	Starfield.esm		Outfit_Miner_Jumpsuit_LowerBody_F.nif + Outfit_Miner_Jumpsuit_Shirt_F.nif + Outfit_Miner_Jumpsuit_Shirt_Sleeves_3rd_F.nif	3	4500	3	None	False
+000A6FD7	Dantooine Crowd Short Sleeve Jacket	ARMO	Starfield.esm		Outfit_Crowd_Akila_ShortSleeveJacket_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_ShortSleeveJacket_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A6FE0	Dantooine Crowd Fatigues	ARMO	Starfield.esm		Outfit_Crowd_Akila_Fatigues_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_Fatigues_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A6FF0	Layered Tee	ARMO	Starfield.esm		Outfit_Crowd_LayeredTee_01_M_CROWD_thin.nif + Outfit_Crowd_LayeredTee_01_F_CROWD_thin.nif	2	3000	2	None	False
+000A6FF9	Sweater	ARMO	Starfield.esm		Outfit_Crowd_Sweater_01_M_CROWD_Thin.nif + Outfit_Crowd_Sweater_01_F_CROWD_Thin.nif	2	3000	2	None	False
+000A6FFD	Nar Shaddaa Crowdfit Windbreaker	ARMO	Starfield.esm		Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Thin.nif	2	3000	2	None	False
+000A7003	Nar Shaddaa Crowdfit Windbreaker	ARMO	Starfield.esm		Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A700A	Layered Tee	ARMO	Starfield.esm		Outfit_Crowd_LayeredTee_01_M_CROWD_Overweight.nif + Outfit_Crowd_LayeredTee_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A7013	Cargo Pants and Vest	ARMO	Starfield.esm		Outfit_Crowd_Akila_CargoPantsVest_01_M_CROWD_Thin.nif + Outfit_Crowd_Akila_CargoPantsVest_01_F_CROWD_Thin.nif	2	3000	2	None	False
+000A7018	Nar Shaddaa Tracksuit	ARMO	Starfield.esm		Outfit_Crowd_Neon_Tracksuit_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_Tracksuit_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A7021	Nar Shaddaa Jumpsuit	ARMO	Starfield.esm		Outfit_Crowd_Neon_Jumpsuit_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD_Thin.nif	2	3000	2	None	False
+000A7025	Nar Shaddaa Crowdfit Blouse And Skirt	ARMO	Starfield.esm		Outfit_Crowd_Neon_BlouseAndSkirt_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_BlouseAndSkirt_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000B8803	Neuroamp	ARMO	Starfield.esm		neuroamp_prototype_01.nif + outfit_neuroamp_01_f.nif	5	5087	4	None	False

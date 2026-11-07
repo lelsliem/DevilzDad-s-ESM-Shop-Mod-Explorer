@@ -1,0 +1,12 @@
+diff --git a/include/RE/T/TESObjectWEAP.h b/include/RE/T/TESObjectWEAP.h
+--- a/include/RE/T/TESObjectWEAP.h
++++ b/include/RE/T/TESObjectWEAP.h
+@@ -1,7 +1,8 @@
+ #pragma once
+ 
+ #include "RE/B/BGSAttachParentArray.h"
+ #include "RE/B/BGSBlockBashData.h"
++#include "RE/B/BGSCurveForm.h"
+ #include "RE/B/BGSDestructibleObjectForm.h"
+ #include "RE/B/BGSEditorID.h"
+ #include "RE/B/BGSEquipType.h"

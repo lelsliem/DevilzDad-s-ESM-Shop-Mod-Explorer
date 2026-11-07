@@ -1,0 +1,26 @@
+shards: 8  rows: 10638 (from 10638 shard rows)
+
+type    records  rendered   blank    flat  textured
+ALCH       1199      1185      14      37      1148
+AMMO        182       150      32       1       149
+ARMO       4157      4089      68     814      3275
+BOOK       1434      1429       5       6      1423
+KEYM        368       368       0       0       368
+MISC       2656      2619      37     331      2288
+WEAP        642       293     349      66       227
+total     10638     10133     505    1255      8878
+
+blank reasons:
+  ALCH      9  no MODL
+  ALCH      5  no renderable geometry
+  AMMO     21  no MODL
+  AMMO     11  NIF missing
+  ARMO     47  no MODL
+  ARMO     17  no renderable geometry
+  ARMO      4  NIF missing
+  BOOK      5  no MODL
+  MISC     36  no renderable geometry
+  MISC      1  NIF missing
+  WEAP    308  no MODL
+  WEAP     26  no renderable geometry
+  WEAP     15  NIF missing

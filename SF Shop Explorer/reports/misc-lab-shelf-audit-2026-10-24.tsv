@@ -1,0 +1,227 @@
+item	form	model	geoms	tris	textured	flags
+Rakghoul Experiment Sample	548815	SetDressing\ScienceGlass\ScienceGlass_AceLes_Cellsample.nif	5	0	1	flat-ranges
+Rakghoul Experiment Sample	548816	SetDressing\ScienceGlass\ScienceGlass_AceLes_Cellsample.nif	5	0	1	flat-ranges
+Vial	1598400	SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01Full04.nif	5	0	1	flat-ranges
+Scientific Sample	1598401	SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01Full03.nif	6	0	2	flat-ranges
+Vial	1598402	SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01Full02.nif	6	0	2	flat-ranges
+Cell Sample	1997232	SetDressing\ScienceGlass\ScienceGlass_Vial02Closed01Full01.nif	4	0	0	flat-ranges;untextured
+Muur Talisman	2121962	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+Anomalous Sample	2121992	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+Rakghoul Experiment Sample	2121993	SetDressing\ScienceGlass\ScienceGlass_AceLes_Cellsample.nif	5	0	1	flat-ranges
+Vial	2513622	SetDressing\ScienceGlass\ScienceGlass_Vial02.nif	1	0	0	flat-ranges;untextured
+Vial	2513623	SetDressing\ScienceGlass\ScienceGlass_Vial02Closed01.nif	3	0	0	flat-ranges;untextured
+Vial	2513624	SetDressing\ScienceGlass\ScienceGlass_Vial03.nif	1	0	0	flat-ranges;untextured
+Vial	2513625	SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01.nif	3	0	0	flat-ranges;untextured
+Beaker	2513626	SetDressing\ScienceGlass\ScienceGlass_Beaker01.nif	1	0	0	flat-ranges;untextured
+Bottle	2513627	SetDressing\ScienceGlass\ScienceGlass_Bottle01.nif	2	0	0	flat-ranges;untextured
+Erlenmeyer Flask	2513628	SetDressing\ScienceGlass\ScienceGlass_ErlenmFlask01.nif	1	0	0	flat-ranges;untextured
+Funnel	2513629	SetDressing\ScienceGlass\ScienceGlass_Funnel01.nif	1	0	0	flat-ranges;untextured
+Graduated Cylinder	2513630	SetDressing\ScienceGlass\ScienceGlass_GradCylinder01.nif	2	0	0	flat-ranges;untextured
+Graduated Cylinder	2513631	SetDressing\ScienceGlass\ScienceGlass_GradCylinder01a.nif	2	0	0	flat-ranges;untextured
+Vial	2513632	SetDressing\ScienceGlass\ScienceGlass_Vial01.nif	3	0	0	flat-ranges;untextured
+Beaker Tongs	2513655	SetDressing\ScienceGlass\ScienceGlass_BeakerTongs01.nif	2	0	0	flat-ranges;untextured
+Vial	2513657	SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01Full01.nif	4	0	0	flat-ranges;untextured
+Vial	2513660	SetDressing\ScienceGlass\ScienceGlass_Vial02Closed01Full01.nif	4	0	0	flat-ranges;untextured
+Bottle	2513661	SetDressing\ScienceGlass\ScienceGlass_Bottle01Full01.nif	3	0	0	flat-ranges;untextured
+Vial	2513665	SetDressing\ScienceGlass\ScienceGlass_Vial01Full01.nif	4	0	0	flat-ranges;untextured
+Rakghoul Cell Sample	2555789	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+Vial of Tranquilizer	17027182	SetDressing\ScienceGlass\ScienceGlass_Bottle01Full01.nif	3	0	0	flat-ranges;untextured
+Experimental Nutrifying Compound	17041286	SetDressing\ScienceGlass\ScienceGlass_Bottle01Full01.nif	3	0	0	flat-ranges;untextured
+DNA - Brainsprout	67124930	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Elk Crangon	67125201	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Spikeworm	67125139	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bonefril	67125441	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Loxodont	67125468	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Parrothawk	67123653	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Tubule	67124982	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Shieldshell	67125272	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Milliwhale	67124877	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Wobbleback	67124972	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Vectorback	67125102	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Scoopback	67124203	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Coralbug	67123623	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Shroombobber	67125228	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Aquatic Life	67124228	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Fingerface	67124822	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Twintail	67124925	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Twigworm	67109534	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Radarface	67109339	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Anteater	67125270	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Aceles	67109420	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Eyespine	67124842	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Puffball	67125406	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Crag Sprinter	67125327	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Lionbear	67124871	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cutterhead	67123662	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Noid	67125246	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Kreet Stalker	67125569	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Gossamer	67125088	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cranehopper	67124192	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Brainsquid	67125009	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Longhorn	67124922	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bonemane	67118256	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Nightmare	67125446	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Wiggler	67124881	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Raptor	67125292	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Spike Crab	67124857	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Coralcrab	67124887	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cricket	67124882	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Octomaggot	67124779	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Jellyfin	67125298	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Trident	67124895	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Shardhopper	67123639	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Nautiloos	67124207	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Clawback	67125295	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Boneshell	67125026	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Scepter	67124845	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Sunflower	67124945	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Orchid	67124974	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Eggback	67123578	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Monitor	67125521	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Windbag	67125260	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Glider (Flyer)	67125115	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Reefwalker	67123671	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Trapmaw	67124926	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Arachnomantis	67125483	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Ensifer	67125218	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Silverfish	67125163	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Rockhound	67125099	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Mutated	67109455	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Seabat	67109267	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Nailtail	67125348	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Ankylosaurus	67123571	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Sporeback	67125156	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Foxbat	67125427	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Blistercrab	67124783	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Centiskull	67123584	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Crabfly	67125040	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Tongueface	67125133	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Spiderwasp	67125053	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Lockjaw	67124924	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Crab	67124828	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Twingrub	67125467	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Jackknife	67124918	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Tentabeard	67125345	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Carasnail	67123667	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Flamethorn	67124878	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Flat Beetle	67123674	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Glowback (Flyer)	67125188	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bladeback	67124836	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bonecrest	67125511	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Olgreg	67125301	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Drone	67125089	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Worm	67124801	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Glowhands	67125312	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Clickbeetle	67124927	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Kreet Grazer	67125563	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Leafback	67124923	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cockatrice	67125250	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Seabat	67123632	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Twistfin	67125121	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Flying Leech	67125180	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Kelpstrider	67125002	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Hippodon	67125073	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Grabber	67124797	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Lacraia	67125421	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cockroach	67124872	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Vampire	67125315	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Arachnofly	67125539	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Stingback	67125513	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Hornface	67125055	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Exocrawler	67124804	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Brainblimp	67124975	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Landshark	67125021	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Longarm	67125568	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Scorpion	67124805	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Tuskfrog	67123675	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Crocalypse	67125024	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Maggotmaw	67125004	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Triworm	67125205	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cagebrain	67125138	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Vuvuzelisk	67124860	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Snuffer	67125368	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Scarab	67125412	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Morion	67124796	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Ikuradon	67125445	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Shellephant	67125389	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Newt	67125276	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Exorunner	67124966	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Marnokk	67125111	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Nautilus	67125533	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Shroomhead	67125369	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Hammersaur	67125335	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Geckon	67125134	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Coralheart	67124961	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Artichoke	67125459	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Thorn	67124810	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bearclaw	67125476	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Mossasaur	67125550	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Toadface	67124849	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Angler	67125231	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Lesser Jaffa Lizard	67125591	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Leecher	67124799	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Glider	67125020	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Sailgator	67125434	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Trihorn	67124920	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Golam	67109544	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Thornmantis	67125399	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Leafstrider	67124968	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Boneback	67125116	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Plateskin	67125043	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cephalopod	67125177	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Coralbucket	67123619	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Bighorn	67125303	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Triantler	67125482	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Red Mile Mauler	67125561	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Lesser Silverfish	67125595	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Fleshleaf	67125278	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Alpha Ashta	67125239	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Hornwing	67124997	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Baleen Rotifer	67125207	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Greater Silverfish	67125594	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Spore	67125313	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Tubecrawler	67125077	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cobalt	67125150	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Metropus	67125333	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Ghost	67125202	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Hookneck	67125537	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Eurypterid	67125224	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cassowary	67125359	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Trilobite	67123647	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Spaceroach	67124189	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Cyclozard	67125402	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Roundface	67125087	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Longneck	67125351	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Greater Jaffa Lizard	67125587	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Twigwalker	67125470	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Vulture	67125182	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Eggtail	67125173	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Dust Devil	67123612	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Leafbug	67124837	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Seahorse	67125331	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Mantodea	67125464	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Dodo	67125213	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Dropsalm	67125233	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Brightcage	67124936	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Dragondon	67124196	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Roundshell	67125095	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Horsamander	67125075	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Mothwing	67125038	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Grub	67125179	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Buzzrunner	67125262	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Pearl	67124992	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Beetlecrab	67125098	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Earback	67125384	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Eggsac	67124940	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Dragon	67125336	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Coralcrawler	67123620	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Pinecone	67125084	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Ashta	67125242	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Crocodaunt	67123681	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Sloth	67125407	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Mossgnath	67125196	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Snail	67124952	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Caterpillar	67124994	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+DNA - Stonewalker	67124984	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+Mysterious Sample	704648177	SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	0	1	flat-ranges
+(unnamed)	2513621	SetDressing\ScienceGlass\ScienceGlass_VialTray01.nif	3	0	0	flat-ranges;untextured

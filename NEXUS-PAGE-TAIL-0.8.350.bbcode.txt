@@ -1,0 +1,86 @@
+[b]Description[/b]
+An in-game shop and mod explorer. It reads every ESM, ESP and ESL in your load order and lets you browse, preview and buy anything that can actually go in a player's inventory - no console commands, no FormID hunting, no alt-tabbing to xEdit. Pick a plugin, pick a category, fill a basket, and it is in your pockets. For free, or for credits.
+
+Inspired by perchik71's P71 In Game Shop Mod Explorer. I am nowhere near as talented.
+
+[b]Features[/b]
+[list]
+[*][b]Everything in the load order.[/b] Every ESM, ESP and ESL that contains stock is listed. Browse one plugin or All Plugins; the record count for the current view sits above the item list.
+[*][b]Categories that mean something.[/b] Weapons, Armor, Ammo, Aid, Books, Keys and Misc, each with its own sub-categories - weapon class, armour slot, misc type and so on. Sorting reads the item's model as well as its name, so Sabacc cards, ore named after its metal and lab glass land in the right place instead of a pile of Other.
+[*][b]Junk kept out.[/b] Five Hide toggles cover test/debug records, unnamed "report this as a bug" forms, ship parts and hair, crew/enemy/creature leftovers, and turrets with their ammo. Each drops a whole class at a time, and nothing in your game files is edited.
+[*][b]Search that reaches the whole catalog.[/b] One box filters item names, editor IDs, model file names and FormIDs - and plugin names - across every record, not just the page you are on.
+[*][b]A real preview.[/b] The item is drawn from its own mesh and materials, with name, type, value, weight and FormID underneath. Drag to rotate, wheel to zoom, double-click to reset the view. Weapons and armour also list their mods and rarity. The IMGUI build pops the preview out on a click; the OSF build has a Pop out button in the ITEM header that gives you a floating, resizable window.
+[*][b]A proper basket.[/b] Add any quantity of anything (1-999 per line), adjust or remove lines, then Accept. Free mode ignores credits; with it off the total comes out of your real balance, shown live at the top right.
+[*][b]Purchases that arrive as previewed.[/b] Weapon mods and armour rarity are applied before the item is handed over, so you keep the item you looked at.
+[*][b]The world waits.[/b] The game pauses while the shop is open, and its own audio is muted and restored when you close it.
+[*][b]Music and sound you control.[/b] The Audio popup has a volume slider and a mute for music and another pair for sound, plus a track picker. The track is independent of the visual theme, and nine themes are included - six free, three earned by shopping.
+[/list]
+
+[b]Getting started[/b]
+[list]
+[*]Run the shader-cache reset at the top of this page, then install the requirements and this mod.
+[*]Launch the game through SFSE.
+[*]Press Page Up. If the plugin list looks stale, press Refresh at the top right.
+[*]Pick a plugin and a category, double-click items into the basket, then press Accept.
+[/list]
+
+[b]Controls[/b]
+Page Up opens and closes the shop. Mouse and keyboard both work: click a plugin, pick a category, double-click an item to basket it, arrow keys move the list, Enter adds the highlighted item, Esc goes back one page and closes the shop from the plugin list.
+
+In the OSF build, Page Up is a key OSF UI owns - it can be rebound in OSF Settings - and the shop also opens from Mod Settings, under INTERFACES. Escape, the page's close button or pad B closes it.
+
+[b]Requirements[/b]
+
+[b]IMGUI version[/b]
+[list]
+[*]Starfield 1.16.244
+[*][url=https://www.nexusmods.com/starfield/mods/106]SFSE[/url]
+[*][url=https://www.nexusmods.com/starfield/mods/3256]Address Library[/url]
+[/list]
+
+[b]OSF version[/b]
+[list]
+[*]Starfield 1.16.244
+[*][url=https://www.nexusmods.com/starfield/mods/106]SFSE[/url]
+[*][url=https://www.nexusmods.com/starfield/mods/3256]Address Library[/url]
+[*][url=https://www.nexusmods.com/starfield/mods/17711]OSF UI[/url] 2.0
+[*][url=https://www.nexusmods.com/starfield/mods/18326]OSF Settings[/url] (required by OSF UI)
+[*][url=https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section]Microsoft Edge WebView2[/url] (Windows 10 and 11 ship with it)
+[/list]
+
+That is the whole list - no other dependencies.
+
+[b]Install[/b]
+Install with MO2 or Vortex like any other mod. Install one of the two downloads - they are the same shop and each one binds Page Up, so enabling both means the key tries to open the shop twice. They share no files (SFShopExplorer.dll against DevilzShopOSF.dll, each with its own ini and its own model index folder), so switching between them later is just a matter of swapping which download is enabled.
+
+[b]IMGUI build, by hand:[/b] copy the [b]Audio[/b] and [b]SFShopExplorerAssets[/b] folders, [b]SFShopExplorer.ini[/b] and [b]SFShopExplorer.dll[/b] into [b]Starfield\Data\SFSE\Plugins[/b].
+
+[b]OSF build, by hand:[/b] copy [b]DevilzShopOSF.dll[/b] and [b]DevilzShopOSF.ini[/b] into [b]Starfield\Data\SFSE\Plugins[/b], then merge the download's [b]Audio[/b] and [b]OSFUI[/b] folders into the same place, so the page ends up at [b]SFSE\Plugins\OSFUI\views\devilzdad.osfshop\shop[/b]. DevilzShopOSFAssets\models is created beside the DLL on the first launch and holds the OSF build's own model index.
+
+[b]Updating[/b]
+Keep your existing ini - [b]SFShopExplorer.ini[/b] for the IMGUI build, [b]DevilzShopOSF.ini[/b] for the OSF build. Themes, unlock progress, text size and audio settings live there and are not overwritten. If music was muted in an older version it stays muted - open Audio and untick Mute. The first launch after an update rebuilds the item index once; previews are back to normal after that. No save-game changes: items bought with an earlier version stay in your save.
+
+[b]Settings[/b]
+
+[b]IMGUI build:[/b] to change the open/close key, edit [b]SFShopExplorer.ini[/b] next to the DLL: under [overlay] set [b]toggleKey=33[/b] (Page Up) to another code. F1-F12 are 112-123, PgDn 34, Home 36, End 35, Insert 45, 1-9 are 49-57. [b]uiScale[/b] in the same section scales the whole window (0.75-2.0). Text size, theme, music and sound are all in the shop itself, so the file needs editing only for the key.
+
+[b]OSF build:[/b] there is no toggleKey here. The plugin hands its open key to OSF UI when it attaches, so the binding lives in OSF Settings with every other OSF hotkey, and a leftover [overlay] toggleKey in the ini is ignored. The OSF ini carries only logging, preview size, audio and unlock progress.
+
+[b]Known issues[/b]
+[list]
+[*]Absolute Control (all in one flight control and menu suite) - unconfirmed on this build. It works here; tell me if it does not for you.
+[*]Some records ship no model, or a material Starfield's database leaves empty. Those preview blank or neutral rather than borrowing another item's art.
+[*]A few hundred misc records still land in Other. Packaged produce that ships on a xenology mesh still files under Creature Parts, and three Seed Vault PCs still file under Flora.
+[*]OSF build: if the view opens blank, check that OSF UI and OSF Settings are both installed and that the WebView2 runtime is present; Mod Settings -> MOD ISSUES names the mod with a problem. The first preview of an item takes a moment while its model is parsed and rendered.
+[*]OSF build: each preview drag writes one line to SFSE\Logs\DevilzShopOSF.log ("preview drag: yaw=... samples=..."). If a drag produces no line, the press never reached the page - that is the first thing to report.
+[/list]
+
+[b]Earlier versions[/b]
+0.8.349 moved bounty boards, ammo primers, Old Earth PCs and Inorg containers to the right shelves; 0.8.348 accepted texture-pack opacity masks; 0.8.343-0.8.347 added the eight Misc categories, model-aware sorting, and the lab-glass and vial fixes. Per-version notes are in the changelog.
+
+[b][color=#ff8800]Warning[/color][/b]
+It is still in development and may have some bugs, so make a new save before adding items to your inventory and double-check they are there. If you do not recognise an item, you probably do not need it. Always test on a new save first, as adding certain things could break your game if you are not careful. I take no responsibility for any issues caused by carelessness. I have tried to filter as many tags as possible to keep this safe, but a few might have slipped through.
+
+[b]Shout outs[/b]
+Inspired by [b]P71 In Game Shop Mod Explorer[/b] - massive thank you to perchik71, the mod would not exist otherwise.
+Thank you to ozooma10 for [b]OSF UI[/b], which hosts the OSF build, and to meh321 for [b]Address Library[/b].

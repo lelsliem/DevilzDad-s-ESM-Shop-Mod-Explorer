@@ -1,0 +1,1331 @@
+form	name	type	plugin	status	model	geoms	tris	textured	delta	changed
+000028A6	Reliant Medical Uniform	ARMO	Starfield.esm		Outfit_Medical_Doctor_LowerBody_01_F.nif + Outfit_Medical_Doctor_Sleeves_01_F.nif + Outfit_Medical_Doctor_UpperBody_01_F.nif	3	4500	3	None	False
+00004E78	Republic General Armor	ARMO	Starfield.esm		obiwan_body.nif + obiwan_gloves.nif + obiwan_cloth.nif + obiwan_skirt.nif	4	6000	1	None	False
+00015510	Skin_Child_NOTPLAYABLE	ARMO	Starfield.esm		Child_Hands.nif + Outfit_Akila_Child_Jumpsuit_01.nif	2	3000	2	None	False
+00017C23	SkinModelS Tactical_TrandoshanMedium	ARMO	Starfield.esm		models_tactical_turret_01.nif + models_tactical_01.nif	18	16704	18	None	False
+0001D1DF	Vladimir Sall's Outfit	ARMO	Starfield.esm		CLTB_Body.nif + Mudtrooper_Glove.nif + CLTB_Poncho.nif	7	10458	7	None	False
+0001FEE1	SkinModelS GenericHeavyCombat	ARMO	Starfield.esm		ModelS_Combat_Chassy.nif + ModelS_Combat_Front_Legs_Armor.nif + ModelS_Combat_Front_Plates.nif + ModelS_Combat_Gun_Arm.nif + ModelS_Combat_Gun.nif	33	25576	33	None	False
+00029C7A	Utility	ARMO	Starfield.esm		Clothes\SpaceSuit_Miner\SSMiner_Backpack_M.nif	2	1518	2	None	False
+00030B4B	Matteo Khatri's Hat	ARMO	Starfield.esm		Clothes\outfit_sanctum_priest\Outfit_Sanctum_Priest_Hat_F.nif	1	1500	1	None	False
+0003A95F	Skin_OctopedeA_GallopingBeetle	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\OctopedeA_07_GallopingBeetle\OctopedeA_07_GallopingBeetle.nif	1	1500	1	None	False
+000424BF	Skin_OctopedeA_MaggotCrab	ARMO	Starfield.esm		Actors\OctopedeA\Mesh\OctopedeA_10_MaggotCrab\OctopedeA_10_MaggotCrab.nif	1	1500	1	None	False
+00047711	Skin_SecurityCamera_CeilingMount_01	ARMO	Starfield.esm		Actors\SecurityCamera\Mesh\securitycamera_ceilingmount_01\SecurityCamera_CeilingMount_01.nif	16	9842	12	None	False
+0004B978	Gray Pirate Captain Gear	ARMO	Starfield.esm		Outfit_CrimsonFleet_Captain_01_B_M_Lower_Body.nif + Outfit_CrimsonFleet_Captain_01_B_F_Lower_Body.nif + Outfit_CrimsonFleet_Captain_01_B_M_Sleeves_3rd.nif + Outfit_CrimsonFleet_Captain_01_B_F_Sleeves_3rd.nif + Outfit_CrimsonFleet_Captain_01_B_M_Upper_Body.nif + Outfit_CrimsonFleet_Captain_01_B_F_Upper_Body.nif + BaseGloves_M_Low.nif + BaseGloves_F_Low.nif	8	12000	6	None	False
+0005F65C	Skin_Critter_Thorn	ARMO	Starfield.esm		Actors\Critter\Mesh\Critter_Thorn\Critter_Thorn.nif	1	1500	1	None	False
+00066825	Z6 Jetpack	ARMO	Starfield.esm		spacesuit_JT12_goGenesis.nif + spacesuit_Z6Genesis.nif	2	3000	2	None	False
+00067C94	Neo Crusader Armor	ARMO	Starfield.esm		Spacesuit_Navigator_UpperBody_01_M.nif + Spacesuit_Navigator_LowerBody_01_M.nif + Spacesuit_Navigator_Sleeves_01_M.nif + BaseGloves2_M_Low.nif + BaseGloves2_F_Low.nif	5	7493	5	None	False
+000753F4	Shielded Lab Outfit	ARMO	Starfield.esm		Outfit_ScienceLabTec_01_F.nif + Outfit_ScienceLabTec_01_Mask_F.nif + Outfit_ScienceLabTec_01_LowerBody_F.nif + Outfit_ScienceLabTec_01_MaskCollar_F.nif + Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif + Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif	6	7834	5	None	False
+000781F7	Graviplas Merc Helmet	ARMO	Starfield.esm		Clothes\Outfit_UtilityOveralls_01\Outfit_UtilityOveralls_Welding_Helmet_01_F.nif	1	1500	1	None	False
+000788AB	Cyberware Streetwear	ARMO	Starfield.esm		Outfit_Civilian_RubberPocketPants_Jacket_01_Upperbody_M.nif + Outfit_Civilian_RubberPocketPants_01_Jacket_Upperbody_F.nif + Outfit_Civilian_RubberPocketPants_01_Lowerbody_F.nif + Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif	4	6000	4	None	False
+00090E5A	SY-920 TIE Pilot Spacesuit	ARMO	Starfield.esm		LongGloves_F.nif + LowerBody_F.nif + UpperBody_F.nif	3	4500	3	None	False
+000A6FDE	Dantooine Crowd Jeans Long Sleeve Shirt	ARMO	Starfield.esm		Outfit_Crowd_Akila_JeansLongSleeveShirt_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_JeansLongSleeveShirt_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A6FF4	LongSleeved	ARMO	Starfield.esm		Outfit_Crowd_LongSleeved_01_M_CROWD_Thin.nif + Outfit_Crowd_LongSleeved_01_F_CROWD_thin.nif	2	3000	2	None	False
+000A6FFF	Dantooine Crowd Short Sleeve Jacket	ARMO	Starfield.esm		Outfit_Crowd_Akila_ShortSleeveJacket_01_M_CROWD_Thin.nif + Outfit_Crowd_Akila_ShortSleeveJacket_01_F_CROWD_Thin.nif	2	3000	2	None	False
+000A7010	Dantooine Crowdfit Female01	ARMO	Starfield.esm		Outfit_Crowd_Akila_CargoPantsBoots_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_CargoPantsBoots_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+000A701E	Nar Shaddaa Fashion 02	ARMO	Starfield.esm		Outfit_Crowd_Neon_Fashion_02_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Fashion_02_F_CROWD_Thin.nif	2	3000	2	None	False
+000B41CD	SkinModelA Generic HeavyCombat	ARMO	Starfield.esm		DTSentry_gun_right.nif + DTSentry_gun_left.nif + DTSentry_Red.nif	12	17733	0	None	False
+000C900A	Nar Shaddaa Dancer Headwear	ARMO	Starfield.esm		Outfit_Neon_Entertainer_01_Hat_M.nif + Outfit_Neon_Entertainer_Hat_01_F.nif	2	3000	2	None	False
+000D981C	ISB Prison Scrubs	ARMO	Starfield.esm		Outfit_Prisoner_Scrubs_01_F.nif + Outfit_Prisoner_Scrubs_01_LowerBody_F.nif + Outfit_Prisoner_Scrubs_01_Decal_F.nif	3	3032	3	None	False
+000EF9B1	Stormtrooper Helmet	ARMO	Starfield.esm		Clothes\Stormtrooper\Helmet_M.nif	2	3000	2	None	False
+000F51BD	Crowd Head	ARMO	Starfield.esm		crowd_male_af_old1.nif + crowd_female_af_ol1.nif	2	3000	2	None	False
+000F75A6	Crowd Head	ARMO	Starfield.esm		crowd_male_as_md1_Thin.nif + crowd_female_as_md1_Thin.nif	2	3000	2	None	False
+000F9635	Crowd Head	ARMO	Starfield.esm		crowd_male_eu_md_Overweight.nif + crowd_female_eu_md1_Overweight.nif	2	3000	2	None	False
+000FFDB1	Sanctum Priest Vestment	ARMO	Starfield.esm		Outfit_Sanctum_Priest_UpperBody_F.nif + Outfit_Sanctum_Priest_LowerBody_F.nif + Outfit_Sanctum_Priest_Sleeves_M_3rd.nif + Outfit_Sanctum_Priest_Sleeves_F_3rd.nif	4	6000	4	None	False
+0010051F	NeuroTac	ARMO	Starfield.esm		neuroamp_prototype_01.nif + outfit_neuroamp_01_f.nif	5	5087	4	None	False
+0010300E	Skin_Turret_Laser_01_ShortCorpse	ARMO	Starfield.esm		Actors\laserturret\Mesh\laserturret01\LaserTurret01_Damaged.nif	2	1712	2	None	False
+00104632	Breathing Mask	ARMO	Starfield.esm		leia\leia_Mask.nif	1	1500	1	None	False
+00108353	ISB Commander Uniform	ARMO	Starfield.esm		ISBCommander_f.nif + Gloves_f.nif + LowerBody_F.nif + UpperBody_F.nif	4	4716	4	None	False
+00118801	Skin_MiniBotA_Sanitation	ARMO	Starfield.esm		Actors\R2D2\R5Yellow.nif	1	1499	0	None	False
+0012E187	Vonduun Skerr Kyrric Armor	ARMO	Starfield.esm		yuuzhan_helmet_01_m.nif + yuuzhan_upperbody_01_f.nif + yuuzhan_lowerbody_01_f.nif + yuuzhan_sleeves_01_m_3rd.nif + yuuzhan_sleeves_01_f_3rd.nif + hood_black.nif + Mudtrooper_Cape.nif	7	10500	7	None	False
+0013D981	Nas Choka's Armor	ARMO	Starfield.esm		yuuzhan_helmet_01_m.nif + yuuzhan_upperbody_01_f.nif + yuuzhan_lowerbody_01_f.nif + yuuzhan_sleeves_01_m_3rd.nif + yuuzhan_sleeves_01_f_3rd.nif + swvadercape.nif + hood_black.nif	7	10500	7	None	False
+001466EB	Brown Leather Jumpsuit	ARMO	Starfield.esm		Outfit_UtilityOveralls_Mechanic_01_Upperbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Sleeves_LOD1_F.nif + Outfit_UtilityOveralls_Mechanic_01_Upperbody_Decal_F.nif	4	4684	4	None	False
+001466F3	Brown Engineering Outfit	ARMO	Starfield.esm		Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_Mechanic_WeldingSleeves_01_Upperbody_F.nif + Outfit_UtilityOveralls_Mechanic_UpperBody_Skin_F.nif + Outfit_UtilityOveralls_Mechanic_Tanktop_01_Upperbody_F.nif + Outfit_UtilityOveralls_Mechanic_WeldingSleeves_01_Sleeves_LOD1_F.nif	5	7499	5	None	False
+001466FB	Brown Open Graviplas Helmet	ARMO	Starfield.esm		Clothes\Outfit_UtilityOveralls_01\Outfit_UtilityOveralls_Welding_Helmet_UP_01_F.nif	1	1500	1	None	False
+00160FB8	Skin_BipedA_Orchid	ARMO	Starfield.esm		Actors\bipeda\Mesh\BipedA_Orchid\BipedA_Orchid.nif	1	1500	1	None	False
+00165720	Nar Shaddaa Socialite Skirt	ARMO	Starfield.esm		Outfit_Neon_Nightlife_Skirt_LowerBody_01_F.nif + Outfit_Neon_Nightlife_Skirt_Sleeves_01_F.nif + Outfit_Neon_Nightlife_Skirt_UpperBody_01_F.nif	3	4500	3	None	False
+0016640E	TIE Pilot	ARMO	Starfield.esm		Clothes\TiePilot\Backpack_M.nif	1	1500	1	None	False
+001676D9	Dantooine Child Activewear	ARMO	Starfield.esm		Clothes\Outfit_Akila_Child_JacketPants_01\Outfit_Akila_Child_JacketPants_01.nif	1	1500	1	None	False
+0016D15B	Refurbished Clone	ARMO	Starfield.esm		Clothes\spacesuit_neon_diver_01\SpaceSuit_Neon_Diver_Backpack_01_M.nif	1	1500	1	None	False
+0016E0B6	Makeshift Droid	ARMO	Starfield.esm		clothes\dengar\spacesuit_dengar_jetpack.nif	1	1500	0	None	False
+00171514	Skin_MantidA_PlatedMantis	ARMO	Starfield.esm		Actors\MantidA\Mesh\mantida_platedmantis\MantidA_PlatedMantis.nif	2	3000	2	None	False
+00171796	Skin_HopperA_CraneFly	ARMO	Starfield.esm		Actors\HopperA\Mesh\HopperA_Cranefly\HopperA_Cranefly.nif	2	3000	2	None	False
+00171877	Skin_FlyerA_Glider	ARMO	Starfield.esm		Actors\flyera\Mesh\FlyerA_Glider\FlyerA_Glider.nif	1	1500	1	None	False
+001719C9	Skin_BipedA_DarkRaptor	ARMO	Starfield.esm		Actors\bipeda\Mesh\BipedA_Nightmare\BipedA_Nightmare.nif	1	1500	1	None	False
+001720F8	Skin_SwimmerA_HeavySkull	ARMO	Starfield.esm		Actors\swimmera\Mesh\SwimmerA_HeavySkull\SwimmerA_HeavySkull.nif	1	1500	1	None	False
+001726B3	Skin_HexapodA_Archnofly	ARMO	Starfield.esm		Actors\HexapodA\Mesh\HexapodA_Archnofly\HexapodA_Archnofly.nif	1	1500	1	None	False
+00172EBE	Skin_MantaA_Sunfish	ARMO	Starfield.esm		Actors\mantaa\Mesh\MantaA_Sunfish\MantaA_Sunfish.nif	1	1500	0	None	False
+00177492	Genevieve Monohan's Suit	ARMO	Starfield.esm		Outfit_Ryujin_BusinessSuit_Executive_LowerBody_01_F.nif + Outfit_Ryujin_BusinessSuit_Executive_Sleeves_01_M_3rd.nif + Outfit_Ryujin_BusinessSuit_Executive_Sleeves_01_F_3rd.nif + Outfit_Ryujin_BusinessSuit_Executive_UpperBody_01_F.nif	4	6000	4	None	False
+0017A439	ECS Captain Actionwear	ARMO	Starfield.esm		Outfit_Ship_Captain_LowerBody_F.nif + Outfit_Ship_Captain_Sleeves_F.nif + Outfit_Ship_Captain_UpperBody_F.nif	3	4500	3	None	False
+00183F7A	Skin_MantidA_Mantodea	ARMO	Starfield.esm		Actors\MantidA\Mesh\MantidA_Mantodea\MantidA_Mantodea.nif	1	1500	1	None	False
+00185A69	Mon Calamari Shipyards Cap	ARMO	Starfield.esm		Clothes\Outfit_Baseball_Cap_01\Outfit_Baseball_Cap_Logo_01_F.nif	2	1612	2	None	False
+00186401	Skin_QuadrupedC_Piglet	ARMO	Starfield.esm		Actors\quadrupedc\Mesh\QuadrupedC_Piglet\QuadrupedC_Piglet.nif	1	1500	1	None	False
+0018DE02	Nyx's Outfit	ARMO	Starfield.esm		Outfit_Trucker_LongSleeve_01_LowerBody_F.nif + Outfit_Trucker_LongSleeve_01_Jacket_F.nif + Outfit_Trucker_LongSleeve_01_Sleeves_M_3rd.nif + Outfit_Trucker_LongSleeve_01_Sleeves_F_3rd.nif	4	6000	4	None	False
+00192291	Mandalorian Explorer Jetpack	ARMO	Starfield.esm		Clothes\Spacesuit_Explorer_01\SpaceSuit_Explorer_Backpack_01_M.nif	1	1500	1	None	False
+00192299	Shocktroop Space Helmet	ARMO	Starfield.esm		Clothes\Spacesuit_Assault_01\Spacesuit_Assault_Helmet_01_M.nif	2	1632	2	None	False
+0019A5A7	Skin_QuadrupedC_EarBack	ARMO	Starfield.esm		Actors\quadrupedc\Mesh\QuadrupedC_EarBack\QuadrupedC_EarBack.nif	1	1500	1	None	False
+001A2E38	Skin_FloaterA_Lattice	ARMO	Starfield.esm		Actors\FloaterA\Mesh\FloaterA_Lattice\FloaterA_Lattice.nif	1	1500	1	None	False
+001A81E9	Skin_BipedA_Nightmare	ARMO	Starfield.esm		Actors\bipeda\Mesh\BipedA_Nightmare\BipedA_Nightmare.nif	1	1500	1	None	False
+001B52FF	Blue Neocity Formwear	ARMO	Starfield.esm		Outfit_City_Sleeves_F.nif + Outfit_City_Pants_F.nif + Outfit_City_Shirt_F.nif	3	4500	3	None	False
+001C0F32	Death Watch Mandalorian Helmet	ARMO	Starfield.esm		spacesuit_deathwatch_helmet_01_goGenesis.nif + mandaloranhelmet.nif	7	8001	1	None	False
+001C84DB	Argos Jacketed Jumpsuit	ARMO	Starfield.esm		Outfit_Miner_Jumpsuit_OpenJacket_UpperBody_F.nif + Outfit_Miner_Jumpsuit_OpenJacket_Sleeves_3rd_F.nif + Outfit_Miner_Jumpsuit_LowerBody_F.nif + Outfit_Miner_Jumpsuit_OpenJacket_Shirt_F.nif	4	6000	4	None	False
+001CBA49	Vonduun Skerr Kyrric Armor	ARMO	Starfield.esm		yuuzhan_helmet_01_m.nif + yuuzhan_upperbody_01_f.nif + yuuzhan_lowerbody_01_f.nif + yuuzhan_sleeves_01_m_3rd.nif + yuuzhan_sleeves_01_f_3rd.nif + Mudtrooper_Cape.nif + hood_black.nif	7	10500	7	None	False
+001D0F94	Experimental Clone Helmet	ARMO	Starfield.esm		clothes\BBEcho\EchoHelmet.nif	1	1499	1	None	False
+001D7F3A	Skin_FloaterA_EggSack	ARMO	Starfield.esm		Actors\FloaterA\Mesh\FloaterA_EggSack\FloaterA_EggSack.nif	1	1500	1	None	False
+001DE8A2	Skin_QuadrupedB_SkinnyHippo	ARMO	Starfield.esm		Actors\QuadrupedB\Mesh\QuadrupedB_SkinnyHippo\QuadrupedB_SkinnyHippo.nif	2	3000	2	None	False
+001E2AF7	Rebel Pilot	ARMO	Starfield.esm		Clothes\Rebel_Pilot\Backpack_M.nif	1	1500	0	None	False
+001E6658	Nail Tail	ARMO	Starfield.esm		Actors\QuadrupedA\Mesh\QuadrupedA_NailTail\QuadrupedA_NailTail.nif	1	1500	1	None	False
+001EA1DD	Skin_Turret_Laser_02_Quadrapod	ARMO	Starfield.esm		Actors\laserturret\Mesh\laserturret02\LaserTurret02.nif	7	6672	7	None	False
+001EC460	Whaleshark Manta	ARMO	Starfield.esm		Actors\mantaa\Mesh\MantaA_WhaleShark\MantaA_WhaleShark.nif	1	1500	1	None	False
+001F0878	Click Beetle	ARMO	Starfield.esm		Actors\HopperA\Mesh\HopperA_ClickBeetle\HopperA_ClickBeetle.nif	1	1500	1	None	False
+001F3A38	CoralCrab Hexapod	ARMO	Starfield.esm		Actors\HexapodA\Mesh\hexapoda_coralcrab\HexapodA_CoralCrab.nif	2	3000	0	None	False
+001FFA15	Security ModelA Voice Module	ARMO	Starfield.esm	no renderable geometry		0	0	0	None	False
+0020612F	Shadow Trooper	ARMO	Starfield.esm		Clothes\Stormtrooper\Black\Backpack_M.nif	1	1500	1	None	False
+002074B5	Nar Shaddaa Fashion	ARMO	Starfield.esm		Outfit_Crowd_Neon_Catsuit_01_M_CROWD.nif + Outfit_Crowd_Neon_Catsuit_01_F_CROWD.nif	2	3000	2	None	False
+0020AE0C	BrainSquid Hexapod	ARMO	Starfield.esm		Actors\HexapodA\Mesh\HexapodA_BrainSquid\HexapodA_BrainSquid.nif	1	1500	1	None	False
+0021712A	Rebel Helmet	ARMO	Starfield.esm		Clothes\Rebel_Guard\Hat_F.nif	1	1500	0	None	False
+0021BBF2	Stormtrooper Security Armor	ARMO	Starfield.esm		Hands_f.nif + LowerBody_F.nif + UpperBody_F.nif + Pauldron_F.nif	5	6668	5	None	False
+0021C783	Service Industry Uniform	ARMO	Starfield.esm		Outfit_Service_Uniform_LowerBody_01_F.nif + Outfit_Service_Uniform_Sleeves_01_F.nif + Outfit_Service_Uniform_UpperBody_01_F.nif	3	4500	3	None	False
+00220B07	Nar Shaddaa Jumpsuit	ARMO	Starfield.esm		Outfit_Crowd_Neon_Jumpsuit_01_M_CROWD.nif + Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD.nif	2	3000	2	None	False
+00225FCA	Naeva's Outfit	ARMO	Starfield.esm		Outfit_Naeva_LowerBody_F.nif + Outfit_Naeva_Sleeves_F.nif + Outfit_Naeva_UpperBody_F.nif	3	4500	3	None	False
+002262D3	Disciples Tagwear	ARMO	Starfield.esm		Outfit_Gang_Disciples_Helmet_01_F.nif + Outfit_Gang_Disciples_Pants_01_F.nif + Outfit_Gang_Disciples_Sleeves_01_F.nif + Outfit_Gang_Disciples_Torso_01_F.nif	5	6443	5	None	False
+0022669F	Cora Coe's Outfit	ARMO	Starfield.esm		Clothes\Outfit_Child_CoraCoe\Outfit_Child_CoraCoe.nif	1	1500	1	None	False
+0022771F	Gang Clothes	ARMO	Starfield.esm		Outfit_Delgado_Hand_F.nif + Outfit_Delgado_LowerBody_F.nif + Outfit_Delgado_Sleeves_F.nif + Outfit_Delgado_UpperBody_F.nif	4	6000	4	None	False
+00227BAA	Nar Shaddaa Fashion	ARMO	Starfield.esm		Outfit_Crowd_Neon_Fashion_01_M_CROWD.nif + Outfit_Crowd_Neon_Fashion_01_F_CROWD.nif	2	3000	2	None	False
+00228570	Death Watch Mandalorian Armor	ARMO	Starfield.esm		spacesuitcontainer_deathwatch_01Genesis.nif + BaseGloves_M_Low.nif + BaseGloves_F_Low.nif + deathwatch_flightsuit.nif + deathwatch_armor.nif	32	30788	3	None	False
+00235C29	Canard	ARMO	Starfield.esm		Actors\mantaa\Mesh\MantaA_Canard\MantaA_Canard.nif	1	1500	1	None	False
+0024529F	Barrett's Spacesuit	ARMO	Starfield.esm		Spacesuit_Constellation_Torso_F.nif + BaseGloves_M_Low.nif + BaseGloves_F_Low.nif + SpaceSuit_Constellation_Legs_F.nif + SpaceSuit_Constellation_TorsoDetails_F.nif + Spacesuit_Constellation_Logo_Patch_F.nif + Spacesuit_Constellation_Sleeves_F.nif + Spacesuit_Constellation_SkillpatchName_F.nif + SpaceSuit_Constellation_ChronoWatch_F.nif	9	9095	5	None	False
+00246B30	Blue Collar Offwork Hat	ARMO	Starfield.esm		Clothes\outfit_trucker_longsleeve_01\Outfit_Trucker_LongSleeve_01_Hat_F.nif	1	1500	1	None	False
+00248C0F	TIE Pilot Armor	ARMO	Starfield.esm		LongGloves_F.nif + LowerBody_F.nif + UpperBody_F.nif	3	4500	3	None	False
+0024EF65	Settler Hat	ARMO	Starfield.esm		Clothes\Outfit_Colonist_QuarterPaddedVest_01\Outfit_Colonist_QuarterPaddedVest_01_Hat_F.nif	1	1500	1	None	False
+00250C86	Fashionable Suit	ARMO	Starfield.esm		Outfit_NewAtlantis_FashionableSuit_01_F.nif + Outfit_NewAtlantis_FashionableSuit_01_LowerBody_F.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_M_3rd.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_F_3rd.nif	4	6000	4	None	False
+00255548	Nomad's Pack	ARMO	Starfield.esm		Clothes\Spacesuit_Recon_01\SpaceSuit_Recon_Backpack_01_M.nif	1	1500	1	None	False
+00257809	Stormtrooper Armor	ARMO	Starfield.esm		Hands_f.nif + LowerBody_F.nif + UpperBody_F.nif	4	5168	4	None	False
+0025DEF0	Inclement Weather Outfit	ARMO	Starfield.esm		Outfit_Colonist_Adventurous_01_Poncho_F.nif + Outfit_Colonist_Adventurous_01_F.nif + Outfit_Colonist_Adventurous_01_Lowerbody_F.nif	3	4500	3	None	False
+002619F7	Vested Suit	ARMO	Starfield.esm		Outfit_Civilian_FormalShirtSlacks_01_Lowerbody_F.nif + Outfit_Civilian_FormalShirtSlacks_01_Sleeves_LOD1_F.nif + Outfit_Civilian_FormalShirtSlacks_Vest_01_Upperbody_M.nif + Outfit_Civilian_FormalShirtSlacks_01_Vest_Upperbody_F.nif	4	6000	4	None	False
+00267934	Sleeved Dress	ARMO	Starfield.esm		Crowd_SleevedDress_01_M_CROWD.nif + Crowd_SleevedDress_01_F_CROWD.nif	2	3000	2	None	False
+00273C05	Homesteader Scout Hat	ARMO	Starfield.esm		Clothes\outfit_colonist_adventurous_01\Outfit_Colonist_Adventurous_01_Hat_F.nif	1	1500	1	None	False
+00299837	Windbag Hexapod	ARMO	Starfield.esm		Actors\HexapodA\Mesh\hexapoda_windbag\HexapodA_Windbag.nif	1	1500	1	None	False
+002A8038	Skin_QuadrupedA_TriHorn_Green	ARMO	Starfield.esm		Actors\QuadrupedA\Mesh\quadrupeda_trihorn\QuadrupedA_TriHorn.nif	1	1500	1	None	False
+002BA0E3	Rebel Officer Hat	ARMO	Starfield.esm		Clothes\Rebel_Officer\Gray\Hat_F.nif	1	1500	0	None	False
+002CD8C8	Science Tech Outfit Corpse	ARMO	Starfield.esm		Outfit_Medical_Doctor_UpperBody_01_F.nif + Outfit_Medical_Doctor_Sleeves_01_F.nif + Outfit_Medical_Doctor_LowerBody_01_F.nif + frozen_Corpse_Generic_HeadOnly.nif + Frozen_Corpse_Female_HeadOnly.nif + frozen_Corpse_male_Hands.nif + Frozen_Corpse_Female_Hands.nif	7	10500	7	None	False
+003053AF	FrozenCorpse	ARMO	Starfield.esm		Frozen_Corpse_Male_Generic.nif + Frozen_Corpse_Female_Generic.nif + frozen_Corpse_male_Hands.nif + Frozen_Corpse_Female_Hands.nif	4	6000	4	None	False
+00311342	Crowd Hair CyberFade	ARMO	Starfield.esm		CyberFade_M_CROWD.nif + CyberFade_F_CROWD.nif	2	3000	2	None	False
+0031144C	Crowd Hair Short Afro	ARMO	Starfield.esm		Short_Afro_M_CROWD.nif + Short_Afro_F_CROWD.nif	2	3000	2	None	False
+00319B2F	SkinModelA Farmer	ARMO	Starfield.esm		Actors\SE2\SE2.nif	5	6096	1	None	False
+00319B3B	SkinModelA Generic HeavyBrute	ARMO	Starfield.esm		B2Armed.nif + None.nif	8	10152	2	None	False
+003329B4	ISB Lieutenant Uniform	ARMO	Starfield.esm		Gloves_f.nif + ISBLieutenant_f.nif + LowerBody_F.nif + UpperBody_F.nif	4	4626	4	None	False
+00362F07	Dantooine Crowdfit Female02	ARMO	Starfield.esm		Outfit_Crowd_Akila_JacketBoots_01_M_CROWD.nif + Outfit_Crowd_Akila_JacketBoots_01_F_CROWD.nif	2	3000	2	None	False
+00362F0F	Nar Shaddaa Crowdfit Blouse And Skirt	ARMO	Starfield.esm		Outfit_Crowd_Neon_BlouseAndSkirt_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_BlouseAndSkirt_01_F_CROWD_Thin.nif	2	3000	2	None	False
+00370323	Jacketed	ARMO	Starfield.esm		Outfit_Crowd_Jacketed_01_M_CROWD_Overweight.nif + Outfit_Crowd_Jacketed_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+00370337	Nar Shaddaa Fashion 02	ARMO	Starfield.esm		Outfit_Crowd_Neon_Fashion_02_M_CROWD.nif + Outfit_Crowd_Neon_Fashion_02_F_CROWD.nif	2	3000	2	None	False
+0037033F	Nar Shaddaa Jumpsuit	ARMO	Starfield.esm		Outfit_Crowd_Neon_Jumpsuit_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD_Thin.nif	2	3000	2	None	False
+00398105	Stormtrooper Commando	ARMO	Starfield.esm		Clothes\Stormtrooper\Blue\Backpack_M.nif	1	1500	1	None	False
+003C1311	Disciples Flamewear	ARMO	Starfield.esm		Outfit_Gang_Disciples_Helmet_01_F.nif + Outfit_Gang_Disciples_Pants_01_F.nif + Outfit_Gang_Disciples_Sleeves_01_F.nif + Outfit_Gang_Disciples_Torso_01_F.nif	5	6443	5	None	False
+003C1BEA	Rakghoul	ARMO	Starfield.esm		fxemptynode.nif + Terrormorph_Base.nif	2	3000	2	None	False
+003D66F8	Astral Lounge Charmwear	ARMO	Starfield.esm		Outfit_Civilian_FormalShirtSlacks_01_Lowerbody_F.nif + Outfit_Civilian_FormalShirtSlacks_01_Sleeves_LOD1_F.nif + Outfit_Civilian_FormalShirtSlacks_Vest_01_Upperbody_M.nif + Outfit_Civilian_FormalShirtSlacks_01_Vest_Upperbody_F.nif	4	6000	4	None	False
+003E8E7F	Bayu's Corpwear	ARMO	Starfield.esm		Bayu.nif + BayuEyes.nif + Chair.nif + BayuEyeGlass.nif	6	5042	2	None	False
+003E957A	Nar Shaddaa Tracksuit	ARMO	Starfield.esm		Outfit_Crowd_Neon_Tracksuit_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_Tracksuit_01_F_CROWD_Overweight.nif	2	3000	2	None	False
+003EB4B3	Rokov's Uniform	ARMO	Starfield.esm		Outfit_Employee_Uniform_Formal_LowerBody_01_F.nif + Outfit_Employee_Uniform_Formal_Sleeves_01_F.nif + Outfit_Employee_Uniform_Formal_UpperBody_01_F.nif	3	4500	3	None	False
+0100083F	Zealot Heavy Assault Spacesuit	ARMO	ShatteredSpace.esm		BaseGloves_M_Low.nif + BaseGloves_F_Low.nif + Spacesuit_Varuun_LowerBody_02_F.nif + Spacesuit_Varuun_Sleeves_02_F.nif + Spacesuit_Varuun_UpperBody_Armor_02_F.nif + Spacesuit_Varuun_UpperBody_02_F.nif + Spacesuit_Varuun_LowerBody_Armor_02_F.nif + Spacesuit_Varuun_Sleeves_Armor_02_F.nif	8	12000	2	None	False
+01018183	Zealot Helmet	ARMO	ShatteredSpace.esm		Clothes\spacesuit_varuun_01\SpaceSuit_Varuun_Helmet_01_M.nif	2	1510	1	None	False
+010263EA	Heat Leech	ARMO	ShatteredSpace.esm		Actors\DLC001\parasitea\Mesh\parasitea_vortexspawn\ParasiteA_VortexSpawn.nif	2	1791	0	None	False
+01040273	SFBGS001_Skin_QuadrupedA_Groat_Male	ARMO	ShatteredSpace.esm		QuadrupedA_Groat_Male.nif + QuadrupedA_Groat_Horn_05.nif	6	5580	0	None	False
+01075189	Redeemed Armor NON PLAYABLE	ARMO	ShatteredSpace.esm		Redeemed_Armor.nif + Redeemed_Backpack_M.nif + Redeemed_Body.nif + Redeemed_Pistons_M.nif + Redeemed_Blade_M.nif + Redeemed_Arms_M.nif + Redeemed_Head_M.nif + Redeemed_Legs_M.nif + Redeemed_Mask_M.nif	15	19386	4	None	False
+010805BD	SFBGS001_Skin_FloaterA_Nautiloos_VaruunkaiFrCaDe	ARMO	ShatteredSpace.esm		Actors\FloaterA\Mesh\floatera_nautiloos\FloaterA_Nautiloos.nif	2	1778	2	None	False
+010847CA	House Dul'kehf Shielded Lab Outfit	ARMO	ShatteredSpace.esm		Outfit_ScienceLabTec_01_F.nif + Outfit_ScienceLabTec_01_Mask_F.nif + Outfit_ScienceLabTec_01_LowerBody_F.nif + Outfit_ScienceLabTec_01_MaskCollar_F.nif + Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif + Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif	6	7834	5	None	False
+01098AD8	Tane Salavae Outfit	ARMO	ShatteredSpace.esm		Outfit_Colonist_QuarterPaddedVest_01_F.nif + Outfit_Colonist_QuarterPaddedVest_01_Sleeves_M_3rd.nif + Outfit_Colonist_QuarterPaddedVest_01_Sleeves_F_3rd.nif + Outfit_Colonist_QuarterPaddedVest_01_Pants_F.nif	4	6000	4	None	False
+010C0AE9	Sith Mining Spacesuit	ARMO	ShatteredSpace.esm		SSMiner_Body_F.nif + BaseGloves_M_Low.nif + BaseGloves_F_Low.nif + SSMiner_Collard_F.nif + SSMiner_Lower_Body_F.nif + SSMiner_Sleeves_F.nif	6	9000	6	None	False
+010CD169	Va'runn Child's Jumpsuit	ARMO	ShatteredSpace.esm		Clothes\Outfit_Akila_Child_Jumpsuit_01\Outfit_Akila_Child_Jumpsuit_01.nif	1	1500	1	None	False
+0111C6DF	Fang's Helmet	ARMO	ShatteredSpace.esm		SpaceSuit_FlightCap_01_F.nif + spacesuit_varuun_helmet_02_m.nif + spacesuit_genericfacelights_m.nif	4	3782	1	None	False
+FD00676D	Extreme Temperature Entry Helmet	ARMO	sfta04.esm		Clothes\SFBGS003\spacesuit_etes\Spacesuit_ETES_Helmet_M.nif	4	5074	3	None	False
+FD00F9CA	Extreme Temperature Entry	ARMO	Neon_Vertigo.esm		Clothes\SFBGS003\spacesuit_etes\Spacesuit_ETES_Backpack_M.nif	1	1500	1	None	False
+0308BD3B	SFFL_Skin_Critter_MilliwhaleVolcano	ARMO	SFBGS00D.esm		Actors\Critter\Mesh\Critter_Milliwhale\Critter_Milliwhale.nif	1	1500	1	None	False
+FE00B007	Civilian Survival Helmet	ARMO	sfbgs024.esm		SpaceSuit_Civilian_Survival_Suit_Helmet_01_M.nif + SpaceSuit_FlightCap_01_F.nif	3	4500	1	None	False
+FD030FD1	Assassin Space Helmet	ARMO	(none)		Clothes\SFTA02\spacesuit_assassin\Spacesuit_Assassin_Helmet.nif	1	1500	0	None	False
+FD063633	Celia's Helmet	ARMO	(none)		SpaceSuit_FlightCap_01_F.nif + SpaceSuit_Recon_Helmet_01_M.nif + spacesuit_genericfacelights_m.nif	3	3002	2	None	False
+FD07B4D1	Mantis Mk. II Pack	ARMO	(none)		Clothes\SFTA03\spacesuit_mantismarkii\spacesuit_mantismarkii_m\SFTA03_SpacesuitMantisMarkII_M_BACKPACK.nif	1	1500	0	None	False
+FD08771A	Praetor Helmet	ARMO	(none)		Doom_Praetor_Helm_01_World_01.nif + doom_praetor_helm_01.nif + doom_praetor_helm_neck_01.nif	5	4892	0	None	False
+0F00087F	Survival	ARMO	SW Blasters.esm		clothes\SWPirate\PirateBackpack.nif	1	1268	0	None	False
+0F0009AE	Merc Lieutenant Jetpack	ARMO	SW Blasters.esm		Clothes\SWRaider\bode\backpack.nif	1	1500	0	None	False
+0F000A14	Duelist Trooper Armor	ARMO	SW Blasters.esm		spacer_gloves.nif + spacer2_Upper.nif + spacer2_Lower.nif	3	4500	0	None	False
+0F000A32	Duelist Trooper Armor	ARMO	SW Blasters.esm		spacer_gloves.nif + spacer2_Upper.nif + spacer2_Lower.nif	3	4500	0	None	False
+0F000B37	Guavian Outfit	ARMO	SW Blasters.esm		PirateRodian.nif + PirateBoots.nif	2	1936	0	None	False
+0F000B4F	Trandoshan Outfit	ARMO	SW Blasters.esm		clothes\SWPirate\PirateTrandoshanHeavy.nif	1	1500	0	None	False
+0F000BFC	Windak Armor	ARMO	SW Blasters.esm		gloves.nif + PirateBoots.nif + Body.nif + BodyF.nif	4	4936	0	None	False
+0F000D83	Clothes_SWTrandoshan_Backpack	ARMO	SW Blasters.esm		clothes\SWPirate\PirateBackpack.nif	1	1268	0	None	False
+10000016	Crowd Head	ARMO	SW Resources.esm		crowd_male_eu_yo1_Overweight.nif + crowd_female_eu_yo1_Overweight.nif	2	3000	2	None	False
+1000001E	Mirilan Head	ARMO	SW Resources.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + PanHead.nif + PanFHead.nif + TwilekHand.nif + TwilekFHand.nif + unkempt_m.nif + choppy_bob_f.nif	14	18412	6	None	False
+10000026	Aqua Head	ARMO	SW Resources.esm		Aqua.nif + AquaF.nif + Hands_Aqua.nif + Hands_AquaF.nif + AquaHair.nif + Translator.nif	6	8692	1	None	False
+1000002F	Twi'lek Head	ARMO	SW Resources.esm		Twilek.nif + TwilekF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TwilekHead.nif + TwilekFHead.nif + TwilekHand.nif + TwilekFHand.nif + TwilekBody.nif + TwilekFBody.nif	16	21412	4	None	False
+10000037	Crowd Clothes	ARMO	SW Resources.esm		Clothes\SWAliens\IthShirt2.nif	1	1500	0	None	False
+1000003F	Alien Ithorian Tee	ARMO	SW Resources.esm		Clothes\SWAliens\IthShirt1.nif	1	1500	0	None	False
+1000080D	Skin_C3PO_Dirty_Blue	ARMO	SW Resources.esm		Actors\C3PO\C3PO.nif	6	8993	4	None	False
+10000815	Skin_RA7_Dirty_Red	ARMO	SW Resources.esm		Actors\RA7\RA7.nif	6	8988	3	None	False
+1000085D	Droid Voice - Pitched	ARMO	SW Resources.esm	no renderable geometry		0	0	0	None	False
+1000086E	Skin_RA7_Black	ARMO	SW Resources.esm		Actors\RA7\RA7.nif	6	8988	3	None	False
+10000876	Skin_R2Red	ARMO	SW Resources.esm		Actors\R2D2\R2D2.nif	3	3049	3	None	False
+1000087E	Skin_R4Blue	ARMO	SW Resources.esm		Actors\R2D2\R4I9.nif	1	1500	1	None	False
+10000886	Skin_C3PO_Red	ARMO	SW Resources.esm		Actors\C3PO\C3PO.nif	6	8993	4	None	False
+10000927	Sull Head	ARMO	SW Resources.esm		Sull_child.nif + Hands_SullF.nif	2	2760	0	None	False
+1000093C	Rodian Head	ARMO	SW Resources.esm		rodian_child.nif + Hands_rodianF.nif	2	2760	2	None	False
+10000945	Crowd Head	ARMO	SW Resources.esm		crowd_head_rodian_Overweight.nif + crowd_female_rodian_Overweight.nif	2	3000	2	None	False
+10000955	Twi'lek Head	ARMO	SW Resources.esm		TwilekChild.nif + TwilekChildF.nif + TwilekHeadChild.nif + TwilekFHeadChild.nif + TwilekFHand.nif + Child_Teeth.nif	6	9000	1	None	False
+1000098D	Crowd Head	ARMO	SW Resources.esm		crowd_head_Duros.nif + crowd_female_Duros.nif	2	3000	0	None	False
+100009C5	Crowd Head	ARMO	SW Resources.esm		crowd_head_Duros_Thin.nif + crowd_female_Duros_Thin.nif	2	3000	0	None	False
+100009D5	Alien Duros Mask	ARMO	SW Resources.esm		Duros.nif + DurosF.nif	2	3000	0	None	False
+10000AD3	Crowd Head	ARMO	SW Resources.esm		crowd_head_Nikto.nif + crowd_female_Nikto.nif	2	3000	0	None	False
+10000AE9	Crowd Head	ARMO	SW Resources.esm		crowd_head_Bith_Thin.nif + crowd_female_Bith_Thin.nif	2	3000	0	None	False
+10000AF1	Bith Head	ARMO	SW Resources.esm		Bith.nif + BithF.nif + Hands_Bith.nif + Hands_BithF.nif	4	5520	0	None	False
+10000B57	Klatooinian Head	ARMO	SW Resources.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Klat.nif + KlatF.nif + Hands_Klat.nif + Hands_KlatF.nif	8	11520	2	None	False
+10000BE2	Alien Twi'lek Hat Male	ARMO	SW Resources.esm		Clothes\SWAliens\Twilek.nif	1	1500	0	None	False
+10000C04	Crowd Head	ARMO	SW Resources.esm		crowd_head_twilek_Overweight.nif + crowd_female_twilek_Overweight.nif	2	3000	0	None	False
+10000C85	Civilians Clothes	ARMO	SW Resources.esm		Body1M.nif + Body1F.nif	2	3000	2	None	False
+10000CC9	Civilians Jumpsuit	ARMO	SW Resources.esm		JumpsuitM.nif + JumpsuitF.nif + BootsM.nif + BootsF.nif	4	6000	2	None	False
+10000CDD	Civilians Jumpsuit	ARMO	SW Resources.esm		JumpsuitCM.nif + JumpsuitCF.nif + vest_Leather_f.nif	5	7500	2	None	False
+10000CEE	Civilians Clothes	ARMO	SW Resources.esm		Body3M.nif + Body3F.nif + vest_f.nif	3	4500	2	None	False
+10000D45	Moncal Head	ARMO	SW Resources.esm		Moncal.nif + MoncalF.nif + Hands_Moncal.nif + Hands_MoncalF.nif	4	6000	0	None	False
+10000D97	Crowd Head	ARMO	SW Resources.esm		crowd_head_Moncal_Overweight.nif + crowd_female_Moncal_Overweight.nif	2	3000	0	None	False
+10000DD0	Zabrak Head	ARMO	SW Resources.esm		ZabrakHand.nif + ZabrakFHand.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + ZabrakHead.nif + ZabrakFHead.nif + Zabrak.nif + ZabrakF.nif	14	18412	4	None	False
+10000DF0	Crowd Head	ARMO	SW Resources.esm		crowd_head_Abed_Thin.nif + crowd_female_Abed_Thin.nif	2	3000	0	None	False
+10000E25	Togruta Head	ARMO	SW Resources.esm		Togruta.nif + TogrutaF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TogrutaHead.nif + TogrutaFHead.nif + TogrutaHand.nif + TogrutaFHand.nif	14	18412	4	None	False
+10000EE9	Twi'lek Head	ARMO	SW Resources.esm		Twilek.nif + TwilekF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TwilekHead.nif + TwilekFHead.nif + TwilekHand.nif + TwilekFHand.nif + TwilekBody.nif + TwilekFbody.nif	16	21411	4	None	False
+10000F11	Crowd Head	ARMO	SW Resources.esm		crowd_head_Sull.nif + crowd_female_Sull.nif	2	3000	0	None	False
+10000F1D	Crowd Head	ARMO	SW Resources.esm		crowd_head_Sull_Overweight.nif + crowd_female_Sull_Overweight.nif	2	3000	0	None	False
+10000F36	Crowd Head	ARMO	SW Resources.esm		crowd_head_Ishi.nif + crowd_female_Ishi.nif	2	3000	0	None	False
+10000F3E	Ishi Head	ARMO	SW Resources.esm		Ishi.nif + IshiF.nif + Hands_Ishi.nif + Hands_IshiF.nif	4	6000	0	None	False
+10000F68	Crowd Head	ARMO	SW Resources.esm		crowd_head_NiktoG.nif + crowd_female_NiktoG.nif	2	3000	0	None	False
+10000FC1	Weequay Head	ARMO	SW Resources.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + Weeq.nif + WeeqF.nif + Hands_Weeq.nif + Hands_WeeqF.nif + Weeq_HairBand.nif	14	17932	9	None	False
+10000FFC	Crowd Head	ARMO	SW Resources.esm		crowd_male_eu_md1.nif + crowd_female_eu_md1.nif	2	3000	2	None	False
+11000802	Crowd Head	ARMO	SW Aliens.esm		crowd_head_rodian_Thin.nif + crowd_female_rodian_Thin.nif	2	3000	2	None	False
+1100095E	Rodian Head	ARMO	SW Aliens.esm		Rodian.nif + RodianF.nif + Hands_Rodian.nif + Hands_rodianF.nif	4	5520	4	None	False
+110009C6	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Duros.nif + crowd_female_Duros.nif	2	3000	0	None	False
+11000A1F	Alien Kajain'sa'Nikto Mask	ARMO	SW Aliens.esm		Nikto.nif + NiktoF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif	6	9000	2	None	False
+11000AD4	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Nikto_Overweight.nif + crowd_female_Nikto_Overweight.nif	2	3000	0	None	False
+11000AEA	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Bith.nif + crowd_female_Bith.nif	2	3000	0	None	False
+11000AF2	Bith Head	ARMO	SW Aliens.esm		Bith.nif + BithF.nif + Hands_Bith.nif + Hands_BithF.nif	4	5520	0	None	False
+11000B58	Klatooinian Head	ARMO	SW Aliens.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Klat.nif + KlatF.nif + Hands_Klat.nif + Hands_KlatF.nif	8	11520	2	None	False
+11000BE2	Alien Twi'lek Hat Male	ARMO	SW Aliens.esm		Clothes\SWAliens\Twilek.nif	1	1500	0	None	False
+11000C04	Crowd Head	ARMO	SW Aliens.esm		crowd_head_twilek_Overweight.nif + crowd_female_twilek_Overweight.nif	2	3000	0	None	False
+11000C14	Twi'lek Head	ARMO	SW Aliens.esm		BorealUS.nif + BorealUSHead.nif + BorealUSHand.nif	3	4500	0	None	False
+11000D57	Quarren Head	ARMO	SW Aliens.esm		Quarren.nif + QuarrenF.nif + Hands_Quarren.nif + Hands_QuarrenF.nif	4	6000	0	None	False
+11000D9A	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Moncal_Overweight.nif + crowd_female_Moncal_Overweight.nif	2	3000	0	None	False
+11000DEB	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Abed.nif + crowd_female_Abed.nif	2	3000	0	None	False
+11000DF3	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Abed_Thin.nif + crowd_female_Abed_Thin.nif	2	3000	0	None	False
+11000ED5	Yellow Labor Jumpsuit	ARMO	SW Aliens.esm		Outfit_Miner_Jumpsuit_UpperBody_F.nif + Outfit_Miner_Jumpsuit_LowerBody_F.nif	2	2983	2	None	False
+11000EE5	Twi'lek Head	ARMO	SW Aliens.esm		Twilek.nif + TwilekF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TwilekHead.nif + TwilekFHead.nif + TwilekHand.nif + TwilekFHand.nif + TwilekBody.nif + TwilekFbody.nif	16	21411	4	None	False
+11000EED	Togruta Head	ARMO	SW Aliens.esm		Togruta.nif + TogrutaF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TogrutaHead.nif + TogrutaFHead.nif + TogrutaHand.nif + TogrutaFHand.nif + TogrutaBody.nif + TogrutaFBody.nif	16	21411	4	None	False
+11000F19	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Sull.nif + crowd_female_Sull.nif	2	3000	0	None	False
+11000F32	Alien Ishi TIb Mask	ARMO	SW Aliens.esm		Ishi.nif + IshiF.nif	2	3000	0	None	False
+11000F3A	Crowd Head	ARMO	SW Aliens.esm		crowd_head_Ishi_Overweight.nif + crowd_female_Ishi_Overweight.nif	2	3000	0	None	False
+11000F64	NiktoGHead	ARMO	SW Aliens.esm		NiktoG.nif + NiktoGF.nif + Hands_NiktoG.nif + Hands_NiktoGF.nif	4	5520	0	None	False
+11000F6C	Crowd Head	ARMO	SW Aliens.esm		crowd_head_NiktoG_Overweight.nif + crowd_female_NiktoG_Overweight.nif	2	3000	0	None	False
+11000FF8	Crowd Head	ARMO	SW Aliens.esm		crowd_male_as_ol1_Thin.nif + crowd_female_as_ol1_Thin.nif	2	3000	2	None	False
+11001000	Crowd Head	ARMO	SW Aliens.esm		crowd_male_eu_yo1_Overweight.nif + crowd_female_eu_yo1_Overweight.nif	2	3000	2	None	False
+11001045	Mirilan Head	ARMO	SW Aliens.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + PanHead.nif + PanFHead.nif + TwilekHand.nif + TwilekFHand.nif + unkempt_m.nif + choppy_bob_f.nif	14	18412	6	None	False
+1100104E	Aqua Head	ARMO	SW Aliens.esm		Aqua.nif + AquaF.nif + Hands_Aqua.nif + Hands_AquaF.nif + AquaHair.nif + Translator.nif	6	8692	1	None	False
+1100109B	Crowd Clothes	ARMO	SW Aliens.esm		Clothes\SWAliens\IthJacket.nif	2	3000	0	None	False
+110010A3	Crowd Clothes	ARMO	SW Aliens.esm		Clothes\SWAliens\IthShirt1.nif	1	1500	0	None	False
+110010AB	Rodian Head	ARMO	SW Aliens.esm		rodian_child.nif + Hands_rodianF.nif	2	2760	2	None	False
+110010B3	Sull Head	ARMO	SW Aliens.esm		Sull_child.nif + Hands_SullF.nif	2	2760	0	None	False
+110010BB	Twi'lek Head	ARMO	SW Aliens.esm		TwilekChild.nif + TwilekChildF.nif + TwilekHeadChild.nif + TwilekFHeadChild.nif + TwilekFHand.nif + Child_Teeth.nif	6	9000	1	None	False
+12000826	Droid Skin - DT-Sentry	ARMO	SW Droids.esm		actors\DTVasco\DTSentry.nif	10	14733	0	None	False
+12000864	Droid Skin - N5 Sentry	ARMO	SW Droids.esm		Actors\N5Sentry\N5Sentry.nif	8	11997	5	None	False
+12000879	Skin_R4I9	ARMO	SW Droids.esm		Actors\R2D2\R4I9.nif	1	1500	1	None	False
+1200088B	Skin_R5Green	ARMO	SW Droids.esm		Actors\R2D2\R5Green.nif	1	1499	0	None	False
+120008A3	Skin_RA7_Red	ARMO	SW Droids.esm		Actors\RA7\Red.nif	6	8988	4	None	False
+120008D8	Droid Skin - 8D8	ARMO	SW Droids.esm		Actors\8d8\8d8.nif	5	4875	0	None	False
+120008FB	Skin_8d81	ARMO	SW Droids.esm		Actors\8d8\8d8.nif	5	4875	0	None	False
+12000920	Skin_Mouse	ARMO	SW Droids.esm		Actors\MSE6\MSE6.nif	1	1500	0	None	False
+12000941	Skin_B2_armed	ARMO	SW Droids.esm		B2Armed.nif + None.nif	8	10152	2	None	False
+15000810	Pure Beskar Heavy	ARMO	StarWarsUniqueBosses.esm		clothes\FatSilverMando\spacesuit_bountyhunter_backpack_01_m.nif	1	1500	1	None	False
+2C000866	Greedo's Mask	ARMO	Greedo.esm		greedo_Mask.nif + Rodian.nif + RodianF.nif	3	4500	3	None	False
+FE030835	Nix's Infiltrator Goggles (Boonta Fur)	ARMO	Nix.esm		Actors\Nix\NixGoggles_Boonta.nif	4	6000	4	None	False
+37000814	Oola Leg Straps	ARMO	NeonEntertainerReplacer.esm		Naked_F.nif + Hands_3rd_F.nif + OolaStraps.nif	3	4499	3	None	False
+37000838	Huttslayer Outfit	ARMO	NeonEntertainerReplacer.esm		huttslayer_upperbody_f.nif + Naked_F.nif + huttslayer_skirt_f.nif + huttslayer_boots_f.nif + Huttslayer_Accessories.nif	5	7492	5	None	False
+3B00095B	Trandoshan Spacesuit	ARMO	Trandoshan Mercs.esm		BosskBody2.nif + BosskBodyF2.nif	2	3000	2	None	False
+3C000807	Warlord	ARMO	SW Spacer Overhaul.esm		clothes\spacer\spacer1_backpack.nif	1	1500	1	None	False
+3C000827	Overlord	ARMO	SW Spacer Overhaul.esm		clothes\spacer\spacer3_backpack.nif	1	1500	1	None	False
+3C0008F4	Enforcer	ARMO	SW Spacer Overhaul.esm		clothes\raider\bode\backpack.nif	1	1500	1	None	False
+3C000945	Veteran	ARMO	SW Spacer Overhaul.esm		clothes\kellic\backpack.nif	1	1500	0	None	False
+3D000845	Hera's Mask	ARMO	SW Rebel Leaders.esm		hera\hera_Mask.nif	1	1500	1	None	False
+3D00086A	General Calrissian Mask	ARMO	SW Rebel Leaders.esm		lando_Mask.nif + hera_Mask.nif	2	3000	2	None	False
+44000B7A	Skin_Bantha_Saddle	ARMO	SWNewGalaxy.esm		Actors\Bantha\Saddle.nif	3	4500	3	None	False
+44000B7D	Skin_Acklay	ARMO	SWNewGalaxy.esm		Actors\Acklay\Acklay.nif	2	3000	2	None	False
+44000A62	Skin_Ronto	ARMO	SWNewGalaxy.esm		Actors\Ronto\Ronto.nif	1	1500	1	None	False
+45000825	Gamorrean Guard Outfit	ARMO	Tatooine.esm		GamHands.nif + GamBody.nif + Gam.nif	9	12000	0	None	False
+45000833	Klatooinian Head	ARMO	Tatooine.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Klat.nif + KlatF.nif + Hands_Klat.nif + Hands_KlatF.nif + BandanaK.nif	9	13020	2	None	False
+45000897	Aqua Head	ARMO	Tatooine.esm		Aqua.nif + AquaF.nif + Hands_Aqua.nif + Hands_AquaF.nif + AquaHair.nif	5	7192	1	None	False
+45000B0E	AT-ST Pilot Fatigues	ARMO	Tatooine.esm		Outfit_ATST_F.nif + outfit_ATST_Gloves.nif	2	3000	2	None	False
+45000BEF	Settlers Clothes	ARMO	Tatooine.esm		Settler.nif + SettlerF.nif	2	3000	0	None	False
+45000C37	Skin_MonkeyLizard	ARMO	Tatooine.esm		Body.nif + Fur.Nif + Head.nif + Tail.nif	4	4972	4	None	False
+45000CCD	Pyke Syndicate Boss Suit	ARMO	Tatooine.esm		Outfit_Neon_BusinessSuit_LowerBody_01_F.nif + Gloves_f.nif + Pyke_Trench_F.nif + Pyke_Poncho.nif + Pyke_Details1.nif + Pyke_Details2.nif	6	6580	2	None	False
+45000CE3	Pyke Helmet	ARMO	Tatooine.esm		clothes\outfit_pyke\hat.nif	1	1500	0	None	False
+45000D31	Tusken Raider Robes	ARMO	Tatooine.esm		TuskenShirt.nif + TuskenShirtF.nif + TuskenSkirt.nif + Gloves_f.nif	4	5998	3	None	False
+45000D48	Tusken Raider Mask	ARMO	Tatooine.esm		clothes\Tusken\TuskenMask2.nif	2	3000	1	None	False
+45000D91	Settlers Work Vest	ARMO	Tatooine.esm		Body.nif + BodyF.nif	2	3000	2	None	False
+45000F36	Settlers Vest	ARMO	Tatooine.esm		luke_jedi_body.nif + luke_jedi_bodyF.nif + luke_jedi_skirt.nif + luke_jedi_skirtF.nif + luke_jedi_Vest.nif + luke_jedi_VestF.nif	6	8980	0	None	False
+45000F5C	Trandoshan Head	ARMO	Tatooine.esm		Tran.nif + TranF.nif + Hands_Tran.nif + Hands_TranF.nif	4	6000	0	None	False
+450010BA	Settlers Vest	ARMO	Tatooine.esm		luke_jedi_bodyC.nif + luke_jedi_bodyFC.nif	6	9000	0	None	False
+450010F2	Settlers Tunic	ARMO	Tatooine.esm		clothes\TatSettler\luke_farmer_bodyC.nif	3	4482	0	None	False
+45001A02	Skin_SalaciousCrumb	ARMO	Tatooine.esm		Body.nif + Fur.Nif + Head.nif	3	4500	3	None	False
+45001A0A	Twi'lek Head	ARMO	Tatooine.esm		Twilek.nif + TwilekF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + TwilekHead.nif + TwilekFHead.nif + TwilekHand.nif + TwilekFHand.nif + skin2.nif	15	19910	4	None	False
+45001A1F	Hutt Dancer Outfit	ARMO	Tatooine.esm		Body.nif + skin.nif	2	2998	1	None	False
+460009D1	Ewok Spacesuit	ARMO	Endor.esm		Actors\Ewok\EwokSS.nif	5	5197	3	None	False
+460009F8	Skin_Ewok_Hood4	ARMO	Endor.esm		Actors\Ewok\EwokHood.nif	1	1500	1	None	False
+46000A59	Skin_Ewok_Eyepatch2	ARMO	Endor.esm		Actors\Ewok\EwokEyepatch2.nif	1	382	1	None	False
+4E000853	AT-ST Pilot Helmet	ARMO	ATST.esm		Clothes\ATSTPilot\Outfit_ATST_Hat_F.nif	2	1596	2	None	False
+5000088B	Mandalorian Recruit Helmet	ARMO	Shadow Collective.esm		GroundHelmetGenesis.nif + MandalorianHelmetGenesis.nif + MandalorianHelmet_niteowlGenesis.nif	5	5060	5	None	False
+51000888	Hondo Ohnaka's Helmet	ARMO	Hondo Ohnaka and Crew.esm		Hondo.nif + hondo_hat_npc.nif + hondo_hair_npc.nif	4	4524	4	None	False
+510008AD	Hondo Crew Goggles	ARMO	Hondo Ohnaka and Crew.esm		clothes\crew\crew_goggles.nif	1	1499	1	None	False
+510008F7	Erin's Armor	ARMO	Hondo Ohnaka and Crew.esm		erin_armor.nif + erin_body.nif + erin_gloves.nif + erin_scarf.nif + erin_skirt.nif	10	11863	10	None	False
+51000911	Weequay Head	ARMO	Hondo Ohnaka and Crew.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + Weeq.nif + WeeqF.nif + Weeq_HairBand.nif	12	15412	7	None	False
+52000806	Pyke Syndicate Outfit	ARMO	SW Gangs.esm		Pyke_Pants.nif + Pyke_Pants_F.nif + Outfit_Neon_BusinessSuit_Sleeves_01_M.nif + Pyke.nif + Outfit_Neon_BusinessSuit_UpperBody_01_M_1st.nif + Gloves_f.nif	6	9000	5	None	False
+5200081D	NiktoHead	ARMO	SW Gangs.esm		Nikto.nif + NiktoF.nif + Hands_Nikto.nif + Hands_NiktoF.nif + LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif	8	11520	2	None	False
+52000825	Weequay Head	ARMO	SW Gangs.esm		LeftEye.nif + LeftEye.nif + RightEye.nif + RightEye.nif + Teeth.nif + Teeth.nif + Tongue.nif + Tongue.nif + Weeq.nif + WeeqF.nif + Hands_Weeq.nif + Hands_WeeqF.nif + Weeq_HairBand.nif	14	17932	9	None	False
+520008D4	NiktoGHead	ARMO	SW Gangs.esm		NiktoG.nif + NiktoGF.nif + Hands_NiktoG.nif + Hands_NiktoGF.nif + BandanaN.nif	5	7020	0	None	False
+520008FD	Crimson Dawn Commander Uniform	ARMO	SW Gangs.esm		Commando_Body_F.nif + Commando_Gloves_Skin_F.nif + Commando_Hood_F.nif + Commando_Shoulder_Acc_2C_F.nif	16	17887	16	None	False
+52001094	Pyke Helmet	ARMO	SW Gangs.esm		clothes\outfit_pyke\hat.nif	1	1500	0	None	False
+530008D6	Va'ruun WristSlate - R	ARMO	VaruunX_Z.esm		VaruunX_WristSlateLargeR_F.nif + VaruunX_WristSlateLargeScreenR_F.nif	1	1500	1	None	False
+53000842	Va'ruun Gloves Vigil (Wired)	ARMO	VaruunX_Z.esm		VaruunX_Gloves_F.nif + VaruunX_Sleeves2_F.nif	1	1500	1	None	False
+5300082D	Va'ruun Hood Shroud 1	ARMO	VaruunX_Z.esm		VaruunX_Hood_F.nif + VaruunX_ShoulderCloth_F.nif	2	3000	2	None	False
+5300085E	Va'ruun Gloves Shroud (Wired) R	ARMO	VaruunX_Z.esm		VaruunX_Gloves_F.nif + VaruunX_Sleeves_R_F.nif	2	3000	2	None	False
+53000872	Va'ruun Mask - Vigil 3	ARMO	VaruunX_Z.esm		Clothes\VaruunX_Outfit\VaruunX_Mask3_F.nif	1	1489	1	None	False
+53000956	Va'ruun Headphones 1	ARMO	VaruunX_Z.esm		Clothes\VaruunX_Outfit\VaruunX_Headphones1_F.nif	2	1692	2	None	False
+530008E0	Va'ruun Outfit - Vigil 4	ARMO	VaruunX_Z.esm		VaruunX_Body_F.nif + VaruunX_Tank_M.nif + VaruunX_CargoTop_F.nif + VaruunX_CargoPants_F.nif	4	6000	4	None	False
+530008DA	Va'ruun Backpack 1	ARMO	VaruunX_Z.esm		Clothes\VaruunX_Outfit\VaruunX_Backpack2_F.nif	1	1500	1	None	False
+FE044848	Neon Sucker (Right)	ARMO	CigarsAndCigarettes.esm		SuckerC.nif + SuckerRightA.nif	2	664	2	None	False
+FE044821	Neon Butt (Right)	ARMO	CigarsAndCigarettes.esm		ButtC.nif + ButtRightA.nif	2	136	2	None	False
+FE044943	Short Barrel Spacer (Left)	ARMO	CigarsAndCigarettes.esm		ShortBarrelSpacerC.nif + ShortBarrelLeftA.nif	2	232	2	None	False
+FE04481E	Neon Halfway (Right)	ARMO	CigarsAndCigarettes.esm		HalfwayC.nif + HalfwayRightA.nif	2	136	2	None	False
+54666052	Starless Explorer Outfit	ARMO	KZ_AOS.esm		outfit_starless_belt_f.nif + outfit_starless_boots_f.nif + outfit_starless_gloves_f.nif + outfit_starless_lowerbody_f.nif + outfit_starless_upperbody_f.nif + outfit_starless_sleeves_f.nif + outfit_starless_tubes_f.nif + outfit_starless_skin_f.nif + outfit_starless_top_f.nif	10	14191	10	None	False
+54666133	Space Bodysuit	ARMO	KZ_AOS.esm		Outfit_GenWare_Skin_M.nif + outfit_kzsu_body_f.nif + Outfit_GenWare_Details_M.nif + outfit_kzsu_tubes_f.nif + Outfit_GenWare_M.nif + outfit_kzsu_upperbody_f.nif	6	9000	6	None	False
+54000827	Va'ruun Vypera Commando	ARMO	KZ_AOS.esm		Clothes\spacesuit_varemodel\spacesuit_varemodel_backpack_02_f.nif	1	1500	1	None	False
+54666005	Cyberia Outfit	ARMO	KZ_AOS.esm		Outfit_Cyberia_LowerBody_F.nif + outfit_roguemercenary_bodyupper_m.nif + Outfit_Cyberia_Skin_F.nif + outfit_roguemercenary_boots_m.nif + Outfit_Cyberia_Boots_F.nif + outfit_roguemercenary_top_m.nif + Outfit_Cyberia_UpperBody_F.nif + outfit_roguemercenary_gloves_m.nif + Outfit_Cyberia_Gloves_F.nif + outfit_roguemercenary_bootsupper_m.nif + Outfit_Cyberia_LowerAccessories_F.nif + outfit_roguemercenary_pants_m.nif + Outfit_Cyberia_UpperAccessories_F.nif + outfit_roguemercenary_belt_m.nif + Outfit_Cyberia_WaistAccessories_F.nif	19	27799	19	None	False
+5400097C	Black Aurora	ARMO	KZ_AOS.esm		Clothes\spacesuit_ba\spacesuit_ba_backpack_f.nif	3	4500	3	None	False
+5466605A	Starless Explorer Helmet	ARMO	KZ_AOS.esm		Clothes\spacesuit_starless\spacesuit_starless_helmet_f.nif	5	7168	5	None	False
+54666010	Black Aurora Outfit	ARMO	KZ_AOS.esm		outfit_roguemercenary_top_m.nif + Outfit_BA_Body.nif + outfit_roguemercenary_bodyupper_m.nif + Outfit_BA_Skin.nif + outfit_roguemercenary_boots_m.nif + Outfit_BA_Boots.nif + outfit_roguemercenary_gloves_m.nif + Outfit_BA_Gloves.nif + outfit_roguemercenary_pants_m.nif + Outfit_BA_Lowerbody.nif + outfit_roguemercenary_bootsupper_m.nif + Outfit_BA_Upperbody.nif + outfit_roguemercenary_belt_m.nif + Outfit_BA_UpperAcc.nif	17	25148	16	None	False
+54666053	Starborn Zeta Spacesuit	ARMO	KZ_AOS.esm		spacesuit_sbzeta_misc_f.nif + Spacesuit_Starborn_Hunter_Plates_M.nif + spacesuit_sbzeta_plates_f.nif + Spacesuit_Starborn_Sleeves_01_M_3rd.nif + spacesuit_sbzeta_gloves_f.nif + Spacesuit_Starborn_LowerBody_01_M.nif + spacesuit_sbzeta_lowerbody_f.nif + spacesuit_sbzeta_upperbodyglass_f.nif + spacesuit_sbzeta_body_04_f.nif + Spacesuit_Starborn_UpperBody_01_M.nif + spacesuit_sbzeta_upperbody_f.nif + spacesuit_sbzeta_upperbodymisc_f.nif + spacesuit_sbzeta_lowerbodyacc_f.nif	14	19821	13	None	False
+54666029	Depraved Regalia	ARMO	KZ_AOS.esm		outfit_roguemercenary_belt_m.nif + outfit_dr_belt_f.nif + outfit_dr_bodylower_f.nif + outfit_roguemercenary_boots_m.nif + outfit_dr_boots_f.nif + outfit_roguemercenary_top_m.nif + outfit_dr_dress_f.nif + outfit_roguemercenary_bootsupper_m.nif + outfit_dr_gloves_f.nif + outfit_roguemercenary_pants_m.nif + outfit_dr_lowerbody_f.nif + outfit_roguemercenary_lowerbodyplates_m.nif + outfit_dr_lowerbodyknife_f.nif + outfit_roguemercenary_lowerbodystraps_m.nif + outfit_dr_upperbodyacc_f.nif + outfit_roguemercenary_bodyupper_m.nif + outfit_dr_skin_f.nif	17	25476	17	None	False
+54666055	Starborn Zeta	ARMO	KZ_AOS.esm		Clothes\spacesuit_sbzeta\spacesuit_sbzeta_backpack_f.nif	1	108	1	None	False
+54666073	Great Serpent Consort Suit	ARMO	KZ_AOS.esm		outfit_gsconsort_belt_f.nif + outfit_varemodel_boots_04_m.nif + outfit_gsconsort_boots_f.nif + outfit_gsconsort_collar_f.nif + outfit_varemodel_lowerbody_03_m.nif + outfit_gsconsort_lowerbody_03_f.nif + outfit_gsconsort_middleacc_f.nif + outfit_gsconsort_pants_f.nif + outfit_gsconsort_upperbodyacc_f.nif + outfit_roguemercenary_gloves_m.nif + outfit_gsconsort_sleeves_f.nif + outfit_varemodel_upperbody_04_m.nif + outfit_gsconsort_upperbody_f.nif + outfit_varemodel_bodyupper_04_m.nif + outfit_gsconsort_body_03_f.nif	15	21701	15	None	False
+56000852	Eit Vest Jumper 1a	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_JumpsuitVest_B_F.nif	1	1500	1	None	False
+5600092A	Eit Glasses OakleySlim (Black)	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Glasses_OakleySlim_Bx.nif	3	4152	3	None	False
+56000814	Eit Jacket Nos 1a	ARMO	Eit_Clothiers_Z.esm		Eit_aJacketLight_Ma.nif + Eit_aJacketLight_Fa.nif + Eit_aJacket_F.nif	3	3116	3	None	False
+560008B7	Eit Jacket Ryujin Tenshi 1a	ARMO	Eit_Clothiers_Z.esm		Eit_A1_jacket_F.nif + Eit_A1_jacketLight_Ma.nif + Eit_A1_jacketLight_Fa.nif	3	1676	3	None	False
+56000895	Eit Outfit Flexfit 3	ARMO	Eit_Clothiers_Z.esm		Eit_Marsfit_Body_M.nif + Eit_Flexfit_Body_F.nif + Eit_Flexfit_Pants_F.nif + Eit_Flexfit_Top_M2.nif + Eit_Flexfit_TopBoots_F2.nif	5	7500	5	None	False
+5600086A	Eit Harness Ryujin 1	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Ryujin_Harness_F.nif	1	1500	1	None	False
+56000919	Eit Glasses OakleySlim (Red)	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Glasses_OakleySlim_R.nif	3	4152	3	None	False
+560008F3	Eit Jacket Ryujin Z 1	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Zorg_Jacket_F.nif	1	1500	1	None	False
+560008C5	Eit Outfit Layered (White)	ARMO	Eit_Clothiers_Z.esm		Eit_Flexfit_Shorts_M4_White.nif + Eit_layeredShirt_F_W.nif + Eit_Flexfit_Body_M4.nif + Eit_layeredShirt_Body_F.nif	4	6000	4	None	False
+560008D9	Eit Outfit NA Fashion2 W (FemSkirt)	ARMO	Eit_Clothiers_Z.esm		Eit_NAFashion_Shirt_W_M.nif + Eit_blouseandskirt_Top_W_F.nif + Eit_DropCrotch_Pants_W_M.nif + Eit_blouseandskirt_Skirt_W_F.nif + Eit_blouseandskirt_Boots_W_F.nif	5	7500	5	None	False
+56000924	Eit Glasses Visor (Red2)	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Glasses_Visor_Rc.nif	2	2067	2	None	False
+56000911	Eit Glasses Aviators (Black)	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Glasses_Aviator.nif	2	1652	1	None	False
+560009A1	Eit Gloves Knuckle (White)	ARMO	Eit_Clothiers_Z.esm		Eit_KnuckleGloves_M_W.nif + Eit_KnuckleGloves_F_W.nif + Eit_KnuckleGloves_Hands_F.nif	3	4500	3	None	False
+56000981	Eit Gloves Fingerless 2	ARMO	Eit_Clothiers_Z.esm		Eit_GlovesFingerless_M2.nif + Eit_GlovesFingerless_F2.nif + Eit_GlovesFingerless_Hands_F.nif	3	4500	3	None	False
+56000989	Eit Outfit NA Fashion3 (FemSkirt)	ARMO	Eit_Clothiers_Z.esm		Eit_SleeveShirt_M.nif + Eit_SleeveDress_F.nif + Eit_SleeveDress_Bag_F.nif + Eit_blouseandskirt_Boots_F.nif + Eit_NULL_Body_M.nif + Eit_SleeveDress_Gear_F.nif + Eit_SleeveShirt_Pants_M.nif + Eit_SleeveDress_Belt_F.nif	8	10270	8	None	False
+56000A3C	Eit Vest Elysium (Orange)	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_Elysium_VestO_F.nif	1	1500	1	None	False
+56000A00	Eit Harness Mars Sleeves	ARMO	Eit_Clothiers_Z.esm		Eit_Marsfit_Sleeves1_F.nif + Eit_Marsfit_Sleeves2_F.nif	2	3000	2	None	False
+56001575	Eit Cyberarm MK2 - Rust (Right)	ARMO	Eit_Clothiers_Z.esm		Eit_MK2_Cyberarms_M_Rust_R.nif + Eit_MK2_Cyberarms_F_Rust_R.nif + Eit_MK2_Cyberarm_LeftHand_F.nif	3	4500	3	None	False
+56000AB0	Eit Jacket Trenchcoat 1c	ARMO	Eit_Clothiers_Z.esm		Eit_TrenchCoat_Bottom_F.nif + Eit_TrenchCoat_Top_F.nif + Eit_TrenchCoat_TopLight_R_F.nif	2	2997	2	None	False
+56000A90	Eit Cyberarms MK2 - RED	ARMO	Eit_Clothiers_Z.esm		Eit_MK2_Cyberarms_M_RED.nif + Eit_MK2_Cyberarms_F_RED.nif	2	3000	2	None	False
+5600155F	Eit Outfit Layered 2	ARMO	Eit_Clothiers_Z.esm		Eit_Flexfit_Pants_M.nif + Eit_layeredShirt2_F.nif + Eit_Marsfit_Body_M.nif + Eit_layeredShirt2_Body_F.nif + Eit_T161Vest_F.nif + Eit_T161JacketLight_Ma.nif + Eit_T161JacketLight_Fa.nif + Eit_Cyberfit_Mask_F.nif + Eit_Elysium_CyberSleevesR_F.nif + Eit_Elysium_CyberSleeves_HandR_F.nif + Eit_MK2_Cyberarm_LeftHand_F.nif	12	16258	12	None	False
+56001568	Eit Outfit Flexfit 4	ARMO	Eit_Clothiers_Z.esm		Eit_Flexfit_Pants_F.nif + Eit_Flexfit_Top_M.nif + Eit_Flexfit_TopBoots_F.nif + Eit_Raven_Jacket_F.nif + Eit_Necklace_Dogtags_F.nif + Eit_Glasses_Aviator.nif + Eit_Flexfit_Belt1_F.nif	8	10388	7	None	False
+56000AE9	Eitfit F1	ARMO	Eit_Clothiers_Z.esm		Eit_Marsfit_Body_M.nif + Eit_Sportswear_Body_F.nif + Eit_Sportswear_Pants_M_RyujinWR.nif + Eit_Sportswear_Pants_F_RyujinWR.nif + Eit_Sportswear_Shoes_M_RyujinWR.nif + Eit_Sportswear_Shoes_F_RyujinWR.nif + Eit_Sportswear_Tanktop_M_RyujinWR.nif + Eit_Sportswear_Tanktop_F_RyujinWR.nif + Eit_A1_Vest_F.nif + Eit_A1_jacketLight_Mc.nif + Eit_A1_jacketLight_Fc.nif + Eit_Glasses_Rival_W.nif + Eit_Flexfit_Belt2_F.nif + Eit_GlovesFingerless_M_W.nif + Eit_GlovesFingerless_F_W.nif + Eit_GlovesFingerless_Hands_F.nif	17	22676	17	None	False
+56001584	Eit Jacket Jumper 1b	ARMO	Eit_Clothiers_Z.esm		Clothes\Eit_Clothiers\Eit_jumpsuit_R_F.nif	1	1500	1	None	False
+FE045801	BountyHunter (Lenses)	ARMO	ClothingPack_Standalone_Z.esm		clothes\BountyHunter_Outfit\BountyHunter_Lenses.nif	1	1500	1	None	False
+FE045B27	Robotics Outfit (C)	ARMO	ClothingPack_Standalone_Z.esm		Robotics_BodyArmsM.nif + Robotics_BodyArmsF.nif + Robotics_BootBelt.nif + Robotics_ShirtM.nif + Robotics_Shirt.nif + Robotics_PantsM2.nif + Robotics_Shorts3.nif	7	10500	7	None	False
+FE0459D4	G - Headphones 5b	ARMO	ClothingPack_Standalone_Z.esm		clothes\Gadgets_Head\Gadgets_Headphones_5b.nif	5	3220	5	None	False
+FE045868	Backpack (Common1)	ARMO	ClothingPack_Standalone_Z.esm		Backpack_Common1.nif + Backpack_Common1.nif + Backpack_StrapsM.nif + Backpack_StrapsF.nif	4	6000	4	None	False
+FE045987	G-Eyes Cyber (White)	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + GlowingEyes_W2_F.nif	4	3587	3	None	False
+FE04589E	BountyHunter CyberArms (L)	ARMO	ClothingPack_Standalone_Z.esm		BountyHunter_Cyberarm_M_L.nif + BountyHunter_Cyberarm_F_L.nif + BountyHunter_cyberarm_righthand_F.nif	3	4500	3	None	False
+FE0458CB	BountyHunter (Trenchcoat v1)	ARMO	ClothingPack_Standalone_Z.esm		clothes\BountyHunter_Outfit\BountyHunter_Trench_F.nif	1	1500	1	None	False
+FE0458ED	BountyHunter (Vest v1) Strapped	ARMO	ClothingPack_Standalone_Z.esm		BountyHunter_VestM_Strapped.nif + BountyHunter_VestF_Strapped.nif + BountyHunter_VestM_Wires.nif + BountyHunter_VestF_Wires.nif	4	6000	4	None	False
+FE045911	BountyHunter (Vest v2) Strapped	ARMO	ClothingPack_Standalone_Z.esm		BountyHunter_VestM2_Strapped.nif + BountyHunter_VestF2_Strapped.nif + BountyHunter_VestM_Wires.nif + BountyHunter_VestF_Wires.nif	4	6000	4	None	False
+FE04587E	Backpack (Military3)	ARMO	ClothingPack_Standalone_Z.esm		Backpack_Military3.nif + Backpack_Military3.nif + Backpack_StrapsM.nif + Backpack_StrapsF.nif	8	8280	8	None	False
+FE045961	BountyHunter (Harness) Pouches	ARMO	ClothingPack_Standalone_Z.esm		BountyHunter_Harness03M.nif + BountyHunter_Harness03F.nif	2	3000	2	None	False
+FE045800	BountyHunter (Outfit v1)	ARMO	ClothingPack_Standalone_Z.esm		BountyHunter_PantsM.nif + BountyHunter_PantsF.nif + BountyHunter_BootsM1.nif + BountyHunter_BootsF1.nif + BountyHunter_BodyM.nif + BountyHunter_BodyF.nif + BountyHunter_ShirtF2.nif	7	9440	7	None	False
+FE045990	G-Eyes Varuun (Red)	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + GlowingEyes_R3_F.nif	4	3587	3	None	False
+FE045A01	G - TechBracer 3b	ARMO	ClothingPack_Standalone_Z.esm		Gadgets_SleeveTechM_3.nif + Gadgets_SleeveTechF_3.nif + Gadgets_SleeveTechMLight_3b.nif + Gadgets_SleeveTechFLight_3b.nif	4	3050	4	None	False
+FE0459CB	G - Hat 2	ARMO	ClothingPack_Standalone_Z.esm		clothes\Gadgets_Head\Gadgets_Headphones_Hat2.nif	3	3004	3	None	False
+FE0459F0	G - Watch 4b	ARMO	ClothingPack_Standalone_Z.esm		Gadgets_WatchM_4.nif + Gadgets_WatchF_4.nif + Gadgets_WatchMLight_4b.nif + Gadgets_WatchFLight_4b.nif	4	3018	4	None	False
+FE045A06	G - Hat 3b	ARMO	ClothingPack_Standalone_Z.esm		clothes\Gadgets_Head\Gadgets_Headphones_Hat3b.nif	4	3988	4	None	False
+FE04598F	G-Eyes Varuun (Orange)	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + GlowingEyes_O3_F.nif	4	3587	3	None	False
+FE045A3F	G - Watch 6b	ARMO	ClothingPack_Standalone_Z.esm		Gadgets_WatchM_2.nif + Gadgets_WatchF_2.nif + Gadgets_WatchMLight_2b.nif + Gadgets_WatchFLight_2b.nif	4	3029	4	None	False
+FE045A4E	Goggles_Olit - Blue	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + Olit_Goggles_BlueM.nif + Olit_Goggles_BlueF.nif	8	9561	7	None	False
+FE045A72	Glasses_G2Shades - Red	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + G2_Shades_RedM.nif + G2_Shades_RedF.nif	6	6587	5	None	False
+FE045AE4	Mask - Nomad2 (Red)	ARMO	ClothingPack_Standalone_Z.esm		Nomad_Mask2M_R.nif + Nomad_Mask2F_R.nif	4	3048	4	None	False
+FE045A82	Goggles_Xray - (No Glow)	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + Xray_Goggles_NoLightM.nif + Xray_Goggles_NoLightF.nif	8	9563	7	None	False
+FE045A90	Goggles_VisionX - (No Glow)	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + VisionX_Goggles_NoLightM.nif + VisionX_Goggles_NoLightF.nif	8	9399	7	None	False
+FE045AB5	Mask - UC (Red)	ARMO	ClothingPack_Standalone_Z.esm		Clothes\sf_masks\UC_Mask_R.nif	2	2175	2	None	False
+FE045C92	Varuun_Outfit 6 (Red)	ARMO	ClothingPack_Standalone_Z.esm		Varuun_BodyM2Tank.nif + Varuun_BodyF2Tank.nif + Varuun_BottomM2.nif + Varuun_BottomF.nif + Varuun_CyberGloveM6.nif + Varuun_CyberGloveF6.nif + Varuun_TankM.nif + Varuun_TankF.nif + Varuun_CyberArmM6.nif + Varuun_CyberArmF6.nif	12	17112	12	None	False
+FE045AC5	Mask - Aurora (Orange)	ARMO	ClothingPack_Standalone_Z.esm		clothes\SF_Masks\Aurora_Mask_O.nif	1	1500	1	None	False
+FE045AE0	Mask - Nomad1 (Orange)	ARMO	ClothingPack_Standalone_Z.esm		Nomad_Mask1M_O.nif + Nomad_Mask1F_O.nif	4	3048	4	None	False
+FE045AE8	Mask - Stealth (Orange)	ARMO	ClothingPack_Standalone_Z.esm		Stealth_MaskM_O.nif + Stealth_MaskF_O.nif	6	5847	6	None	False
+FE045B86	Robotics VestBag 2	ARMO	ClothingPack_Standalone_Z.esm		Robotics_VestBagM2.nif + Robotics_VestBagF2.nif + Robotics_VestBagMLight.nif + Robotics_VestBagFLight.nif	2	3000	2	None	False
+FE045ABD	Mask - BountyHunter (Green)	ARMO	ClothingPack_Standalone_Z.esm		Clothes\sf_masks\Bounty_Mask_G.nif	2	3000	2	None	False
+FE045A44	Goggles_A147 - Blue	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + A147_Goggles_BlueM.nif + A147_Goggles_BlueF.nif	6	6587	5	None	False
+FE045B57	Robotics Kneepads	ARMO	ClothingPack_Standalone_Z.esm		Clothes\Robotics_Outfit\Robotics_Kneepads.nif	1	1500	1	None	False
+FE045B66	Robotics CyberArm 5	ARMO	ClothingPack_Standalone_Z.esm		Robotics_CyberneticGloveM5.nif + Robotics_CyberneticGloveF5.nif + Robotics_CyberneticArmM5.nif + Robotics_CyberneticArmF5.nif	6	8998	6	None	False
+FE045B8A	Robotics Goggles 5	ARMO	ClothingPack_Standalone_Z.esm		Clothes\Robotics_Outfit\Robotics_Goggles5.nif	1	1500	1	None	False
+FE045B59	Robotics CyberArm 3	ARMO	ClothingPack_Standalone_Z.esm		Robotics_CyberneticGloveM.nif + Robotics_CyberneticGloveF.nif + Robotics_CyberneticArmM3.nif + Robotics_CyberneticArmF3.nif	6	8998	6	None	False
+FE045A7A	Goggles_Vision9 - Green	ARMO	ClothingPack_Standalone_Z.esm		neuroamp_prototype_01.nif + Vision9_Goggles_GreenM.nif + Vision9_Goggles_GreenF.nif	6	6581	5	None	False
+FE045BEC	CyberOps - CyberVest 2b	ARMO	ClothingPack_Standalone_Z.esm		CyberOps_CoolantM_2.nif + CyberOps_CoolantF_2.nif + CyberOps_CoolantMLight_2b.nif + CyberOps_CoolantFLight_2b.nif	4	3636	4	None	False
+FE045C16	CyberOps - Backpack 2	ARMO	ClothingPack_Standalone_Z.esm		CyberOps_Backpack_2.nif + CyberOps_StrapsM.nif + CyberOps_StrapsF.nif	7	8951	7	None	False
+FE045C32	CyberOps - Gloves 1	ARMO	ClothingPack_Standalone_Z.esm		CyberOps_GlovesM_1.nif + CyberOps_GlovesF_1.nif + CyberOps_HandsM.nif + CyberOps_HandsF.nif	4	6000	4	None	False
+FE045CE4	Varuun Beenie (G)	ARMO	ClothingPack_Standalone_Z.esm	NIF missing		0	0	0	None	False
+FE045CB7	Varuun_Outfit 7 (Red)	ARMO	ClothingPack_Standalone_Z.esm		Varuun_BodyMTank_Main.nif + Varuun_BodyF3Tank.nif + Varuun_BottomM2.nif + Varuun_BottomF.nif + Varuun_TankM.nif + Varuun_TankF.nif	6	9000	6	None	False
+FE045D0B	Varuun_Outfit 8 (Green)	ARMO	ClothingPack_Standalone_Z.esm		Varuun_CyberBodyM.nif + Varuun_BodyShortsF.nif + Varuun_BottomM2.nif + Varuun_BottomShortsF.nif + Varuun_CyberArmM.nif + Varuun_CyberArmF.nif + Varuun_CyberhandsM.nif + Varuun_CyberhandsF.nif + Varuun_TankF.nif	9	13500	9	None	False
+FE045CFA	Varuun SlingBag2	ARMO	ClothingPack_Standalone_Z.esm		Varuun_SlingBagM2_Small.nif + Varuun_SlingBagF2_Small.nif	2	3000	2	None	False
+FE045D24	Varuun_Outfit 1	ARMO	ClothingPack_Standalone_Z.esm		NULL.nif + Varuun_BodyF.nif + Varuun_BottomM_x.nif + Varuun_BottomF_x.nif + Varuun_SleevesM.nif + Varuun_SleevesF.nif + Varuun_TopM.nif + Varuun_TopF.nif	7	10498	7	None	False
+FE045CD9	Varuun Gloves	ARMO	ClothingPack_Standalone_Z.esm		Varuun_GlovesM.nif + Varuun_GlovesF.nif + Varuun_SleeveSkinM.nif + Varuun_SleeveSkinF.nif	4	6000	4	None	False
+FE04688A	CrimX Jacket (TrenchCoat a2)	ARMO	CrimsonX_Z.esm		CrimX_JacketTop2_F.nif + CrimX_JacketBottom_F.nif + CrimX_JacketTopLight_F.nif	3	3062	2	None	False
+FE046854	CrimX HeadGear (Mask 2)	ARMO	CrimsonX_Z.esm		CrimX_NeckM.nif + CrimX_NeckF.nif + CrimX_JawGear_F.nif	4	6000	3	None	False
+FE046832	CrimX Outfit b2	ARMO	CrimsonX_Z.esm		CrimX_Body_M.nif + CrimX_Body1_F.nif + CrimX_Pants2_F.nif + CrimX_Tanktop2_F.nif	4	6000	4	None	False
+FE04696F	CrimX Outfit e1	ARMO	CrimsonX_Z.esm		CrimX_Pants6_F.nif + CrimX_Prisoner_Shirt_F.nif + CrimX_Body_M.nif + CrimX_Body1_F.nif + CrimX_LongSleeve_Gear2_F.nif	5	7500	5	None	False
+FE0468B4	CrimX SleeveTech 4	ARMO	CrimsonX_Z.esm		CrimX_Sleeve3_F.nif + CrimX_Cuffs2Light_F.nif + CrimX_Cuffs2_F.nif + CrimX_ElbowPad_F.nif	4	5254	3	None	False
+FE04780D	Mark V[B] Biceps Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachBicepsL.nif	1	1500	1	None	False
+FE0478B5	Mark V[B] Helmet Gear CNM/BNR/TYPHON Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHelmetGear_CNM_BNR_TYPHON_R.nif	1	456	1	None	False
+FE047A12	Mark V[B] Shoulder Pad SAP/BASE Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGear_SAP_BASEL.nif	1	512	1	None	False
+FE047842	Mark V[B] Shoulder Pad Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGearR_009.nif	1	398	1	None	False
+FE047B5C	Mark VII Shoulder Pad UA/Agathius Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkVII\MarkVIIShoulderPad_UA_AgathiusL.nif	1	882	1	None	False
+FE04789A	Mark V[B] Helmet Security	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHelmet_Security.nif	1	1500	1	None	False
+FE047922	Mark V Shoulder Pad Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkV\MarkVShoulderGearR.nif	1	428	1	None	False
+FE04794E	Mark VI Helmet	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkVI\MarkVIHelmet.nif	1	1500	1	None	False
+FE04791E	Mark V Knee Pad Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkV\MarkVKneepadR.nif	1	374	1	None	False
+FE047A34	Mark V[B] Shoulder Pad SAP/SHAP Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGear_SAP_SHAPL.nif	1	724	1	None	False
+FE047918	Mark V Boot Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkV\MarkVBootL.nif	1	1500	1	None	False
+FE047999	Mark V[B] Torso Gear UA/PRESERVE	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachTorsoGear_UA_PRESERVE.nif	1	1500	1	None	False
+FE047914	Mark V Base	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkV\MarkVBase.nif	3	3732	3	None	False
+FE0478C4	Mark V[B] Helmet Gear HUL[3]/BNR/COURIER PEARL Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHelmetGear_HUL[3]_BNR_CourierPearl_L.nif	1	730	1	None	False
+FE047AEA	Mark V[B] Knee Pad UA-Type GR Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachKneepad_UA_TypeGRL.nif	1	632	1	None	False
+FE04794C	Mark VI Glove Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkVI\MarkVIGloveL.nif	1	1500	1	None	False
+FE047A20	Mark V[B] Shoulder Pad SAP/HAZOP Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGear_SAP_HAZOPL.nif	1	928	1	None	False
+FE047B26	Mark V[B] Belt Gear TAC/Sapper Rig Rear	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachBeltGear_TAC_SapperRigRear.nif	1	1328	1	None	False
+FE047992	Mark V[B] Torso Gear TAC/Recon Package	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachTorsoGear_TAC_ReconPackage.nif	1	1500	1	None	False
+FE04798D	Mark V[B] Torso Gear EXO/TSCS	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachTorsoGear_EXO_TSCS.nif	1	1500	1	None	False
+FE04798A	Mark V[B] Torso Gear Cursed Vigor	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachTorsoGear_CursedVigor.nif	1	1499	1	None	False
+FE047991	Mark V[B] Torso Gear TAC/MAT-2519C Communicator	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachTorsoGear_TAC_MAT-2519CCommunicator.nif	1	1500	1	None	False
+FE047AE8	Mark V[B] Knee Pad UA/Type GND Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachKneepad_UA_TypeGNDL.nif	1	490	1	None	False
+FE047AB7	Mark V[B] Hip Gear UA/Plate II Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHipGear_UA_PlateIIR.nif	1	712	1	None	False
+FE047A87	Mark V[B] Wrist Gear TAC/SRT UGPS Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachWristGear_TAC_SRTUGPSR.nif	2	1064	2	None	False
+FE047883	Mark V[B] Helmet EVA	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHelmet_004.nif	1	1500	1	None	False
+FE047A2E	Mark V[B] Shoulder Pad SAP/RECON Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGear_SAP_RECONL.nif	1	1034	1	None	False
+FE047ABB	Mark V[B] Hip Gear HarFlight Kneeboard Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHipGear_HarFlightKneeboardR.nif	1	1306	1	None	False
+FE047A28	Mark V[B] Shoulder Pad SAP/MT Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachShoulderGear_SAP_MTL.nif	1	692	1	None	False
+FE047AE4	Mark V[B] Knee Pad Defiled Drive Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachKneepad_DefiledDriveL.nif	1	1176	1	None	False
+FE047AF4	Mark V[B] Knee Pad UA/Type HAZ Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachKneepad_UA-TypeHAZL.nif	1	526	1	None	False
+FE047B1C	Mark V[B] Boot Left Prosthetic	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachBootL_Prosthetic.nif	1	1500	1	None	False
+FE047B51	Mark VII Biceps Left	ARMO	SpartanArmorCollection.esm		MarkVIIBody_BicepsLM.nif + MarkVIIBody_BicepsLF.nif	2	3000	2	None	False
+FE047A8A	Mark V[B] Wrist Gear UA/T2A2 Bracer Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachWristGear_UA_T2A2BracerL.nif	1	1500	1	None	False
+FE047AEB	Mark V[B] Knee Pad UA-Type GR Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachKneepad_UA_TypeGRR.nif	1	632	1	None	False
+FE047C03	Eaglestrike Shoulder Pad Rat Pack Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_ShoulderAttachments_RatPackR.nif	1	698	1	None	False
+FE047BDC	Eaglestrike Helmet Gear Spelunker Light Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_HelmetAttachments_SpelunkerLightL.nif	1	1500	1	None	False
+FE047BCA	Eaglestrike Helmet Gear Cosmocom Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_HelmetAttachments_CosmocomL.nif	1	1051	1	None	False
+FE047C04	Eaglestrike Shoulder Pad Type-1 Defenders Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_ShoulderAttachments_Type_1DefendersL.nif	1	1036	1	None	False
+FE047C39	Mark V[B] Jorge S-052	ARMO	SpartanArmorCollection.esm		ReachJorgeM.nif + ReachJorgeF.nif	44	54478	44	None	False
+FE047C77	Mark V[B] Helmet Mark V Visor	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Reach\ReachHelmet_015_visor.nif	1	200	1	None	False
+FE047C87	Mark V Helmet Visor	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\MarkV\MarkVHelmet_visor.nif	1	298	1	None	False
+FE047C12	Eaglestrike Knee Pad Type-52 Splinter Guard Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_KneeAttachments_Type_52SplinterGuardR.nif	1	744	1	None	False
+FE047C8B	Eaglestrike Helmet Brodie Visor	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_Helmet_Brodie_visor.nif	1	142	1	None	False
+FE047D24	Mark V[B] Kat S-320 Helmet	ARMO	SpartanArmorCollection.esm		Clothes\spartanarmorcollection\Reach\ReachKat_Helmet.nif	3	3160	3	None	False
+FE047C05	Eaglestrike Shoulder Pad Type-1 Defenders Right	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_ShoulderAttachments_Type_1DefendersR.nif	1	1036	1	None	False
+FE047C2B	Eaglestrike Hip Gear Twin Teeth Left	ARMO	SpartanArmorCollection.esm		clothes\SpartanArmorCollection\Eaglestrike\Eaglestrike_TightAttachments_TwinTeethL.nif	1	1500	1	None	False
+58000F72	Skin_BipedA_Sloth_00ztwa	ARMO	TheWell_Apartment_Z.esm	no MODL		0	0	0	None	False
+5900082D	-Din Djarin- Beskar Helmet	ARMO	thesniper9-swarmorpack.esm		Clothes\mandaloriansuits\din\Din_Helmet.nif	1	1500	0	None	False
+59000892	Jango Fett Z-6 Jetpack	ARMO	thesniper9-swarmorpack.esm		Ground_Z6.nif + Jetpack_Z6.nif	2	2991	0	None	False
+590008E6	-Clone Commando- Helmet	ARMO	thesniper9-swarmorpack.esm		CommandoHelmet_Ground.nif + CommandoHelmet.nif	2	2999	0	None	False
+590009F0	-Shadow Collective- Sniper Helmet	ARMO	thesniper9-swarmorpack.esm		Ground_ShadowCollectiveHelmet_M.nif + ground_shadowcollectivehemet_f.nif + ShadowCollective_Helm_F.nif	4	4820	0	None	False
+59000B30	Jetpack - JT-12	ARMO	thesniper9-swarmorpack.esm		Ground_NO_JT12.nif + Jetpack_NO_JT12.nif	2	3000	0	None	False
+59000BFA	-Jetpack- Z6	ARMO	thesniper9-swarmorpack.esm		Ground_Z6.nif + Jetpack_Z6.nif	2	2991	0	None	False
+59001F01	-Mandalorian- Capes	ARMO	thesniper9-swarmorpack.esm	no renderable geometry	AttachmentUpper_Empty.nif + AttachmentUpperShoulderCape_Empty.nif + AttachmentUpperponcho_Empty.nif	0	0	0	None	False
+FE04E807	Bounty Hunter Veteran Helmet	ARMO	Kellic.esm		helmet.nif + neck.nif	2	1596	1	None	False
+FE04F83C	Va'ruun Space Helmet	ARMO	TrackerAlliance_HQ_Overhaul.esm		clothes\spacer\spacer3_helmet.nif	1	1500	1	None	False
+5A000803	Rakghoul Body	ARMO	RakghoulInfestation.esm		EncRakghoul_body_m.nif + EncRakghoul_sleeves_01_m_3rd.nif	4	4924	2	None	False
+5A00084A	Blackwing Body 02	ARMO	RakghoulInfestation.esm		Stormtrooper_UpperBody_V2.nif + Stormtrooper_UpperBody_V2_F.nif + Stormtrooper_LowerBody_V2.nif + Stormtrooper_LowerBody_V2_F.nif + Stormtrooper_Sleeves_V2.nif + Stormtrooper_Sleeves_V2_F.nif	12	18000	12	None	False
+5B000805	Clone Trooper Recon Helmet (Phase I)	ARMO	CloneWarRemnants.esm		Clothes\Clonetrooper\Clone_PhaseIhelmet.nif	1	1495	0	None	False
+5B000811	Clone Trooper Commander Helmet (Phase I)	ARMO	CloneWarRemnants.esm		Clothes\Clonetrooper\Clone_PhaseIhelmet.nif	1	1495	0	None	False
+5B000826	[L Shoulder] Duraplast Blast Plate	ARMO	CloneWarRemnants.esm		Clothes\CloneCommando\CommandoBlastplate_L.nif	1	334	0	None	False
+5B00082F	[L Shoulder] Duraplast Blast Plate	ARMO	CloneWarRemnants.esm		Clothes\clonecommando\commandoblastplate_l_black.nif	1	334	0	None	False
+5B000844	Clone Commando Armor (Green)	ARMO	CloneWarRemnants.esm		CloneCommando.nif + CommandoGloves.nif + CloneCommandoUnder.nif + CommandoBactawrap_R.nif	5	6604	0	None	False
+5B000854	Old Clonetrooper Armor	ARMO	CloneWarRemnants.esm		CLTB_Body91st.nif + mandalorianponcho.nif + Hands_3rd_F.nif + mandalorianthighdin_left_m.nif	9	11747	6	None	False
+5C000804	Battle-Damaged Mandalorian Alloy Armor	ARMO	MandalorianForge.esm		LowerBodyM.nif + LowerBodyF.nif + UpperBodyM.nif + UpperBodyF.nif + Sleeves_F.nif + Mudtrooper_Glove.nif	11	12906	11	None	False
+5C000824	Tempered Mandalorian Beskar Helmet	ARMO	MandalorianForge.esm		RawDurasteel\Helmet.nif	2	1668	2	None	False
+5C00084D	Tempered Armor	ARMO	MandalorianForge.esm		UpperBodyM.nif + UpperBodyF.nif + LowerBodyM.nif + LowerBodyF.nif + Sleeves_F.nif + BaseGloves_M_Low.nif + BaseGloves_F_Low.nif	12	14406	12	None	False
+5D00081D	Sam Coe's Hat	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\boba1313\1313_hat2.nif	2	3000	0	None	False
+5D0008BE	Sharpshooter Head Covering	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\leia\leia_endor_helmet.nif	1	1500	0	None	False
+5D000906	Medic Trooper Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swmet\SWMeT_Helmet.nif	1	1500	1	None	False
+5D000945	Scoundrel Goggles	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\crew\crew_goggles.nif	1	1499	1	None	False
+5D00095F	Old Mandalorian Armor	ARMO	StarWarsGenesisArmorCompendium.esm		spacesuitcontainer_JangoGenesis.nif + jango_Glove_MGenesis.nif + Din_BeskarGenesis.nif + Din_FlightsuitGenesis.nif + Spacesuit_Jango_M_Sleeves_3rdGenesis.nif + Din_ExtrasGenesis.nif + Din_ArmsGenesis.nif	7	10499	7	None	False
+5D00099C	Disguised Cultist Clothes	ARMO	StarWarsGenesisArmorCompendium.esm		MerrinJS_Body.nif + MerrinJS_Hood.nif + MerrinJS_Jacked.nif + MerrinJS_details.nif	4	6000	0	None	False
+5D0009C3	Red Robes	ARMO	StarWarsGenesisArmorCompendium.esm		Merrin_UpperBody_Merrin.nif + Merrin_LowerBody_Nightsister.nif + Merrin_cape_Nightsister.nif + Merrin_tassel.nif + Merrin_tassel_nightsister.nif	5	7040	5	None	False
+5D0009F1	Smuggler Veteran Outfit	ARMO	StarWarsGenesisArmorCompendium.esm		body.nif + body.nif + chain.nif + chain.nif + skin.nif + gloves.nif	26	24108	10	None	False
+5D000A2C	Rusty Beskar Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\cobb\helmet.nif	1	1500	0	None	False
+5D000A47	Mos Pelgo Settler Attire	ARMO	StarWarsGenesisArmorCompendium.esm		body.nif + body_f.nif + gloves.nif + cape.nif + cape_f.nif	11	16500	1	None	False
+5D000A6D	Partisan Soldier Head Covering	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\thefirst\hat.nif	1	1496	0	None	False
+5D000A9E	Elite Sniper Dustwear	ARMO	StarWarsGenesisArmorCompendium.esm		body.nif + coat.nif + Mudtrooper_Glove.nif	6	8091	1	None	False
+5D000ACE	Insulated Jacket	ARMO	StarWarsGenesisArmorCompendium.esm		luke_hoth_body.nif + luke_hoth_gloves.nif	2	3000	0	None	False
+5D000ADE	House of Enlightened Alien Head	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\galbank\head.nif	2	2340	2	None	False
+5D000B00	White Gala Attire	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\leia\leia_princess_body.nif	3	4500	0	None	False
+5D000B24	Stolen Shoretrooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		Heavy.nif + Gloves.nif	3	4500	0	None	False
+5D000B47	Old Republic Trooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swhs\SWHSBody.nif	1	1500	1	None	False
+5D000B6C	Scout Trooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		SWScT_Body.nif + SWScT_Gloves.nif + SWScT_Hips.nif	3	4332	3	None	False
+5D000B86	Range Trooper Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swrt\SWRT_Helmet.nif	1	1500	1	None	False
+5D000BAF	[Cloak] Brown Shoulder Cape	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\boba1313\1313_cape.nif	1	1500	1	None	False
+5D000BD3	Boba Fett's Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\FortniteBoba\Spacesuit_Boba_M_Helmet.nif	2	1574	1	None	False
+5D000BF4	[Mask] Black Cloth Mask	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\VaruunX_Outfit\VaruunX_ScarfMask_F.nif	1	1500	1	None	False
+5D000C10	Shoretrooper Assault Armor	ARMO	StarWarsGenesisArmorCompendium.esm		Assault.nif + Gloves.nif	3	4500	0	None	False
+5D000C2B	DJ Droid Body (Spacesuit)	ARMO	StarWarsGenesisArmorCompendium.esm		body.nif + hands.nif	8	7112	8	None	False
+5D000C49	Militia Elite Armor	ARMO	StarWarsGenesisArmorCompendium.esm		freelancer_body.nif + freelancer_gloves.nif	6	6891	0	None	False
+5D000C69	ND-5 Body	ARMO	StarWarsGenesisArmorCompendium.esm		body.nif + hands.nif + coat.nif + helmet.nif + neck.nif	11	13299	0	None	False
+5D000CAA	Smuggler Clothes	ARMO	StarWarsGenesisArmorCompendium.esm		sauvage_upperbody.nif + sauvage_1st.nif + sauvage_lowerbody.nif	3	4500	0	None	False
+5D000CDB	Patrol Trooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		PatrolTrooper_Body.nif + PatrolTrooper_Gloves.nif	3	3196	3	None	False
+5D000D02	Trade Federation Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		flightcap.nif + helmet.nif	2	1281	2	None	False
+5D000D6F	Imperial Agent Light Armor	ARMO	StarWarsGenesisArmorCompendium.esm		swsct_body.nif + swsct_gloves.nif + swct_hips.nif	2	3000	2	None	False
+5D000D9B	ISB Tactical Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swisb\ISB_Helmet_F.nif	1	1500	1	None	False
+5D000DEB	ISB Captain Armor	ARMO	StarWarsGenesisArmorCompendium.esm		ChestM.nif + ChestF.nif + LowerBody_F.nif + UpperBody_F.nif + Gloves_f.nif	5	7499	5	None	False
+5D000E1F	[Wrist] Muur Talisman	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\muurstalisman\Muur_Talisman_Clothes_3.nif	3	4308	2	None	False
+5D000F0F	Heavy Scrapper Apparel	ARMO	StarWarsGenesisArmorCompendium.esm		Shipyard_M_rig_BH.nif + Shipyard_F_rig_BH.nif + Shipyard_M_rig_B_Gloves.nif + Shipyard_F_rig_B_Gloves.nif + ShipyardHeavyCutter_rig_top_F.nif + ShipyardHeavyCutter_rig_bottom_F.nif + ShipyardHeavyCutter_rig_backpack_001.nif + ShipyardHeavyCutter_rig_backpack_F.nif	8	12000	8	None	False
+5D000F17	Rigger Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swsco\ShipyardRigger_rig_head_F.nif	1	1500	1	None	False
+5D000F38	Dark Trooper Phase 0 Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\darktrooper\helmet.nif	2	1788	2	None	False
+5D000F5B	Mandalorian Old Order	ARMO	StarWarsGenesisArmorCompendium.esm		Clothes\swhat\oldorder\SK_Cha009_OldOrder_Skin_Jetpack.nif	1	1499	1	None	False
+5D000F78	Pilot Cap	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\earl\cap.nif	2	1654	0	None	False
+5D000FAD	Rodian Head (Purple)	ARMO	StarWarsGenesisArmorCompendium.esm		Rodian.nif + RodianF.nif + Hands_Rodian.nif + Hands_rodianF.nif	4	5520	4	None	False
+5D000FCD	Arkanian Stalker Helmet (Purple)	ARMO	StarWarsGenesisArmorCompendium.esm		helmet_purple.nif + helmet_f_purple.nif	2	3000	0	None	False
+5D000FEF	Robes of Nihilus (Alt)	ARMO	StarWarsGenesisArmorCompendium.esm		SWDN_UpperBody.nif + SWDN_UpperBody_F.nif + SWDN_LowerBody.nif + SWDN_LowerBody_F.nif + SWDN_Skirt_Alt.nif + SWDN_Skirt_Alt_F.nif + SWDN_Gloves.nif + SWDN_Gloves_F.nif	12	18000	12	None	False
+5D001011	NiktoG Head	ARMO	StarWarsGenesisArmorCompendium.esm		NiktoG.nif + Hands_NiktoG.nif + Hands_NiktoGF.nif	3	4020	0	None	False
+5D001080	Black Sun Apparel	ARMO	StarWarsGenesisArmorCompendium.esm		upperbody_m_deimos.nif + upperbody_f_deimos.nif + lowerbody_m_deimos.nif + lowerbody_f_deimos.nif + gloves_deimos.nif + belt.nif	8	12000	1	None	False
+5D0010B1	Guavian Leader Helmet	ARMO	StarWarsGenesisArmorCompendium.esm		clothes\pirates\delgado_helmet.nif	3	4072	3	None	False
+5D0010E0	Dark Acolyte Robes	ARMO	StarWarsGenesisArmorCompendium.esm		upperbody.nif + lowerbody.nif + skirt.nif + gloves.nif	4	6000	2	None	False
+5D0010FF	Death Trooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		SWDT_Armor_Addon.nif + SWDT_golves.nif + SWDT_Armor.nif	3	4500	3	None	False
+5D001118	Night Trooper Armor	ARMO	StarWarsGenesisArmorCompendium.esm		Nighttrooper_BodyV2.nif + NighttrooperGloves.nif + StrapsV2_UL.nif + StrapsV2_UR.nif + StrapsV2_UM.nif	5	6928	5	None	False
+5D001147	Kaleesh Head and Mask	ARMO	StarWarsGenesisArmorCompendium.esm		Kaleesh.nif + KaleeshMask.nif + KaleeshMaskF.nif	5	5868	5	None	False
+5D001173	Fennec Shand's Armor	ARMO	StarWarsGenesisArmorCompendium.esm		fennec_body.nif + fennec_cloth.nif + fennec_gloves_low.nif	3	4500	3	None	False
+5E0008C1	Hutt Enforcer Outfit	ARMO	StarWarsFactionExpansion.esm		Arms.nif + Tunic1.nif + Tunic1F.nif + Pants.nif + Gloves_f.nif + Armor.nif + ArmorF.nif	7	9000	3	None	False
+5E0008DE	Pyke Syndicate Overboss Suit	ARMO	StarWarsFactionExpansion.esm		Pyke_Trench_F.nif + Pyke_Poncho.nif + Gloves_f.nif + Outfit_Neon_BusinessSuit_LowerBody_01_F.nif + Pyke_Details2.nif	5	6316	2	None	False
+5E000915	Rebel Officer Uniform	ARMO	StarWarsFactionExpansion.esm		Badge_f.nif + UpperBody_F.nif + Gloves.nif + LowerBody_F.nif	4	5344	3	None	False
+5E000947	NiktoG Face	ARMO	StarWarsFactionExpansion.esm		NiktoG.nif + NiktoGF.nif	2	3000	0	None	False
+6100080B	Sith Elite Helmet	ARMO	SithTrooper.esm		clothes\sithtrooper\ST_helmet.nif	1	1500	1	None	False
+6100081F	Dark Trooper	ARMO	SithTrooper.esm		Clothes\Spacesuit_Assault_01\Spacesuit_Assault_Backpack_01_M.nif	1	1500	1	None	False
+6100083C	Night Trooper	ARMO	SithTrooper.esm		Clothes\Stormtrooper\Dirt\Backpack_M.nif	1	1500	1	None	False
+61000883	Shadow Guard Helmet	ARMO	SithTrooper.esm		WMHelmet.nif + WFHelmet.nif	4	3648	4	None	False
+610008A7	Sith Heavy Trooper Helmet	ARMO	SithTrooper.esm		clothes\sithtrooper_kotor_heavy\silver\heavy_sithtrooper_helmet_01_m.nif	1	1500	1	None	False
+6500083E	Yuuzhan Vong Face (Nom Anor)	ARMO	Yuuzhan_Vong.esm		Skull.nif + BoneMask.nif + Vongrighteye.nif + Vonglefteye.nif + VongTeeth.nif + VongHead.nif + hood_black.nif	7	10475	7	None	False
+65000877	Yuuzhan Vong Face (Nas Choka)	ARMO	Yuuzhan_Vong.esm		Skull.nif + BoneMask.nif + Vongrighteye.nif + Vonglefteye.nif + VongTeeth.nif + VongHead.nif + VongHorns1.nif + VongHairBoneOrifice.nif + VongHairPonytail.nif	9	12085	9	None	False
+010008FB	Skin_8d81	ARMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+6B000815	Tester Jetpack	ARMO	Mojo_JetpackController.esm		Clothes\SpaceSuit_PirateSet\PirateSet_Backpack_2.nif	1	1500	1	None	False
+710008F9	Tusken Raider Helmet	ARMO	StarWarsGenesisOverridePatch.esm		clothes\Tusken\TuskenMask4.nif	3	4500	2	None	False
+FE0679B5	Strut_Token_casual_F_catwalk_v2	ARMO	StarfieldStrut.esm	no MODL		0	0	0	None	False
+FE0679C5	Strut_Token_casual_F_cautious_walk_v1	ARMO	StarfieldStrut.esm	no MODL		0	0	0	None	False
+FE0679D5	Strut_Token_F_boss_walk_v2	ARMO	StarfieldStrut.esm	no MODL		0	0	0	None	False
+FE0679E5	Strut_Token_M_boss_walk_v3	ARMO	StarfieldStrut.esm	no MODL		0	0	0	None	False
+FE0679F5	Strut_Token_M_style_macho	ARMO	StarfieldStrut.esm	no MODL		0	0	0	None	False
+00001D2C	GNN Mandalore Interview Part 06	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0000B0C1	Capt. Log - 05/28/2305	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0000D593	Heller’s Personal Log #2	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000165A4	Naeva's Directive	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0001AFAF	Noises on the Ship	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00022B5A	Passenger Log #1	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00026EAF	Orlan Marek's Journal	BOOK	Starfield.esm		SetDressing\Books\BookLarge01.nif	3	612	3	None	False
+0003B6B0	DON'T PUT THIS DOWN!	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00042E28	Big Score	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00045F49	Report: Abandoned <Alias=Treasure> Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000626ED	Key to the Supply Chest	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000753E8	Dr. Wynn Emergency Slate 1	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0007FA3E	Jin's Personal Journal	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0007FA46	Take a Dive	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0007FAC6	Fields of Everglass	BOOK	Starfield.esm		SetDressing\Books\BookMedium01.nif	1	204	1	None	False
+00089765	Napkin Spreadsheet - April	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+00093282	Anton Goraya: Affirmations	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000991E4	Confession	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+0009DE61	Field Notes: Captain Ahab	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000A64F6	Gallofree Spaceport Housing	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000B0828	Dr. Milla Laine's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000B74EE	Last Request	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000E7538	The Minister's Confession	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000F346B	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+000FAD91	SY-920 Marine's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001045FB	Mineral Survey: Dysprosium	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00104ACF	Directions to stash location	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+00104AD9	Mineral Survey: Carvanium	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0010CB4A	Nova - Datapad 4	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00114584	Tommy Bitlow - Inside the Ministry for Antiquity!	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00128135	GBLR006: Lost Soul	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00138CCF	Ministry for Antiquity	BOOK	Starfield.esm		SetDressing\Books\BookLarge01.nif	3	612	3	None	False
+0013E06D	Top of the LIST	BOOK	Starfield.esm		SetDressing\Books\BookSmall01.nif	1	204	1	None	False
+0013FEA0	They're Coming!	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+00141106	Doctor Moussa's Concern	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0015A889	Conduction Grid Schematics	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0015DA1E	Alira's Notes	BOOK	Starfield.esm		SetDressing\Books\BookSmall02.nif	1	204	1	None	False
+0015DA26	Gabby's Plea	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+001730CF	Artifact Locations Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0017E6D0	Memo - Missing key	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00183A78	Starstation RE-939 Security Log	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0018641B	Crimson Ambitions	BOOK	Starfield.esm		SetDressing\Books\BookSmall01.nif	1	204	1	None	False
+00188B11	Directions to stash location	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_PaperNote01.nif	1	1500	1	None	False
+001941E5	Pilgrim's Writing 5	BOOK	Starfield.esm		SetDressing\Books\BookSmall01.nif	1	204	1	None	False
+001A2676	The Echoes of Ord Vess	BOOK	Starfield.esm		SetDressing\Books\BookLarge01.nif	3	612	3	None	False
+001AFF6A	Colin Flaggerty's Last Words	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001CCFA9	Lair Slate: The Gold Mine	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001D9DF3	Dr. Ito's Log -  Entry 2	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001DEDA8	Rasapan I Offer (Evidence)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001DEDB0	Huan's Talk (Evidence)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001EF4A7	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001EF4C1	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001EFF10	Pocket Atmosphere	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001F0C38	Shadow Collective Orders	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001F40EE	Scrapping Daver Kuat	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001F6665	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001F668B	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001F77E0	Meeting With Bayu (Evidence)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+001FF722	R5: Meiloorun Hand Pies	BOOK	Starfield.esm		Items\Magazines\Magazine_TheNewAtlantian_01.nif	1	348	0	None	False
+002009AF	T-65 X-Wing Pilot Manual	BOOK	Starfield.esm		Items\Magazines\magazine_combatech_01.nif	1	348	1	None	False
+002009D4	SAGroup Leaflet	BOOK	Starfield.esm		Items\Magazines\Magazine_UCVanGaurd_01.nif	1	348	1	None	False
+002009DD	Colonization Guide 07	BOOK	Starfield.esm		Items\Magazines\Magazine_NasaColonizationGuide_07.nif	1	348	1	None	False
+00200A85	Scoundrel's Booster Blue Recipe	BOOK	Starfield.esm		Items\Magazines\Magazine_NeonLights_04.nif	1	348	1	None	False
+00201BD7	A Padawan's Guide to Points of Contact	BOOK	Starfield.esm		Items\Magazines\magazine_combatech_01.nif	1	348	1	None	False
+00202D9D	Mechanics' Guide to Swoopracing	BOOK	Starfield.esm		Items\Magazines\Magazine_PeakPerformance_02.nif	1	348	1	None	False
+00208D85	Joining the Fight	BOOK	Starfield.esm		Items\Magazines\magazine_combatech_01.nif	1	348	1	None	False
+00208D8D	A Technician's Guide to Security Droids	BOOK	Starfield.esm		Items\Magazines\Magazine_CyberRunner_02.nif	1	348	1	None	False
+00209090	The Merchant of Death	BOOK	Starfield.esm		Items\Magazines\Magazine_KryxsJournal_01.nif	1	348	1	None	False
+0020909B	The Bounty Hunters' Guild Handbook	BOOK	Starfield.esm		Items\Magazines\Magazine_TrackersAlliance_04.nif	1	348	1	None	False
+0020A91C	The Great Scourge of Malachor	BOOK	Starfield.esm		Items\Magazines\Magazine_ScriptureofTheGreatSerpent_01.nif	1	348	1	None	False
+0020A924	Ancient Text	BOOK	Starfield.esm		Items\Magazines\Magazine_ScriptureofTheGreatSerpent_01.nif	1	348	1	None	False
+0020B4B3	Arakyd Industries Catalog	BOOK	Starfield.esm		Items\Magazines\Magazine_MiningMonthly_03.nif	1	348	1	None	False
+0020BB30	Rising Phoenix Training Manual	BOOK	Starfield.esm		Items\Magazines\magazine_combatech_01.nif	1	348	1	None	False
+0021293D	Merr-Sonn Munitions Catalog	BOOK	Starfield.esm		Items\Magazines\Magazine_CombaTech_03.nif	1	348	1	None	False
+0021B04A	Death Trooper Training Manual	BOOK	Starfield.esm		Items\Magazines\magazine_combatech_01.nif	1	348	1	None	False
+0021EA41	Eren's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00224A7C	Probe Calibration Protocol	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002250DB	Completed Psych Eval: Andres	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0022D0D6	To Do List	BOOK	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_NotePad01.nif	1	1500	1	None	False
+0022D799	Adella Faheem's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0023842A	Survey Data (75%)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0023E91B	Sith Rune XXIV	BOOK	Starfield.esm		SetDressing\Books\DragonstarForceBook.nif	1	1500	1	None	False
+0023E923	Sith Rune XVI	BOOK	Starfield.esm		SetDressing\Books\DragonstarForceBook.nif	1	1500	1	None	False
+0023E92B	Sith Rune VIII	BOOK	Starfield.esm		SetDressing\Books\DragonstarForceBook.nif	1	1500	1	None	False
+0023F9C7	Occisio Machina Maturation Data	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00246D81	Carter's Gig (Evidence)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00257EB9	Aqueous Hematite Data	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0026319F	Victor Compound	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0026E6AE	Survey Data (25%)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00293849	Shadow Collective Profile: Naeva Mora	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0029554A	Ada's Diary - Heart of the Facility	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002A7FFA	Victor - Last Message	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002A803B	Taris - Slate 2	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002ABC5B	Miller's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002C2B6C	Swaney’s Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002CA389	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002DCF50	No Data	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002DFAF4	Cultist Note 1	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002E4C18	List of First Dantooine Colonists	BOOK	Starfield.esm		SetDressing\Books\BookMedium01.nif	1	204	1	None	False
+002F90B1	Kicked out of Space Station 11	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00303C24	Survey Data (75%)	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00329A3A	Slayton Aerospace Logo	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0032B31F	Explorer's Note	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A000	Report: Abandoned Duranium Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A008	Report: Abandoned Coaxium Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A010	Report: Abandoned High Tensile Spidrion Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A024	Report: Abandoned Lommite Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A02C	Report: Abandoned Caelumite Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A034	Report: Abandoned Stimulant Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033A03C	Report: Abandoned Neurologic Shipment	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0033E6A2	Fastest Food	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00369D13	Justus Qvist's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0036D866	Eulogy for Pete Nishikawa	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00370994	Riley Onyenwere's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00374075	Micke Josefsson's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037B2E1	A Letter to Sylvia	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037DAD4	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037DADC	Dying Words	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037DEB0	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037E0C0	Dying Words	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037E1A9	Crew Member's Slate	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0037E1B5	Your Belongings	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0038BC6C	Jake and the Enu: Part 1	BOOK	Starfield.esm		SetDressing\Books\BookMedium01.nif	1	204	1	None	False
+003997B6	Slate From Home	BOOK	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01010EF7	RE: Modulator Installation	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0101D264	Misthaze Spacer Patrol's Note	BOOK	ShatteredSpace.esm		items/dataslate\dataslate01.nif	2	1504	1	None	False
+010206B8	Zealot Slate #2032	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010337DF	One Step Closer	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0103F076	Reigen's Log: Too Many Notes!	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010472B4	Vaeric's Camp Log - Entry 1	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010B6339	Basira's Log	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010DB495	Orphanage: Grandpa	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010E42AC	Slaib's Journal Pt. 2	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+010FCFA0	Lair Slate: The Gold Mine	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0111864C	Orm Water Treatment Notice	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01129B5E	Farewell to Arms	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0113C151	Get Ready!	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+011467C2	That Fateful Day	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01147302	Thank you	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0114E01E	Climbing Routes (4/6)	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01153C98	Drying Seaweed Guidelines	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0115CF40	A Letter to My Darling	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0115F0EA	Words from the High Council	BOOK	ShatteredSpace.esm	no MODL		0	0	0	None	False
+01162DB9	Notice of Closure	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+011697FB	Guard Report	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0116C5DD	Jinan - Serpent's Crusade	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0116F071	Enough is Enough	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01174387	Mysterious Deaths	BOOK	ShatteredSpace.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+01175C86	Harder Times	BOOK	ShatteredSpace.esm		SetDressing\Books\BookMedium01.nif	1	204	1	None	False
+0301631E	Engineer's Slate	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+03027650	Paradiso Resort Advertisement	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0303530A	Sehoy	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+03055334	Keep Bill Out	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+03070440	SSNN Interview Clip	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+03074C48	Target Intel	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+03084C45	Old Woman's Diary 01	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0308A1F3	Clue Reminder	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0308AF3F	To-Do List	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0308AF47	Meeting Notes	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0308AF4F	Engineering Inventory	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0308B033	Grav Drive Test	BOOK	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD0241CC	Vulture - Psych Evaluation	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD030225	Bedside Prayer	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD03100A	Stolen DataSlate	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD042C36	Kang III Base Coordinates	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD051BD0	From your friend	BOOK	(none)		setdressing/office/notepadsnotebooks\office_papernote01.nif	1	1500	1	None	False
+FD060E20	Briefing: The Lovers	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD07146C	Mantis Experiment Log #13	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD07A92F	Ecliptic Contract	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+FD087720	Notes on Super Shotgun	BOOK	(none)		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0400AA20	Botany Guide	BOOK	tankgirlsxenologyexpanded.esm		setdressing/consolekit/addons\consolekit_addon_screenpanela01.nif	22	446	21	None	False
+FD0B2022	Matthew 6:19	BOOK	(none)		SetDressing\Books\BookLarge01.nif	3	612	3	None	False
+FE02281E	Vault-Tec Schematics	BOOK	harracwfurniture.esm		SetDressing\Books\BookSmall01.nif	1	204	1	None	False
+320009EF	Local Mission Datapad	BOOK	du_overtime.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+4500107C	Patrol Report	BOOK	Tatooine.esm		SWProps\Datapad.nif	2	1504	1	None	False
+4D002A60	ISB Contractor Needed	BOOK	FugitiveHideout.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+4D02D98D	The Empire	BOOK	FugitiveHideout.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+54000A87	It's not safe here!	BOOK	KZ_AOS.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+71000908	Requires Beskar Forging Research	BOOK	StarWarsGenesisOverridePatch.esm		meshes\SW_Props\Runes\SithRune1.nif	1	1500	1	None	False
+00000829	Plushie Xenosnuggle	MISC	Starfield.esm		Architecture\City\Akila\Unique\Toys\AK_Plushy_02.nif	1	1500	1	None	False
+00001403	Dr Reginald Orlase D	MISC	Starfield.esm		SetDressing\uc_citizencard\DrReginaldOrlase_FakeID.nif	11	947	5	None	False
+00005569	Meleenium	MISC	Starfield.esm		Landscape\resources\Ore\ResourceDysprosiumChunk01.nif	1	1500	1	None	False
+00005572	Nickel	MISC	Starfield.esm		Landscape\resources\Ore\ResourceNickelChunk01.nif	1	1500	1	None	False
+0000557A	Petroleum	MISC	Starfield.esm		SetDressing\Outpost\lootcontainers\InorgExoticIonicLiquids.nif	5	1822	4	None	False
+00005586	Carboxylic Acids	MISC	Starfield.esm		SetDressing\Outpost\lootcontainers\InorgRareCarboxylicAcids.nif	5	1840	4	None	False
+00005591	Water	MISC	Starfield.esm		setdressing/outpost/lootcontainers\InorgCommonWater.nif	5	1780	4	None	False
+000055AA	High-Tensile Spidroin	MISC	Starfield.esm		SetDressing\hightensilespidroin\HighTensileSpidroin01.nif	1	1500	1	None	False
+000055B2	Biosuppressant	MISC	Starfield.esm		SetDressing\Exotics\Biosuppressant01.nif	3	1884	2	None	False
+000055CE	Solvent	MISC	Starfield.esm		SetDressing\Exotics\Solvent01.nif	3	1696	2	None	False
+00005DEF	Coaxium	MISC	Starfield.esm		Landscape\resources\Ore\ResourceVyntiniumChunk01.nif	1	1500	1	None	False
+0000AB59	Tissues	MISC	Starfield.esm		SetDressing\Bathroom\Tissuebox\TissueBox01b.nif	1	1088	1	None	False
+0000DEC2	Succulent	MISC	Starfield.esm		SetDressing\Office\Deskplants\PottedPlant_Succulent_SM01.nif	3	3018	3	None	False
+0002775C	Holocron	MISC	Starfield.esm		SetDressing\NASA\Props\Collectables\Nasa_Collectable_Snowglobe02.nif	7	3908	6	None	False
+000304BF	Dumbbell	MISC	Starfield.esm		Items\Dumbell01.nif	1	1500	1	None	False
+000378C7	Fusion Cutter	MISC	Starfield.esm		Items\ImpactDriver01.nif	1	1500	1	None	False
+0003EDA2	Wine Glass	MISC	Starfield.esm		SetDressing\Bar_Glassware\Bar_WaterGlass01.nif	2	1608	1	None	False
+0003EDB8	Dinner Plate	MISC	Starfield.esm		SetDressing\Dining_Set\Dining_Plate01.nif	2	1020	0	None	False
+000445B7	Gallofree Trophy	MISC	Starfield.esm		SetDressing\HopeTech\HopeTech_TrophyPlate01B.nif	3	196	2	None	False
+0004F206	Taris Shipyard Coffee Mug	MISC	Starfield.esm		SetDressing\NovaGalacticMug\novagalacticmug.nif	1	1500	1	None	False
+000638A6	Plate	MISC	Starfield.esm		Architecture\Outpost\OutpostIndustrial\Interiors\Pod\OpiInd_Plate01.nif	1	716	1	None	False
+00066800	Stylized Caf Mug	MISC	Starfield.esm		SetDressing\Terrabrew\CoffeeCup_TB_01.nif	1	630	1	None	False
+00085FD0	Rakghoul Experiment Sample	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_AceLes_Cellsample.nif	5	2760	1	None	False
+0008B011	Crate of Contraband	MISC	Starfield.esm		SetDressing\Crates\CrimsonFleetCrates\Crate_CrimsonFleet01.nif	1	1500	0	None	False
+00092DE6	Sabacc Card - The Star	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Heart_10.nif	2	128	1	None	False
+00094BE5	Antique Piggy Bank	MISC	Starfield.esm		SetDressing\Earth\Artifacts\PiggyBank\MS06_PiggyBank01.nif	3	2582	3	None	False
+0009DE68	Microcell Power Source	MISC	Starfield.esm		SetDressing\robotpowercell\RobotPowerCell_PowerSource01.nif	3	848	3	None	False
+000AF400	Synthefoam Container	MISC	Starfield.esm		SetDressing\Coffeetogo\FoamContainer02_Alt01.nif	1	1500	1	None	False
+000B79A5	Sabacc Card - Queen of Darkness	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Club_Q.nif	2	128	1	None	False
+000B8573	Andreja's Commitment Gift	MISC	Starfield.esm		SetDressing\CommitmentGiftforAndreja\CommitmentGiftforAndreja.nif	5	1938	5	None	False
+000DD209	Rebel Deputy Badge	MISC	Starfield.esm		SetDressing\FreeStarRangeBadge\FreeStarRangeBadge_Cinimatic.nif	1	1499	1	None	False
+000F2C84	Bulk Tranquilitea Sunray	MISC	Starfield.esm		Items\FoodDrink_Set\Tea_Containers\Tea_Container_StarBurst01.nif	3	2166	1	None	False
+000FE275	Spoon	MISC	Starfield.esm		Architecture\Outpost\OutpostIndustrial\Interiors\Pod\OpiInd_UtensilSpoon01.nif	1	976	0	None	False
+00107370	Sabacc Card - Mistress	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Club_9.nif	2	128	1	None	False
+00107378	Sabacc Card - Balance	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Diamond_J.nif	2	128	1	None	False
+0010A793	Sabacc Card - Saber	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Diamond_4.nif	2	128	1	None	False
+0010A79B	Sabacc Card - Stave	MISC	Starfield.esm		SetDressing\Exotic_Clutter\ExoticPlayingCard_Spade_5.nif	2	128	1	None	False
+0010FA05	Bulk Tranquilitea Chamomile	MISC	Starfield.esm		Items\FoodDrink_Set\Tea_Containers\Tea_Container_Chamomile01.nif	3	2166	1	None	False
+0011D576	Prototype Equipment	MISC	Starfield.esm		SetDressing\Prototype_Tech\Prototype_Tech_03.nif	1	1500	1	None	False
+0012A05D	Spyglass	MISC	Starfield.esm		SetDressing\Lodge\TelescopeHandeheld01.nif	1	1059	1	None	False
+0012A066	Mariner's Compass	MISC	Starfield.esm		SetDressing\Lodge\CompassMariners01.nif	1	1212	1	None	False
+0012B4FA	Stylized Desk Fan	MISC	Starfield.esm		SetDressing\Exotic_DeskFan01\Exotic_DeskFan01.nif	5	2838	1	None	False
+0012D93E	Ornate Startar	MISC	Starfield.esm		SetDressing\Exotic_Clutter\Exotic_Antique_MusicInst01.nif	1	1500	1	None	False
+0012E1AF	Personal Groomer	MISC	Starfield.esm		SetDressing\Exotic_Clutter\Exotic_PersonalGroomer01.nif	9	2932	6	None	False
+0012F100	Desktop Mask Decoration	MISC	Starfield.esm		SetDressing\Exotic_Clutter\Exotic_Mask.nif	3	1670	2	None	False
+00133D12	Holocaster	MISC	Starfield.esm		SetDressing\Office\NotepadsNotebooks\Office_NotePad_Stack01.nif	1	1499	1	None	False
+0013704C	Moonshine Thermometer	MISC	Starfield.esm		SetDressing\MoonShine\Bootleg_Moonshine_Thermometer01.nif	4	348	3	None	False
+0013BD9C	Chasmbass Oil	MISC	Starfield.esm		Items\Alien_Gastronomic_Delight\OrgUniqueNeurologic.nif	3	620	2	None	False
+0013F302	Jigger	MISC	Starfield.esm		SetDressing\BarItems\Bar_Jigger01.nif	1	952	0	None	False
+001401DD	Origami Sculpture	MISC	Starfield.esm		SetDressing\Desktop_Items\Desktop_Origami01.nif	2	712	0	None	False
+001401F9	Huttball Stand	MISC	Starfield.esm		SetDressing\Desktop_Items\Desktop_SportsStand01.nif	4	4605	4	None	False
+00140215	Desktop Fish Bowl	MISC	Starfield.esm		SetDressing\Desktop_Items\Desktop_Fishbowl01.nif	6	8780	6	None	False
+00140985	Alexis' Coffee	MISC	Starfield.esm		SetDressing\CoffeeToGo\CoffeeToGoCupFull01.nif	1	1500	1	None	False
+0014B8F5	Yellow Plant Vase	MISC	Starfield.esm		SetDressing\Privatelivingquarters\Vases\VaseTableLG01.nif	1	1236	0	None	False
+0014B8FD	Yellow Fluted Vase	MISC	Starfield.esm		SetDressing\Privatelivingquarters\Vases\VaseTableLG03.nif	1	696	0	None	False
+0014B906	Yellow Microvase	MISC	Starfield.esm		SetDressing\Privatelivingquarters\Vases\VaseTableSM01.nif	1	806	0	None	False
+00155678	General Supply Crate	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Generic01.nif	5	2720	3	None	False
+001557F5	Tranquilitea Earl Grey Pack	MISC	Starfield.esm		Items\FoodDrink_SingleItems\Tea_Pack\Earl_Grey_Tea.nif	2	626	1	None	False
+0015FD76	Steel Bottle	MISC	Starfield.esm		SetDressing\MiscItems\AK_Bottle_Metal_02.nif	6	2396	2	None	False
+0016D4C6	Jerserra's Decoded Code Cylinder	MISC	Starfield.esm		SetDressing\Armistice_DataNCode\Armistice_Code_03.nif	4	1146	2	None	False
+0017995E	Party Cup	MISC	Starfield.esm		SetDressing\Resort\Plasticcup\Plastic_Cup02.nif	2	644	2	None	False
+001863C0	Vial	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_Vial03Closed01Full04.nif	5	1758	1	None	False
+00190D41	Syringe	MISC	Starfield.esm		SetDressing\Medical\MedicalInstruments\Syringes_01.nif	6	654	3	None	False
+00190D4A	Lid	MISC	Starfield.esm		SetDressing\Medical\KidneyDish\KidneyDish03_Lid.nif	1	832	0	None	False
+00191226	Game Piece - Shadowqueen	MISC	Starfield.esm	no renderable geometry	SetDressing\boardgames\GameBoard_MatGamePiece02.nif	0	0	0	None	False
+00198EAA	Holodisc	MISC	Starfield.esm		SetDressing\Earth\Artifacts\Portable_CD_Player\Antique_PortableCDPlayer01.nif	1	1499	1	None	False
+001A525D	Keoni's Sensor	MISC	Starfield.esm		setdressing/seismicsensor\seismicsensor01.nif	1	1500	1	None	False
+001B0682	Crate of Sentient Droid Adapters	MISC	Starfield.esm		SetDressing\Crates\CrimsonFleetCrates\Crate_CrimsonFleet01.nif	1	1500	0	None	False
+001C0E9B	Huttball Trophy Display	MISC	Starfield.esm		SetDressing\Earth\Artifacts\SportsMemorabilia\SoccerBallDisplay01 .nif	4	4605	4	None	False
+001DFC9F	Brochure	MISC	Starfield.esm		SetDressing\PamphletHolder\Sirenofthestars_Pamphlet01.nif	2	64	1	None	False
+001E61D6	Stylus	MISC	Starfield.esm		SetDressing\Office\Whiteboardmarker\Office_Whiteboardmarker02_Blue.nif	2	1700	2	None	False
+001E79B0	Cell Sample	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_Vial02Closed01Full01.nif	4	488	0	None	False
+001EB44B	Stylus	MISC	Starfield.esm		SetDressing\Pen\Office_Pen01.nif	1	254	1	None	False
+001F2ACB	Encased Alien Trilobyte	MISC	Starfield.esm		SetDressing\Decoration\Displays\Deco_Display03b_Table.nif	3	2532	1	None	False
+001F2AE0	Nosegrub Display	MISC	Starfield.esm		SetDressing\Decoration\Displays\Deco_Display01e_Table.nif	4	2556	2	None	False
+001F2AF7	Sculpture	MISC	Starfield.esm		SetDressing\GenericSculptures\Sculpture_Table01.nif	3	684	0	None	False
+001FF6B6	Empty Planter	MISC	Starfield.esm		SetDressing\Office\Deskplants\PottedPlant_Empty.nif	1	562	1	None	False
+001FF6C6	Succulent	MISC	Starfield.esm		SetDressing\Office\Deskplants\PottedPlant_Succulent_LG02.nif	2	2062	2	None	False
+00202F30	Cylindrical Glass	MISC	Starfield.esm		SetDressing\Bar_Glassware\Bar_DrinkingGlass03.nif	2	724	1	None	False
+002060EA	Muur Talisman	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+00209FEF	Mineral Hydrospanner	MISC	Starfield.esm		SetDressing\Tools_Kit\Tool_MeasureTape01.nif	1	644	1	None	False
+0020B97C	Servodriver	MISC	Starfield.esm		SetDressing\Tools_Kit\Tool_Wrench01.nif	1	484	1	None	False
+0020B984	Plasma Torch	MISC	Starfield.esm		SetDressing\Tools_Kit\Tool_HydraulicClamp01.nif	1	1500	1	None	False
+002120B9	Yellow Stylus	MISC	Starfield.esm		SetDressing\Pen\Pen_Stylus01_Yellow01.nif	3	794	1	None	False
+00216F8B	Artifact PI	MISC	Starfield.esm		SetDressing\Artifacts\Artifact_PI.nif	12	4370	12	None	False
+00216F93	Artifact IOTA	MISC	Starfield.esm		SetDressing\Artifacts\Artifact_IOTA.nif	12	4263	12	None	False
+00216F9B	Artifact ALPHA	MISC	Starfield.esm		SetDressing\Artifacts\Artifact_ALPHA.nif	12	4490	12	None	False
+0021829D	Crate of Synthetic Vaccines	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Medical01.nif	6	2720	4	None	False
+002182A5	Crate of Reactive Paints	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Generic01.nif	5	2720	3	None	False
+002182AD	Crate of Organic Mortar	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Generic01.nif	5	2720	3	None	False
+002182B5	Crate of Meat Byproducts	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Food01.nif	5	2720	3	None	False
+002182BD	Crate of Heat Sinks	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Mining01.nif	7	2722	5	None	False
+002182C5	Crate of Exotic Liquors	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Alcohol01.nif	5	2720	3	None	False
+002182CD	Crate of Cellular Inhibitors	MISC	Starfield.esm		SetDressing\SuppliesCrates\Supplies_Medical01.nif	6	2720	4	None	False
+0021B7F8	Bowl	MISC	Starfield.esm		Architecture\City\Akila\Unique\Kitchen\Kitchen_Bowl_Large01.nif	1	1328	0	None	False
+0022BDF5	Baseball Display	MISC	Starfield.esm		SetDressing\Earth\Artifacts\SportsMemorabilia\BaseBall01.nif	3	2100	2	None	False
+0023F7E7	Stack of Anti-Imperial Posters	MISC	Starfield.esm		SetDressing\posters\ffCydoniaZ04_Drawing.nif	6	320	6	None	False
+00246B5E	Neutral Capacitor	MISC	Starfield.esm		SetDressing\manufactured_goods\Mfg_Neutral_Capacitor.nif	1	1500	1	None	False
+00246B66	Zero-G Gimbal	MISC	Starfield.esm		SetDressing\manufactured_goods\Mfg_Zero_G_Gimbal.nif	3	2112	2	None	False
+00246B6E	Regenerative Illuminator	MISC	Starfield.esm		SetDressing\manufactured_goods\Mfg_Regenerative_Illuminator.nif	1	1500	1	None	False
+00246B76	Isotopic Coolant	MISC	Starfield.esm		SetDressing\manufactured_goods\Mfg_Isotopic_Coolant.nif	3	2452	1	None	False
+0024F5BF	Antimicrobial (Tissue)	MISC	Starfield.esm		Items\animalgenericingredients\tissue\animalgenericingredients_tissue.nif	1	1500	1	None	False
+0024F848	Hadrian's Package	MISC	Starfield.esm		SetDressing\ArmisticeDataObject\ArmisticeDataObject_01.nif	1	1500	1	None	False
+00257EB8	Aqueous Hematite Data	MISC	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+00260BF3	Solvent (Seed)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSeed01.nif	1	1168	1	None	False
+00260C36	Polymer (Root)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientRoot01.nif	1	421	1	None	False
+00260C66	Stimulant (Flower)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientFlower01.nif	1	1497	1	None	False
+00260D25	Hypercatalyst (Seed)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSeed01.nif	1	1168	1	None	False
+00260D65	Biosuppressant (Root)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientRoot01.nif	1	421	1	None	False
+00260D6D	Sedative (Sap)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSap01.nif	2	1789	1	None	False
+00260D75	Hallucinogen (Leaf)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientLeaf01.nif	1	1500	1	None	False
+00260DB0	Amino Acids (Stalk)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientStalk01.nif	1	466	1	None	False
+00260DB8	Adhesive (Sap)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSap01.nif	2	1789	1	None	False
+00260DC0	Spice (Leaf)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientLeaf01.nif	1	1500	1	None	False
+00260DC8	Pigment (Stalk)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientStalk01.nif	1	466	1	None	False
+00260DD0	Membrane (Leaf)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientLeaf01.nif	1	1500	1	None	False
+00260DD8	Aromatic (Seed)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSeed01.nif	1	1168	1	None	False
+00260DE0	Toxin (Leaf)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientLeaf01.nif	1	1500	1	None	False
+00260DE8	Metabolic Agent (Seed)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSeed01.nif	1	1168	1	None	False
+00260DF0	Fiber (Root)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientRoot01.nif	1	421	1	None	False
+00260DF8	Antimicrobial (Seed)	MISC	Starfield.esm		Landscape\Flora\Ingredients\FloraIngredientSeed01.nif	1	1168	1	None	False
+00261258	Solvent (Vital Fluids)	MISC	Starfield.esm		Items\animalgenericingredients\fluids\animalgenericingredients_fluids02.nif	2	1720	1	None	False
+00261260	Stimulant (Gland)	MISC	Starfield.esm		Items\animalgenericingredients\gland\animalgenericingredients_gland.nif	1	1500	1	None	False
+00261268	Lubricant (Vital Fluids)	MISC	Starfield.esm		Items\animalgenericingredients\fluids\animalgenericingredients_fluids02.nif	2	1720	1	None	False
+00261270	Biosuppressant (Hide)	MISC	Starfield.esm		Items\animalgenericingredients\Hide\animalgenericingredients_hide.nif	1	1500	1	None	False
+00261278	Sedative (Tissue)	MISC	Starfield.esm		Items\animalgenericingredients\tissue\animalgenericingredients_tissue.nif	1	1500	1	None	False
+00261280	Hallucinogen (Gland)	MISC	Starfield.esm		Items\animalgenericingredients\gland\animalgenericingredients_gland.nif	1	1500	1	None	False
+00261288	Analgesic (Carapace)	MISC	Starfield.esm		Items\animalgenericingredients\carapace\animalgenericingredients_carapace.nif	1	1500	1	None	False
+00261290	Adhesive (Vital Fluids)	MISC	Starfield.esm		Items\animalgenericingredients\fluids\animalgenericingredients_fluids02.nif	2	1720	1	None	False
+00261298	Spice (Gland)	MISC	Starfield.esm		Items\animalgenericingredients\gland\animalgenericingredients_gland.nif	1	1500	1	None	False
+002612A0	Pigment (Gland)	MISC	Starfield.esm		Items\animalgenericingredients\gland\animalgenericingredients_gland.nif	1	1500	1	None	False
+002612A8	Cosmetic (Tissue)	MISC	Starfield.esm		Items\animalgenericingredients\tissue\animalgenericingredients_tissue.nif	1	1500	1	None	False
+002612B0	Aromatic (Vital Fluids)	MISC	Starfield.esm		Items\animalgenericingredients\fluids\animalgenericingredients_fluids02.nif	2	1720	1	None	False
+002612B8	Ornamental (Tissue)	MISC	Starfield.esm		Items\animalgenericingredients\tissue\animalgenericingredients_tissue.nif	1	1500	1	None	False
+002612C0	Metabolic Agent (Carapace)	MISC	Starfield.esm		Items\animalgenericingredients\carapace\animalgenericingredients_carapace.nif	1	1500	1	None	False
+002612C8	Antimicrobial (Bone)	MISC	Starfield.esm		Items\animalgenericingredients\Bone\animalgenericingredients_bone.nif	1	1500	1	None	False
+00265ADB	Bottle	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_Bottle01.nif	2	490	0	None	False
+00265AFC	Vial	MISC	Starfield.esm		SetDressing\ScienceGlass\ScienceGlass_Vial02Closed01Full01.nif	4	488	0	None	False
+0026E2D1	AI Control Board	MISC	Starfield.esm		SetDressing\Exotic_LightFixture\Exotic_LightFixture01.nif	4	2098	2	None	False
+0026E423	Magno Orb - 8	MISC	Starfield.esm		SetDressing\PingPongTable\PoolTable_Ball_08.nif	3	2440	2	None	False
+0026E42B	Cue Ball	MISC	Starfield.esm		SetDressing\PingPongTable\PoolTable_Ball_White01.nif	1	1500	0	None	False
+0026E4F5	Tea Pot	MISC	Starfield.esm		SetDressing\Seokga\SeokgaTeapot01.nif	1	1500	1	None	False
+0028B085	Pill Bottle	MISC	Starfield.esm		SetDressing\Neon\MedicalPillBottle05.nif	3	2314	1	None	False
+0028E7AB	Tranquilitea Breakfast Pack	MISC	Starfield.esm		Items\FoodDrink_SingleItems\Tea_Pack\Breakfast_Blend_Tea.nif	2	626	1	None	False
+0029F3FC	Metabolic Agent	MISC	Starfield.esm		SetDressing\MetabolicAgent\MetabolicAgent01.nif	4	1044	3	None	False
+002AAC25	Nina's Presentation (Fake)	MISC	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002AC1F1	Plant	MISC	Starfield.esm		SetDressing\Office\Deskplants\Office_Deskplant02.nif	3	2151	1	None	False
+002AC200	Scissors	MISC	Starfield.esm		SetDressing\Kitchen\Scissors\Kitchenware_Scissors01.nif	1	792	1	None	False
+002AC213	Bowl	MISC	Starfield.esm		SetDressing\Kitchen\Bowls\Kitchenware_Bowl01.nif	2	3000	1	None	False
+002AC961	Hammer	MISC	Starfield.esm		Items\Tools\Tool_Hammer01.nif	1	1138	1	None	False
+002B0678	Pot	MISC	Starfield.esm		SetDressing\Kitchen\PotsandPans\Kitchenware_Pot02.nif	5	1496	4	None	False
+002B185D	Crystal Desk Phial	MISC	Starfield.esm		SetDressing\Privatelivingquarters\Vases\VaseTableSM02.nif	2	1756	0	None	False
+002B186C	White Plant Vase	MISC	Starfield.esm		SetDressing\Privatelivingquarters\Vases\VaseTableLG01.nif	1	1236	0	None	False
+002B6537	Sabacc Deck	MISC	Starfield.esm		SetDressing\BoardGames\Boardgame02.nif	1	170	1	None	False
+002C56C6	Unmarked Data Slate	MISC	Starfield.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+002E01CF	Hookah Canister	MISC	Starfield.esm		SetDressing\Tablehookah01\Canisterhookah03.nif	6	1074	3	None	False
+002F7484	Coffee Mug	MISC	Starfield.esm		SetDressing\Posters\Mug_With_Phrases_01.nif	1	1462	1	None	False
+002F748C	Coffee Mug	MISC	Starfield.esm		SetDressing\Posters\Mug_With_Phrases_06.nif	1	1500	1	None	False
+002F74A1	Coffee Mug	MISC	Starfield.esm		SetDressing\Posters\Mug_With_Phrases_20.nif	1	1500	0	None	False
+00309DA1	Trowel	MISC	Starfield.esm		Architecture\City\Akila\Unique\Tools\AK_Tool_Trowel_02.nif	1	708	1	None	False
+003197E0	Blaster Resistance Upgrade	MISC	Starfield.esm		Weapons\AR99\AR99_Mag_Small.nif	2	1512	2	None	False
+003402A6	Black Sun Dead Drop	MISC	Starfield.esm		setdressing/crates/cardboardboxes\cardboardbox01.nif	1	1200	1	None	False
+0037E1BC	Geonosis Excavation Site Resident's ID Card	MISC	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+003C17B6	Circuit Board	MISC	Starfield.esm		SetDressing\Tech_Clutter\Circut_Board04.nif	2	284	2	None	False
+003C18BF	High-Speed Data Cable	MISC	Starfield.esm		SetDressing\Tech_Clutter\TechWire_01.nif	2	1816	1	None	False
+010105D1	Wooden Goose Nack	MISC	ShatteredSpace.esm		SetDressing\dlc001\figurines\SFDLC001_WoodenGoose01.nif	1	1494	0	None	False
+0103B602	Biosample Collector	MISC	ShatteredSpace.esm		SetDressing\DLC001\BiosampleCollector\SFBGS001_MS04BiosampleCollector01.nif	4	3086	2	None	False
+0104077C	Animal C Tissue Sample	MISC	ShatteredSpace.esm		Items\animalgenericingredients\tissue\animalgenericingredients_tissue.nif	1	1500	1	None	False
+0105733D	Vortex Ichor	MISC	ShatteredSpace.esm		Items\DLC001\VortexIchor\SFBGS001_VortexIchor01.nif	4	1488	0	None	False
+011070CE	Socks	MISC	ShatteredSpace.esm		SetDressing\Exotics\Toyplushies\Toyplushie_Dog01.nif	9	3904	5	None	False
+01164C2D	Effigy of Obedience	MISC	ShatteredSpace.esm		SetDressing\DLC001\JinanMiniStatues\SFBGS001_JinanMiniStatue_Obedience01.nif	8	8556	0	None	False
+FD00F951	Bounty: The Lovers	MISC	Neon_Vertigo.esm		SetDressing\SFBGS003\Mission_Board_Terminals\SFBGS003_DisplayScreen.nif	1	2	0	None	False
+030220F3	Bloodied Surgical Gloves	MISC	SFBGS00D.esm		SetDressing\OutfitContainer01.nif	1	1500	1	None	False
+03037177	Prototype Robot Parts	MISC	SFBGS00D.esm		SetDressing\Privatelivingquarters\Decorativeboxes\DecorativeBox05.nif	3	1200	3	None	False
+0305C892	Schematic - EM Pulse Shielding	MISC	SFBGS00D.esm		Items\DataSlate\DataSlate01.nif	2	1504	1	None	False
+0306F8AE	Action Figure: Admiral Ode Balewa	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_UC_NavyAdmiralOdeBalewa.nif	2	1868	2	None	False
+0306F8B6	Action Figure: General Indira Rastogi	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_UC_GeneralIndiraRastogi.nif	2	1656	2	None	False
+0306F8BE	Action Figure: Commander Vincent Woodard	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_CommanderVincentWoodard.nif	1	1500	1	None	False
+0306F8C6	Action Figure: Kaiser	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_RedDevils_Kaiser.nif	1	1500	1	None	False
+0306F8D0	Action Figure: Freestar Militia Medic	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_Freestar_ Medic.nif	10	6966	8	None	False
+0306F8D8	Action Figure: Freestar Mech Pilot	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_Freestar_MechPilot.nif	1	1500	1	None	False
+0306F8E0	Action Figure: Jasper Kryx	MISC	SFBGS00D.esm		SetDressing\SFBGS00D\actionfigures\ActionFigure_CrimsonFleet_JasperKryx.nif	7	4600	1	None	False
+FE006962	Spice Grinder	MISC	sfbgs00c.esm		SetDressing\sfbgs00c\spicegrinder\Spice_Grinder.nif	4	3988	4	None	False
+FE00E021	Plushie Milliwhale	MISC	sfbgs031.esm		SetDressing\sfbgs031\Plushie_Milliwhale\Plushie_Milliwhale.nif	1	1500	0	None	False
+FD04A4C0	Bounty: The Starjacker	MISC	(none)		SetDressing\SFBGS003\Mission_Board_Terminals\SFBGS003_DisplayScreen.nif	1	2	0	None	False
+FD0754B5	Plushie Galacticat	MISC	(none)		SetDressing\Exotics\Toyplushies\Toyplushie_Cat01.nif	1	1500	1	None	False
+FD08772B	Plushie Arachnatron	MISC	(none)		kgcdoom\CLUTTER\plush\Doom_Arachnotron_Plush_01.nif	1	1500	0	None	False
+FE01A00C	Plushie Sarah	MISC	sfbgs00e.esm		SetDressing\sfbgs00e\Plushie_Sarah\ToyPlushie_Sarah.nif	1	1500	0	None	False
+040001E5	Dropsalm Tusk	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_HornBrainSquid.nif	1	306	1	None	False
+04003FD1	DNA - Elk Crangon	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+040002BF	Alien Flatbeetle Display	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Pressed_Flatbeetle.nif	5	2702	3	None	False
+04000224	Fertile Egg - Nightmare	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Nightmare.nif	1	822	1	None	False
+040001B7	Shellephant Plate	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_ShellephantPlate.nif	1	1500	1	None	False
+04000175	Fertile Egg - Red Mile Mauler	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+040002A6	Plant: Starnut Shrub	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04000202	Fertile Egg - Arachnomantis	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+040002E0	Cagebrain Stomatch	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_Cagebrain_Organs.nif	1	418	1	None	False
+04003F04	Fertile Egg - Maggotmaw	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+040039A7	DNA - Coralbug	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+0400017A	Fertile Egg - Beetlecrab	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_BlisterCrabnif.nif	1	822	0	None	False
+0400019A	Fertile Egg - Arachnofly	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+040002C4	Fertile Egg - Twistfin	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+0400022A	Old Earth PC	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AAA_Base_Pc_Main.nif	4	3014	3	None	False
+04000297	Plant: Starmelon	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+040001B2	Foxbat Quils	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_Foxbat_Quils.nif	1	711	1	None	False
+040001DB	DNA - Radarface	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04000274	Fertile Egg - Vampire	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+0400413F	Fertile Egg - Kreet Grazer	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Sailrunner.nif	1	944	1	None	False
+04000243	Plant: Skullfruit Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+040001EE	Archnofly Plates	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_Archnofly_Plates.nif	1	898	1	None	False
+0400026D	Fertile Egg - Cyclozard	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Croc.nif	1	784	1	None	False
+0400016B	Fertile Egg - Brainsquid	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Cagebrain_Red.nif	1	784	1	None	False
+04000261	Fertile Egg - Bonemane	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+040001E4	Ancient PC	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AAA_Base_Pc_B.nif	3	2830	2	None	False
+040001A7	Fertile Egg - Hornface	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Cagebrain.nif	1	784	1	None	False
+040002D3	Plant: Plum Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04000223	Buzzrunner Mandibles	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_Hammersaur_Mandible.nif	1	714	1	None	False
+0400014B	Fertile Egg - Lionbear	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Croc.nif	1	784	1	None	False
+04003E9E	Fertile Egg - Trident	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+040002C8	Fertile Egg - Aceles	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+04000293	Plant: Pink Pear	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04003FC6	Fertile Egg - Alpha Ashta	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Cagebrain.nif	1	784	1	None	False
+040040C6	DNA - Nightmare	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04000195	Packed Cherries	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\packagedfood_Cherry.nif	3	1383	3	None	False
+040002E3	Fertile Egg - Aceles	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+040002D0	Fertile Egg - Gray Shark (Aquatic)	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04003F75	Fertile Egg - Twistfin	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04004008	Fertile Egg - Shieldshell	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Trihorn.nif	1	944	1	None	False
+0400024A	Plant: Defensive Spitter Plant	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04003EE7	Fertile Egg - Pearl	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+04003F9B	Fertile Egg - Cobalt	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04000161	Fertile Egg - Dragon	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+040002DC	Fertile Egg - Lesser Jaffa Lizard	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Olgreg.nif	1	944	1	None	False
+04000144	Plant: Celery Patch	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+0400410B	Fertile Egg - Bonecrest	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+04000254	Nightmare Horn	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_HornNighmare.nif	1	1500	1	None	False
+040001E2	Fertile Egg - Dodo	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Dodo.nif	1	944	1	None	False
+040001B1	Plant: Grape Vine Red	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+040001FF	Packed Celery	MISC	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\packagedfood_celery.nif	3	1383	3	None	False
+04000250	Fertile Egg - Twigworm	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Eggback.nif	1	784	1	None	False
+04000210	Fertile Egg - Puffball	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04000264	Fertile Egg - Eggback	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Eggback.nif	1	784	1	None	False
+04003EBE	DNA - Trapmaw	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04000253	Fertile Egg - Triantler	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04000184	Packed Plums	MISC	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\packagedfood_plum.nif	3	1383	3	None	False
+04004014	Fertile Egg - Newt	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+04000206	Bighorn Horns	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_HornForkHorn.nif	1	1500	1	None	False
+04003FA4	DNA - Sporeback	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003E32	Fertile Egg - Fingerface	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04003C1F	Fertile Egg - Rhincodon (Aquatic)	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04000252	Fertile Egg - Artichoke	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Cagebrain_Gut.nif	1	784	1	None	False
+04004EF4	Packed Grapefruit	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\packagedfood_Grapefruit.nif	3	1383	3	None	False
+040039DA	DNA - Flat Beetle	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003FC0	Fertile Egg - Ghost (Flyer)	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Cagebrain_Gut.nif	1	784	1	None	False
+04004035	DNA - Olgreg	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+0400016A	Fertile Egg - Parrothawk	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Mander.nif	1	944	1	None	False
+04003EDB	Fertile Egg - Landshark	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_SailrunnerB.nif	1	822	1	None	False
+040039B0	DNA - Seabat	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003E88	DNA - Cockroach	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04004123	DNA - Arachnofly	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003E3B	Fertile Egg - Grabber	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+0400015E	Fertile Egg - Shroombobber	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+0400029B	Fertile Egg - Kreet Grazer	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Sailrunner.nif	1	944	1	None	False
+04001864	Plant: Alien Apple Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+040039A6	Fertile Egg - Coralbug	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Eggback.nif	1	784	1	None	False
+040040C5	DNA - Ikuradon	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04004095	Fertile Egg - Scarab	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_LeafB.nif	1	944	1	None	False
+04003C00	Fertile Egg - Eel (Aquatic)	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+04003F8E	DNA - Geckon	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+040002C5	Packed Orange	MISC	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\packagedfood_orange.nif	3	1383	3	None	False
+04003F1C	DNA - Glider	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+040001F8	Fertile Egg - Crystal Shellephant	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+04003EE8	DNA - Leafstrider	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003FB9	DNA - Cephalopod	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04004139	DNA - Red Mile Mauler	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+0400415B	DNA - Lesser Silverfish	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003EE3	Fertile Egg - Tubule	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+040001CA	Fertile Egg - Fleshleaf	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+04003F9E	DNA - Cobalt	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+0400081F	Plant: Kiwi Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+040040CD	Fertile Egg - Twingrub	MISC	tankgirlsxenologyexpanded.esm		landscape/xophile/mineralpool/mineralpooleggs\MineralPoolEgg01Misc.nif	1	196	1	None	False
+0400029A	Packed Citron Fruit	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\packagedfood_Citron.nif	3	1383	3	None	False
+04000207	Plant: Pomelo Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04003EAF	Fertile Egg - Leafback	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_LeafB.nif	1	944	1	None	False
+04003E85	Fertile Egg - Longhorn	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Longhorn.nif	1	822	1	None	False
+040059A4	Plant: Wheat	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04003E2C	Fertile Egg - Blistercrab	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_BlisterCrabnif.nif	1	822	0	None	False
+04003BE4	DNA - Dragondon	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003F67	DNA - Roundshell	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003E29	Fertile Egg - Octomaggot	MISC	tankgirlsxenologyexpanded.esm	no renderable geometry	tankgirlck\xenologymesh\GG_Egg_Glow.nif	0	0	0	None	False
+0400408E	Fertile Egg - Shellephant	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+04003ECC	DNA - Eggsac	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04000197	Plant: Boomfruit Tree	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04004062	Fertile Egg - Longneck	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Anteater.nif	1	944	1	None	False
+0400013E	Plant: Conch Fruit	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\AA_ItemBaseSprout.nif	3	736	1	None	False
+04003F02	DNA - Caterpillar	MISC	tankgirlsxenologyexpanded.esm		SetDressing\ScienceGlass\ScienceGlass_Terrormorph_sample.nif	5	1964	1	None	False
+04003F1B	Fertile Egg - Bonemane	MISC	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_MainEgg.nif	1	944	1	None	False
+05000A54	Tea Cup	MISC	tailoredspaces.esm		SetDressing\Neon\RyujinTower_TeaSets_cup.nif	1	360	1	None	False
+05000B9D	Tray	MISC	tailoredspaces.esm		Architecture\City\Akila\Unique\Kitchen\Kitchen_Tray01.nif	2	2212	0	None	False
+FD0B0D23	Bottle	MISC	(none)		SetDressing\ScienceGlass\ScienceGlass_Bottle01.nif	2	490	0	None	False
+FD0B339E	Gate Power Cell	MISC	(none)		SetDressing\PowerCell\PowerCell01.nif	4	2162	1	None	False
+FD0CAE9B	Spatula	MISC	(none)		pegasus_homegarden\Kitchen\misc\kitchen_utensil_spatula01_copperwhite.nif	2	700	2	None	False
+FD0CAE95	Utensil Holder	MISC	(none)		pegasus_homegarden\Kitchen\misc\kitchen_utensil_holder01_wood03.nif	1	1328	1	None	False
+FD0CAE23	Copper Stock Pot	MISC	(none)		pegasus_homegarden\Kitchen\kitchenware_pot03_copper.nif	4	1684	4	None	False
+10000A75	Kyber crystal red	MISC	SW Resources.esm		SWProps\KyberRed.nif	3	1644	3	None	False
+10000D09	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Club_6.nif	2	128	1	None	False
+10000D1D	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Diamond_10.nif	2	128	1	None	False
+10000D32	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Diamond_9.nif	2	128	1	None	False
+10000D72	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Heart_4.nif	2	128	1	None	False
+10000DAC	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Heart_K.nif	2	128	1	None	False
+10000DCD	Sabacc Card	MISC	SW Resources.esm		SWProps\Exotic_Clutter\ExoticPlayingCard_Spade_7.nif	2	128	1	None	False
+28019B8C	Sculpture	MISC	CoruscantCity.esm		SetDressing\GenericSculptures\Sculpture_Table04.nif	7	7050	2	None	False
+FE033800	Plushie Carl Capybara	MISC	RoysEE_Plushies.esm		roysee\carl_capybara.nif	1	1500	0	None	False
+FE0338E0	Plushie Chunks Trash Panda	MISC	RoysEE_Plushies.esm		roysee\jimothychunks.nif	1	1500	0	None	False
+FE033960	Plushie Cadwell the Courageous	MISC	RoysEE_Plushies.esm		roysee\cadwellcourag.nif	1	1500	0	None	False
+FE033B40	Plushie Aceles Devil	MISC	RoysEE_Plushies.esm		roysee\acelesdevil01.nif	1	1500	0	None	False
+FE033BC0	Plushie StarPal Grus	MISC	RoysEE_Plushies.esm		roysee\starpalgrus01.nif	1	1500	0	None	False
+FE034860	Plushie Vampire Sarah	MISC	RoysHalloween_Plushies.esm		royshw\hwvampsarah01.nif	1	1500	0	None	False
+FE03580D	Old Earth Green Gecko	MISC	Old Earth Dolls Collection.esm		pkm_nif\PKM_Doll_Treecko.nif	2	2088	2	None	False
+FD11080B	Old Earth Fire Dragon	MISC	(none)		pkm_nif_v2\PKM_Doll_Charizard.nif	5	4818	5	None	False
+FD110813	Old Earth Shell Plesiosaur	MISC	(none)		pkm_nif_v2\PKM_Doll_Lapras.nif	1	1500	1	None	False
+3200086F	Seismological Spectroscope	MISC	du_overtime.esm		SetDressing\Prototype_Tech\Prototype_Tech_01.nif	1	1500	1	None	False
+32000AE3	Goods Package	MISC	du_overtime.esm		setdressing/suppliescrates\supplies_generic01.nif	5	2720	3	None	False
+32000BBB	Nar Shaddaa Water Quality Probe	MISC	du_overtime.esm		SetDressing\Prototype_Tech\Prototype_Tech_01.nif	1	1500	1	None	False
+32000999	Mineral Sample	MISC	du_overtime.esm		setdressing/suppliescrates\supplies_generic01.nif	5	2720	3	None	False
+3200085E	Geo-Imager	MISC	du_overtime.esm		SetDressing\Tech_Clutter\Circut_Board09.nif	10	3106	6	None	False
+34000825	Orange Kyber Crystal	MISC	SuitPowerCores.esm		avontech\powercore.nif	3	412	0	None	False
+3400B722	Kyberite Shard	MISC	SuitPowerCores.esm	no renderable geometry	avontech\exoticscrystalshard02_glowblue.nif	0	0	0	None	False
+FE04F87A	Yellow-Flighted Dart	MISC	TrackerAlliance_HQ_Overhaul.esm		trackeralliancehq\Dartboard\dart02.nif	1	1362	1	None	False
+FE04F873	Yellow-Flighted Dart	MISC	TrackerAlliance_HQ_Overhaul.esm		trackeralliancehq\Dartboard\dart02.nif	1	1362	1	None	False
+62000843	Kyber Crystal of Destiny	MISC	StarWarsGenesisLightsabers.esm		GenesisLocations\kyberCrystalGreen.nif	1	80	1	None	False
+6500082D	Vonduun Crab Shell (Nom Anor)	MISC	Yuuzhan_Vong.esm		vonduuncrabshell\shell01.nif	1	1500	1	None	False
+000021C6	Pulse Laser	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0000A1DA	UnarmedHopperA_Base	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00018DF6	Cannon	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00025FB6	Marauder 115N railgun Turret	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0002EB3C	E-5C	WEAP	Starfield.esm		Magshear_Barrel_Standard.nif + MagShear.nif	5	2540	3	None	False
+00032D6A	Grendel	WEAP	Starfield.esm		Bullpup_Receiver.nif + Bullpup_Mag_E-Ink.nif + Bullpup_Barrel_Standard.nif + Bullpup_Grip.nif	19	9427	19	None	False
+000476C4	DL-18	WEAP	Starfield.esm		stinger_mag.nif + stinger_battery.nif + stinger.nif + stinger_sights.nif	11	2216	7	None	False
+0005638F	CreatureTailRangedAttack	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00069F23	UnarmedFlyerA_Head	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+000B2CCF	Solar Flare Beam	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00100B8D	Grendel	WEAP	Starfield.esm		Bullpup_Receiver.nif + Bullpup_Mag_E-Ink.nif + Bullpup_Barrel_Standard.nif + Bullpup_Grip.nif	19	9427	19	None	False
+00146D34	Dragon 241P Pulse Laser Turret	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0014C1B5	UnarmedQuadrupedC_Tail	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00150502	Tsukisasu 40k missile launcher	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+001AD73A	UnarmedRakghoul_Mouth1_Ranged	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+001D83B7	UnarmedLarva	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+001F1EF7	Particle Beam Turret	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+001F9583	Old Earth Pistol ELITE CREW ONLY	WEAP	Starfield.esm		m1919_slide_standard.nif + 1919_Barrel.nif + m1919_receiver_standard.nif + m1919_grip_standard.nif + m1919_magazine.nif	7	5953	4	None	False
+001F9661	Beowulf ELITE CREW ONLY	WEAP	Starfield.esm		Beowulf_MuzzleFlashHider.nif + Beowulf_Mag.nif + Beowulf_GripStandard.nif + Beowulf_Barrel.nif + Beowulf.nif	10	4820	8	None	False
+001FA113	UnarmedQuadrupedA_Mouth	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00215F41	Orion ELITE CREW ONLY	WEAP	Starfield.esm		OrionRifle_Magazine.nif + orionrifle_stock.nif + OrionRifle_Barrel.nif + OrionRifle_Receiver.nif	10	6025	8	None	False
+0021849C	Supaku 600gc stochastic suppressor	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+002184A7	EMP-500 stochastic suppressor	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022357A	UnarmedQuadrupedA_Mouth	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022D1A5	Tsukisasu 40k missile launcher	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022D1BD	Atlatl 280B missile launcher	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022D1D3	Atlatl 280A missile launcher	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC40	Eradicator-RF 75MeV neutron beam	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC48	PBO-300 alpha autoprojector	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC51	Vaporizer 35MeV proton beam	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC5C	PB-175 helion beam	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC64	Singe-P 4mw MW pulse laser	WEAP	Starfield.esm	NIF missing		0	0	0	None	False
+0022EC6C	Reza 600 THz Pulse Laser	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022EC8C	Dragon 251 UV Laser	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022F2A1	Jishaku Fe RF railgun	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022F2AB	Marauder 114ANC Auto Railgun	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022F2B3	Mauler 104L autocannon	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0022F2BD	KE-42 cannon	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+0023F5B7	UnarmedMantaA_Base	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+002634C5	EquiNOX	WEAP	Starfield.esm		OrionRifle_Magazine.nif + orionrifle_stock.nif + OrionRifle_Barrel.nif + OrionRifle_Receiver.nif	10	6025	8	None	False
+0026D8A0	EE-3	WEAP	Starfield.esm		InflictorRifle_Magazine_Standard.nif + InflictorRifle_Barrel_Standard.nif + InflictorRifle_Receiver.nif	7	3214	5	None	False
+0026D960	DP-64	WEAP	Starfield.esm		Shotty.nif + shotty_magazine.nif + shotty_grip.nif + shotty_barrel.nif	12	5980	10	None	False
+0026D96A	A-180	WEAP	Starfield.esm		Bridger.nif + Bridger_Stock.nif + Bridger_Barrel2.nif	24	9100	22	None	False
+0026F181	Vibroblade	WEAP	Starfield.esm		Weapons\BarrowKnife\barrowknife.nif	1	1500	1	None	False
+002AB1CD	RightArm_FireAuto	WEAP	Starfield.esm	no renderable geometry	Effects\fxemptynode.nif	0	0	0	None	False
+002C7EFE	Hard Target	WEAP	Starfield.esm		HardTarget.nif + HardTarget_BarrelStandard.nif + HardTarget_Mag.nif + HardTarget_GripStandard.nif	19	10454	19	None	False
+002D01CE	UnarmedMantidA_Mouth	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+00316400	crSecurityCamera	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+003B9AB2	crModelA_Crimsonfleet_RightGun_Auto	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+003C23E4	Dioxis Mine	WEAP	Starfield.esm		Weapons\GasMine\ToxicGasMine.nif	1	1500	1	None	False
+003FA256	Creature Ranged Attack Mouth ExplosiveCloud	WEAP	Starfield.esm	no MODL		0	0	0	None	False
+01007540	Broken Fang's Heirloom	WEAP	ShatteredSpace.esm		VaruunOrionRifle_Receiver.nif + OrionRifle_Magazine.nif + orionrifle_stock.nif + VaruunOrionRifle_Barrel.nif	17	10932	16	None	False
+010AC60B	Particle Machine Gun	WEAP	ShatteredSpace.esm		microgun_barrel.nif + microgun_grip.nif + microgun_magazine.nif	3	3143	0	None	False
+010CA4D1	VORTEX ENEMIES ONLY - Hard Target	WEAP	ShatteredSpace.esm		HardTarget.nif + HardTarget_BarrelStandard.nif + HardTarget_Mag.nif + HardTarget_GripStandard.nif	19	10454	19	None	False
+FE002289	Speeder Laser	WEAP	SFBGS004.esm		Actors\SFBGS004\sfbgs004_laserturret_rev8\Mesh\SFBGS_LaserTurret_Rev8.nif	2	2232	2	None	False
+FD05288C	Seokguh Blade	WEAP	(none)	no renderable geometry		0	0	0	None	False
+FD0B201F	Avarice	WEAP	(none)	no renderable geometry		0	0	0	None	False
+0F00084D	Forge Hammer	WEAP	SW Blasters.esm		SWBlasters\Armorertools\ArmorerHammer.nif	1	1500	0	None	False
+0F000981	DLT-19 (report this as a bug)	WEAP	SW Blasters.esm		DLT19_Scope.nif + DLT19.nif + ee4_Mag.nif	6	4942	0	None	False
+0F000989	DL-44 (report this as a bug)	WEAP	SW Blasters.esm		SWBlasters\DL44\DL44.nif	1	1500	0	None	False
+0F000AFA	Frag Grenade	WEAP	SW Blasters.esm		SWgrenade\Frag.nif	2	1770	2	None	False
+0F000C24	Fragmentation Mine	WEAP	SW Blasters.esm		SWgrenade\TripMine.nif	1	1045	0	None	False
+1200092D	Droid Blaster - E-5	WEAP	SW Droids.esm		Weapons\B1\E5.nif	1	1500	1	None	False
+1B60030C	"VT"""" Missile"	WEAP	TIE_Advanced_x1_1977.esm	no MODL		0	0	0	None	False
+1C505710	X-wing Laser Total	WEAP	T_65B_X_Wing_Starfighter.esm	no MODL		0	0	0	None	False
+1F508824	Delta-7 Proton torpedo	WEAP	Delta-7_Jedi_Starfighter_2002.esm	no MODL		0	0	0	None	False
+25000821	Rev8 Laser	WEAP	TheSniper9-swvehiclepack.esm		Actors\SFBGS004\sfbgs004_laserturret_rev8\Mesh\SFBGS_LaserTurret_Rev8.nif	2	2232	2	None	False
+3E0008AA	Pyke Sniper	WEAP	Star Wars Blasters.esm		Weapons\RussianHuntingRifle\pykerifle.nif	2	1534	2	None	False
+3E000AC2	LL-30	WEAP	Star Wars Blasters.esm		Solstice_LL30_scope.nif + Solstice_LL30.nif	5	2935	2	None	False
+3E000C9D	DT-12	WEAP	Star Wars Blasters.esm		Weapons\DT12\dt12.nif	3	1504	1	None	False
+3E000EB9	RSKF-44	WEAP	Star Wars Blasters.esm		Weapons\rskf44\rskf44.nif	3	1504	1	None	False
+3E00113C	EE-4C	WEAP	Star Wars Blasters.esm		ee4c.nif + ee4c_mag.nif + ee4c_barrel.nif	4	3582	3	None	False
+3E001301	LG-1	WEAP	Star Wars Blasters.esm		Weapons\lg1\lg1.nif	5	4353	3	None	False
+42000855	Z6 Rotary (Modified)	WEAP	RealisticStarWarsBlasters.esm		Weapons\Microgun\Microgun_LaserSight.nif	1	1500	1	None	False
+4600080E	Ewok Knife	WEAP	Endor.esm		Weapons\Ewok\Knife.nif	3	4500	3	None	False
+4600087E	Ewok Hammer	WEAP	Endor.esm		Weapons\Ewok\Ewok\Hammer.nif	2	3000	2	None	False
+4E000804	ATST Blaster	WEAP	ATST.esm	no MODL		0	0	0	None	False
+FE04C801	Astromech Blaster	WEAP	Kotor Droids.esm	no MODL		0	0	0	None	False
+62000836	Darth Nihilus' Lightsaber	WEAP	StarWarsGenesisLightsabers.esm		Weapons\lightsaber\NihilusLightsaber.nif	3	2212	1	None	False
+62000893	Dark Acolyte's Lightsaber	WEAP	StarWarsGenesisLightsabers.esm		Weapons\lightsaber\SithGenericLightsaber02.nif	7	4474	4	None	False
+00004249	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0004AD3E	2.0kV Cartridge	AMMO	Starfield.esm		Ammo777mm.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+00091157	Supernova Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+000B0ACE	Creature Energy Orb Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0019B892	Rakghoul Grenade	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+002184AC	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002197C1	Rakghoul Roar Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0022D230	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D251	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FA	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F504	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F50E	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F519	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F525	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+00230687	.45 Caliber ACP	AMMO	Starfield.esm		Ammo45Caliber.nif + M1919_Casing.nif	4	3417	4	None	False
+0024A032	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002B558B	6.0kV Cartridge	AMMO	Starfield.esm		AmmoParticleFuseHeavy.nif + swammobox.nif + 10mmShellCasing.nif	4	3415	4	None	False
+002B5594	Flamer Fuel	AMMO	Starfield.esm		AmmoRivet.nif + swammobox.nif + 10mmShellCasing.nif	4	3387	4	None	False
+002B559C	1.0kV Cartridge	AMMO	Starfield.esm		Ammo27Caliber.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+0116E400	Vortex Horror Ranged Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+19000ADC	(unnamed)	AMMO	TheSniper9-Firespray31.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1C503F8F	N-1 EM	AMMO	T_65B_X_Wing_Starfighter.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1F50887D	Delta-7 EM	AMMO	Delta-7_Jedi_Starfighter_2002.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0000A4A1	Reisha's Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0003425A	(unnamed)	KEYM	Starfield.esm		SetDressing\Keycards\GenerdyneIndustries_IDCard.nif	5	693	2	None	False
+0005B4F4	Service Elevator Entrance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0007EA4D	Employee Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0009C32A	Holbrooke Claim ID	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+000C3690	Dantooine Midtown House Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000F92F5	Captain's Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0013F866	Rooftop Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0015DF42	R&D ID Card	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+00176531	Captain's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00188C9A	SY-920 Security Station Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019CEE0	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001B5788	Contraband Locker Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C52F3	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001F25C7	InterGalactic Banking Clan Transfer Module	KEYM	Starfield.esm		setdressing/galbank/transfermodule\galbank_transfermodule01.nif	4	356	3	None	False
+0020A927	Warehouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00219260	Executive Level Access Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022E16E	Holding Cell Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0023F92B	Taxi Station Emergency Keycode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025CD87	Trade Federation Storeroom Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026D276	Taris Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027AB00	Scow Service Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0028AD05	Nishina Particle Lab Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0029C8EF	Entryway Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AF5FC	Safe #2 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002C8DE6	Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002D3A5D	Air Traffic Control Tower Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0034BE40	Room 2 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+00370989	Sleepcrate Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003B0657	Storage Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01010A9E	Dreshdae Dwelling Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0102B72B	Ochim's Computer Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01054D2C	Engineering Bay Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010C1F47	Orahim's Deposit Box Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010E40F9	Sahima's Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0111F7AF	Storage Area Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0000A9	Tracker ID Card	KEYM	SFBGS003.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+030220D2	Ivica's Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03051238	Cell Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0306FE46	Master Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+03086BA2	Stash Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD03113C	Zia's Warehouse Key	KEYM	(none)		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD063D9B	Final Enterprise Chest Key	KEYM	(none)		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0B1C1A	Maintenance Room Keycard	KEYM	(none)		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0B38AF	Lead Key	KEYM	(none)		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0B4B46	Fridge Key	KEYM	(none)		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00003A22	Ripe Jellyfruit	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Orange.nif	1	1497	1	None	False
+0001BBAC	Galaxy Stout	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_milkstout.nif	1	208	1	None	False
+0003D3AA	Imperial Bacta Patch	ALCH	Starfield.esm		Items\Drugs_Or_medical\Affliction_Cures\AfflictionCure_Ziipper_Bandaids_Red_01.nif	4	2392	3	None	False
+0003D3B2	Analgesic Poultice	ALCH	Starfield.esm		Items\Drugs_Or_medical\Affliction_Cures\AfflictionCure_Bandages_Green_01.nif	4	2392	3	None	False
+00092B9A	Felucian Grapes	ALCH	Starfield.esm	no renderable geometry	Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Grapes.nif	0	0	0	None	False
+0010FA0C	Tranquilitea Lemon	ALCH	Starfield.esm		SetDressing\Tranquilitea\TranquiliteaToGoCupFull01.nif	1	1500	1	None	False
+00122EA8	Black Hole Heart	ALCH	Starfield.esm		items/drugs_or_medical\Crafted_InHailer_White.nif	4	1128	4	None	False
+00139E4B	S.T.E.V.E.	ALCH	Starfield.esm		Items\Drugs_Or_Medical\Crafted_InHailer_Steve_01.nif	4	1128	4	None	False
+001944E4	Pepper Steak Sandwich	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_AlienSandwhich.nif	4	4728	1	None	False
+001DFCB5	Opened Superfood Paste Kit	ALCH	Starfield.esm		Items\FoodDrink_Set\FoodDrink_Set_CarryKit_Opened01.nif	4	2288	3	None	False
+001EDDE6	Soba Multipack	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Soba\Soba_ComboPack.nif	3	2244	2	None	False
+001EE5C5	Miso Soup	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Miso_Soup\Miso_Soup_Individual.nif	2	624	1	None	False
+001FF69A	Erdebrau Pils Can	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau Pilsner01.nif	7	1996	5	None	False
+00206761	QuickSnack Rootleaf	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Potato_Single.nif	1	190	1	None	False
+0020676A	QuickSnack Nuna - Packaged	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Chicken_Pack.nif	4	753	4	None	False
+00224D61	Repairing Immobilizer	ALCH	Starfield.esm		Items\Drugs_Or_medical\Affliction_Cures\AfflictionCure_Immobilizer_Blue_01.nif	2	621	2	None	False
+00249C11	New Arrival	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_NewArrival.nif	2	2409	1	None	False
+00249C20	Fried Pickles	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Fried_Pickles\Food_RS_Tavern_FriedPickles.nif	5	4378	4	None	False
+00249C2A	Urrqal	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragemenu_blend.nif	3	1136	2	None	False
+00249C33	Gazpacho	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Sour_Gazpacho\Sour_Gazpacho.nif	4	1769	3	None	False
+00249C3F	Trawl	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Trawl\Food_RS_Xenofresh_Trawl.nif	1	608	1	None	False
+00249C49	Energy Can	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageMenu_CANUck_DoubleDouble.nif	3	832	2	None	False
+00249C51	QuickSnack Cabernet	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_Wine_Cab.nif	1	300	0	None	False
+00299590	Antibiotic Paste	ALCH	Starfield.esm		Items\Drugs_Or_medical\Affliction_Cures\AfflictionCure_Heal_Paste_Green_01.nif	6	4754	4	None	False
+002995A3	Bacta Vial	ALCH	Starfield.esm		Items\Drugs_Or_Medical\Panacaea_01.nif	5	4811	2	None	False
+0029A859	Bacta Vial	ALCH	Starfield.esm		Items\Drugs_Or_Medical\Panacaea_01.nif	5	4811	2	None	False
+0029B00E	Drink Pack: Vodka	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\BeverageDrinkPack_Vodka.nif	3	258	2	None	False
+0029B047	Alien Energy Drink	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_AlienEnergyDrink.nif	2	1452	1	None	False
+0029B051	Yellow Giant Splash	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_SuperNovaSplash.nif	2	1452	1	None	False
+0029B059	Kaadu Stew 	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_DoroWat.nif	5	4698	1	None	False
+0029B061	Bantha Skewers	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_AlienKebab.nif	1	866	1	None	False
+002A5025	Panopticon	ALCH	Starfield.esm		Items\Drugs_Or_Medical\crafted_inhailer_panopticon_01.nif	4	1128	3	None	False
+002C5884	Spice	ALCH	Starfield.esm		items/drugs_or_medical\chem_aurora_01.nif	2	2059	1	None	False
+002C7202	Chandra Cabernet Sauvignon	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandracabernet.nif	1	354	1	None	False
+002C720D	Ale Can	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_canuckpilsner.nif	3	832	2	None	False
+002C7218	Drink Pack: Water	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_crated_consumables\CraftedFood_Container_PurifiedWater.nif	3	1470	3	None	False
+002C7221	Meal Pack - Cereal	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_MealPack_Cereal.nif	1	1090	0	None	False
+002C722D	Protein Can	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_CAN-uckBacon.nif	3	832	2	None	False
+002C7237	Fruitgrain Cereal	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_RaisinBran_BK.nif	2	2142	0	None	False
+002C723F	Red Harvest Naan	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\PackagedFood_NaanBread.nif	2	2262	2	None	False
+002C724D	Seaweed Minibite	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Seaweed_Snacks\Seaweed_Snacks_MiniPack001.nif	4	359	3	None	False
+002EE801	Hydrated	ALCH	Starfield.esm	no MODL		0	0	0	None	False
+0030283C	Seaweed Snacks	ALCH	Starfield.esm		Items\FoodDrink_SingleItems\Seaweed_Snacks\Seaweed_Snacks_Individual.nif	3	485	2	None	False
+003B7115	Tranquilitea Easy Sleep	ALCH	Starfield.esm		SetDressing\Tranquilitea\TranquiliteaToGoCupFull01.nif	1	1500	1	None	False
+01035DF5	Chunks Groat	ALCH	ShatteredSpace.esm		Items\FoodDrink_SingleItems\FoodChunk\Chunk_Food_MongoliBeef_Single.nif	1	172	1	None	False
+01103FE2	Vortex Ichor	ALCH	ShatteredSpace.esm		Items\DLC001\VortexIchor\SFBGS001_VortexIchor01.nif	4	1488	0	None	False
+040032D0	Boneback Claw	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Boneback_Claw.nif	4	2686	1	None	False
+04000A0A	Fried Creature Pizza	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Pizza_Creature.nif	5	4174	5	None	False
+040006BF	Fresh Golden Pear	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_pearGold.nif	1	568	0	None	False
+0400078E	Ice Cream Cone Golden Plated	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Ice_Cream_Cone_Gold.nif	5	3049	1	None	False
+04000A7D	Bonemane Milk	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Milk.nif	3	936	2	None	False
+04000A89	Coco-colada	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\DNK_Cococolada.nif	5	4468	4	None	False
+04000A94	Stuffed Nautiloos	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Stuffed_Nau.nif	8	6694	7	None	False
+04000A22	Eggback Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Eggback.nif	2	196	2	None	False
+04000A5F	Fresh Banana	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_BananaB.nif	1	1500	1	None	False
+04001B2D	Ratio	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Potion_Big_Purp.nif	2	1892	2	None	False
+04000889	Red Harvest Single Malt Whiskey	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragedrinkpack_redh_singlem_whiskey.nif	1	208	1	None	False
+04000A1A	Catterloaf	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Catterpillar_Loaf.nif	4	4277	4	None	False
+040007D2	Brightcage Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Brightcage.nif	1	370	1	None	False
+04000A73	Wild Mumflower	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Wild_Mumflower.nif	1	373	1	None	False
+04000FA0	Speed Potion	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Potion_Cyan.nif	2	1044	2	None	False
+04000A0E	Coral Dip	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_CoralDip.nif	5	3600	5	None	False
+040007B1	BBQ Pork Super-sized	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\Fod_BBBQ_Massive_Plate.nif	4	3226	2	None	False
+04000716	Cutterhead Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Cutterhead.nif	2	253	2	None	False
+040007B3	Fresh Grapes (Green)	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_grapesGrn.nif	1	1500	1	None	False
+0400079F	Cobalt Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Cobalt.nif	1	172	1	None	False
+04000AAB	Wild Blossom	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Wild_Blossom.nif	1	578	1	None	False
+040006FB	Eggtail Loaf	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Egg_Loaf.nif	5	3220	4	None	False
+04000A9F	Brainsquid Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_BrainSquid.nif	1	1426	1	None	False
+04000B2C	Roasted Glowback	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Glowback_Feast.nif	6	6196	3	None	False
+040007F3	Sailgator Teeth	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_SailgatorTeeth.nif	3	2146	2	None	False
+04000AAF	Hotdog	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_Hotdog.nif	4	747	4	None	False
+040007EA	Ol Greg Steak N Booze	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_OlGregSteak.nif	10	5669	8	None	False
+04000A08	Marnokk Steak	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Marnokk_Steak.nif	8	4936	7	None	False
+04000881	Fresh Bellpepper	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Bellpepper_Red.nif	1	1500	1	None	False
+040032BC	Ikurodon Eyes	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Ikuradoneyes.nif	4	2696	2	None	False
+04000792	Ankylosaurus Tongue	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_Akylo_Tongue.nif	1	356	1	None	False
+04000807	Salisbury steak Dinner	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_StealDinnersalisburysteak.nif	8	6005	7	None	False
+040006F5	Creaturoni Pizza	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Pizza_Pepb.nif	4	4023	4	None	False
+04000796	Creature Nuggets	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_Nuggets.nif	1	1500	1	None	False
+04000784	Sashimi	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Lone_Sashimi.nif	2	2064	2	None	False
+040039B4	Raw Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Beefslab.nif	1	654	1	None	False
+04000A12	Twistfin Steak	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_TwistfinSteak.nif	6	3512	5	None	False
+040006BD	Shawarma	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Wrap.nif	1	1407	1	None	False
+0400088D	Runner's Rush	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragemenu_runnersrush.nif	1	944	1	None	False
+04000A02	Bag Of Wheat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Bag_Wheat.nif	1	1500	1	None	False
+040008A3	Fresh Bellpepper	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Bellpepper_Orn.nif	1	1500	1	None	False
+040032D3	Creature Blood	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_A_Jar_Goo_Blood.nif	3	2136	2	None	False
+04000733	Chili-Cheese Dog	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_Hotdog_Chilicheese.nif	6	2430	6	None	False
+040007AE	Steamed Beetlecrab Claw	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_BeetleCrab_Claw.nif	9	8938	8	None	False
+040032C4	Roundshell Head	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Roundshellhead.nif	4	3636	2	None	False
+04002F35	Bento Box Meal	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\Fod_Bento_BoxCGold.nif	18	9278	11	None	False
+04000774	Coralheart Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Critter_Coralheart.nif	2	196	2	None	False
+04000AFB	Biscuits and Gravy	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Breakfast_C.nif	6	5464	6	None	False
+040006CA	Fresh Mini Watermelon	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\florapod_SquareWatermelon_Mini.nif	1	1136	1	None	False
+04000A88	Crocalypse Leg	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Creature_Corco.nif	8	3726	5	None	False
+040007E3	Fresh Tomato	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\All_Packaged_Consumables\Food_Produce_Tomato.nif	2	2991	2	None	False
+04001A49	Fresh Pumpkin	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Pumpkin.nif	1	1500	1	None	False
+0400FF62	Wild Buckeye Fruit	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_BuckeyeFruit.nif	1	1500	1	None	False
+040006F2	Morion Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Larva_Morion.nif	2	196	2	None	False
+040006D0	Eggsac Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Eggsac.nif	2	196	2	None	False
+04000AEC	Fresh Pomelo	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\food_produce_Pomelo.nif	3	888	3	None	False
+04000745	Archnofly Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Archnofly.nif	1	599	1	None	False
+0400194D	Landshark Loaf	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Creature_Meat_Landshark.nif	5	2519	3	None	False
+04000753	Burrito Supreme	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Burrito_Supreme.nif	9	7882	9	None	False
+04001B36	Ketchup	ALCH	tankgirlsxenologyexpanded.esm		setdressing/bar_cocktailstation\barcocktailstation_juicemix01.nif	3	1352	1	None	False
+040007F5	BBQ Pork	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\Fod_BBQ_Pork_FullMeal.nif	10	6732	6	None	False
+040006FE	Ice Cream Bowl	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Ice_Cream_Bowl_B.nif	5	2325	4	None	False
+040006F4	Burger	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Burger.nif	5	4076	4	None	False
+040007D9	Chili-Cheese Fries	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_ChiliCheeseFries.nif	10	9328	8	None	False
+04000805	Buttered Toast	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_Buttered_Toast.nif	3	556	3	None	False
+040007BF	Potato Fries	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_Fry_Pile.nif	1	1500	1	None	False
+04000A7F	Clicking Beetle Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Cliockingbeetle.nif	2	222	2	None	False
+040006E3	Twingrub Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Larva_Sym.nif	1	172	1	None	False
+04000B26	Salisbury Steak TV-Dinner	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_TVDinner_Salsteak.nif	3	3040	2	None	False
+040007BA	Shroomhead Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Shroomhead.nif	2	196	2	None	False
+04000B05	Steamed Spikecrab Claws	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Spikecrab_Claws.nif	7	8474	4	None	False
+040007AF	Creature Pocket Ham	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_BakedStuffedRolls_Ham.nif	2	867	2	None	False
+0400088B	Chandra Pinot Noir	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandrapinotnoir.nif	1	354	1	None	False
+0400088C	Chandra Riesling	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\all_packaged_consumables\beveragefood_chandrariesling.nif	1	354	1	None	False
+04000758	French Toast	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Single_FrenchToast.nif	3	896	3	None	False
+040007BB	Vampire Meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Flyer_Vampire.nif	2	196	2	None	False
+04000A1E	Fresh Alien Apple	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\xenoplantpod\florapod_SquareApple_MiniGrn.nif	1	568	1	None	False
+04000788	Harvested Golden Egg	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Gold.nif	1	944	0	None	False
+04000A0D	Pot-pie	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Potpie.nif	2	1208	2	None	False
+04000ABE	Riceball Meal	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\Fod_Riceballl.nif	6	8212	2	None	False
+04000707	Cheesecake	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_CheesecakeC.nif	4	1334	4	None	False
+040032C7	Shroomhead Stock	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Shroomhead.nif	4	2478	2	None	False
+04000A9C	Harvested Crabfly Egg	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Egg_Crabfly.nif	1	784	1	None	False
+04001B21	Mad Dash	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_Potion_Big_Cyan.nif	2	1892	2	None	False
+04000759	Wobbleback Ribs	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Creature_Meat_Wobbleback.nif	8	3865	5	None	False
+040031F5	Boxed Cereal	ALCH	tankgirlsxenologyexpanded.esm		Ships\Interior\ShipRm_Table01_Clutters\CerealBox01.nif	5	5740	5	None	False
+04000752	Meatloaf Dinner	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_StealDinnerMeatloaf.nif	6	4557	6	None	False
+04000ABF	Brainsquid Stew	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Brainsquid_Stew.nif	10	5959	9	None	False
+04009E75	Carry Buddy	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Itm_A_Jar_Goo_Blue.nif	3	2136	2	None	False
+0400074F	Sushi	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Lone_Sushi.nif	6	4316	5	None	False
+04000880	Velocity Violet	ALCH	tankgirlsxenologyexpanded.esm		Items\FoodDrink_SingleItems\Velocity_Beverage\Food_RS_MSauvage_VelocityViolet.nif	3	802	3	None	False
+040006CB	Fried Shroombober	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\CTR_Fried_Shrooms.nif	11	6124	10	None	False
+04000A21	Cereal Sugar Bombs	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_CerealBs.nif	5	4192	5	None	False
+04000A6F	Bighorn Tongue	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\GG_Xenopart_ForkhornToung.nif	1	636	1	None	False
+040007D6	Trapmaw meat	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Meat\Meat_Brick_Trapmaw.nif	2	194	2	None	False
+040007B7	Scrambled Eggs N Cheese	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_Breakfast_D.nif	4	4782	4	None	False
+04000749	Cheese Wheel	ALCH	tankgirlsxenologyexpanded.esm		tankgirlck\xenologymesh\Food\FOD_A_CheezeWheel.nif	1	112	1	None	False
+100008D8	Ruby Bliel	ALCH	SW Resources.esm		SWProps\Foodanddrink\RubyBliel.nif	2	376	1	None	False
+100008E4	Antibiotic Patch	ALCH	SW Resources.esm		SWProps\Bandage_Pink.nif	4	2392	3	None	False
+100008EC	Injector	ALCH	SW Resources.esm		SWProps\BactaInjector_Yellow.nif	4	6000	3	None	False
+100008F4	Junk Flush	ALCH	SW Resources.esm		SWProps\Bacta.nif	5	4811	2	None	False
+45000BC7	Black Melon	ALCH	Tatooine.esm		SWProps\Foodanddrink\BlackMelon.nif	1	1500	0	None	False
+69002342	Merenzane Gold	ALCH	StarWars_Vardos.esm		Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Dark01.nif	5	1262	0	None	False
+6900237C	Juri Juice (Red)	ALCH	StarWars_Vardos.esm		Items\FoodDrink_SingleItems\Velocity_Beverage\Food_RS_MSauvage_VelocityRed.nif	3	802	3	None	False

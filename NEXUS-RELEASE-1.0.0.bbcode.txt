@@ -1,0 +1,26 @@
+[size=5][b]1.0.0[/b][/size]
+
+[b]Your own music.[/b] Tracks can be wav, mp3, flac, m4a, aac or wma - the non-RIFF formats use the Media Foundation decoder Windows already ships, so no codec is bundled. An `Audio\Music\` folder becomes a soundtrack: it plays in file-name order, wraps at the end, and the Audio popup gains previous / next buttons while it is selected.
+
+[b]A custom theme and layout presets.[/b] The tenth theme unlocks when Starfield, Hell and Heaven are earned. CUSTOMISE edits its name, backdrop and 19 colours, and LAYOUT offers four arrangements - basket right, centre, left, or catalog above. Both are stored in SFShopExplorer.ini and survive a restart.
+
+[b]Your own backdrop art.[/b] Any `space_<name>.png`, `.jpg`, `.jpeg` or `.bmp` beside the plugin joins the custom theme's Background list. A file that fails to decode is not offered, so a choice always draws something.
+
+[b]Duplicate records collapse.[/b] A record the load order defines twice becomes one row with a count; only priced records group, so identical plot slates and keys stay separate. The item pane lists every FormID behind the row.
+
+[b]Outfit previews assemble complete sets.[/b] The sibling lookup takes the part token from the file name and only fills a part type the record does not already declare, so a custom upper body keeps its own lower body instead of pulling in a mismatched one.
+
+[b]Quieter log.[/b] A normal session no longer writes a warning for every texture without an opacity map, or for every NIF whose mesh counts disagree: the first three of each are reported and the rest drop to DEBUG. Support reads are unchanged with `[logging] verbose=1`.
+
+[b]Before installing:[/b] run [url=https://www.nexusmods.com/starfield/mods/15632]Starfield Shader Cache Reset[/url] first to avoid a CTD from stale shader data.
+
+[b]Requirements[/b]
+[list]
+[*]Starfield 1.16.244
+[*]SFSE
+[*]Address Library
+[/list]
+
+[b]Updating[/b]
+
+Replace the mod folder and keep SFShopExplorer.ini. Themes, unlock progress, text size, audio settings, the custom layout and the sort preference live there and are not overwritten. The first launch after an update rebuilds the item index once; previews are normal after that.

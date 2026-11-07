@@ -1,0 +1,51 @@
+probed 300 of 1255 flat rows; 300 with geometry, 0 without geometry, 0 with no material
+
+material decisions with no colour map:
+    871  flat: no authored colour, no map
+     11  authored override kept: no colour map in the material's own set
+      3  flat: clear glass family has no art in the database
+
+== flat: no authored colour, no map (871 materials) ==
+  001FF69C Erdebrau Dark Can                  Materials\Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Da
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/items/fooddrink_singleitems/erdebrau_beers  maps: 0
+  0020675D QuickSnack Wine                    Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Wi
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/items/fooddrink_singleitems/chunks_food  maps: 0
+  002C721D Meal Pack - Yobshrimp              Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\P
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/items/fooddrink_singleitems/all_packaged_consumables/packagedfood_snackpack  maps: 0
+  002C7234 Nutrient Mush                      Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\P
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/items/fooddrink_singleitems/all_packaged_consumables/packagedfood_oat  maps: 0
+  002C7237 Fruitgrain Cereal                  Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\P
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/items/fooddrink_singleitems/all_packaged_consumables/packagedfood_cereal  maps: 1 e.g. textures/items/fooddrink_singleitems/all_packaged_consumables/packagedfood_cereal/packagedfoodcereals_decalraisinbran_color.dds
+  01103FE2 Vortex Ichor                       materials\setdressing\dlc001\vortexichor\sfbgs001_vortexichor01.
+      why: flat: no authored colour, no map -> neutral grey (no colour word) (no record)
+      set: no record                                folder: textures/setdressing/dlc001/vortexichor  maps: 0
+
+== authored override kept: no colour map in the material's own set (11 materials) ==
+  002C7237 Fruitgrain Cereal                  Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\P
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/items/fooddrink_singleitems/all_packaged_consumables/packagedfood_cereal  maps: 0
+  01103FE2 Vortex Ichor                       materials\common\glass\glassdirtyheavyfrost01.mat
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/common/glass  maps: 0
+  040006BF Fresh Golden Pear                  Materials\Common\Metal\MetalGold02.mat
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/common/metal  maps: 0
+  04000AA9 Grilled Meat ""Well-done           Materials\Items\FoodDrink_SingleItems\Sagebrook_Strip\TheFilet_S
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/items/fooddrink_singleitems/sagebrook_strip  maps: 0
+  100008D6 Jawa Juice                         Materials\Items\FoodDrink_SingleItems\Velocity_Beverage\Velocity
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/items/fooddrink_singleitems/velocity_beverage  maps: 0
+  FE00602D Vindaloo                           Materials\Items\FoodDrink_SingleItems\CraftedFood_Container_Plas
+      why: authored override kept: no colour map in the material's own set (empty set); any substitute map is ignored
+      set: empty set                                folder: textures/items/fooddrink_singleitems  maps: 0
+
+== flat: clear glass family has no art in the database (3 materials) ==
+  001FF69C Erdebrau Dark Can                  Materials\Common\Glass\GlassCleanTransparent01.mat
+      why: flat: clear glass family has no art in the database -> pale glass tint
+      set: empty set                                folder: textures/common/glass  maps: 0

@@ -1,0 +1,321 @@
+:root {
+  color-scheme: dark;
+  font: 14px/1.35 "Segoe UI", system-ui, sans-serif;
+  --ink: #f6e9ea;
+  --muted: #c79aa1;
+  --accent: #ff5c73;
+  --accent-dim: #a52d40;
+  --gold: #ffd166;
+  --gold-dim: #8a6d1e;
+  --panel: #140d13e6;
+  --panel-alt: #1d1119e6;
+  --line: #6d2a38;
+  --hover: #541c29;
+}
+
+html, body { height: 100%; margin: 0; overflow: hidden; }
+/* The host window never shows through: a transparent body used to leave a
+   white band wherever the page was shorter than the viewport. */
+html { background: #05060a; }
+body { background: transparent; color: var(--ink); }
+
+#bgimg {
+  position: fixed; inset: 0; z-index: 0;
+  background: url(assets/space.jpg) center/cover no-repeat #05060a;
+  background-size: 135% 135%;
+  animation: drift 140s ease-in-out infinite alternate;
+}
+@keyframes drift { from { background-position: 30% 28%; } to { background-position: 72% 70%; } }
+@media (prefers-reduced-motion: reduce) { #bgimg { animation: none; } }
+
+#bgfx {
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  /* Only a vignette: the theme's art has to read across the whole shop, so the
+     scrim stops short of being a curtain. */
+  background: radial-gradient(circle at 80% 0, #74152233 0, #1b0a1045 38%, #090b1280 100%);
+}
+
+/* The themed art is the shop's background, not a frame around it. Everything
+   above it is a veil: main is the shallowest, the panes sit on it with a blur
+   so the list text stays readable over a busy backdrop. */
+main {
+  position: relative; z-index: 1; box-sizing: border-box;
+  height: 100vh; width: min(1560px, 97vw); margin: 0 auto;
+  padding: 10px 12px; display: flex; flex-direction: column; gap: 7px;
+  background: linear-gradient(145deg,
+    color-mix(in srgb, var(--panel-alt) 34%, transparent),
+    color-mix(in srgb, var(--panel) 22%, transparent));
+  backdrop-filter: blur(2px) saturate(1.06);
+  border: 1px solid var(--accent-dim); border-radius: 10px;
+  box-shadow: 0 0 35px #8b102655;
+}
+
+.header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.logo { width: 68px; height: 68px; flex: none; filter: drop-shadow(0 0 9px #e11d4888); }
+.titlewrap { min-width: 0; }
+h1 { margin: 0; font-size: 1.22em; color: var(--accent); text-shadow: 0 0 12px #e11d48; white-space: nowrap; }
+h1 span { color: var(--gold); }
+.tagline { margin: 1px 0 0; font-size: 10.5px; color: var(--muted); white-space: nowrap; }
+
+.walletbox { display: flex; align-items: center; gap: 8px; }
+.searchwrap { display: flex; min-width: 0; }
+.searchwrap input { width: min(320px, 30vw); border-radius: 5px 0 0 5px; border-right: none; }
+.searchwrap button { border-radius: 0 5px 5px 0; }
+.credits {
+  display: flex; align-items: center; gap: 7px; padding: 5px 10px;
+  border: 1px solid var(--gold-dim); border-radius: 6px; background: #191207ee;
+  color: var(--gold); font-weight: 600; white-space: nowrap;
+}
+.coin { width: 26px; height: 13px; object-fit: contain; }
+
+button, input[type="search"], input[type="number"], select {
+  background: #100e15d9; color: var(--ink); border: 1px solid #9f3b4a;
+  border-radius: 5px; padding: 5px 8px; font-size: 12px; font-family: inherit;
+}
+button { cursor: pointer; }
+button:hover { background: #2a1219; border-color: var(--accent); }
+button.primary { background: #7a1626; border-color: var(--accent); font-weight: 600; }
+button.primary:hover { background: #a51f34; }
+input[type="checkbox"] { accent-color: #e11d48; }
+
+.shopbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+  padding: 6px 8px; border: 1px solid #7f2635; border-radius: 6px;
+  background: color-mix(in srgb, var(--panel-alt) 55%, transparent);
+  backdrop-filter: blur(3px);
+}
+.rail, .chips { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+.rail button { padding: 4px 9px; }
+.rail button.on { background: var(--accent-dim); border-color: var(--accent); color: #fff; font-weight: 600; }
+.chips button {
+  padding: 3px 8px; font-size: 11px; border-radius: 10px;
+  border-color: #6d2a38; color: #e7c9cf;
+}
+.chips button.on { background: #6d2a38; border-color: var(--gold); color: var(--gold); }
+.hides { display: flex; flex-wrap: wrap; gap: 10px; margin-left: auto; }
+.hides label { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--muted); }
+
+.workspace { flex: 1; min-height: 0; display: grid; grid-template-columns: 250px minmax(0, 1fr) 320px; gap: 8px; }
+
+.panel {
+  min-height: 0; box-sizing: border-box; display: flex; flex-direction: column;
+  /* Half-transparent on purpose: the theme's backdrop shows through every
+     pane, and the blur keeps a busy image from fighting the item table. */
+  background: color-mix(in srgb, var(--panel) 72%, transparent);
+  backdrop-filter: blur(3px) saturate(1.04);
+  border: 1px solid var(--line); border-radius: 6px; padding: 8px;
+  box-shadow: 0 0 16px #a52d4040;
+}
+.panel h2 {
+  margin: 0 0 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase;
+  color: #fca5a5; display: flex; align-items: center; gap: 6px;
+}
+.count { color: var(--gold); font-weight: 600; }
+.scrollbox { flex: 1; min-height: 0; overflow-y: auto; scrollbar-width: thin; }
+.scrollbox::-webkit-scrollbar { width: 8px; }
+.scrollbox::-webkit-scrollbar-thumb { background: #54232d; border-radius: 4px; }
+
+/* ---------- plugin list ---------- */
+.prow {
+  display: flex; align-items: center; gap: 6px; padding: 4px 6px; border-radius: 4px;
+  border-bottom: 1px solid #2a1a20; cursor: pointer; font-size: 12px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.prow:hover { background: var(--hover); }
+.prow.on { background: #6d2a38; }
+.prow .pname { overflow: hidden; text-overflow: ellipsis; }
+.badge {
+  flex: none; font-size: 9px; font-weight: 700; letter-spacing: .5px;
+  padding: 1px 5px; border-radius: 3px; border: 1px solid #8a6d1e; color: var(--gold);
+}
+.badge.ESP { border-color: #7f6a9e; color: #cbb6f2; }
+.badge.ESL { border-color: #3f7a5e; color: #a7e6c3; }
+
+/* ---------- item table ---------- */
+.tblhdr, .trow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 108px 54px 58px 58px 82px;
+  gap: 8px; align-items: center;
+}
+.tblhdr {
+  padding: 4px 8px; margin-bottom: 2px; border-bottom: 2px solid #54232d;
+  font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: #fca5a5;
+}
+.trow {
+  padding: 4px 8px; border-bottom: 1px solid #2a1a20; cursor: pointer;
+  font-size: 12px; white-space: nowrap;
+}
+.trow:hover { background: var(--hover); }
+.trow.on { background: #6d2a38; }
+.trow .name { overflow: hidden; text-overflow: ellipsis; }
+.trow .bucket { color: var(--muted); font-size: 10.5px; overflow: hidden; text-overflow: ellipsis; }
+.trow .type { text-align: center; }
+.trow .val, .trow .wt { text-align: right; color: #fde68a; }
+.trow .fid { color: #b99aa0; font-family: Consolas, monospace; font-size: 11px; }
+.tchip {
+  display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: .4px;
+  padding: 1px 6px; border-radius: 9px; border: 1px solid #9f3b4a; color: #ffb3bf;
+}
+.tchip.WEAP { border-color: #b06b2c; color: #ffcb8a; }
+.tchip.ARMO { border-color: #4f7bb0; color: #a9cdf7; }
+.tchip.ALCH { border-color: #3f8a6a; color: #a7e6c3; }
+.tchip.BOOK { border-color: #8a6d1e; color: #f0d59a; }
+.tchip.AMMO { border-color: #8a5a2c; color: #ffd6a8; }
+.tchip.KEYM { border-color: #6f6f8a; color: #cfcfe6; }
+
+.pager {
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  padding-top: 6px; font-size: 11px; color: var(--muted);
+}
+.pager b { color: var(--ink); }
+.pager button { padding: 2px 8px; }
+
+/* ---------- item detail ---------- */
+#detail { font-size: 12px; }
+#detail .empty { color: var(--muted); margin: 6px 0; }
+.dhead { display: flex; gap: 8px; align-items: flex-start; }
+.glyph { width: 46px; height: 46px; flex: none; opacity: .9; }
+.dname { font-size: 13.5px; font-weight: 700; color: #ffe4e8; }
+.dmeta { color: var(--muted); font-size: 11px; }
+.dkv { display: grid; grid-template-columns: 74px minmax(0, 1fr); gap: 2px 6px; margin-top: 6px; }
+.dkv dt { color: var(--muted); }
+.dkv dd { margin: 0; overflow: hidden; text-overflow: ellipsis; }
+.sect { margin-top: 9px; font-size: 10px; letter-spacing: .08em; color: var(--gold); text-transform: uppercase; }
+.optrow { display: grid; grid-template-columns: 78px minmax(0, 1fr); gap: 6px; align-items: center; margin-top: 3px; }
+.optrow label { color: var(--muted); font-size: 10.5px; text-transform: capitalize; }
+.optrow select { width: 100%; min-width: 0; }
+.note { color: var(--muted); font-size: 10.5px; margin: 4px 0 0; }
+.qtyrow { display: flex; gap: 6px; align-items: center; margin-top: 10px; }
+.qtyrow input { width: 64px; }
+.qtyrow button { flex: 1; }
+.keywords { color: #9c7f85; font-size: 10px; word-break: break-word; margin-top: 3px; }
+
+/* ---------- basket ---------- */
+.bline {
+  display: flex; align-items: center; gap: 5px; padding: 3px 2px;
+  border-bottom: 1px solid #2a1a20; font-size: 11.5px;
+}
+.bline .blabel { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bline .bqty { color: var(--gold); font-weight: 600; }
+.bline button { padding: 0 5px; font-size: 11px; line-height: 16px; }
+.bline .rm { border-color: #7f2635; color: #ff9aa7; }
+.basketfoot { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-top: 6px; }
+.free { display: flex; align-items: center; gap: 4px; font-size: 11px; color: var(--muted); }
+.totals { display: flex; align-items: center; gap: 6px; }
+#totalCost { color: var(--gold); font-size: 11.5px; font-weight: 600; }
+
+.foot {
+  display: flex; justify-content: space-between; gap: 10px;
+  font-size: 11px; color: var(--muted); min-height: 15px;
+}
+#status.err { color: #ff9aa7; }
+#status.ok { color: #a7e6c3; }
+#footnote { opacity: .7; }
+
+/* ---------- 3D preview ---------- */
+/* The native side renders the item offscreen and hands the page a PNG, so this
+   is a plain <img>: no WebGL, no second renderer, the same frame the overlay
+   draws. The letterboxed square keeps the model centred whatever the aspect. */
+.preview {
+  position: relative; flex: none;
+  height: clamp(150px, 32vh, 280px);
+  margin: 0 0 7px; border: 1px solid var(--line); border-radius: 6px;
+  background: radial-gradient(circle at 50% 42%, #201722b8, #0b0a10cc 72%);
+  overflow: hidden; cursor: grab; touch-action: none;
+}
+.preview:active { cursor: grabbing; }
+.preview img { width: 100%; height: 100%; object-fit: contain; display: block; }
+/* The empty label is an overlay: `display:flex` above beats the UA rule for
+   [hidden], so without this the prompt paints on top of a delivered frame. */
+.preview [hidden] { display: none !important; }
+.preview .pv-empty {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  color: var(--muted); font-size: 12px; text-align: center; padding: 10px;
+}
+.preview .pv-hint {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 3px 6px;
+  font-size: 9.5px; color: #b99aa0; background: linear-gradient(transparent, #05060ac9);
+  pointer-events: none;
+}
+
+/* ---------- audio + theme popups ---------- */
+/* Pop-out preview. The window is a shell around the very same #preview node:
+   re-parenting it keeps the drag, the zoom and the last delivered frame, and
+   the plugin keeps streaming into it because nothing about the element's own
+   listeners changed. */
+.panel h2 .mini {
+  margin-left: auto; padding: 1px 7px; font-size: 9.5px; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--accent); border-color: var(--accent-dim);
+}
+.pvfloat {
+  position: fixed; left: 90px; top: 110px; z-index: 35;
+  width: 380px; height: 440px; min-width: 240px; min-height: 190px;
+  display: flex; flex-direction: column; resize: both; overflow: hidden;
+  background: color-mix(in srgb, var(--panel) 86%, transparent);
+  backdrop-filter: blur(7px) saturate(1.05);
+  border: 1px solid var(--accent-dim); border-radius: 8px;
+  box-shadow: 0 14px 44px #000a;
+}
+.pvfloat[hidden] { display: none; }
+.pvfloat-head {
+  display: flex; align-items: center; gap: 8px; padding: 6px 8px;
+  cursor: grab; user-select: none;
+  border-bottom: 1px solid var(--line); border-radius: 7px 7px 0 0;
+  background: color-mix(in srgb, var(--panel-alt) 78%, transparent);
+}
+.pvfloat-head.grabbing { cursor: grabbing; }
+.pvfloat-head b { font-size: 10.5px; letter-spacing: .09em; text-transform: uppercase; color: var(--accent); }
+.pvfloat-name {
+  flex: 1; min-width: 0; font-size: 11px; color: var(--muted);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.pvfloat-body { flex: 1; min-height: 0; }
+.pvfloat-body .preview { height: 100%; margin: 0; border: 0; border-radius: 0 0 8px 8px; }
+
+.popup {
+  position: fixed; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center;
+  background: #05060ab8;
+}
+.popup[hidden] { display: none; }
+.popup-in {
+  width: min(430px, 92vw); max-height: 84vh; overflow: auto;
+  background: color-mix(in srgb, var(--panel-alt) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--accent-dim); border-radius: 9px;
+  padding: 12px 14px; box-shadow: 0 0 30px #0008;
+}
+.popup-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.popup-head b { color: var(--accent); letter-spacing: .06em; text-transform: uppercase; font-size: 12px; }
+.popup-head .x { padding: 1px 7px; }
+.prow2 {
+  display: grid; grid-template-columns: 52px minmax(0, 1fr) 42px auto;
+  gap: 8px; align-items: center; margin: 7px 0; font-size: 11.5px; color: var(--muted);
+}
+.prow2 input[type="range"] { width: 100%; accent-color: var(--accent); }
+.pval { color: var(--gold); font-variant-numeric: tabular-nums; text-align: right; }
+.pcheck { display: flex; align-items: center; gap: 4px; grid-column: 4; }
+.prow2 select { grid-column: 2 / 5; width: 100%; }
+.pnote { color: var(--muted); font-size: 10.5px; margin: 9px 0 0; line-height: 1.45; }
+.pnote code { color: var(--gold); }
+.theme-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 7px; }
+.theme-card {
+  display: flex; flex-direction: column; gap: 5px; align-items: stretch;
+  padding: 7px; border-radius: 6px; text-align: left; line-height: 1.2;
+  border: 1px solid var(--line); background: #0f0d13d9;
+}
+.theme-card .swatches { display: flex; gap: 3px; }
+.theme-card .swatches span { height: 10px; flex: 1; border-radius: 2px; }
+.theme-card .tname { font-size: 11.5px; font-weight: 600; }
+.theme-card .tlock { font-size: 9.5px; color: #f0a3af; }
+.theme-card .tunlocked { font-size: 9.5px; color: var(--muted); }
+.theme-card.on { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold-dim) inset; }
+.theme-card:disabled { opacity: .55; cursor: not-allowed; }
+
+/* ---------- side column sizing ---------- */
+/* The detail panel owns the free space and scrolls its text; the basket keeps
+   a bounded share so its Accept row can never be pushed off-screen by a long
+   item. Without this the two panels simply stack and overflow the grid cell. */
+.side { display: flex; flex-direction: column; gap: 8px; min-height: 0; }
+.side .panel.detail { flex: 1 1 auto; min-height: 0; }
+.side .panel.basket { flex: 0 1 auto; max-height: 42%; min-height: 128px; }

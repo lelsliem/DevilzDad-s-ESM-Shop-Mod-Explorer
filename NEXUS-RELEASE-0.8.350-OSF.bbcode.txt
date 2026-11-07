@@ -1,0 +1,38 @@
+[size=5][b]0.8.350-OSF[/b][/size]
+
+This is the OSF UI build of the shop: the same catalog engine and the same 3D preview as the standalone overlay, presented as an OSF UI view instead of its own window. Everything below is new in this build.
+
+[b]Pop-out preview.[/b] The ITEM panel has a Pop out button. It lifts the preview into a floating window - drag the title bar to move it, the corner grip to resize it, and click the x (or Dock) to put it back. It is the same preview, not a copy, so the camera, the zoom and the frame on screen go with it.
+
+[b]Rotation streams.[/b] Dragging now asks for a new frame on every mouse sample instead of one frame after you let go, so the item turns under the cursor. The plugin still renders one frame at a time: a sample that arrives mid-render is folded into the newest camera rather than queued, so a fast drag moves in whole degrees.
+
+[b]Drag works on OSF's input path.[/b] A press can reach the page as a pointer event, as a plain mouse event, or as both, depending on how OSF UI forwards the game's mouse. The page now accepts either and keeps the other from doubling the rotation. Letting go outside the panel ends the drag instead of leaving the camera following the cursor.
+
+[b]The theme covers the whole shop.[/b] Panes, the header bar, the toolbar, the item preview and the popups are translucent with a light blur, so a theme's backdrop art reads behind every panel instead of stopping at the edge of the window.
+
+[b]Fixed.[/b] "Select an item." was painted over a delivered preview frame; the empty-state label is now hidden once a frame arrives.
+
+[b]Requirements[/b]
+[list]
+[*]Starfield 1.16.244, SFSE, Address Library for SFSE Plugins
+[*][url=https://www.nexusmods.com/starfield/mods/17711]OSF UI[/url] 2.0 with [url=https://www.nexusmods.com/starfield/mods/18326]OSF Settings[/url], and the Microsoft Edge WebView2 Evergreen Runtime
+[/list]
+
+[b]Installing[/b]
+
+This build installs beside the standalone shop and keeps its own DevilzShopOSF.ini, its own model index folder and its own view, so both can be enabled at once. Open the shop from Mod Settings -> INTERFACES, or with Page Up.
+
+[list]
+[*]SFSE\Plugins\DevilzShopOSF.dll
+[*]SFSE\Plugins\DevilzShopOSF.ini
+[*]SFSE\Plugins\Audio\*.wav
+[*]SFSE\Plugins\OSFUI\views\devilzdad.osfshop\shop\...
+[/list]
+
+[b]Updating[/b]
+
+Replace the mod folder and keep DevilzShopOSF.ini - theme choice, unlock progress, text and audio settings live there. If music was switched off before this version it stays muted; untick Mute in the Audio popup.
+
+[b]If rotation ever stops working[/b]
+
+Each drag writes one line to SFSE\Logs\DevilzShopOSF.log ("preview drag: yaw=... samples=..."). No line at all means the press never reached the page, which is the first thing to check and the first thing to report.

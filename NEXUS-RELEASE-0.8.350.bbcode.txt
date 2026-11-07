@@ -1,0 +1,24 @@
+[size=5][b]0.8.350[/b][/size]
+
+[b]Audio controls.[/b] Music and sound each have a volume slider and a mute checkbox in the new Audio popup. The track is independent of the visual theme, and your own .wav files work: drop one in Audio\ and pick it (anything starting with ui_ is a sound effect, not a track).
+
+[b]Catalog.[/b] Misc and Aid now sort by the item's model as well as its name. Misc / Other is down from 1,417 items to 416, Aid / Other from 58% to 4%, and Sabacc cards from 0 to 108.
+
+[b]Previews.[/b] Lab glass draws again, vial caps and liquid are solid and correctly coloured, and two texture-pack masks no longer print black.
+
+[b]Before installing:[/b] run [url=https://www.nexusmods.com/starfield/mods/15632]Starfield Shader Cache Reset[/url] first to avoid a CTD from stale shader data.
+
+[b]Earlier versions[/b]
+[list]
+[*]0.8.349 - bounty boards, ammo primers, Old Earth PCs and Inorg containers moved to the right shelves.
+[*]0.8.348 - texture-pack opacity masks accepted (Erdebrau Pils label, Alien Genetic Material jar).
+[*]0.8.347 - vial liquid is green instead of grey.
+[*]0.8.346 - vial caps, DNA tissue and the Vortex Ichor casing draw as solids.
+[*]0.8.345 - beakers and graduated cylinders preview as vessels.
+[*]0.8.344 - eight new Misc shelves; Misc / Other 1,417 -> 456.
+[*]0.8.343 - Misc and Aid read the model path; Sabacc cards 0 -> 108.
+[/list]
+
+[b]Updating[/b]
+
+Replace the mod folder and keep SFShopExplorer.ini. If music was switched off before this version it stays muted - untick Mute in the Audio popup.

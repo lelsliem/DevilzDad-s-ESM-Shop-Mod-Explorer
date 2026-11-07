@@ -1,0 +1,17 @@
+Parcel Fix 1.0.8 - DO NOT UPLOAD
+===============================
+
+This build closes the game the moment it hides its first parcel. The log stops
+mid-scan and ends with:
+
+    [C] ParcelFix.dll
+    Failed to find offset for Address Library ID!
+    Invalid ID: 0
+    Game Version: 1.16.244.0
+
+The hide itself completed; the crash came from the line that read the parcel's
+scale back out afterwards, `candidate.ref->GetScale()`, which calls the engine
+through an Address Library id that some installs do not have. That raises a fatal
+error rather than a catchable fault, so nothing could handle it.
+
+Use 1.0.9 - same hide, no read-back. See ../ParcelFix-1.0.9/README.txt.

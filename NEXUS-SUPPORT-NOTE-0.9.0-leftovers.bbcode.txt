@@ -1,0 +1,70 @@
+[size=4][b]Parcels on the floor after buying - what changed in 0.9.0[/b][/size]
+
+[b]Short version:[/b] if you bought something on 0.8.33x-0.9.0 and it came back as a
+parcel on the ground after a save and load, [b]0.9.0 stops it happening again[/b].
+Anything that is [i]already[/i] lying in an existing save stays there - those
+records are inside the save file and the plugin will not touch them. How to clear
+them is below.
+
+[b]What was wrong[/b]
+
+Every purchase was delivered by dropping the stack at the player's feet,
+attaching the mods to that drop, then moving the item into your inventory. The
+drop itself was supposed to be removed. The engine wrote it into the save anyway,
+so after the next load a second copy of the item was on the floor - usually a
+ring or a stack of them wherever you happened to be shopping.
+
+[b]What 0.9.0 does instead[/b]
+
+The drop is now marked disabled as soon as the item is in your inventory: not
+drawn, no collision, cannot be picked up. The flag is stored on the reference
+itself, so the engine carrying the record into a save no longer matters - it
+comes back invisible.
+
+[b]Your old saves[/b]
+
+Saves made before 0.9.0 already contain those references, and they were written
+as normal visible objects. Nothing in 0.9.0 reaches back into an existing save to
+hide them, so you will still see the old parcels. Three ways to deal with them:
+
+[list]
+[*][b]Parcel Fix (optional download).[/b] A one-shot plugin that clears the
+leftovers out of a save. Load the save and stand near them: the boxes shrink away
+as it runs, and the list it writes to [b]ParcelFix.log[/b] gives every id. Save,
+then disable or remove the mod - it does nothing after that point. It only
+touches objects created at runtime, of a type the shop sells, within about 20 m
+of where you are standing. Each parcel is moved out of the cell, marked deleted
+and disabled, and shrunk through the engine's own scale call, so it leaves the
+screen on the spot instead of waiting for the cell to rebuild. Nothing is freed,
+and every hidden id can be put back from the log ([b]FFxxxxxx.enable[/b] and
+[b]FFxxxxxx.setscale 1[/b] in the console). If you would rather see the list
+before it acts, set [b]bAct=0[/b] in its ini, run it once, then set it back to 1.
+Back up the save before you run it, and give it a disposable save if you can.
+[*][b]Ignore them.[/b] Harmless - they are ordinary droppable objects, and they do
+not grow: only purchases made before the fix are affected.
+[*][b]Remove them by hand.[/b] Open the console with [b]~[/b], click the parcel, and
+type [b]disable[/b] then press Enter. It disappears immediately and stays gone.
+If you want it removed for good rather than hidden, use [b]markfordelete[/b]
+instead. Save first, and do it only in a cell you are not sharing with a quest.
+[/list]
+
+Do not pick them up to clear them - that is exactly the duplicate this fix is
+about, and it puts the extra copy in your inventory.
+
+[b]Parcel Fix changelog[/b]
+[list]
+[*][b]1.0.0[/b] - first public release. Finds the runtime-created leftovers in
+the save you load, parks each one below the cell, clears persistence, marks it
+deleted, disables it and shrinks it with the engine's own scale call, so the mesh
+follows the record and the box goes as it runs. The log lists every reference by
+id and says whether the shrink landed.
+[/list]
+
+[b]If it still happens on 0.9.0 or later[/b]
+
+It should not. If you see a parcel appear after a save and load on a build from
+0.9.0 on, please post your [b]SFShopExplorer.log[/b] (Documents\\My Games\\
+Starfield\\SFSE\\Logs\\) with the purchase lines in it - each purchase writes a
+`[spike] delivery x1 ...` line and, one task later, a `leftover recheck` line.
+Those two say whether the item was delivered and what state the drop ended in,
+which is all I need to tell a delivery problem from something else on the floor.

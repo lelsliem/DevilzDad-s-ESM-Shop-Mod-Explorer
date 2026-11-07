@@ -1,0 +1,26 @@
+D:\Projects\Address Library\tools\AS2\mtasc-win\mtasc.exe: Invalid frame.
+Motion-Twin ActionScript2 Compiler (Community Fork) 1.15
+Copyright (c) 2004-2009 Motion-Twin and contributors
+ Usage : mtasc.exe [options] <files...>
+ Options :
+  -pack <path> : compile all files in target package
+  -cp <paths> : add classpath
+  -v : turn on verbose mode
+  -strict : turn on strict mode
+  -infer : turn on local variables inference
+  -wimp : turn on warnings for unused imports
+  -msvc : use MSVC style errors
+  -mx : use precompiled mx package
+  -swf <file> : swf file to update
+  -out <file> : swf output file
+  -keep : does not remove AS2 classes from input SWF
+  -frame <frame> : export into target frame (must exist in the swf)
+  -main : enable main entry point
+  -header <header> : specify header format 'width:height:fps'
+  -group : group classes into a single clip
+  -exclude <file> : exclude classes listed in file
+  -version : change SWF version (6,7,8,...)
+  -trace <function> : specify a TRACE function
+  -32k-limit : treat overlength classes (>= 32 KiB of bytecode) as an error
+  -help  Display this list of options
+  --help  Display this list of options

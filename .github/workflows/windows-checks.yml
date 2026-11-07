@@ -1,0 +1,170 @@
+name: Windows checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "SF Shop Explorer/**"
+      - "!SF Shop Explorer/**/*.md"
+      - ".github/workflows/windows-checks.yml"
+      - ".github/patches/**"
+  pull_request:
+    paths:
+      - "SF Shop Explorer/**"
+      - "!SF Shop Explorer/**/*.md"
+      - ".github/workflows/windows-checks.yml"
+      - ".github/patches/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Python check (Windows)
+    runs-on: windows-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: SF Shop Explorer
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: "SF Shop Explorer/tools/requirements-ci.txt"
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r tools/requirements-ci.txt
+
+      - name: Run full check and write JUnit XML
+        # The outfit audit skips itself when Starfield Data/catalog are absent.
+        run: python -X utf8 tools\check.py --junitxml reports\check-junit.xml
+
+      - name: Upload JUnit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-check-junit
+          path: SF Shop Explorer/reports/check-junit.xml
+          if-no-files-found: error
+          retention-days: 14
+
+  build:
+    name: C++ build (Windows)
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      SFSE_SKIP_BA2AUDIT: "1"
+      SFSE_SKIP_OUTFIT_AUDIT: "1"
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Restore CommonLibSF checkout
+        id: commonlibsf-cache
+        uses: actions/cache@v4
+        with:
+          path: Depends/commonlibsf-main
+          # Commit and patch identify the checkout. The patch is applied
+          # idempotently below, so both clean and patched caches are usable.
+          key: commonlibsf-${{ runner.os }}-9e8333a-${{ hashFiles('.github/patches/commonlibsf-tesobjectweap.patch') }}
+
+      - name: Check out CommonLibSF
+        shell: bash
+        run: |
+          header=Depends/commonlibsf-main/include/RE/T/TESObjectWEAP.h
+          submodule=Depends/commonlibsf-main/lib/commonlib-shared/xmake.lua
+          cached_commit=$(git -C Depends/commonlibsf-main rev-parse HEAD 2>/dev/null || true)
+          if [ "$cached_commit" != "9e8333a5008c3915e644d5dfa30aae7290070db1" ] || [ ! -f "$header" ] || [ ! -f "$submodule" ]; then
+            rm -rf Depends/commonlibsf-main
+            mkdir -p Depends
+            git clone --quiet https://github.com/libxse/commonlibsf.git Depends/commonlibsf-main
+            git -C Depends/commonlibsf-main checkout --quiet --detach 9e8333a5008c3915e644d5dfa30aae7290070db1
+            git -C Depends/commonlibsf-main submodule update --init --recursive --quiet
+          else
+            echo "Using cached CommonLibSF checkout $cached_commit"
+          fi
+
+      - name: Patch CommonLibSF
+        shell: bash
+        run: |
+          header=Depends/commonlibsf-main/include/RE/T/TESObjectWEAP.h
+          if grep -q 'BGSCurveForm.h' "$header"; then
+            echo "CommonLibSF header already patched"
+          else
+            git -C Depends/commonlibsf-main apply "$GITHUB_WORKSPACE/.github/patches/commonlibsf-tesobjectweap.patch"
+          fi
+
+      - name: Set up xmake
+        uses: xmake-io/github-action-setup-xmake@v1
+        with:
+          xmake-version: "3.0.9"
+          actions-cache-folder: ".xmake-cache"
+          package-cache: true
+          package-cache-key: "windows-xmake-3.0.9-sfshopexplorer"
+          build-cache: true
+          build-cache-key: "windows-xmake-3.0.9-sfshopexplorer"
+          project-path: "SF Shop Explorer"
+
+      - name: Build SFShopExplorer with xmake
+        working-directory: SF Shop Explorer
+        run: cmd /c build.cmd
+
+      - name: Build DevilzShopOSF with xmake
+        working-directory: SF Shop Explorer
+        shell: cmd
+        run: |
+          set "XMAKE=xmake"
+          if exist "C:\Program Files\xmake\xmake.exe" set "XMAKE=C:\Program Files\xmake\xmake.exe"
+          set "BUILDLOG=%TEMP%\sfse_xmake_osf.log"
+          "%XMAKE%" build -y DevilzShopOSF > "%BUILDLOG%" 2>&1
+          set "XMAKERC=%errorlevel%"
+          type "%BUILDLOG%"
+          if not "%XMAKERC%"=="0" (
+              echo [osf] FAILED: xmake exited %XMAKERC% ^(log: %BUILDLOG%^)
+              exit /b %XMAKERC%
+          )
+          findstr /C:"error C" /C:"error LNK" /C:"fatal error" "%BUILDLOG%" >nul
+          if not errorlevel 1 (
+              echo [osf] FAILED: compiler diagnostics in the build log
+              exit /b 1
+          )
+          if not exist "build\windows\x64\releasedbg\DevilzShopOSF.dll" (
+              echo [osf] FAILED: no DevilzShopOSF.dll output
+              exit /b 1
+          )
+          if not exist "build\windows\x64\releasedbg\DevilzShopOSF.pdb" (
+              echo [osf] FAILED: no DevilzShopOSF.pdb output
+              exit /b 1
+          )
+
+      - name: Upload SFShopExplorer
+        uses: actions/upload-artifact@v4
+        with:
+          name: SFShopExplorer-releasedbg
+          path: |
+            SF Shop Explorer/build/windows/x64/releasedbg/SFShopExplorer.dll
+            SF Shop Explorer/build/windows/x64/releasedbg/SFShopExplorer.pdb
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload DevilzShopOSF
+        uses: actions/upload-artifact@v4
+        with:
+          name: DevilzShopOSF-releasedbg
+          path: |
+            SF Shop Explorer/build/windows/x64/releasedbg/DevilzShopOSF.dll
+            SF Shop Explorer/build/windows/x64/releasedbg/DevilzShopOSF.pdb
+          if-no-files-found: error
+          retention-days: 14

@@ -1,0 +1,33 @@
+[size=5][b]0.9.0-OSF[/b][/size]
+
+[b]Column sorter.[/b] Every heading but the star - Name, Shelf, Type, Value, Weight, FormID - sorts the whole catalog, not just the hundred rows the page holds: the plugin builds the order, so page 2 is still sorted. A new heading starts ascending, clicking the active one flips it, and the arrow is drawn into the label. The column and direction are written to [b]DevilzShopOSF.ini[/b] and handed back with the catalog, so reopening the shop returns to the last sort you picked.
+
+[b]Basket weight.[/b] Each basket line and the total in the footer show weight as well as credits (weight alone while Free is ticked), so a load-out that would not fit in the ship's cargo no longer looks free.
+
+[b]Favourites.[/b] A star column on every row and a Favourites toggle that lists the starred records from every plugin and category, sharing the overlay's list file. The five Hide toggles moved into a Hide popup, and Favourites took their place.
+
+[b]Double-click adds.[/b] Selecting a row no longer rebuilds the list's markup, so the second click of a double click lands on the same node and adds the item - it also keeps the list's scroll position. Star clicks still toggle a favourite instead of selecting the row.
+
+[b]Names that used to break two columns.[/b] Sorting by Name or Type could answer "Catalog query failed: legacy handler returned invalid JSON": the game's string tables hand back Windows-1252, and one accented name on the first page was enough to make the whole reply invalid UTF-8. Every text field of every reply is converted first now, so those two columns work like the rest.
+
+[b]Blank weapons fixed.[/b] Weapons that copy a vanilla gun without any model parts of their own - MagPulse Fanisha, Razorback Trophy, Avarice, Custom Old Earth Revolver, Arboron Novastrike Sniper - previewed an empty panel. They now assemble the vanilla stock parts their own mod-association keyword binds them to. A plugin with its own art is never repainted vanilla.
+
+[b]Faster list and search.[/b] One sort key per row instead of a display name per comparison, and one folded search key per row instead of a rebuild per frame, so switching plugin, category or a Hide toggle lands sooner.
+
+[b]No more parcels.[/b] A purchase used to be delivered by dropping the item at your feet and moving it into your inventory; the engine wrote that drop into the save anyway, so after a load a second copy was lying around. The drop reference is now retired as soon as the item is in the inventory, so a purchase leaves nothing behind. Saves written before this build keep the parcels they already have - [b]Parcel Fix[/b], the separate download in Optional files, clears them: load the save, stand near them, save, then disable or remove it.
+
+[b]Before installing:[/b] run [url=https://www.nexusmods.com/starfield/mods/15632]Starfield Shader Cache Reset[/url] first to avoid a CTD from stale shader data.
+
+[b]Requirements[/b]
+[list]
+[*]Starfield 1.16.244
+[*]SFSE
+[*]Address Library
+[*]OSF UI
+[*]OSF Settings - Mod Configuration Menu (MCM)
+[*]Microsoft Edge WebView2
+[/list]
+
+[b]Updating[/b]
+
+Replace the mod folder and keep DevilzShopOSF.ini. Themes, unlock progress, audio settings and the new sort preference live there and are not overwritten. The shop opens from Mod Settings under INTERFACES, or with the open key OSF UI binds for it.

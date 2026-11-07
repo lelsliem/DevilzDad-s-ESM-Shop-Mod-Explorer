@@ -1,0 +1,12 @@
+[ba2audit] probing archive formats in B:\SteamLibrary\steamapps\common\Starfield\Data
+  probing 1 GNRL file(s)...
+
+archives: 1   checks: 1   failures: 0
+  probing 3 DX10 texture(s)...
+
+archives: 1   checks: 3   failures: 0
+[ba2audit] OK
+[0m[38;5;2;1m[  7%]:[0m [38;5;5;1m<SFShopExplorer>[0m compiling.releasedbg src\ShopExplorer.cpp[0m
+[0m[38;5;2;1m[ 91%]:[0m [38;5;5;1m<SFShopExplorer>[0m [38;5;5;1mlinking.releasedbg SFShopExplorer.dll[0m
+[0m[38;5;2;1m[100%]:[0m [38;5;2;1mbuild ok, spent 9.922s[0m
+[deploy] built DLL sha256=2ADDA3DFECED15C8903167293386ABE749BCBC4298205DA5B369135CA315E959

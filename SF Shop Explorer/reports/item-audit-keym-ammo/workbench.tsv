@@ -1,0 +1,551 @@
+form	name	type	plugin	status	model	geoms	tris	textured	delta	changed
+00003BD3	(unnamed)	AMMO	Starfield.esm	NIF missing	Ammo\FatMan\AmmoFatMan.nif	0	0	0	None	False
+00004249	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0000E8EC	3.0kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoLaser.nif	3	3061	3	None	False
+00014CBC	Battery Pack	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo777mm.nif	3	3055	3	None	False
+00018DF1	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0001F276	(unnamed)	AMMO	Starfield.esm		setdressing/ammo_crates\ammo777mm.nif	3	3055	3	None	False
+000297F4	Creature Fire Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000297F5	Creature Ice Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00030B2F	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0004AD3E	2.0kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo777mm.nif	3	3055	3	None	False
+000547A1	CCT-4 Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoShotgun.nif	3	3053	3	None	False
+0005516D	Grenade	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_medium.nif	0	0	0	None	False
+0006497E	Creature Electric Arc Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0006497F	Creature Pod Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00064980	Creature Quill Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00076EDC	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00087588	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00091157	Supernova Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+000AF70F	Creature Rock Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF710	Creature Spit AoE Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF711	Creature Shout Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF712	Creature Vomit Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF713	Creature Explosive Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF714	Creature Noxious Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF715	Creature Oxygen Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B0ACE	Creature Energy Orb Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B0ACF	Creature Sonic Blast Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B2CCD	Solar Flare Beam Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00128A0A	(unnamed)	AMMO	Starfield.esm	NIF missing	Ammo\FatMan\AmmoFatMan.nif	0	0	0	None	False
+001504F0	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+001504F3	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+00179DAD	Mine	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0018DEC2	Creature Spit Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0019B892	Rakghoul Grenade	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+001AD730	Grenade	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0020BA5E	Beam ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00215ED6	Mine	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184A8	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184A9	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184AA	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+002184AB	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+002184AC	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+002184AD	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+002184B8	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184B9	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+002184BA	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+002184BB	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184BC	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002184C0	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+002197C1	Rakghoul Roar Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00228D48	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D228	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D229	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D22A	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D22B	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D22C	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D22F	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D230	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D231	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D233	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D234	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D239	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D23A	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D240	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D250	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D251	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D265	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D266	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D267	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D268	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typed_xlarge.nif	0	0	0	None	False
+0022D26A	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+0022D26C	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022D26D	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typef_xlarge.nif	0	0	0	None	False
+0022F4FA	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F4FB	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F4FC	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F4FD	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F4FF	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F500	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F501	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F502	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F504	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F506	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F507	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F508	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F509	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F50B	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F50C	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F50D	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F50E	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F510	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+0022F512	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F513	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F514	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F515	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F517	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F518	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F519	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F51A	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F51C	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typec_large.nif	0	0	0	None	False
+0022F51D	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F51F	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F520	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F521	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F524	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F525	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+0022F526	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+00230558	7.77mm Caseless	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo777mm.nif	3	3055	3	None	False
+00230559	1.5kV LZR Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoLaserSmall.nif	3	3061	3	None	False
+0023055A	Heavy Particle Fuse	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoParticleFuseHeavy.nif	3	3063	3	None	False
+0023055B	.50 Caliber Caseless	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo50Caliber.nif	3	3055	3	None	False
+00230679	11mm Caseless	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo11mm.nif	3	3055	3	None	False
+00230680	15x25 CLL Shotgun Shell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoShotshellCLL.nif	3	3053	3	None	False
+00230687	.45 Caliber ACP	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo45Caliber.nif	3	3055	3	None	False
+00231408	Light Particle Fuse	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoParticleFuseLight.nif	3	3031	3	None	False
+0023155C	3kV LZR Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoLaser.nif	3	3061	3	None	False
+0023155F	.27 Caliber	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo27Caliber.nif	3	3055	3	None	False
+00231568	7.5mm Whitehot	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo75mmWhitehot.nif	3	3055	3	None	False
+00231B1B	.43 Ultramag	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo43Ultramag.nif	3	3055	3	None	False
+00231D31	Caseless Shotgun Shell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoShotshell.nif	3	3055	3	None	False
+00249FE8	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0024A032	(unnamed)	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+00265AD1	Mine	AMMO	Starfield.esm		Weapons\spacemine\SpaceMine.nif	7	9999	5	None	False
+0026D979	EM Module	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_medium.nif	0	0	0	None	False
+002783C7	Light Particle Fuse	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_medium.nif	0	0	0	None	False
+0029AE31	Missile	AMMO	Starfield.esm	NIF missing	SetDressing\ammo_crates\typea_medium.nif	0	0	0	None	False
+002B4AFB	Scattergun Shell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoShotshell.nif	3	3055	3	None	False
+002B4AFC	5.5kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoShotshellCLL.nif	3	3053	3	None	False
+002B558A	2.5kV Heavy Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoParticleFuseLight.nif	3	3031	3	None	False
+002B558B	6.0kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoParticleFuseHeavy.nif	3	3063	3	None	False
+002B558D	3.0kV Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo762mm.nif	3	3057	3	None	False
+002B558E	3.5kV Light Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo75mmWhitehot.nif	3	3055	3	None	False
+002B558F	BAW-3.0 Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoMIArray65.nif	3	3099	3	None	False
+002B5590	0.5kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo65mm.nif	3	3055	3	None	False
+002B5591	45mm XPL-P	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo20mmXPL.nif	3	3033	3	None	False
+002B5592	SB4.0 Explosive Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo20mmXPL.nif	3	3033	3	None	False
+002B5593	11mm XPL	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo11mm.nif	3	3055	3	None	False
+002B5594	Flamer Fuel	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoRivet.nif	3	3035	3	None	False
+002B5595	3.5kV Heavy Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo11mm.nif	3	3055	3	None	False
+002B5596	4.5kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoMIArray50.nif	3	3079	3	None	False
+002B5597	5.0kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo50Caliber.nif	3	3055	3	None	False
+002B5598	CCT-3 Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo45Caliber.nif	3	3055	3	None	False
+002B5599	2.5kV Light Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo43Ultramag.nif	3	3055	3	None	False
+002B559A	BAW-2.0 Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoMIArray43.nif	3	3089	3	None	False
+002B559B	4.0kV Power Cell	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo9x39mm.nif	3	3055	3	None	False
+002B559C	1.0kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\Ammo27Caliber.nif	3	3055	3	None	False
+002BAE3F	1.5kV Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoLaserSmall.nif	3	3061	3	None	False
+002BAE40	Mag Cartridge	AMMO	Starfield.esm		SetDressing\ammo_crates\AmmoBox_01.nif	3	1656	3	None	False
+002F3F22	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+002F3F23	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0102C475	8.0kV Heavy Power Cell	AMMO	ShatteredSpace.esm		SetDressing\dlc001\ammo_crates\SFBGS001_Ammo20mmXPL.nif	3	3031	3	None	False
+010958E3	VortexSpawn Spit Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0112B310	Vortex Horror Ranged Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0116E400	Vortex Horror Ranged Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+FE021010	8mm Talon Bolt	AMMO	bubbow.esm	no MODL		0	0	0	None	False
+0F00090F	Notimo-6 Power Cell	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+0F000A45	Standard Power Cell	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+0F000D6E	Slug	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+0F000DB5	Westar Power Cell	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+0F000DB6	High Grade Power Cell	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+0F000DD0	Ion Based Power Cell	AMMO	SW Blasters.esm		SWBlasters\AmmoBlaster.nif	2	2999	2	None	False
+19000ADC	(unnamed)	AMMO	TheSniper9-Firespray31.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+19000AE0	(unnamed)	AMMO	TheSniper9-Firespray31.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+19000B00	Missile	AMMO	TheSniper9-Firespray31.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+19000AD5	(unnamed)	AMMO	TheSniper9-Firespray31.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+1A020C07	(unnamed)	AMMO	YT-1300_Millennium_Falcon_1977.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+1B60030F	VT Laser cannon	AMMO	TIE_Advanced_x1_1977.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+1B60044F	VT EM	AMMO	TIE_Advanced_x1_1977.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+1B60030E	VT Cluster Missile	AMMO	TIE_Advanced_x1_1977.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+1C503F8F	N-1 EM	AMMO	T_65B_X_Wing_Starfighter.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+1C503E52	X-wing Proton torpedo	AMMO	T_65B_X_Wing_Starfighter.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+1C503E53	X-wing Laser cannon	AMMO	T_65B_X_Wing_Starfighter.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+1E50022A	N-1 EM	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+1E5000E9	N-1 Laser cannon	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+1E5000E8	N-1 Proton torpedo	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+1F508826	Delta-7 Laser cannon	AMMO	Delta-7_Jedi_Starfighter_2002.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+1F508825	Delta-7 Proton torpedo	AMMO	Delta-7_Jedi_Starfighter_2002.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+1F50887D	Delta-7 EM	AMMO	Delta-7_Jedi_Starfighter_2002.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+204603A1	N-1 EM	AMMO	Naboo_N-1_Starfighter_1999.esm	NIF missing	SetDressing\ammo_crates\typee_xlarge.nif	0	0	0	None	False
+20400375	N-1 Laser cannon	AMMO	Naboo_N-1_Starfighter_1999.esm	NIF missing	SetDressing\ammo_crates\typea_xlarge.nif	0	0	0	None	False
+20400374	N-1 Proton torpedo	AMMO	Naboo_N-1_Starfighter_1999.esm	NIF missing	SetDressing\ammo_crates\typeb_xlarge.nif	0	0	0	None	False
+3E000D2C	Notimo-6 Power Cell	AMMO	Star Wars Blasters.esm		ammobox\swammobox.nif	1	352	0	None	False
+0000485E	Weapon Rack Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00005ED6	Imogene's Passcode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00006E30	ECS Constant Captain's Key	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0000A4A1	Reisha's Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0000B09D	Security Passcode	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0000B0C2	Commander Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000173C8	Gov. Hurst's Condo Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000191DD	Frontier Ship Passcode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0001934B	Ervin's Apartment Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0001BE3B	Ubrikkian Storage Room Pass	KEYM	Starfield.esm		SetDressing\Keycards\GenerdyneIndustries_IDCard.nif	5	693	2	None	False
+00025E16	Prototype Access Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0003425A	(unnamed)	KEYM	Starfield.esm		SetDressing\Keycards\GenerdyneIndustries_IDCard.nif	5	693	2	None	False
+0003586B	Bayu's Penthouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00036925	Employee Foundry Passcode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000414CE	Hold Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00043D71	Laboratory Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0004525A	SY-920 Control Center Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0004B588	Storage Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0004B591	Personal Safe Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0005B4F4	Service Elevator Entrance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0006338B	Unit C-203 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00063394	Unit A-102 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00063395	Unit A-107 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0006339D	Unit B-101 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0006AA66	SY-920 ID Card	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0006ABC4	SY-920 Security Station Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00071D61	Stolen Items Locker Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0007EA4D	Employee Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00089F60	Euphorika Lounge Pass	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000976DB	Astral Lounge Hotel Suite Key	KEYM	Starfield.esm		SetDressing\Keycards\AstralLoungeHotelSuite_KeyCard.nif	7	700	6	None	False
+0009C206	Purser Murata's Pass	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009C280	Holbrooke's Cabin Key	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009C281	Vera's Cabin Key	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009C282	Swist's Cabin Key	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009C283	Dumbrosky's Cabin Key	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009C32A	Holbrooke Claim ID	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+0009DE5B	1-Of-A-Kind Safe Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000A0271	Chief Engineer Sandin's ID	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+000A0275	Starview Access Pass	KEYM	Starfield.esm		SetDressing\SirenoftheStars\CF04_SirenCard.nif	2	276	1	None	False
+000A6574	Imperial Security - Well Key	KEYM	Starfield.esm		SetDressing\Keycards\UCMilitary_ID.nif	7	828	5	None	False
+000AFEA5	Abandoned Compound Keycode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000C368B	Mercury Penthouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000C368D	Dantooine Core Manor Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000C3690	Dantooine Midtown House Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000C71C9	Cell Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+000D0881	Eleos General Store Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000DF3A0	SY-920 Maintenance Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000EDD9A	Outpost Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000F0F8A	Osterholt's Safe Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000F3CFB	Supply Container Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000F55E0	Scow Zoo Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+000F92F5	Captain's Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0010FBDA	Tower Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0010FE7C	InterGalactic Banking Clan Rear Door Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00119AA8	Well Apartment Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00120B2A	Private Quarters Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00123431	Trandoshan Base Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00138F3B	InterGalactic Banking Clan Access Card	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0013A214	Stolen Safe Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0013F866	Rooftop Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0013FD11	Laboratory Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0014AFDC	Maintenance Tunnel Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0014FC5E	InterGalactic Banking Clan Front Door Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00150A8C	Trident Engineering Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00155784	Comms Building Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00155D19	Ervin's Foundry Passcode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0015C84E	Facility Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0015DF42	R&D ID Card	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0015DF43	Locker Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0015DF49	Maintenance Passcode	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0015DF4A	Maintenance Access Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001661A6	Imperial Security Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0016887A	TA Warehouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00168A02	Search and Rescue Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0016DA4D	Faye's Passcode	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+00176531	Captain's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0017ADC6	Ubrikkian Safe Pass	KEYM	Starfield.esm		SetDressing\Keycards\GenerdyneIndustries_IDCard.nif	5	693	2	None	False
+0017DA1B	Tower Maintenance Access	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0017E6CA	Suite Master Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00181B09	Workshop Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0018279D	Receptionist's Access Pass	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00187686	Trandoshan Base Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00187CA4	Trandoshan Base ID Card	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00188C9A	SY-920 Security Station Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0018B5E3	Test Room Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00197E11	U3-09 Security Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00197E12	U3-09 Facility Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019A33C	Ularu's Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019A621	Rebel Alliance Badge	KEYM	Starfield.esm		SetDressing\FreeStarRangeBadge\FreeStarRangeBadge_Cinimatic.nif	1	1499	1	None	False
+0019B082	Hutt Cartel Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019CEAF	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019CEE0	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019CEE2	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0019D9C8	Vicente's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001A403F	Imperial Military ID	KEYM	Starfield.esm		SetDressing\Keycards\UCMilitary_ID.nif	7	828	5	None	False
+001A480E	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001A94FF	Secure Wing Access Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001A9503	CM Station RC-1 Mine Keycard	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+001B3D38	Scow Aux Weapons Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001B5788	Contraband Locker Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001B6151	Supply Storage Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001B86F3	Gar Saxon's Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001BBF33	Kulkarni's Apartment Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C3890	Niamos Hotel Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C4A76	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C4A77	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C4A78	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C52F3	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001C5532	Rasapan II Control Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001CBF56	Cade's Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001D3BEA	(unnamed)	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001D7EF4	VIP Wing Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001EB7CD	Octavian's Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001ECDF9	Kendrick Lane's Passcode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001EDF67	Kumiho's Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001F25C7	InterGalactic Banking Clan Transfer Module	KEYM	Starfield.esm		setdressing/galbank/transfermodule\galbank_transfermodule01.nif	4	356	3	None	False
+001F4292	Trandoshan Specimen Cage Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001F5114	Outpost Main Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001F91FA	Carter's Locker Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001F91FB	Maintenance Terminal Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+001FE660	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00201B0B	Rebel Alliance Deputy Badge	KEYM	Starfield.esm		SetDressing\FreeStarRangeBadge\FreeStarDeputyBadge.nif	1	1500	1	None	False
+00201B0C	Rebel Alliance Deputy Badge	KEYM	Starfield.esm		SetDressing\FreeStarRangeBadge\FreeStarDeputyBadge.nif	1	1500	1	None	False
+0020A927	Warehouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0020D5D7	Outpost Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002115BB	Living Quarter Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00212A00	Commander Kallus' Ship Cabin Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0021712D	Isolation Chamber Access Card	KEYM	Starfield.esm		SetDressing\UC_Citizencard\UC_Citizencard01.nif	10	744	4	None	False
+00219099	Imperial Archives Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0021909C	Encrypted Access Spike (Coruscant Undercity)	KEYM	Starfield.esm		SetDressing\Device01\Device01.nif	1	1500	1	None	False
+0021909D	Concealed Proximity Jammer	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00219260	Executive Level Access Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00219A94	Rebel Utility Access Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0021BB95	Command Code: Toft	KEYM	Starfield.esm		setdressing/keycards\ucmilitary_id.nif	7	828	5	None	False
+0021C592	Outpost Storage Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0021D5EA	Rogue Moon Base Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00228C71	Outpost Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022C26E	Rooftop Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022D3A5	Nishina Pantry Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022E16E	Holding Cell Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022F212	Access Badge	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0022F21A	Kumiho's Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00235518	Peter Brennan's Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00237407	Tia's Password: drowssap	KEYM	Starfield.esm		setdressing/keycards\deimosstaryards_keycard.nif	5	723	3	None	False
+00237507	Banking Clan Credentials	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0023DF49	Armory Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0023EB49	The Beagle Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0023F92B	Taxi Station Emergency Keycode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00249C9A	Ubrikkian Staff Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0024F836	Rebel Hideout Keycode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0024F837	Communications Relay Access Key	KEYM	Starfield.esm		SetDressing\Armistice_BiometricKeys\Biometric_Key_FreeStar01.nif	7	1247	2	None	False
+0024F869	Jerserra's Code Cylinder	KEYM	Starfield.esm		setdressing/armistice_biometrickeys\biometric_key_varuun01.nif	6	1229	2	None	False
+0025439F	SY-920 Docking Port 8 Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00257EB6	Dr. Hemlock's Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002584AE	ECS Constant Reactor Terminal Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025CD87	Trade Federation Storeroom Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025CD88	Geonosis Excavation Site Utility Area Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025CDBC	Employee Exit Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025CDDF	Drill Waste Room Access Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0025DA2C	Slayton's Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00261255	Swoop Gang Cave Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026A774	Simulator Admin Systems Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026C126	Garage Access Door Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026D276	Taris Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026D27A	Taris Vault Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026D914	Taris Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0026FE96	Locker Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00270FA3	Imperial Star Destroyer Brig Password	KEYM	Starfield.esm		setdressing/keycards\ucmilitary_id.nif	7	828	5	None	False
+00270FB1	Command Code: Ikande	KEYM	Starfield.esm		setdressing/keycards\ucmilitary_id.nif	7	828	5	None	False
+00272F0E	Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00273395	Security Password	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027AB00	Scow Service Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027AB05	Scow Lower Level Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027AD54	Lucas Drexler's Office Key	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0027B7B4	Stash Box Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027C9A0	Cryogen Research Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027CBB9	Scow Security Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0027CDC8	Commander Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00286AB1	Outpost Master Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0028AD05	Nishina Particle Lab Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0028D735	Main Access Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0028E7CE	Safe Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00293A7D	Lodge Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00295EFF	Stanley McMillan's Access Card	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0029A932	Nishina Utility Closet Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0029AB03	Outpost Main Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0029C8E7	Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0029C8EF	Entryway Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0029D3B2	Elevator Exit Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AAC2B	Nina's Suite Keycard	KEYM	Starfield.esm		SetDressing\Keycards\AstralLoungeHotelSuite_KeyCard.nif	7	700	6	None	False
+002AADC1	Taxi Station Emergency Keycode	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002ACB17	Storage Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AF5F9	Safe #16 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AF5FA	Safe #20 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AF5FB	Safe #12 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002AF5FC	Safe #2 Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002B536C	Elevator Access Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002B68B3	Captain's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002B8FE7	TA Lobby Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002B8FEA	TA Warehouse Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002BAE4C	Supply Closet Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002C2CBF	Admin Office Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002C6D13	Hondo's Vault Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002C8DE6	Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002C8E08	Maintenance Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CA0BB	Lab Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CAD04	Captain's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CC2DF	Level 1 Storage Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CC9C0	Facility Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CD24E	Sealed Mines Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002CE16C	Slayton Utility Key	KEYM	Starfield.esm		SetDressing\Keycards\IDCard_Corporate.nif	6	904	4	None	False
+002D3A5D	Air Traffic Control Tower Keycard	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002DE38C	Locked Compartment Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+002E8DD4	Restricted Equipment Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0030002E	InfinityLTD Keycard	KEYM	Starfield.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+00319B0E	Garm's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0031D723	Bazak's Cockpit Access	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0034BE3D	Cell Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BE3F	Room 1 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BE40	Room 2 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BE41	Room 3 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BE42	Room 4 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BE43	Room 5 Key	KEYM	Starfield.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0034BF01	Safe Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0034BF02	Safe Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003612E8	Taris Access Code	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00370988	Trade Tower: Sky Suite Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+00370989	Sleepcrate Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0037C3B4	Terminal Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0037C3BD	Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003A2370	Sienar Technologies Staryards Keycard	KEYM	Starfield.esm		SetDressing\Keycards\DeimosStaryards_Keycard.nif	5	723	3	None	False
+003A2CFD	Topher's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003A3FF9	Generic Security Keycard	KEYM	Starfield.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+003A5ECB	Kay's Apartment Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003AD7DC	Maintenance Shaft Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003B0657	Storage Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003B0665	Bunk Room Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003B38FD	Captain's Safe Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003B5D2B	Dr. Farrow's Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003CD066	(unnamed)	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003CD06F	Cryogen Utility Key	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+003D9C72	(unnamed)	KEYM	Starfield.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01010A93	Vacant House Key	KEYM	ShatteredSpace.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+01010A9E	Dreshdae Dwelling Key	KEYM	ShatteredSpace.esm	no MODL		0	0	0	None	False
+01010E7F	Meat House Pen Key	KEYM	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0101101D	Anasko's ID Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+010133F1	Supply Closet Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010133F3	Security Office Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010240BC	Refinery Access Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0102AF96	Zealot Shrine Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0102B727	Lockbox Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0102B72B	Ochim's Computer Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0102EA4B	Mrs. Goose's Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0103477D	Bunker Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010357F5	House Ka'dic Storage Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01036B08	Experiment Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01038C6E	Security Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0103CA3D	Secure Storage Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0103F07D	Reigen's Closet Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01054D2C	Engineering Bay Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01090BBE	Subterranearn Farm  Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010988F2	Mazur House Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0109FE90	Malik's Barn Storage Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010AAC57	Ukaru's Computer Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010AACA4	Storage Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010AD8EA	Maintenance Terminal Code	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010B2BFB	Unknown Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010C1F47	Orahim's Deposit Box Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010C289C	Dead Drop Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010C3C2A	Military Base Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010CA72C	House Ka'dic Admin Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010CDD5D	Crashed Ship Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010DB497	Orphanage Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010E0BEE	Dam Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010E40F8	Mirek's Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010E40F9	Sahima's Passcode	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+010E40FA	Enclosure Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01104919	Sherin'e Key	KEYM	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0110DBEB	Elixir Storage Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0110DD75	Refrigerator Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0111A33D	Carwright's House Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\InfinityLTD_IDcard.nif	5	695	3	None	False
+0111AAC2	Military Base Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0111BDCB	Herald's Room Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0111F7AF	Storage Area Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0112BDB4	Khaslav's Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01150C86	Storage Box Keycard	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+011512DD	Office Safe Key	KEYM	ShatteredSpace.esm	no MODL		0	0	0	None	False
+011536A7	Office Locker Key	KEYM	ShatteredSpace.esm	no MODL		0	0	0	None	False
+011578F8	Operations Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+011578F9	Oracle Access Card	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+01159C91	Lake Watchtower Safe Key	KEYM	ShatteredSpace.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0000A9	Tracker ID Card	KEYM	SFBGS003.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD00584F	Command Tower Key	KEYM	sfta05.esm	no MODL		0	0	0	None	False
+FD005C12	Sunsail Ship Key	KEYM	sfta05.esm	no MODL		0	0	0	None	False
+FD005C26	Junker Watchdog Key	KEYM	sfta05.esm	no MODL		0	0	0	None	False
+03011BC1	Degausser Access Card	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0301426C	Storage Card	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0301DECE	Key of entrance	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0301ED29	Master Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+030220D2	Ivica's Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03022107	Grace Kim's Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03027654	New Babylon Prison Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03035917	Atka's House Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0303591B	Milli's Room Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0303F168	Storage Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0304DEB9	Talos IV Access Card	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03051236	Jail Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+03051238	Cell Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+03052EFF	Dumpster Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03055337	Storage Master Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+03059687	Storage Room Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0305F787	Lab Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+03065FB0	GalBank Ship Access Card	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+0306E476	Restricted Area Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+0306E478	Morgue Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0306FE46	Master Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+03078181	Château des Étoiles Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0307D5D3	Clue 1	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0307DCA6	Clue 2	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0307DCA9	Clue 3	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0307DD02	Clue 4	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0307DD06	Clue 5	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0307EA27	Sasha Atwell's Keycard	KEYM	SFBGS00D.esm		SetDressing\Keycards\GenericSecurity_Keycard.nif	6	730	5	None	False
+03086BA2	Stash Key	KEYM	SFBGS00D.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+0308BD4C	Chan's Office Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+0308BD50	Rishi's Quarters Key	KEYM	SFBGS00D.esm		setdressing/keycards\keycardgen01.nif	5	705	4	None	False
+FE00602B	Harbhajan's Apartment Key	KEYM	sfbgs00c.esm	no MODL		0	0	0	None	False
+FE00602C	Javier Mejia's Key	KEYM	sfbgs00c.esm	no MODL		0	0	0	None	False
+FD021A37	Armory Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD031002	Albert Green Computer Access	KEYM	(none)	no MODL		0	0	0	None	False
+FD0310E8	DummyKey	KEYM	(none)	no MODL		0	0	0	None	False
+FD03113C	Zia's Warehouse Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD03228B	Storage Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD0330C3	Stall Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD047AEF	Spacer Prison Warden's Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD047B08	Spacer Prison Cellblock Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD048C00	Armory Password: CrimsonRevenge	KEYM	(none)	no MODL		0	0	0	None	False
+FD051DA9	Villa Basement Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD05284B	Seokguh Villa Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD063D9B	Final Enterprise Chest Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD064191	Security Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD072DBA	Facility Access Card	KEYM	(none)	no MODL		0	0	0	None	False
+FD073EAC	Master Access Card	KEYM	(none)	no MODL		0	0	0	None	False
+FD087762	Cultist Password	KEYM	(none)	no MODL		0	0	0	None	False
+040006BC	Seed Vault Archives Key	KEYM	tankgirlsxenologyexpanded.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FD0B1B5C	Computer Passcode	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1B5E	Personnel Records Passcodd	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1C1A	Maintenance Room Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1C97	Golden Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1C98	Lead Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1CD1	Vent Door Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B1F27	Genevieve's Computer Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B2F32	Computer Passcode	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B2FB7	Unknown Passcode	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B32D5	Personnel Records Passcodd	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B38AF	Lead Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B3932	Section III Computer Passcode	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B3AA3	Employee #4 Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B3DE7	Employee Prime # Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B49E5	Fusebox Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B49EC	Locker Key	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B4A7C	Employee #3 Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B4A87	Employee #7 Keycard	KEYM	(none)	no MODL		0	0	0	None	False
+FD0B4B46	Fridge Key	KEYM	(none)	no MODL		0	0	0	None	False
+450019AF	Wonto Home Key	KEYM	Tatooine.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+450019B2	Kerner Home Key	KEYM	Tatooine.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False
+FE042D87	Vault Keycard	KEYM	arc_vault.esm	no MODL		0	0	0	None	False
+58000D0A	The Well Apartment Key79	KEYM	TheWell_Apartment_Z.esm		SetDressing\Keycards\KeycardGen01.nif	5	705	4	None	False

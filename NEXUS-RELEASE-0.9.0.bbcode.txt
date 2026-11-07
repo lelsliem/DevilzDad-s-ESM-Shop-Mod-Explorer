@@ -1,0 +1,23 @@
+[size=5][b]0.9.0[/b][/size]
+
+[b]Faster list.[/b] A column header used to build every row's display name and case-fold it inside the sort comparator; the 9,155-row All Types list now sorts in about 0.9 ms because each row's key is computed once per rebuild, and the search keys no longer rebuild when you sort. Every header click writes its number to the log.
+
+[b]Search without the stutter.[/b] The item search used to rebuild a display name, a model path and two formatted strings for every row, on every frame, while a term sat in the box - 9,000 records sixty times a second. Each row now keeps one folded search key for the life of the list, the visible rows are rebuilt only when the search text or the list changes, and a list rebuild reads each record's name and keywords once instead of once per Hide toggle. The log line reading `list N row(s) ... in X ms` is that rebuild's cost, beside the existing sort timing.
+
+[b]Basket weight.[/b] Each basket line and the total show weight as well as credits, so a load-out that would not fit in the ship's cargo no longer looks free.
+
+[b]Sort remembered.[/b] The column and direction you last clicked are written to SFShopExplorer.ini and restored next session, so a deliberate VALUE or WT sort stays put.
+
+[b]Favourites.[/b] A star column on every row and a Favourites filter that lists the starred records from every plugin and category. The list lives in SFShopExplorerFavourites.txt beside the plugin, one FormID per line. The five Hide toggles moved out of the PLUGINS pane into a Hide popup in the catalog bar, and Favourites took their place.
+
+[b]NAME sort rows.[/b] A sort by name no longer draws a star on a blank line with its label a row below: the star shares the name cell, so the two cannot be laid out apart. Names padded with a leading space or the game's food/drink icon glyph now sort with their letters instead of above the list.
+
+[b]Blank weapons fixed.[/b] Weapons that copy a vanilla gun without any model parts of their own - MagPulse Fanisha, Razorback Trophy, Avarice, Custom Old Earth Revolver, Arboron Novastrike Sniper - previewed an empty viewport. They now assemble the vanilla stock parts their own mod-association keyword binds them to. A plugin with its own art is never repainted vanilla.
+
+[b]No more parcels.[/b] A purchase used to be delivered by dropping the item at your feet and moving it into your inventory; the engine wrote that drop into the save anyway, so after a load a second copy was lying around. The drop reference is now retired as soon as the item is in the inventory, so a purchase leaves nothing behind. Saves written before this build keep the parcels they already have - [b]Parcel Fix[/b], the separate download in Optional files, clears them: load the save, stand near them, save, then disable or remove it.
+
+[b]Before installing:[/b] run [url=https://www.nexusmods.com/starfield/mods/15632]Starfield Shader Cache Reset[/url] first to avoid a CTD from stale shader data.
+
+[b]Updating[/b]
+
+Replace the mod folder and keep SFShopExplorer.ini. Themes, unlock progress, text size, audio settings and the new sort preference live there and are not overwritten. The first launch after an update rebuilds the item index once; previews are back to normal after that.

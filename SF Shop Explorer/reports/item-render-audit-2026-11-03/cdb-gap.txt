@@ -1,0 +1,30 @@
+flat materials probed: 763
+
+first matching key shape:
+    647  no key shape
+         QuickSnack Wine              Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Wine_Cab
+         QuickSnack Cola              Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Cola01.m
+         Meal Pack - Yobshrimp        Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\Package
+         Meal Pack - Yobshrimp        Materials\Items\FoodDrink_SingleItems\All_Packaged_Consumables\Package
+     63  family (empty)
+         Survival                     Materials\SWPirate\T_PirateHeavy.mat
+         Guavian Spacesuit            Materials\SWPirate\T_Pirate.mat
+         Guavian Spacesuit            Materials\SWPirate\T_PirateRodian.mat
+         Guavian Helmet               Materials\SWPirate\T_Pirate.mat
+     31  basename (empty)
+         QuickSnack Wine              Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Decal_N_
+         QuickSnack Cabernet          Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Wine_Cab
+         QuickSnack Cabernet          Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Decal_N_
+         QuickSnack Cola              Materials\Items\FoodDrink_SingleItems\Chunks_Food\Chunk_Drink_Decal_N_
+     17  family (art)
+         Erdebrau Dark Can            Materials\Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Dark.mat
+         Erdebrau Dark Can            Materials\Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Dark.mat
+         Erdebrau Dark Can            Materials\Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Dark.mat
+         Erdebrau Dark Can            Materials\Items\FoodDrink_SingleItems\Erdebrau_Beers\Erdebrau_Dark.mat
+      4  data/path (empty)
+         Erdebrau Dark Can            Materials\Common\Glass\GlassCleanTransparent01.mat
+         Erdebrau Dark Can            Materials\Common\Glass\GlassCleanTransparent01.mat
+         Merenzane Gold               Materials\Common\Glass\GlassCleanTransparent01.mat
+         Vindaloo                     Materials\Items\FoodDrink_SingleItems\CraftedFood_Container_PlasticPla
+      1  folder (art)
+         Vortex Ichor                 Materials\Common\Decal\DecalMetalBoltsTrimsDetails01n.mat

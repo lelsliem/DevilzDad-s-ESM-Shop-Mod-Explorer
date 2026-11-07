@@ -1,0 +1,183 @@
+form	name	type	plugin	status	model	geoms	tris	textured	delta	changed
+00003BD3	(unnamed)	AMMO	Starfield.esm	NIF missing	Ammo\FatMan\AmmoFatMan.nif	0	0	0	None	False
+00004249	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0000E8EC	3.0kV Cartridge	AMMO	Starfield.esm		AmmoLaser.nif + swammobox.nif + Mag_Battery.nif	4	3413	4	None	False
+00014CBC	Battery Pack	AMMO	Starfield.esm		Ammo777mm.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00018DF1	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0001F276	(unnamed)	AMMO	Starfield.esm		ammo777mm.nif + 10mmShellCasing.nif	3	3055	3	None	False
+000297F4	Creature Fire Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000297F5	Creature Ice Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00030B2F	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0004AD3E	2.0kV Cartridge	AMMO	Starfield.esm		Ammo777mm.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+000547A1	CCT-4 Power Cell	AMMO	Starfield.esm		AmmoShotgun.nif + swammobox.nif + 12g_Shell_Casing_Spent.nif	5	3625	5	None	False
+0005516D	Grenade	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0006497E	Creature Electric Arc Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0006497F	Creature Pod Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00064980	Creature Quill Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00076EDC	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00087588	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00091157	Supernova Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+000AF70F	Creature Rock Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF710	Creature Spit AoE Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF711	Creature Shout Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF712	Creature Vomit Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF713	Creature Explosive Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF714	Creature Noxious Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000AF715	Creature Oxygen Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B0ACE	Creature Energy Orb Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B0ACF	Creature Sonic Blast Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+000B2CCD	Solar Flare Beam Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00128A0A	(unnamed)	AMMO	Starfield.esm	NIF missing	Ammo\FatMan\AmmoFatMan.nif	0	0	0	None	False
+001504F0	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+001504F3	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+00179DAD	Mine	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0018DEC2	Creature Spit Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0019B892	Rakghoul Grenade	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+001AD730	Grenade	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+0020BA5E	Beam ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+00215ED6	Mine	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184A8	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184A9	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184AA	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184AB	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184AC	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184AD	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184B8	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184B9	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184BA	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184BB	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184BC	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002184C0	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002197C1	Rakghoul Roar Ammo	AMMO	Starfield.esm	no MODL		0	0	0	None	False
+00228D48	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D228	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D229	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D22A	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D22B	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D22C	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D22F	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D230	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D231	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D233	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D234	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D239	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D23A	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D240	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D250	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D251	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D265	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D266	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D267	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D268	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D26A	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D26C	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022D26D	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FA	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FB	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FC	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FD	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F4FF	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F500	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F501	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F502	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F504	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F506	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F507	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F508	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F509	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F50B	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F50C	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F50D	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F50E	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F510	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F512	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F513	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F514	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F515	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F517	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F518	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F519	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F51A	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F51C	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F51D	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F51F	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F520	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F521	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F524	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F525	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+0022F526	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+00230558	7.77mm Caseless	AMMO	Starfield.esm		Ammo777mm.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00230559	1.5kV LZR Cartridge	AMMO	Starfield.esm		AmmoLaserSmall.nif + Mag_Battery.nif	3	3061	3	None	False
+0023055A	Heavy Particle Fuse	AMMO	Starfield.esm		AmmoParticleFuseHeavy.nif + 10mmShellCasing.nif	3	3063	3	None	False
+0023055B	.50 Caliber Caseless	AMMO	Starfield.esm		Ammo50Caliber.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00230679	11mm Caseless	AMMO	Starfield.esm		Ammo11mm.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00230680	15x25 CLL Shotgun Shell	AMMO	Starfield.esm		AmmoShotshellCLL.nif + 10mmShellCasing.nif	3	3053	3	None	False
+00230687	.45 Caliber ACP	AMMO	Starfield.esm		Ammo45Caliber.nif + M1919_Casing.nif	4	3417	4	None	False
+00231408	Light Particle Fuse	AMMO	Starfield.esm		AmmoParticleFuseLight.nif + 10mmShellCasing.nif	3	3031	3	None	False
+0023155C	3kV LZR Cartridge	AMMO	Starfield.esm		AmmoLaser.nif + Mag_Battery.nif	3	3061	3	None	False
+0023155F	.27 Caliber	AMMO	Starfield.esm		Ammo27Caliber.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00231568	7.5mm Whitehot	AMMO	Starfield.esm		Ammo75mmWhitehot.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00231B1B	.43 Ultramag	AMMO	Starfield.esm		Ammo43Ultramag.nif + 10mmShellCasing.nif	3	3055	3	None	False
+00231D31	Caseless Shotgun Shell	AMMO	Starfield.esm		AmmoShotshell.nif + 556Casing.nif	3	3055	3	None	False
+00249FE8	Missile	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0024A032	(unnamed)	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+00265AD1	Mine	AMMO	Starfield.esm		Weapons\spacemine\SpaceMine.nif	7	9999	5	None	False
+0026D979	EM Module	AMMO	Starfield.esm		ammobox_01.nif + 10mmShellCasing.nif	3	1656	3	None	False
+002783C7	Light Particle Fuse	AMMO	Starfield.esm		ammobox_01.nif + 10mmShellCasing.nif	3	1656	3	None	False
+0029AE31	Missile	AMMO	Starfield.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+002B4AFB	Scattergun Shell	AMMO	Starfield.esm		AmmoShotshell.nif + swammobox.nif + 556Casing.nif	4	3407	4	None	False
+002B4AFC	5.5kV Cartridge	AMMO	Starfield.esm		AmmoShotshellCLL.nif + swammobox.nif + 10mmShellCasing.nif	4	3405	4	None	False
+002B558A	2.5kV Heavy Cartridge	AMMO	Starfield.esm		AmmoParticleFuseLight.nif + swammobox.nif + 10mmShellCasing.nif	4	3383	4	None	False
+002B558B	6.0kV Cartridge	AMMO	Starfield.esm		AmmoParticleFuseHeavy.nif + swammobox.nif + 10mmShellCasing.nif	4	3415	4	None	False
+002B558D	3.0kV Power Cell	AMMO	Starfield.esm		Ammo762mm.nif + swammobox.nif + RussianAssaultRifle_Bullet_Used.nif	5	3693	5	None	False
+002B558E	3.5kV Light Cartridge	AMMO	Starfield.esm		Ammo75mmWhitehot.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+002B558F	BAW-3.0 Power Cell	AMMO	Starfield.esm		AmmoMIArray65.nif + swammobox.nif + 10mmShellCasing.nif	4	3451	4	None	False
+002B5590	0.5kV Cartridge	AMMO	Starfield.esm		Ammo65mm.nif + swammobox.nif + 6mmCT_Casing.nif	5	3499	5	None	False
+002B5591	45mm XPL-P	AMMO	Starfield.esm		Ammo20mmXPL.nif + 10mmShellCasing.nif	3	3033	3	None	False
+002B5592	SB4.0 Explosive Cell	AMMO	Starfield.esm		Ammo20mmXPL.nif + swammobox.nif + 10mmShellCasing.nif	4	3385	4	None	False
+002B5593	11mm XPL	AMMO	Starfield.esm		Ammo11mm.nif + 10mmShellCasing.nif	3	3055	3	None	False
+002B5594	Flamer Fuel	AMMO	Starfield.esm		AmmoRivet.nif + swammobox.nif + 10mmShellCasing.nif	4	3387	4	None	False
+002B5595	3.5kV Heavy Cartridge	AMMO	Starfield.esm		Ammo11mm.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+002B5596	4.5kV Cartridge	AMMO	Starfield.esm		AmmoMIArray50.nif + swammobox.nif + 10mmShellCasing.nif	4	3431	4	None	False
+002B5597	5.0kV Cartridge	AMMO	Starfield.esm		Ammo50Caliber.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+002B5598	CCT-3 Power Cell	AMMO	Starfield.esm		Ammo45Caliber.nif + swammobox.nif + M1919_Casing.nif	5	3769	5	None	False
+002B5599	2.5kV Light Cartridge	AMMO	Starfield.esm		Ammo43Ultramag.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+002B559A	BAW-2.0 Power Cell	AMMO	Starfield.esm		AmmoMIArray43.nif + swammobox.nif + 10mmShellCasing.nif	4	3441	4	None	False
+002B559B	4.0kV Power Cell	AMMO	Starfield.esm		Ammo9x39mm.nif + swammobox.nif + RussianHuntingRifle_Cartridge_Casing.nif	5	3793	5	None	False
+002B559C	1.0kV Cartridge	AMMO	Starfield.esm		Ammo27Caliber.nif + swammobox.nif + 10mmShellCasing.nif	4	3407	4	None	False
+002BAE3F	1.5kV Cartridge	AMMO	Starfield.esm		AmmoLaserSmall.nif + swammobox.nif + Mag_Battery.nif	4	3413	4	None	False
+002BAE40	Mag Cartridge	AMMO	Starfield.esm		AmmoBox_01.nif + 10mmShellCasing.nif	3	1656	3	None	False
+002F3F22	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+002F3F23	Gravity Torpedo Ammo	AMMO	Starfield.esm	NIF missing	testspaceshiprocketprojectile.nif	0	0	0	None	False
+0102C475	8.0kV Heavy Power Cell	AMMO	ShatteredSpace.esm		SFBGS001_Ammo20mmXPL.nif + swammobox.nif + 10mmShellCasing.nif	4	3383	4	None	False
+010958E3	VortexSpawn Spit Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0112B310	Vortex Horror Ranged Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+0116E400	Vortex Horror Ranged Ammo	AMMO	ShatteredSpace.esm	no MODL		0	0	0	None	False
+FE021010	8mm Talon Bolt	AMMO	bubbow.esm		bubbow_ammobox.nif + 10mmShellCasing.nif	1	1500	0	None	False
+0F00090F	Notimo-6 Power Cell	AMMO	SW Blasters.esm		AmmoBlaster.nif + Mag_Battery.nif	2	2999	2	None	False
+0F000A45	Standard Power Cell	AMMO	SW Blasters.esm		AmmoBlaster.nif + Mag_Battery.nif	2	2999	2	None	False
+0F000D6E	Slug	AMMO	SW Blasters.esm		AmmoBlaster.nif + 10mmShellCasing.nif	2	2999	2	None	False
+0F000DB5	Westar Power Cell	AMMO	SW Blasters.esm		AmmoBlaster.nif + Mag_Battery.nif	2	2999	2	None	False
+0F000DB6	High Grade Power Cell	AMMO	SW Blasters.esm		AmmoBlaster.nif + Mag_Battery.nif	2	2999	2	None	False
+0F000DD0	Ion Based Power Cell	AMMO	SW Blasters.esm		AmmoBlaster.nif + Mag_Battery.nif	2	2999	2	None	False
+19000ADC	(unnamed)	AMMO	TheSniper9-Firespray31.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+19000AE0	(unnamed)	AMMO	TheSniper9-Firespray31.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+19000B00	Missile	AMMO	TheSniper9-Firespray31.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+19000AD5	(unnamed)	AMMO	TheSniper9-Firespray31.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1A020C07	(unnamed)	AMMO	YT-1300_Millennium_Falcon_1977.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1B60030F	VT Laser cannon	AMMO	TIE_Advanced_x1_1977.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1B60044F	VT EM	AMMO	TIE_Advanced_x1_1977.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1B60030E	VT Cluster Missile	AMMO	TIE_Advanced_x1_1977.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1C503F8F	N-1 EM	AMMO	T_65B_X_Wing_Starfighter.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1C503E52	X-wing Proton torpedo	AMMO	T_65B_X_Wing_Starfighter.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1C503E53	X-wing Laser cannon	AMMO	T_65B_X_Wing_Starfighter.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1E50022A	N-1 EM	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1E5000E9	N-1 Laser cannon	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1E5000E8	N-1 Proton torpedo	AMMO	The_Mandalorian_N-1_Starfighter_2021.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1F508826	Delta-7 Laser cannon	AMMO	Delta-7_Jedi_Starfighter_2002.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1F508825	Delta-7 Proton torpedo	AMMO	Delta-7_Jedi_Starfighter_2002.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+1F50887D	Delta-7 EM	AMMO	Delta-7_Jedi_Starfighter_2002.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+204603A1	N-1 EM	AMMO	Naboo_N-1_Starfighter_1999.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+20400375	N-1 Laser cannon	AMMO	Naboo_N-1_Starfighter_1999.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+20400374	N-1 Proton torpedo	AMMO	Naboo_N-1_Starfighter_1999.esm		SetDressing\ammo_crates\ammobox_01.nif	3	1656	3	None	False
+3E000D2C	Notimo-6 Power Cell	AMMO	Star Wars Blasters.esm		swammobox.nif + 12g_Shell_Casing_Spent.nif	2	572	2	None	False

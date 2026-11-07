@@ -1,0 +1,102 @@
+{
+ "ak_47": {
+  "file": "ak_47.sfmodel",
+  "meshes": 19
+ },
+ "ar99": {
+  "file": "ar99.sfmodel",
+  "meshes": 28
+ },
+ "ar99_barrel_long": {
+  "file": "ar99_barrel_long.sfmodel",
+  "meshes": 1
+ },
+ "ar99_barrel_stabilizing": {
+  "file": "ar99_barrel_stabilizing.sfmodel",
+  "meshes": 1
+ },
+ "ar99_ironsights": {
+  "file": "ar99_ironsights.sfmodel",
+  "meshes": 2
+ },
+ "ar99_laser": {
+  "file": "ar99_laser.sfmodel",
+  "meshes": 1
+ },
+ "ar99_laserlight": {
+  "file": "ar99_laserlight.sfmodel",
+  "meshes": 1
+ },
+ "ar99_longbarrel": {
+  "file": "ar99_longbarrel.sfmodel",
+  "meshes": 1
+ },
+ "ar99_mag": {
+  "file": "ar99_mag.sfmodel",
+  "meshes": 2
+ },
+ "ar99_mag_drum": {
+  "file": "ar99_mag_drum.sfmodel",
+  "meshes": 2
+ },
+ "ar99_mag_large": {
+  "file": "ar99_mag_large.sfmodel",
+  "meshes": 1
+ },
+ "ar99_mag_s": {
+  "file": "ar99_mag_s.sfmodel",
+  "meshes": 1
+ },
+ "ar99_mag_small": {
+  "file": "ar99_mag_small.sfmodel",
+  "meshes": 2
+ },
+ "ar99_muzzlebreak": {
+  "file": "ar99_muzzlebreak.sfmodel",
+  "meshes": 1
+ },
+ "ar99_nullbarrel": {
+  "file": "ar99_nullbarrel.sfmodel",
+  "meshes": 1
+ },
+ "ar99_receiver": {
+  "file": "ar99_receiver.sfmodel",
+  "meshes": 24
+ },
+ "ar99_reflexsight": {
+  "file": "ar99_reflexsight.sfmodel",
+  "meshes": 5
+ },
+ "ar99_scope": {
+  "file": "ar99_scope.sfmodel",
+  "meshes": 11
+ },
+ "ar99_stabilizingbarrel": {
+  "file": "ar99_stabilizingbarrel.sfmodel",
+  "meshes": 1
+ },
+ "ar99_stock_standard": {
+  "file": "ar99_stock_standard.sfmodel",
+  "meshes": 1
+ },
+ "ar99_stock_tactical": {
+  "file": "ar99_stock_tactical.sfmodel",
+  "meshes": 1
+ },
+ "ar99_suppressor": {
+  "file": "ar99_suppressor.sfmodel",
+  "meshes": 1
+ },
+ "ar99_supressor": {
+  "file": "ar99_supressor.sfmodel",
+  "meshes": 1
+ },
+ "arborondagger": {
+  "file": "arborondagger.sfmodel",
+  "meshes": 1
+ },
+ "arcwelder": {
+  "file": "arcwelder.sfmodel",
+  "meshes": 9
+ }
+}

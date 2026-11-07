@@ -1,0 +1,14 @@
+{
+    cmdlines = {
+        [[xmake lua "C:\\Program Files\\xmake\\modules\\private\\utils\\statistics.lua" --project=. --yes]],
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y",
+        "xmake -P . -y"
+    }
+}

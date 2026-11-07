@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8">
+<title>Selection contact sheet</title>
+<style>
+:root { color-scheme: dark; }
+body { margin: 0; padding: 18px; background: #101318; color: #d8dbe0;
+        font: 12px/1.4 ui-sans-serif, system-ui, sans-serif; }
+h1 { font-size: 17px; margin: 0 0 2px; }
+.meta { color: #8a8f98; margin: 0 0 12px; }
+input { width: 320px; max-width: 100%; padding: 6px 8px; margin-bottom: 14px;
+         background: #1a1e26; color: #d8dbe0; border: 1px solid #333a46; border-radius: 4px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(402px, 1fr));
+         gap: 10px; }
+figure { margin: 0; background: #161a22; border: 1px solid #232936; border-radius: 6px;
+          padding: 6px; }
+img { display: block; border-radius: 4px; image-rendering: auto; }
+figcaption { margin-top: 5px; }
+figcaption b { display: block; font-weight: 600; overflow-wrap: anywhere; }
+figcaption span { display: block; color: #7f8590; font-size: 10px; letter-spacing: .04em; }
+figcaption em { display: block; color: #7f8590; font-size: 10px; font-style: normal; }
+</style>
+<h1>Selection contact sheet</h1>
+<p class="meta">1 item(s) &middot; 384px tiles &middot; generated offline from
+SFDevilzDump-catalog.csv; flat-shaded, painter-sorted, translucency composited on the backdrop</p>
+<input id="f" placeholder="Filter by item, form, model or material">
+<div class="grid">
+<figure data-s="desktop globe 0038a4cd setdressing\interactivehavok\ih_desktop_planetglobe02.nif desktop_planetglobe_metal_black.mat a=1.00 | metalaluminum01.mat a=1.00 | woodveneer02_dark.mat a=1.00 | metalbronze01.mat a=1.00 | metalbronze03.mat a=1.00 | desktop_planetglobe_planet_alchiba ii.mat a=1.00" title="Desktop_PlanetGlobe_Metal_Black.mat a=1.00 | MetalAluminum01.mat a=1.00 | WoodVeneer02_Dark.mat a=1.00 | MetalBronze01.mat a=1.00 | MetalBronze03.mat a=1.00 | Desktop_PlanetGlobe_Planet_Alchiba II.mat a=1.00"><img src="desktop_globe_tiles/0038A4CD.png" width="384" height="384" alt=""><figcaption><b>Desktop Globe</b><span>0038A4CD</span><em>6 geom / 1746 tri / 2 tex</em></figcaption></figure>
+</div>
+<script>
+f.addEventListener('input', () => {
+  const q = f.value.toLowerCase();
+  for (const el of document.querySelectorAll('figure'))
+    el.hidden = q !== '' && !el.dataset.s.includes(q);
+});
+</script>
+</html>

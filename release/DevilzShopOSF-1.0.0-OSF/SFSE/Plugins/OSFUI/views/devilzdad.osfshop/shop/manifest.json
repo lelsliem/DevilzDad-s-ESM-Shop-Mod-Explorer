@@ -1,0 +1,18 @@
+{
+  "id": "shop",
+  "title": "DevilzDad's ESM Shop + Explorer",
+  "description": "Browse every loaded plugin and buy anything that can go in your inventory - free or for credits.",
+  "entry": "index.html",
+  "hub": true,
+  "targetVersion": "2.0.0",
+  "width": 1600,
+  "height": 900,
+  "transparent": true,
+  "capturesInput": true,
+  "pausesGame": true,
+  "permissions": {
+    "nativeBridge": true,
+    "filesystem": false,
+    "network": false
+  }
+}

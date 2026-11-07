@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>SF-Shop render workbench</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; font: 12px/1.45 "Segoe UI", system-ui, sans-serif;
+         background: #0b0d12; color: #e7e3e8; }
+  header { position: sticky; top: 0; z-index: 2; display: flex; gap: 14px;
+           align-items: baseline; flex-wrap: wrap; padding: 9px 14px;
+           background: #14161deb; border-bottom: 1px solid #2a2130; }
+  header b { color: #ffb3bf; letter-spacing: .04em; }
+  .pill { padding: 1px 8px; border-radius: 9px; border: 1px solid #443041;
+          color: #c9c3cc; font-size: 11px; }
+  .pill.on { border-color: #b06b2c; color: #ffcb8a; }
+  .bar { flex: 1 1 220px; height: 5px; background: #241a26; border-radius: 3px; overflow: hidden; }
+  .bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg,#8a2d3e,#e0a24a); }
+  form { display: flex; gap: 6px; align-items: center; padding: 8px 14px;
+         border-bottom: 1px solid #2a2130; background: #101218; flex-wrap: wrap; }
+  input, select, button { background: #1b1d26; color: #e7e3e8; border: 1px solid #39293d;
+                          border-radius: 5px; padding: 4px 7px; font: inherit; }
+  button { cursor: pointer; } button:hover { border-color: #8a5a2c; color: #ffcb8a; }
+  main { padding: 12px 14px 40px; display: grid; gap: 10px;
+         grid-template-columns: repeat(auto-fill, minmax(var(--tile), 1fr)); }
+  .card { background: #12141b; border: 1px solid #241d2b; border-radius: 7px; overflow: hidden; }
+  .card.changed { border-color: #e0a24a99; }
+  .card .imgs { display: flex; background: #141820; }
+  .card img { width: 100%; display: block; }
+  .card .imgs.two img { width: 50%; }
+  .card .imgs.two img + img { border-left: 1px dashed #3a2b38; }
+  .card .meta { padding: 5px 7px; display: flex; flex-direction: column; gap: 1px; }
+  .card .nm { color: #f3eef4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card .sub { color: #8d8794; font-size: 10.5px; overflow: hidden;
+               text-overflow: ellipsis; white-space: nowrap; }
+  .d { font-family: Consolas, monospace; }
+  .d.hit { color: #ffcb8a; } .d.same { color: #6f8a6f; } .d.new { color: #7c8ba8; }
+  .warn { color: #ff9aa8; }
+  .note { padding: 6px 14px; color: #8d8794; }
+  .findwrap { position: relative; flex: 0 1 300px; }
+  .findwrap input { width: 100%; box-sizing: border-box; }
+  .hits { position: absolute; top: calc(100% + 4px); left: 0; right: 0; z-index: 9;
+          background: #151821; border: 1px solid #443041; border-radius: 6px;
+          max-height: 340px; overflow: auto; box-shadow: 0 12px 30px #0009; }
+  .hit { display: flex; gap: 8px; align-items: baseline; padding: 5px 8px;
+         cursor: pointer; border-bottom: 1px solid #221c28; }
+  .hit:last-child { border-bottom: 0; }
+  .hit:hover, .hit.on { background: #241a26; }
+  .hit b { color: #f3eef4; font-weight: 600; }
+  .hit span { color: #8d8794; font-size: 10.5px; }
+  .hit .fid { margin-left: auto; color: #ffcb8a; font-family: Consolas, monospace; }
+  .focus { display: grid; grid-template-columns: minmax(240px, 512px) 1fr; gap: 16px;
+           padding: 0 14px 24px; align-items: start; }
+  .focus .shot { background: #12141b; border: 1px solid #241d2b; border-radius: 8px; padding: 8px; }
+  .focus .shot img { width: 100%; display: block; }
+  .focus h2 { margin: 2px 0 4px; font-size: 16px; color: #f3eef4; }
+  .focus .sub { color: #8d8794; }
+  .focus dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 12px; margin: 10px 0; }
+  .focus dt { color: #8d8794; }
+  .focus dd { margin: 0; overflow-wrap: anywhere; }
+  .focus a { color: #ffcb8a; text-decoration: none; border-bottom: 1px dotted #8a5a2c; }
+  .focus a:hover { color: #ffe0b2; }
+  .focus table { border-collapse: collapse; width: 100%; font-size: 11px; margin-top: 8px; }
+  .focus th, .focus td { text-align: left; padding: 3px 6px; border-bottom: 1px solid #221c28;
+                         vertical-align: top; }
+  .focus th { color: #8d8794; font-weight: 600; }
+  @media (max-width: 900px) { .focus { grid-template-columns: 1fr; } }
+</style></head>
+<body>
+<header>
+  <b>RENDER WORKBENCH</b>
+  <div class="findwrap">
+    <input id="find" placeholder="Find an item" autocomplete="off" spellcheck="false"
+           title="Name, FormID or plugin (press /)">
+    <div id="hits" class="hits" hidden></div>
+  </div>
+  <span id="label" class="pill"></span>
+  <span id="phase" class="pill"></span>
+  <span id="count" class="pill"></span>
+  <span id="elapsed" class="pill"></span>
+  <div class="bar"><i id="prog"></i></div>
+  <span id="ver" class="pill"></span>
+</header>
+<form id="pick" hidden>
+  <input id="fItem" placeholder="name contains" size="16">
+  <input id="fForm" placeholder="formID(s)" size="11">
+  <select id="fType">
+    <option value="">any type</option>
+    <option>WEAP</option><option>ARMO</option><option>AMMO</option><option>MISC</option>
+    <option>ALCH</option><option>BOOK</option><option>KEYM</option>
+  </select>
+  <input id="fLimit" placeholder="limit" size="5">
+  <button type="submit">Redraw selection</button>
+  <label class="pill"><input type="checkbox" id="onlyChanged"> changed only</label>
+  <input id="filter" placeholder="filter tiles" size="13">
+  <span id="hint" class="pill"></span>
+</form>
+<div class="note" id="note"></div>
+<section id="focus" class="focus" hidden></section>
+<main id="grid"></main>
+<script>
+const STATIC_SNAPSHOT = {"version": 52, "phase": "idle", "done": 50, "total": 50, "drawn": 50, "elapsed": 94.38, "label": "MISC/AID/ARMO/WEAP/AMMO/KEYM/BOOK", "error": "", "log": ["14:17:49 catalog: 94,810 records in 0.53s", "14:17:49 the first redraw also indexes 512 archives (~25s); later ones do not", "14:19:24 drew 50 item(s): 50 with geometry, 0 changed in 94.4s"], "items": [{"form": "00000D64", "name": "Skin_Naked", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Naked_F.nif + Hands_3rd_F.nif", "geoms": 2, "tris": 2999, "textured": 2, "delta": null, "changed": false, "png": "00000D64.png", "size": 160, "parts": ["Actors\\Human\\Mesh\\Naked_Body\\Naked_F.nif", "Actors\\Human\\Mesh\\NakedHands\\Hands_3rd_F.nif"], "unplaced": ["Hands_3rd_F.nif"], "materials": []}, {"form": "00003A77", "name": "High School Backpack", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "spacesuit_groundcrew_01_backpack_go.nif + SpaceSuit_GroundCrew_Backpack_M.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "00003A77.png", "size": 160, "parts": ["Clothes\\Spacesuit_GroundCrew\\spacesuit_groundcrew_01_backpack_go.nif", "Clothes\\spacesuit_groundcrew\\SpaceSuit_GroundCrew_Backpack_M.nif"], "unplaced": ["SpaceSuit_GroundCrew_Backpack_M.nif"], "materials": []}, {"form": "00003E8F", "name": "Breathing Mask", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "leia\\leia_Mask.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "00003E8F.png", "size": 160, "parts": ["leia\\leia_Mask.nif"], "unplaced": [], "materials": []}, {"form": "00009CC5", "name": "Flashy Leatherwear", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif + Outfit_Civilian_RubberPocketPants_Jacket_01_Upperbody_M.nif + Outfit_Civilian_RubberPocketPants_01_Jacket_Upperbody_F.nif + outfit_civilian_rubbertpants_01_lowerbody_m.nif + outfit_civilian_rubberpants_01_lowerbody_f.nif", "geoms": 5, "tris": 7500, "textured": 5, "delta": null, "changed": false, "png": "00009CC5.png", "size": 160, "parts": ["Clothes\\Outfit_Civilian_RubberPocketPants_01\\Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif", "Clothes\\Outfit_Civilian_RubberPocketPants_01\\Outfit_Civilian_RubberPocketPants_Jacket_01_Upperbody_M.nif", "Clothes\\Outfit_Civilian_RubberPocketPants_01\\Outfit_Civilian_RubberPocketPants_01_Jacket_Upperbody_F.nif", "Clothes\\outfit_civilian_rubberpocketpants_01\\outfit_civilian_rubbertpants_01_lowerbody_m.nif", "Clothes\\outfit_civilian_rubberpocketpants_01\\outfit_civilian_rubberpants_01_lowerbody_f.nif"], "unplaced": ["Outfit_Civilian_RubberPocketPants_Jacket_01_Upperbody_M.nif", "Outfit_Civilian_RubberPocketPants_01_Jacket_Upperbody_F.nif", "outfit_civilian_rubbertpants_01_lowerbody_m.nif", "outfit_civilian_rubberpants_01_lowerbody_f.nif"], "materials": []}, {"form": "0000B09E", "name": "Skin_HopperA_AAhopper", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\HopperA\\Mesh\\HopperA_AAHopper\\HopperA_AAHopper.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "0000B09E.png", "size": 160, "parts": ["Actors\\HopperA\\Mesh\\HopperA_AAHopper\\HopperA_AAHopper.nif"], "unplaced": [], "materials": []}, {"form": "00015C9D", "name": "Proctor Uniform", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_NewAtlantis_FashionableSuit_01_F.nif + Outfit_NewAtlantis_FashionableSuit_01_LowerBody_F.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_M_3rd.nif + Outfit_NewAtlantis_FashionableSuit_01_Sleeves_F_3rd.nif", "geoms": 4, "tris": 6000, "textured": 4, "delta": null, "changed": false, "png": "00015C9D.png", "size": 160, "parts": ["Clothes\\outfit_newatlantis_fashionablesuit_01\\Outfit_NewAtlantis_FashionableSuit_01_F.nif", "Clothes\\outfit_newatlantis_fashionablesuit_01\\Outfit_NewAtlantis_FashionableSuit_01_LowerBody_F.nif", "Clothes\\outfit_newatlantis_fashionablesuit_01\\Outfit_NewAtlantis_FashionableSuit_01_Sleeves_M_3rd.nif", "Clothes\\outfit_newatlantis_fashionablesuit_01\\Outfit_NewAtlantis_FashionableSuit_01_Sleeves_F_3rd.nif"], "unplaced": ["Outfit_NewAtlantis_FashionableSuit_01_LowerBody_F.nif", "Outfit_NewAtlantis_FashionableSuit_01_Sleeves_M_3rd.nif", "Outfit_NewAtlantis_FashionableSuit_01_Sleeves_F_3rd.nif"], "materials": []}, {"form": "0001754F", "name": "Sith Stalker Helmet", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "SpaceSuit_SuitZero_Helmet_M.nif + SpaceSuit_FlightCap_01_F.nif + Spacesuit_Mark1_FaceLights.nif", "geoms": 4, "tris": 4501, "textured": 3, "delta": null, "changed": false, "png": "0001754F.png", "size": 160, "parts": ["Clothes\\spacesuit_suitzero\\SpaceSuit_SuitZero_Helmet_M.nif", "Clothes\\spacesuit_flightcap_01\\SpaceSuit_FlightCap_01_F.nif", "Clothes\\spacesuit_facelights\\Spacesuit_Mark1_FaceLights.nif"], "unplaced": ["SpaceSuit_FlightCap_01_F.nif", "Spacesuit_Mark1_FaceLights.nif"], "materials": []}, {"form": "00019158", "name": "SkinModelS Brute_CrimsonHeavy", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "models_crimsonfleet_body_01.nif + models_crimsonfleet_weaponmount_01.nif + models_crimsonfleet_turret_01.nif", "geoms": 6, "tris": 6536, "textured": 6, "delta": null, "changed": false, "png": "00019158.png", "size": 160, "parts": ["Actors\\ModelS\\Mesh\\models_crimsonfleet_01\\models_crimsonfleet_body_01.nif", "Actors\\ModelS\\Mesh\\models_crimsonfleet_01\\models_crimsonfleet_weaponmount_01.nif", "Actors\\ModelS\\Mesh\\models_crimsonfleet_01\\models_crimsonfleet_turret_01.nif"], "unplaced": ["models_crimsonfleet_weaponmount_01.nif", "models_crimsonfleet_turret_01.nif"], "materials": []}, {"form": "0001D1DB", "name": "Levat's Outfit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "clothes\\lando\\lando_general_body.nif", "geoms": 1, "tris": 1500, "textured": 0, "delta": null, "changed": false, "png": "0001D1DB.png", "size": 160, "parts": ["clothes\\lando\\lando_general_body.nif"], "unplaced": [], "materials": []}, {"form": "0001D1E7", "name": "Miner Utility Outfit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Miner_UtilitySuit_Shirt_F.nif + Outfit_Miner_UtilitySuit_Sleeves_M_3rd.nif + Outfit_Miner_UtilitySuit_Sleeves_F_3rd.nif + Outfit_Miner_UtilitySuit_BITS_F.nif + Outfit_Miner_UtilitySuit_Pants_F.nif", "geoms": 5, "tris": 6002, "textured": 5, "delta": null, "changed": false, "png": "0001D1E7.png", "size": 160, "parts": ["Clothes\\outfit_miner_utilitysuit\\Outfit_Miner_UtilitySuit_Shirt_F.nif", "Clothes\\outfit_miner_utilitysuit\\Outfit_Miner_UtilitySuit_Sleeves_M_3rd.nif", "Clothes\\outfit_miner_utilitysuit\\Outfit_Miner_UtilitySuit_Sleeves_F_3rd.nif", "Clothes\\outfit_miner_utilitysuit\\Outfit_Miner_UtilitySuit_BITS_F.nif", "Clothes\\outfit_miner_utilitysuit\\Outfit_Miner_UtilitySuit_Pants_F.nif"], "unplaced": ["Outfit_Miner_UtilitySuit_Sleeves_M_3rd.nif", "Outfit_Miner_UtilitySuit_Sleeves_F_3rd.nif", "Outfit_Miner_UtilitySuit_BITS_F.nif", "Outfit_Miner_UtilitySuit_Pants_F.nif"], "materials": []}, {"form": "0001FE31", "name": "SkinModelS Brute_CrimsonMedium", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\ModelS\\Mesh\\models_crimsonfleet_01\\models_crimsonfleet_body_01.nif", "geoms": 3, "tris": 3140, "textured": 3, "delta": null, "changed": false, "png": "0001FE31.png", "size": 160, "parts": ["Actors\\ModelS\\Mesh\\models_crimsonfleet_01\\models_crimsonfleet_body_01.nif"], "unplaced": [], "materials": []}, {"form": "00025F67", "name": "CoralCrawler Octopede  Grylloba Melee", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\OctopedeA\\Mesh\\octopedea_coralcrawler\\OctopedeA_CoralCrawler.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "00025F67.png", "size": 160, "parts": ["Actors\\OctopedeA\\Mesh\\octopedea_coralcrawler\\OctopedeA_CoralCrawler.nif"], "unplaced": [], "materials": []}, {"form": "00026BF2", "name": "Sienar Technologies Tunnel", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "SSMiner_Backpack_GO.nif + SSMiner_Backpack_M.nif", "geoms": 3, "tris": 3018, "textured": 3, "delta": null, "changed": false, "png": "00026BF2.png", "size": 160, "parts": ["Clothes\\Spacesuit_Miner\\SSMiner_Backpack_GO.nif", "Clothes\\SpaceSuit_Miner\\SSMiner_Backpack_M.nif"], "unplaced": ["SSMiner_Backpack_M.nif"], "materials": []}, {"form": "0002E554", "name": "Frank Renick's Eyepatch", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Clothes\\outfit_eyepatch\\Outfit_Eyepatch_M_L_01.nif", "geoms": 1, "tris": 362, "textured": 1, "delta": null, "changed": false, "png": "0002E554.png", "size": 160, "parts": ["Clothes\\outfit_eyepatch\\Outfit_Eyepatch_M_L_01.nif"], "unplaced": [], "materials": []}, {"form": "0003084D", "name": "Republic Breathing Mask", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "E700_Mask_go.nif + E700_Mask_M.nif + E700_Mask_F.nif", "geoms": 3, "tris": 4500, "textured": 3, "delta": null, "changed": false, "png": "0003084D.png", "size": 160, "parts": ["clothes\\E700_go\\E700_Mask_go.nif", "clothes\\E700_Spacesuit_M\\E700_Mask_M.nif", "clothes\\E700_Spacesuit_F\\E700_Mask_F.nif"], "unplaced": ["E700_Mask_M.nif", "E700_Mask_F.nif"], "materials": []}, {"form": "00034110", "name": "BioTech Lab Outfit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_ScienceLabTec_01_F.nif + Outfit_ScienceLabTec_01_Mask_F.nif + Outfit_ScienceLabTec_01_LowerBody_F.nif + Outfit_ScienceLabTec_01_MaskCollar_F.nif + Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif + Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif", "geoms": 6, "tris": 7834, "textured": 5, "delta": null, "changed": false, "png": "00034110.png", "size": 160, "parts": ["Clothes\\Outfit_ScienceLabTec_01\\Outfit_ScienceLabTec_01_F.nif", "Clothes\\Outfit_ScienceLabTec_01\\Outfit_ScienceLabTec_01_Mask_F.nif", "Clothes\\outfit_sciencelabtec_01\\Outfit_ScienceLabTec_01_LowerBody_F.nif", "Clothes\\outfit_sciencelabtec_01\\Outfit_ScienceLabTec_01_MaskCollar_F.nif", "Clothes\\outfit_sciencelabtec_01\\Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif", "Clothes\\outfit_sciencelabtec_01\\Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif"], "unplaced": ["Outfit_ScienceLabTec_01_Mask_F.nif", "Outfit_ScienceLabTec_01_LowerBody_F.nif", "Outfit_ScienceLabTec_01_MaskCollar_F.nif", "Outfit_ScienceLabTec_01_Sleeves_M_3rd.nif", "Outfit_ScienceLabTec_01_Sleeves_F_3rd.nif"], "materials": []}, {"form": "0003780D", "name": "Skin_OctopedeA_LonghornBeetle", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\OctopedeA\\Mesh\\OctopedeA_09_LonghornBeetle\\OctopedeA_09_LonghornBeetle.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "0003780D.png", "size": 160, "parts": ["Actors\\OctopedeA\\Mesh\\OctopedeA_09_LonghornBeetle\\OctopedeA_09_LonghornBeetle.nif"], "unplaced": [], "materials": []}, {"form": "0003B423", "name": "Mandalorian Heavy", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "spacesuit_bountyhunter_backpack_01_go.nif + spacesuit_bountyhunter_backpack_01_m.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "0003B423.png", "size": 160, "parts": ["FatMando\\spacesuit_bountyhunter_backpack_01_go.nif", "clothes\\FatMando\\spacesuit_bountyhunter_backpack_01_m.nif"], "unplaced": ["spacesuit_bountyhunter_backpack_01_m.nif"], "materials": []}, {"form": "0004008C", "name": "Clean Suit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Hazmat_Suit_01_Decals_F.nif + Outfit_Hazmat_Suit_01_Helmet_F.nif + Outfit_Hazmat_Suit_01_LowerBody_F.nif + Outfit_Hazmat_Suit_01_Sleeves_M_3rd.nif + Outfit_Hazmat_Suit_01_Sleeves_F_3rd.nif + Outfit_Hazmat_Suit_01_UpperBody_F.nif + Outfit_Hazmat_Suit_01_Visor_F.nif + BaseGloves3_M_Low.nif + BaseGloves3_F_Low.nif", "geoms": 9, "tris": 11336, "textured": 9, "delta": null, "changed": false, "png": "0004008C.png", "size": 160, "parts": ["Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_Decals_F.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_Helmet_F.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_LowerBody_F.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_Sleeves_M_3rd.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_Sleeves_F_3rd.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_UpperBody_F.nif", "Clothes\\outfit_hazmat_suit_01\\Outfit_Hazmat_Suit_01_Visor_F.nif", "Clothes\\basegloves3\\BaseGloves3_M_Low.nif", "Clothes\\basegloves3\\BaseGloves3_F_Low.nif"], "unplaced": ["Outfit_Hazmat_Suit_01_Helmet_F.nif", "Outfit_Hazmat_Suit_01_LowerBody_F.nif", "Outfit_Hazmat_Suit_01_Sleeves_M_3rd.nif", "Outfit_Hazmat_Suit_01_Sleeves_F_3rd.nif", "Outfit_Hazmat_Suit_01_UpperBody_F.nif", "Outfit_Hazmat_Suit_01_Visor_F.nif", "BaseGloves3_M_Low.nif", "BaseGloves3_F_Low.nif"], "materials": []}, {"form": "00047182", "name": "Skin_OctopedeA_HornedCrab", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\OctopedeA\\Mesh\\OctopedeA_12_HornedCrab\\OctopedeA_12_HornedCrab.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "00047182.png", "size": 160, "parts": ["Actors\\OctopedeA\\Mesh\\OctopedeA_12_HornedCrab\\OctopedeA_12_HornedCrab.nif"], "unplaced": [], "materials": []}, {"form": "0004770F", "name": "Skin_SecurityCamera_WallMount_01", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\SecurityCamera\\Mesh\\securitycamera_wallmount_01\\SecurityCamera_WallMount_01.nif", "geoms": 15, "tris": 10800, "textured": 11, "delta": null, "changed": false, "png": "0004770F.png", "size": 160, "parts": ["Actors\\SecurityCamera\\Mesh\\securitycamera_wallmount_01\\SecurityCamera_WallMount_01.nif"], "unplaced": [], "materials": []}, {"form": "0004A986", "name": "CoralCrawler Octopede Grylloba Queen", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\OctopedeA\\Mesh\\octopedea_coralcrawler\\OctopedeA_CoralCrawler.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "0004A986.png", "size": 160, "parts": ["Actors\\OctopedeA\\Mesh\\octopedea_coralcrawler\\OctopedeA_CoralCrawler.nif"], "unplaced": [], "materials": []}, {"form": "0004B5A0", "name": "Dantooine Child Jumpsuit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Clothes\\Outfit_Akila_Child_Jumpsuit_01\\Outfit_Akila_Child_Jumpsuit_01.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "0004B5A0.png", "size": 160, "parts": ["Clothes\\Outfit_Akila_Child_Jumpsuit_01\\Outfit_Akila_Child_Jumpsuit_01.nif"], "unplaced": [], "materials": []}, {"form": "00051BC7", "name": "Skin_Critter_Spaceroach", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\Critter\\Mesh\\Critter_SpaceRoach\\Critter_SpaceRoach.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "00051BC7.png", "size": 160, "parts": ["Actors\\Critter\\Mesh\\Critter_SpaceRoach\\Critter_SpaceRoach.nif"], "unplaced": [], "materials": []}, {"form": "0005569A", "name": "Hexo Hermit Cataxi Ranged", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Actors\\OctopedeA\\Mesh\\OctopedeA_HexoHermit\\OctopedeA_HexoHermit.nif", "geoms": 1, "tris": 1500, "textured": 1, "delta": null, "changed": false, "png": "0005569A.png", "size": 160, "parts": ["Actors\\OctopedeA\\Mesh\\OctopedeA_HexoHermit\\OctopedeA_HexoHermit.nif"], "unplaced": [], "materials": []}, {"form": "00064A2E", "name": "Striker Streetwear", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "BaseGloves3_M_Low.nif + BaseGloves3_F_Low.nif + Outfit_Gang_Strikers_UpperBody_Decals_01_M.nif + Outfit_Gang_Strikers_UpperBody_Decal_01_F.nif + Outfit_Gang_Strikers_Sleeves_01_F.nif + Outfit_Gang_Strikers_UpperBody_01_F.nif + Outfit_Gang_Strikers_LowerBody_HoodDown_01_F.nif", "geoms": 7, "tris": 10500, "textured": 7, "delta": null, "changed": false, "png": "00064A2E.png", "size": 160, "parts": ["Clothes\\basegloves3\\BaseGloves3_M_Low.nif", "Clothes\\basegloves3\\BaseGloves3_F_Low.nif", "Clothes\\outfit_gang_strikers_01\\Outfit_Gang_Strikers_UpperBody_Decals_01_M.nif", "Clothes\\outfit_gang_strikers_01\\Outfit_Gang_Strikers_UpperBody_Decal_01_F.nif", "Clothes\\outfit_gang_strikers_01\\Outfit_Gang_Strikers_Sleeves_01_F.nif", "Clothes\\outfit_gang_strikers_01\\Outfit_Gang_Strikers_UpperBody_01_F.nif", "Clothes\\outfit_gang_strikers_01\\Outfit_Gang_Strikers_LowerBody_HoodDown_01_F.nif"], "unplaced": ["BaseGloves3_F_Low.nif", "Outfit_Gang_Strikers_UpperBody_Decals_01_M.nif", "Outfit_Gang_Strikers_UpperBody_Decal_01_F.nif", "Outfit_Gang_Strikers_Sleeves_01_F.nif", "Outfit_Gang_Strikers_UpperBody_01_F.nif", "Outfit_Gang_Strikers_LowerBody_HoodDown_01_F.nif"], "materials": []}, {"form": "00066822", "name": "Guavian Grunt Helmet", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "pirate_soldier_helmet_go.nif + pirate_helmet.nif", "geoms": 3, "tris": 2243, "textured": 3, "delta": null, "changed": false, "png": "00066822.png", "size": 160, "parts": ["Clothes\\Pirates\\pirate_soldier_helmet_go.nif", "clothes\\pirates\\pirate_helmet.nif"], "unplaced": ["pirate_helmet.nif"], "materials": []}, {"form": "00066827", "name": "Guavian Charger Helmet", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Pirate_Helmet_Go.nif + pirate_helmet.nif", "geoms": 3, "tris": 2724, "textured": 3, "delta": null, "changed": false, "png": "00066827.png", "size": 160, "parts": ["Clothes\\Pirates\\Pirate_Helmet_Go.nif", "clothes\\pirates\\pirate_helmet.nif"], "unplaced": ["pirate_helmet.nif"], "materials": []}, {"form": "0006682B", "name": "Guavian Sniper Helmet", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Pirate_Helmet_Go.nif + pirate_heavy_helmet.nif", "geoms": 2, "tris": 2720, "textured": 2, "delta": null, "changed": false, "png": "0006682B.png", "size": 160, "parts": ["Clothes\\Pirates\\Pirate_Helmet_Go.nif", "clothes\\pirates\\pirate_heavy_helmet.nif"], "unplaced": ["pirate_heavy_helmet.nif"], "materials": []}, {"form": "0006ABCA", "name": "Stormtrooper Armor", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Hands_f.nif + LowerBody_F.nif + UpperBody_F.nif", "geoms": 4, "tris": 5168, "textured": 1, "delta": null, "changed": false, "png": "0006ABCA.png", "size": 160, "parts": ["Clothes\\Stormtrooper\\Hands_f.nif", "Clothes\\Stormtrooper\\LowerBody_F.nif", "Clothes\\Stormtrooper\\UpperBody_F.nif"], "unplaced": ["LowerBody_F.nif", "UpperBody_F.nif"], "materials": []}, {"form": "0006AC00", "name": "Scrapper's Poncho", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Shipyard_M_rig_poncho_001.nif + Shipyard_F_rig_poncho_001.nif + Shipyard_M_rig_A_Gloves.nif + Shipyard_F_rig_A_Gloves.nif + Shipyard_M_rig_A_001.nif + Shipyard_F_rig_A.nif", "geoms": 6, "tris": 9000, "textured": 6, "delta": null, "changed": false, "png": "0006AC00.png", "size": 160, "parts": ["Clothes\\swsco\\Shipyard_M_rig_poncho_001.nif", "Clothes\\swsco\\Shipyard_F_rig_poncho_001.nif", "Clothes\\swsco\\Shipyard_M_rig_A_Gloves.nif", "Clothes\\swsco\\Shipyard_F_rig_A_Gloves.nif", "Clothes\\swsco\\Shipyard_M_rig_A_001.nif", "Clothes\\swsco\\Shipyard_F_rig_A.nif"], "unplaced": ["Shipyard_F_rig_poncho_001.nif", "Shipyard_M_rig_A_Gloves.nif", "Shipyard_F_rig_A_Gloves.nif", "Shipyard_M_rig_A_001.nif", "Shipyard_F_rig_A.nif"], "materials": []}, {"form": "00077810", "name": "Blue Imperial Leather Jumpsuit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_UtilityOveralls_Mechanic_01_Upperbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_Mechanic_01_Sleeves_LOD1_F.nif + Outfit_UtilityOveralls_Mechanic_01_Upperbody_Decal_F.nif", "geoms": 4, "tris": 4684, "textured": 4, "delta": null, "changed": false, "png": "00077810.png", "size": 160, "parts": ["Clothes\\Outfit_UtilityOveralls_01\\Outfit_UtilityOveralls_Mechanic_01_Upperbody_F.nif", "Clothes\\Outfit_UtilityOveralls_01\\Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif", "Clothes\\outfit_utilityoveralls_01\\Outfit_UtilityOveralls_Mechanic_01_Sleeves_LOD1_F.nif", "Clothes\\outfit_utilityoveralls_01\\Outfit_UtilityOveralls_Mechanic_01_Upperbody_Decal_F.nif"], "unplaced": ["Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif", "Outfit_UtilityOveralls_Mechanic_01_Sleeves_LOD1_F.nif", "Outfit_UtilityOveralls_Mechanic_01_Upperbody_Decal_F.nif"], "materials": []}, {"form": "0007781C", "name": "Ground Crew Jacketwear", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif + Outfit_UtilityOveralls_SSO_Jacket_01_Upperbody_F.nif + Outfit_UtilityOveralls_SSO_Jacket_01_Sleeves_LOD1_F.nif", "geoms": 3, "tris": 4500, "textured": 3, "delta": null, "changed": false, "png": "0007781C.png", "size": 160, "parts": ["Clothes\\Outfit_UtilityOveralls_01\\Outfit_UtilityOveralls_Mechanic_01_Lowerbody_F.nif", "Clothes\\Outfit_UtilityOveralls_01\\Outfit_UtilityOveralls_SSO_Jacket_01_Upperbody_F.nif", "Clothes\\outfit_utilityoveralls_01\\Outfit_UtilityOveralls_SSO_Jacket_01_Sleeves_LOD1_F.nif"], "unplaced": ["Outfit_UtilityOveralls_SSO_Jacket_01_Upperbody_F.nif", "Outfit_UtilityOveralls_SSO_Jacket_01_Sleeves_LOD1_F.nif"], "materials": []}, {"form": "000781F9", "name": "Utility Headphone Cap", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_UtilityOveralls_SSO_Hat_GO.nif + Outfit_UtilityOveralls_SSO_Hat_01_F.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000781F9.png", "size": 160, "parts": ["Clothes\\outfit_utilityoveralls_01\\Outfit_UtilityOveralls_SSO_Hat_GO.nif", "Clothes\\Outfit_UtilityOveralls_01\\Outfit_UtilityOveralls_SSO_Hat_01_F.nif"], "unplaced": ["Outfit_UtilityOveralls_SSO_Hat_01_F.nif"], "materials": []}, {"form": "000788A7", "name": "Urban Efficiency Attire", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Civilian_RubberPocketPants_01_Upperbody_F.nif + Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif + outfit_civilian_rubbertpants_01_lowerbody_m.nif + outfit_civilian_rubberpants_01_lowerbody_f.nif", "geoms": 4, "tris": 6000, "textured": 4, "delta": null, "changed": false, "png": "000788A7.png", "size": 160, "parts": ["Clothes\\Outfit_Civilian_RubberPocketPants_01\\Outfit_Civilian_RubberPocketPants_01_Upperbody_F.nif", "Clothes\\Outfit_Civilian_RubberPocketPants_01\\Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif", "Clothes\\outfit_civilian_rubberpocketpants_01\\outfit_civilian_rubbertpants_01_lowerbody_m.nif", "Clothes\\outfit_civilian_rubberpocketpants_01\\outfit_civilian_rubberpants_01_lowerbody_f.nif"], "unplaced": ["Outfit_Civilian_RubberPocketPants_01_Sleeves_F.nif", "outfit_civilian_rubbertpants_01_lowerbody_m.nif", "outfit_civilian_rubberpants_01_lowerbody_f.nif"], "materials": []}, {"form": "00079206", "name": "Mandalorian Survival Pack", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "PirateSet_Backpack_Cloth_GO.nif + PirateSet_Backpack_2.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "00079206.png", "size": 160, "parts": ["Clothes\\spacesuit_pirateset\\PirateSet_Backpack_Cloth_GO.nif", "Clothes\\SpaceSuit_PirateSet\\PirateSet_Backpack_2.nif"], "unplaced": ["PirateSet_Backpack_2.nif"], "materials": []}, {"form": "0007F88D", "name": "TerraBrew Uniform", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Service_Uniform_LowerBody_01_F.nif + Outfit_Service_Uniform_UpperBody_01_F.nif + Outfit_Service_Uniform_Sleeves_01_F.nif", "geoms": 3, "tris": 4500, "textured": 3, "delta": null, "changed": false, "png": "0007F88D.png", "size": 160, "parts": ["Clothes\\outfit_service_uniform_01\\Outfit_Service_Uniform_LowerBody_01_F.nif", "Clothes\\outfit_service_uniform_01\\Outfit_Service_Uniform_UpperBody_01_F.nif", "Clothes\\outfit_service_uniform_01\\Outfit_Service_Uniform_Sleeves_01_F.nif"], "unplaced": ["Outfit_Service_Uniform_UpperBody_01_F.nif", "Outfit_Service_Uniform_Sleeves_01_F.nif"], "materials": []}, {"form": "0009B72F", "name": "Miner Orebreaker Outfit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Miner_Jumpsuit_LowerBody_F.nif + Outfit_Miner_Jumpsuit_Shirt_F.nif + Outfit_Miner_Jumpsuit_Shirt_Sleeves_3rd_F.nif", "geoms": 3, "tris": 4500, "textured": 3, "delta": null, "changed": false, "png": "0009B72F.png", "size": 160, "parts": ["Clothes\\outfit_miner_jumpsuit\\Outfit_Miner_Jumpsuit_LowerBody_F.nif", "Clothes\\outfit_miner_jumpsuit\\Outfit_Miner_Jumpsuit_Shirt_F.nif", "Clothes\\outfit_miner_jumpsuit\\Outfit_Miner_Jumpsuit_Shirt_Sleeves_3rd_F.nif"], "unplaced": ["Outfit_Miner_Jumpsuit_Shirt_F.nif", "Outfit_Miner_Jumpsuit_Shirt_Sleeves_3rd_F.nif"], "materials": []}, {"form": "000A6FD7", "name": "Dantooine Crowd Short Sleeve Jacket", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Akila_ShortSleeveJacket_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_ShortSleeveJacket_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A6FD7.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Akila_ShortSleeveJacket_01\\Outfit_Crowd_Akila_ShortSleeveJacket_01_M_CROWD_Overweight.nif", "Clothes\\Outfit_Crowd_Akila_ShortSleeveJacket_01\\Outfit_Crowd_Akila_ShortSleeveJacket_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_Akila_ShortSleeveJacket_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000A6FE0", "name": "Dantooine Crowd Fatigues", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Akila_Fatigues_01_M_CROWD_Overweight.nif + Outfit_Crowd_Akila_Fatigues_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A6FE0.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Akila_Fatigues_01\\Outfit_Crowd_Akila_Fatigues_01_M_CROWD_Overweight.nif", "Clothes\\Outfit_Crowd_Akila_Fatigues_01\\Outfit_Crowd_Akila_Fatigues_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_Akila_Fatigues_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000A6FF0", "name": "Layered Tee", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_LayeredTee_01_M_CROWD_thin.nif + Outfit_Crowd_LayeredTee_01_F_CROWD_thin.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A6FF0.png", "size": 160, "parts": ["Clothes\\outfit_crowd_layeredtee_01\\Outfit_Crowd_LayeredTee_01_M_CROWD_thin.nif", "Clothes\\outfit_crowd_layeredtee_01\\Outfit_Crowd_LayeredTee_01_F_CROWD_thin.nif"], "unplaced": ["Outfit_Crowd_LayeredTee_01_F_CROWD_thin.nif"], "materials": []}, {"form": "000A6FF9", "name": "Sweater", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Sweater_01_M_CROWD_Thin.nif + Outfit_Crowd_Sweater_01_F_CROWD_Thin.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A6FF9.png", "size": 160, "parts": ["Clothes\\outfit_crowd_sweater_01\\Outfit_Crowd_Sweater_01_M_CROWD_Thin.nif", "Clothes\\outfit_crowd_sweater_01\\Outfit_Crowd_Sweater_01_F_CROWD_Thin.nif"], "unplaced": ["Outfit_Crowd_Sweater_01_F_CROWD_Thin.nif"], "materials": []}, {"form": "000A6FFD", "name": "Nar Shaddaa Crowdfit Windbreaker", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Thin.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A6FFD.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Neon_Windbreaker_01\\Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Thin.nif", "Clothes\\Outfit_Crowd_Neon_Windbreaker_01\\Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Thin.nif"], "unplaced": ["Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Thin.nif"], "materials": []}, {"form": "000A7003", "name": "Nar Shaddaa Crowdfit Windbreaker", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A7003.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Neon_Windbreaker_01\\Outfit_Crowd_Neon_Windbreaker_01_M_CROWD_Overweight.nif", "Clothes\\Outfit_Crowd_Neon_Windbreaker_01\\Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_Neon_Windbreaker_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000A700A", "name": "Layered Tee", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_LayeredTee_01_M_CROWD_Overweight.nif + Outfit_Crowd_LayeredTee_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A700A.png", "size": 160, "parts": ["Clothes\\outfit_crowd_layeredtee_01\\Outfit_Crowd_LayeredTee_01_M_CROWD_Overweight.nif", "Clothes\\outfit_crowd_layeredtee_01\\Outfit_Crowd_LayeredTee_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_LayeredTee_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000A7013", "name": "Cargo Pants and Vest", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Akila_CargoPantsVest_01_M_CROWD_Thin.nif + Outfit_Crowd_Akila_CargoPantsVest_01_F_CROWD_Thin.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A7013.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Akila_CargoPantsVest_01\\Outfit_Crowd_Akila_CargoPantsVest_01_M_CROWD_Thin.nif", "Clothes\\Outfit_Crowd_Akila_CargoPantsVest_01\\Outfit_Crowd_Akila_CargoPantsVest_01_F_CROWD_Thin.nif"], "unplaced": ["Outfit_Crowd_Akila_CargoPantsVest_01_F_CROWD_Thin.nif"], "materials": []}, {"form": "000A7018", "name": "Nar Shaddaa Tracksuit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Neon_Tracksuit_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_Tracksuit_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A7018.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Neon_Tracksuit_01\\Outfit_Crowd_Neon_Tracksuit_01_M_CROWD_Overweight.nif", "Clothes\\Outfit_Crowd_Neon_Tracksuit_01\\Outfit_Crowd_Neon_Tracksuit_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_Neon_Tracksuit_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000A7021", "name": "Nar Shaddaa Jumpsuit", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Neon_Jumpsuit_01_M_CROWD_Thin.nif + Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD_Thin.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A7021.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Neon_Jumpsuit_01\\Outfit_Crowd_Neon_Jumpsuit_01_M_CROWD_Thin.nif", "Clothes\\Outfit_Crowd_Neon_Jumpsuit_01\\Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD_Thin.nif"], "unplaced": ["Outfit_Crowd_Neon_Jumpsuit_01_F_CROWD_Thin.nif"], "materials": []}, {"form": "000A7025", "name": "Nar Shaddaa Crowdfit Blouse And Skirt", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "Outfit_Crowd_Neon_BlouseAndSkirt_01_M_CROWD_Overweight.nif + Outfit_Crowd_Neon_BlouseAndSkirt_01_F_CROWD_Overweight.nif", "geoms": 2, "tris": 3000, "textured": 2, "delta": null, "changed": false, "png": "000A7025.png", "size": 160, "parts": ["Clothes\\Outfit_Crowd_Neon_BlouseAndSkirt_01\\Outfit_Crowd_Neon_BlouseAndSkirt_01_M_CROWD_Overweight.nif", "Clothes\\Outfit_Crowd_Neon_BlouseAndSkirt_01\\Outfit_Crowd_Neon_BlouseAndSkirt_01_F_CROWD_Overweight.nif"], "unplaced": ["Outfit_Crowd_Neon_BlouseAndSkirt_01_F_CROWD_Overweight.nif"], "materials": []}, {"form": "000B8803", "name": "Neuroamp", "type": "ARMO", "plugin": "Starfield.esm", "status": "", "model": "neuroamp_prototype_01.nif + outfit_neuroamp_01_f.nif", "geoms": 5, "tris": 5087, "textured": 4, "delta": null, "changed": false, "png": "000B8803.png", "size": 160, "parts": ["SetDressing\\Neuroamp_Prototype\\neuroamp_prototype_01.nif", "Clothes\\outfit_neuroamp_01\\outfit_neuroamp_01_f.nif"], "unplaced": ["outfit_neuroamp_01_f.nif"], "materials": []}], "size": 160, "focus": false, "detailSize": 512};
+const MAX_TILES = 4000;
+const DEFAULTS = {};
+let state = STATIC_SNAPSHOT;
+
+function tileUrl(image, version) {
+  return STATIC_SNAPSHOT ? 'tiles/' + image : 't/' + image + '?v=' + version;
+}
+function beforeUrl(image, version) {
+  return STATIC_SNAPSHOT ? 'tiles/prev/' + image : 'prev/' + image + '?v=' + version;
+}
+function esc(s) {
+  return String(s === undefined || s === null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+function badge(it) {
+  if (it.delta === null || it.delta === undefined) return '<span class="d new">&mdash; new</span>';
+  if (it.changed) return '<span class="d hit">&Delta; ' + it.delta.toFixed(1) + '</span>';
+  return '<span class="d same">&Delta; ' + it.delta.toFixed(2) + '</span>';
+}
+function card(it) {
+  const two = it.changed && it.delta !== null && it.delta !== undefined;
+  const v = state.version;
+  const bits = [it.type, it.plugin, it.form].filter(Boolean).join(' &middot; ');
+  const detail = it.geoms + ' geom &middot; ' + it.tris + ' tris &middot; ' + it.textured + ' tex';
+  const status = it.status ? '<span class="sub warn">' + esc(it.status) + '</span>' : '';
+  return '<div class="card' + (it.changed ? ' changed' : '') + '">' +
+    '<div class="imgs' + (two ? ' two' : '') + '">' +
+      '<img loading="lazy" src="' + tileUrl(it.png, v) + '" alt="' + esc(it.name) +
+        '" title="' + esc(it.model || it.name) + '">' +
+      (two ? '<img loading="lazy" src="' + beforeUrl(it.png, v) + '" alt="previous ' +
+        esc(it.name) + '" title="previous pass">' : '') +
+    '</div><div class="meta">' +
+      '<span class="nm" title="' + esc(it.name) + '">' + esc(it.name) + '</span>' +
+      '<span class="sub">' + bits + '</span>' +
+      '<span class="sub">' + detail + ' ' + badge(it) + '</span>' + status +
+    '</div></div>';
+}
+function baseName(path) {
+  return String(path || '').split(/[\\/]/).pop();
+}
+function focusPanel(it) {
+  const mats = (it.materials || []).map((m) =>
+    '<tr><td class="d">' + esc(baseName(m.mat)) + '</td>' +
+    '<td>' + esc(m.texture || 'none') + '</td>' +
+    '<td>' + (typeof m.alpha === 'number' ? m.alpha.toFixed(2) : '') + '</td>' +
+    '<td>' + esc([m.swap ? 'swap ' + m.swap : '', m.color_why || '', m.alpha_why || '',
+                  m.effect ? 'effect only' : ''].filter(Boolean).join(' / ')) + '</td></tr>').join('');
+  const parts = (it.parts || []).map((p) => esc(p)).join('<br>') || 'none';
+  const unplaced = (it.unplaced || []).map((p) => esc(p)).join('<br>');
+  const query = encodeURIComponent(it.name || '');
+  const refs = query
+    ? '<a href="https://starfield.fandom.com/wiki/Special:Search?query=' + query +
+      '" target="_blank" rel="noopener">Fandom</a> · ' +
+      '<a href="https://www.starfielddb.com/?s=' + query +
+      '" target="_blank" rel="noopener">StarfieldDB</a>'
+    : 'none';
+  return '<div class="shot"><img src="' + tileUrl(it.png, state.version) + '" alt="' +
+      esc(it.name) + '"></div>' +
+    '<div><h2>' + esc(it.name) + '</h2>' +
+    '<div class="sub">' + esc([it.type, it.plugin, it.form].filter(Boolean).join(' · ')) + '</div>' +
+    '<dl>' +
+      '<dt>status</dt><dd class="' + (it.status ? 'warn' : '') + '">' + esc(it.status || 'ok') + '</dd>' +
+      '<dt>model</dt><dd class="d">' + esc(it.model || '') + '</dd>' +
+      '<dt>reference</dt><dd>' + refs + '</dd>' +
+      '<dt>parts</dt><dd class="d">' + parts + '</dd>' +
+      (unplaced ? '<dt>unplaced</dt><dd class="warn d">' + unplaced + '</dd>' : '') +
+      '<dt>geometry</dt><dd>' + it.geoms + ' geom · ' + it.tris + ' tris · ' +
+        it.textured + ' textured</dd>' +
+    '</dl>' +
+    '<table><thead><tr><th>material</th><th>texture</th><th>alpha</th><th>decision</th></tr></thead>' +
+    '<tbody>' + (mats || '<tr><td colspan="4">no material report</td></tr>') + '</tbody></table></div>';
+}
+function draw() {
+  if (!state) return;
+  document.documentElement.style.setProperty('--tile', (state.size || 160) + 'px');
+  document.getElementById('label').textContent = state.label;
+  const phase = document.getElementById('phase');
+  phase.textContent = state.phase;
+  phase.className = 'pill' + (state.phase === 'rendering' ? ' on' : '');
+  document.getElementById('count').textContent =
+    state.done + ' / ' + state.total + ' (' + state.drawn + ' drawn)';
+  document.getElementById('elapsed').textContent = (state.elapsed || 0).toFixed(1) + 's';
+  document.getElementById('ver').textContent = 'pass ' + state.version;
+  document.getElementById('prog').style.width =
+    state.total ? (100 * state.done / state.total) + '%' : '0';
+  document.getElementById('note').innerHTML = state.error
+    ? '<span class="warn">' + esc(state.error) + '</span>'
+    : (state.log || []).map(esc).join('<br>');
+  const all = state.items || [];
+  const grid = document.getElementById('grid');
+  const focus = document.getElementById('focus');
+  if (state.focus) {
+    grid.hidden = true;
+    focus.hidden = false;
+    focus.innerHTML = all.length ? focusPanel(all[0]) :
+      '<p class="note">' + (state.phase === 'rendering' ? 'rendering the focused record…' :
+        'nothing to show yet') + '</p>';
+    document.getElementById('hint').textContent = 'focused record';
+    return;
+  }
+  focus.hidden = true;
+  grid.hidden = false;
+  const onlyChanged = document.getElementById('onlyChanged').checked;
+  const needle = document.getElementById('filter').value.trim().toLowerCase();
+  let items = all;
+  if (onlyChanged) items = items.filter((i) => i.changed);
+  if (needle) items = items.filter((i) =>
+    (i.name + ' ' + i.form + ' ' + (i.status || '')).toLowerCase().includes(needle));
+  grid.innerHTML = items.slice(0, MAX_TILES).map(card).join('') ||
+    '<p class="note">nothing to show yet</p>';
+  document.getElementById('hint').textContent =
+    items.length + ' tile(s)' + (items.length > MAX_TILES ? ', showing ' + MAX_TILES : '');
+}
+async function poll() {
+  try {
+    const reply = await fetch('api/state', { cache: 'no-store' });
+    const next = await reply.json();
+    const moved = !state || next.version !== state.version;
+    state = next;
+    if (moved) draw();
+  } catch (err) {
+    document.getElementById('phase').textContent = 'server gone';
+  }
+  setTimeout(poll, 900);
+}
+document.getElementById('pick').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  if (STATIC_SNAPSHOT) return;
+  await fetch('api/select', { method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({
+      item: document.getElementById('fItem').value,
+      form: document.getElementById('fForm').value,
+      type: document.getElementById('fType').value,
+      limit: document.getElementById('fLimit').value,
+    }) });
+});
+
+const findBox = document.getElementById('find');
+const hitsBox = document.getElementById('hits');
+let hits = [];
+let hitIndex = -1;
+let searchTimer = 0;
+function closeHits() {
+  hits = [];
+  hitIndex = -1;
+  hitsBox.hidden = true;
+  hitsBox.innerHTML = '';
+}
+function paintHits() {
+  hitsBox.innerHTML = hits.map((h, i) =>
+    '<div class="hit' + (i === hitIndex ? ' on' : '') + '" data-i="' + i + '">' +
+      '<b>' + esc(h.name) + '</b><span>' + esc(h.type) + ' · ' + esc(h.plugin) + '</span>' +
+      '<span class="fid">' + esc(h.form) + '</span></div>').join('');
+  hitsBox.hidden = hits.length === 0;
+}
+async function searchCatalog() {
+  const q = findBox.value.trim();
+  if (q.length < 2) { closeHits(); return; }
+  try {
+    const reply = await fetch('api/search?q=' + encodeURIComponent(q) + '&limit=24',
+                              { cache: 'no-store' });
+    hits = await reply.json();
+    hitIndex = hits.length ? 0 : -1;
+    paintHits();
+  } catch (err) {
+    closeHits();
+  }
+}
+async function focusForm(form) {
+  if (STATIC_SNAPSHOT) return;
+  closeHits();
+  findBox.blur();
+  await fetch('api/select', { method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ item: '', form: form, type: '', limit: '1',
+      size: (DEFAULTS && DEFAULTS.detailSize) || 512, focus: true }) });
+  try {
+    const url = new URL(location.href);
+    url.searchParams.set('form', form);
+    history.replaceState(null, '', url);
+  } catch (err) { /* file: or an old browser: the focus still happened */ }
+}
+findBox.addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(searchCatalog, 140);
+});
+findBox.addEventListener('keydown', (event) => {
+  if (event.key === 'ArrowDown' && hits.length) {
+    hitIndex = (hitIndex + 1) % hits.length; paintHits(); event.preventDefault();
+  } else if (event.key === 'ArrowUp' && hits.length) {
+    hitIndex = (hitIndex - 1 + hits.length) % hits.length; paintHits(); event.preventDefault();
+  } else if (event.key === 'Enter' && hitIndex >= 0) {
+    focusForm(hits[hitIndex].form); event.preventDefault();
+  } else if (event.key === 'Escape') {
+    closeHits(); findBox.blur();
+  }
+});
+hitsBox.addEventListener('mousedown', (event) => {
+  const hit = event.target.closest('.hit');
+  if (!hit) return;
+  event.preventDefault();
+  const picked = hits[Number(hit.dataset.i)];
+  if (picked) focusForm(picked.form);
+});
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.findwrap')) closeHits();
+});
+document.addEventListener('keydown', (event) => {
+  if (event.key === '/' && document.activeElement !== findBox) {
+    event.preventDefault(); findBox.focus();
+  }
+});
+document.getElementById('filter').addEventListener('input', draw);
+document.getElementById('onlyChanged').addEventListener('change', draw);
+if (DEFAULTS) {
+  document.getElementById('fItem').value = DEFAULTS.item || '';
+  document.getElementById('fForm').value = DEFAULTS.form || '';
+  document.getElementById('fType').value = DEFAULTS.type || '';
+  document.getElementById('fLimit').value = DEFAULTS.limit || '';
+}
+if (STATIC_SNAPSHOT) {
+  findBox.disabled = true;
+  draw();
+} else {
+  const wanted = new URL(location.href).searchParams.get('form');
+  if (wanted) focusForm(wanted);
+  poll();
+}
+</script>
+</body></html>

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DevilzDad's ESM Shop + Explorer</title>
+<link rel="stylesheet" href="./shop.css">
+</head>
+<body>
+<div id="bgimg"></div>
+<div id="bgfx"></div>
+<main>
+  <header class="header">
+    <div class="brand">
+      <img class="logo" src="./assets/ShopLogo.png" alt="">
+      <div class="titlewrap">
+        <h1>DevilzDad's <span>ESM Shop</span> + Explorer</h1>
+        <p class="tagline">Loaded worlds &bull; forbidden wares &bull; one inventory</p>
+      </div>
+    </div>
+    <div class="walletbox">
+      <div class="searchwrap">
+        <input id="search" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Search names, editor IDs, model files, FormIDs">
+        <button id="searchBtn" title="Search the whole catalog">Search</button>
+      </div>
+      <div class="credits" title="Your credits">
+        <img class="coin" src="./assets/CreditIcon.png" alt="">
+        <span id="credits">0</span>
+      </div>
+      <button id="audioBtn" title="Music and sound levels, mute, and the track picker">Audio</button>
+      <button id="themeBtn" title="Shop theme">Theme</button>
+      <button id="refresh" title="Rebuild the plugin and item lists">Refresh</button>
+    </div>
+  </header>
+
+  <section class="shopbar">
+    <div id="categories" class="rail"></div>
+    <div id="subs" class="chips"></div>
+    <div class="hides">
+      <label><input type="checkbox" id="hideTest" checked> Hide test/debug</label>
+      <label><input type="checkbox" id="hideBug" checked> Hide report-bug forms</label>
+      <label><input type="checkbox" id="hideHair" checked> Hide ships &amp; hair</label>
+      <label><input type="checkbox" id="hideCrew" checked> Hide crew/enemy/creature</label>
+      <label><input type="checkbox" id="hideTurrets" checked> Hide turrets &amp; dummy ammo</label>
+    </div>
+  </section>
+
+  <section class="workspace">
+    <aside class="panel plugins">
+      <h2>Plugins <span id="pluginCount" class="count"></span></h2>
+      <div id="pluginList" class="scrollbox"></div>
+    </aside>
+
+    <div class="panel items">
+      <div class="tblhdr">
+        <span class="name">Name</span>
+        <span class="bucket">Shelf</span>
+        <span class="type">Type</span>
+        <span class="val">Value</span>
+        <span class="wt">Weight</span>
+        <span class="fid">FormID</span>
+      </div>
+      <div id="rows" class="scrollbox"></div>
+      <div id="pager" class="pager"></div>
+    </div>
+
+    <aside class="side">
+      <div class="panel detail">
+        <h2>Item <button id="previewPop" class="mini" title="Lift the preview into a floating window you can move and resize">Pop out</button></h2>
+        <div id="preview" class="preview" title="Drag to rotate, wheel to zoom, double-click to reset">
+          <img id="previewImg" alt="" draggable="false" hidden>
+          <div id="previewEmpty" class="pv-empty">Select an item.</div>
+          <div id="previewHint" class="pv-hint" hidden>Drag to rotate &bull; wheel to zoom &bull; double-click to reset</div>
+        </div>
+        <div id="detail" class="scrollbox"><p class="empty">Select an item.</p></div>
+      </div>
+      <div class="panel basket">
+        <h2>Basket <span id="basketCount" class="count">0</span></h2>
+        <div id="basketItems" class="scrollbox"></div>
+        <div class="basketfoot">
+          <label class="free"><input type="checkbox" id="free" checked> Free</label>
+          <div class="totals">
+            <span id="totalCost">Free</span>
+            <button id="acceptBtn" class="primary">Accept</button>
+            <button id="clearBtn">Clear</button>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <footer class="foot">
+    <span id="status">Starting...</span>
+    <span id="footnote"></span>
+  </footer>
+</main>
+
+<div id="previewFloat" class="pvfloat" hidden>
+  <div id="previewFloatHead" class="pvfloat-head">
+    <b>Preview</b>
+    <span id="previewFloatName" class="pvfloat-name"></span>
+    <button id="previewDock" class="x" title="Dock the preview back into the item panel">&#10005;</button>
+  </div>
+  <div id="previewFloatBody" class="pvfloat-body"></div>
+</div>
+
+<div id="audioPop" class="popup" hidden>
+  <div class="popup-in">
+    <div class="popup-head"><b>Audio</b><button class="x" data-close="audioPop">&#10005;</button></div>
+    <label class="prow2">Music
+      <input id="musicVol" type="range" min="0" max="100" step="1" value="45">
+      <span id="musicVolOut" class="pval">45%</span>
+      <label class="pcheck"><input id="musicMute" type="checkbox"> Mute</label>
+    </label>
+    <label class="prow2">Sound
+      <input id="sfxVol" type="range" min="0" max="100" step="1" value="55">
+      <span id="sfxVolOut" class="pval">55%</span>
+      <label class="pcheck"><input id="sfxMute" type="checkbox"> Mute</label>
+    </label>
+    <label class="prow2">Track
+      <select id="trackSel"></select>
+    </label>
+    <p class="pnote">The track is independent of the theme. Drop a .wav into <code>Audio\</code> and it
+      appears here; anything starting with <code>ui_</code> is a sound effect, not a track.</p>
+  </div>
+</div>
+
+<div id="themePop" class="popup" hidden>
+  <div class="popup-in">
+    <div class="popup-head"><b>Themes</b><button class="x" data-close="themePop">&#10005;</button></div>
+    <div id="themeList" class="theme-list"></div>
+    <p class="pnote">Six themes are always available. Three are earned by shopping: opens, credits
+      spent and free hauls are counted, and progress is kept in the plugin's INI.</p>
+  </div>
+</div>
+
+<script src="/shared/osfui.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
